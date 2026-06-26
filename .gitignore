@@ -9,4 +9,5 @@ venv/
 checkpoints/
 data/bin/
 data/chat_bin/
+data/*_bin/
 *.bin
