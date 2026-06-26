@@ -29,6 +29,7 @@ from chat_template import DEFAULT_SYSTEM
 from online_learn import OnlineLearner
 import web_learn
 import web_lookup
+import quick_intents
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 STATIC_DIR = os.path.join(HERE, "static")
@@ -204,12 +205,13 @@ def chat(req: ChatRequest):
 
     messages = [{"role": m.role, "content": m.content} for m in req.messages]
     last_user = messages[-1]["content"] if messages else ""
+    quick_res = quick_intents.quick_reply(last_user) if last_user.strip() else None
 
     # Tsetlin hakemi "kapsam disi / emin degil" derse -> Wikipedia'da CANLI ara
     # (model uydurmasin, gercek kaynaktan tam-nokta-atisi cevap gelsin).
     lookup_res = None
     gate = STATE.get("gate")
-    if gate is not None and last_user.strip():
+    if quick_res is None and gate is not None and last_user.strip():
         try:
             if not gate.classify(last_user).get("in_scope"):
                 lookup_res = web_lookup.lookup(last_user)
@@ -217,6 +219,11 @@ def chat(req: ChatRequest):
             pass
 
     def event_stream():
+        if quick_res:
+            for w in re.findall(r"\S+\s*|\n", quick_res):
+                yield "data: " + json.dumps({"token": w}) + "\n\n"
+            yield "data: " + json.dumps({"done": True, "source": "quick_intents"}) + "\n\n"
+            return
         if lookup_res:
             text = (f"Bunu kendim bilmiyordum, araştırdım 🔎\n\n{lookup_res['summary']}"
                     f"\n\n— Kaynak: {lookup_res['title']} (Wikipedia)")

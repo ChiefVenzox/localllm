@@ -28,6 +28,8 @@ SOURCES = [
     ("data/chat_round3/round3.jsonl", 367),      # cok-turlu + kiyas/mantik + Turkiye + tavsiye
     ("data/chat_compare/compare.jsonl", 700),    # sayi KIYAS (matematikle karistirmasin)
     ("data/chat_felsefe/felsefe.jsonl", 340),    # felsefe/etik/soyut + Bilge oz-dusunce
+    ("data/chat_social/social_depth.jsonl", 144), # gundelik sohbet + kavram aciklama (x4)
+    ("data/chat_social/social_reinforce.jsonl", 144), # merhaba/doga/gundelik guclendirme (x6)
 ]
 
 

@@ -20,6 +20,7 @@ from config import GPTConfig
 from model import GPT
 from tokenizer import load_tokenizer
 from chat_template import encode_chat, DEFAULT_SYSTEM
+import quick_intents
 
 
 def _cfg_from_dict(d: dict) -> GPTConfig:
@@ -119,6 +120,11 @@ def main():
             if user.lower() in ("cik", "exit", "quit"):
                 break
             history.append({"role": "user", "content": user})
+            quick = quick_intents.quick_reply(user)
+            if quick:
+                print(f"AI: {quick}\n")
+                history.append({"role": "assistant", "content": quick})
+                continue
             print("AI: ", end="", flush=True)
             pieces = []
             for piece in chat_stream(model, tok, history, args.device, **gen_kw):
