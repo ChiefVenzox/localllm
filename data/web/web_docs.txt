@@ -1,0 +1,952 @@
+Yapay zekâ
+Yapay zekâ (İngilizce: Artificial intelligence, AI); hesaplama sistemlerinin öğrenme, akıl, problem çözme, algılama ve karar verme gibi tipik olarak insan zekâsıyla ilişkilendirilen görevleri yerine getirme yeteneğidir. Dördüncü Sanayi Devrimi 'nin en yaygın özelliklerinden biri olarak kabul edilir. İlk ve ikinci kategoriler arasındaki ayrım genellikle seçilen kısaltmayla ortaya çıkar. Güçlü yapay zeka genellikle yapay genel zekâ (İngilizce: Artificial general intelligence kelimelerinin kısaltılmışı olarak: AGI) olarak etiketlenirken, doğal zekayı taklit etme girişimleri yapay biyolojik zekâ (İngilizce: Artificial biological intelligence: ABI) olarak adlandırılır. Önde gelen yapay zekâ ders kitapları, alanı zeki etmenlerin çalışması olarak tanımlar: Çevresini algılayan ve hedeflerine başarıyla ulaşma şansını en üst düzeye çıkaran eylemleri gerçekleştiren herhangi bir cihaz. [ 3 ] Toplum arasında, yapay zekâ kavramı genellikle insanların insan zihni ile ilişkilendirdiği öğrenme ve problem çözme gibi bilişsel eylemleri taklit eden makineleri tanımlamak için kullanılır. [ 4 ] 
+ Makineler daha becerikli hâle geldikçe, zekâ gerektirdiği düşünülen görevler genellikle yapay zekâ etkisi olarak bilinen bir fenomen olan yapay zekâ tanımından çıkarılır. [ 5 ] Tesler'in teoremindeki bir espri, "Yapay zekâ henüz yapılmamış şeydir" der. [ 6 ] Örneğin, optik karakter tanıma yapay zekâ olarak değerlendirilen şeylerin dışında tutulur, [ 7 ] rutin teknoloji hâline gelir. [ 8 ] 
+ Genellikle yapay zekâ olarak sınıflandırılan modern makine yetenekleri satranç ve Go [ 9 ] gibi stratejik oyun sistemlerinde, en üst düzeyde rekabet eden insan konuşmasını anlama, [ 10 ] poker ya da otonom arabalar gibi kusurlu-bilgi oyunlarını içerik dağıtım ağındaki akıllı yönlendirmeyi ve askeri simülasyonları kapsar. [ 11 ] 
+ Yapay zekâ çalışmaları sıklıkla insanın düşünme yöntemlerini taklit eden yapay algoritmalar geliştirmeye yöneliktir, [ 12 ] ancak bununla sınırlı değildir. Öğrenebilen ve gelecekte insan zekâsından bağımsız gelişebilecek bir yapay zekâ kavramına doğru yeni yönelimler oluşmaktadır. Bu yönelim, insanın evreni ve doğayı anlama çabasında kendisine yardımcı olabilecek belki de kendisinden daha zeki, insan ötesi varlıklar meydana getirme düşünün bir ürünüdür. Bu düş, 1920'li yıllarda yazılan ve sonraları Isaac Asimov 'u etkileyen modern bilimkurgu edebiyatının öncü yazarlarından Karel Čapek 'in eserlerinde dışa vurmuştur. Karel Čapek, R.U.R. adlı tiyatro oyununda yapay zekâya sahip robotlar ile insanlığın ortak toplumsal sorunlarını ele alarak 1920 yılında yapay zekânın insan aklından bağımsız gelişebileceğini öngörmüştür. [ 13 ]
+
+Yapay zekâ
+Tanım. Yapay zekâ, idealleştirilmiş bir perspektife göre insan zekâsına özgü yüksek bilişsel fonksiyonları veya otonom davranışları sergileyen bir yapay işletim sistemidir. Bu sistem, algılama, öğrenme, çoğul kavramları bağlama, düşünme, fikir yürütme (belirtme), sorun çözme, iletişim kurma ve karar verme gibi yeteneklere sahip olmalıdır. [ 14 ] Ayrıca, bu yapay zekâ sistemi düşüncelerinden tepkiler üretebilmeli (eyleyici yapay zekâ) ve bu tepkileri fiziksel olarak dışa vurabilmelidir.
+Hedefler. Zekâyı simüle etme (veya oluşturma) genel problemi, alt problemlere ayrılmıştır. Bu alt problemler, araştırmacıların zeki bir sistemden sergilemesini beklediği belirli özellikler veya yeteneklerden oluşur. Aşağıda açıklanan özellikler, yapay zekâ araştırmalarında en çok dikkat çeken konular arasında yer almakta ve bu araştırmaların kapsamını belirlemektedir. [ a ]
+
+Yapay zekâ
+Akıl yürütme ve problem çözme. Yapay zekânın ilk araştırmacıları, insanların bulmacaları çözerken veya mantıksal çıkarımlar yaparken kullandığı adım adım akıl yürütmeyi taklit eden algoritmalar geliştirmiştir. [ 15 ] 1980'lerin sonları ve 1990'larda, belirsiz veya eksik bilgiyle başa çıkmak için olasılık ve ekonomi kavramlarını kullanan yöntemler geliştirilmiştir. [ 16 ] 
+ Bu algoritmaların birçoğu, büyük ölçekli akıl yürütme problemlerini çözmek için yetersizdir, çünkü "kombinatoryal patlama" denilen bir durum yaşarlar: Problemler büyüdükçe bu algoritmaların çalışması üstel bir şekilde yavaşlar. [ 17 ] Hatta insanlar bile erken dönem yapay zekânın modelleyebildiği adım adım akıl yürütmeyi nadiren kullanır. İnsanlar, çoğu sorunlarını hızlı ve sezgisel yargılarla çözerler. [ 18 ] Doğru ve verimli akıl yürütme, hâlâ çözülememiş bir problemdir.
+
+Yapay zekâ
+Bilgi temsili. Bilgi temsili ve bilgi mühendisliği, [ 19 ] yapay zekâ programlarının sorulara akıllıca yanıt vermesini ve gerçek dünya ile ilgili çıkarımlarda bulunmasını sağlar. Formel bilgi temsilleri; içerik tabanlı indeksleme ve bilgi erişimi, [ 20 ] sahne yorumlama, [ 21 ] klinik karar destek sistemleri, [ 22 ] bilgi keşfi (büyük veritabanlarından "ilginç" ve eyleme geçirilebilir çıkarımlarda bulunma) [ 23 ] gibi birçok alanda kullanılmaktadır. [ 24 ]
+
+Yapay zekâ
+Tarihçe. Yapay zekâ tarihi, antik çağlarda, usta zanaatkarlar tarafından zeka veya bilinç kazandırılan yapay varlıklara ilişkin mitler, hikâyeler ve söylentilerle başladı. Mekanik ya da "formel" akıl yürütme üzerine çalışmalar, antik çağda filozoflar ve matematikçilerle birlikte devam etti. Mantık alanındaki bu çalışmalar, Alan Turing 'in algoritmalar teorisinin temelini oluşturdu. Turing'in teorisi, "0" ve "1" gibi basit sembolleri kullanarak bir makinenin, insan aklının gerçekleştirebileceği her türlü matematiksel akıl yürütmeyi simüle edebileceğini öne sürdü. [ 25 ] [ 26 ] Bu teori, sibernetik, bilgi teorisi ve nörobiyoloji gibi alanlardaki keşiflerle birleşerek, araştırmacılara "elektronik bir beyin" inşa etme olasılığını düşünmeye yöneltti. [ b ] Öne çıkan çalışmalar arasında, 1943'teki Warren McCullouch ve Walter Pitts 'in "yapay nöronlar" tasarımı [ 28 ] ve Turing'in 1950'de yayımladığı, "makine zekâsının" mümkün olduğunu gösterdiği Turing testini tanıtan Bilgi İşlem Makineleri ve Zekâ adlı makalesi bulunmaktaydı. [ 26 ] [ 29 ] Bu dönemde yapılan bu tür araştırmalar, yapay zekânın temel alanlarının ortaya çıkardı. [ 30 ] 
+ 1956'da Dartmouth College 'deki bir atölye çalışmasında yapay zeka araştırma alanı kuruldu. [ c ] [ 32 ] Bu atölyeye katılan araştırmacılar, 1960'larda yapay zekâ alanına liderlik ettiler. [ d ] Öğrencileriyle beraber bu araştırmacılar, basının "şaşırtıcı" olarak nitelendirdiği projeler ürettiler. [ e ] Bu dönemde bilgisayarlar, dama stratejileri öğrenmiş, cebir problemlerini çözmüş, mantıksal teoremleri kanıtlamış ve İngilizce konuşmuştu. [ f ] [ 35 ] 1950'lerin sonu ve 1960'ların başlarında, hem İngiltere'deki hem de Amerika Birleşik Devletleri'ndeki birçok üniversitede yapay zekâ laboratuvarları kuruldu. [ 26 ] 
+ 1960'lar ve 1970'lerdeki araştırmacılar, genel zekâya sahip bir makine üretmenin mümkün olduğuna inanıyor ve bunu alanlarının nihai hedefi olarak görüyordu. [ 36 ] 1965'te Herbert Simon, "makinelerin yirmi yıl içinde bir insanın yapabileceği her işi yapabilir hâle geleceği" tahmininde bulunmuş, [ 37 ] 1967'de Marvin Minsky, "bir nesil içinde... 'yapay zekâ' sorununun büyük ölçüde çözüleceği" yorumunu yapmıştı. [ 38 ] Ancak bu öngörüler, yapay zekânın geliştirilmesindeki zorlukları göz ardı etmişti. [ g ] 1974'te Sir James Lighthill 'ın eleştirileri [ 40 ] ve ABD Kongresi'nin daha somut projelere fon sağlama baskısı nedeniyle, ABD ve İngiltere hükûmetleri keşif amaçlı yapay zekâ araştırmalarına verilen desteği durdurma kararı aldı. [ 41 ] Minsky ve Seymour Papert 'ın Perceptrons adlı kitabı, yapay sinir ağlarının gerçek dünya problemlerini çözmede etkisiz olduğunu savunmuş ve bu yaklaşım, itibarını kaybetmişti. [ 42 ] Bunun sonucunda, yapay zekâ projelerine fon bulmanın zorlaştığı " yapay zekâ kışı " adı verilen bir dönem başladı. [ 43 ] 
+ 1980'lerin başında yapay zekâ araştırmaları, uzman sistemlerin ticari başarısıyla yeniden canlandı. [ 44 ] Uzman sistemler, uzmanların bilgi ve analiz yeteneklerini taklit eden bir tür yapay zekâ programıydı. 1985 yılına gelindiğinde, yapay zekâ pazarı 1 milyar doları aşmıştı. Aynı dönemde Japonya'nın beşinci nesil bilgisayar projesi, ABD ve Britanya hükûmetlerini akademik araştırmalara yeniden fon sağlamaya teşvik etti. [ 45 ] Ancak, 1987'de Lisp makinesi pazarının çöküşüyle yapay zekâ tekrar itibar kaybetti ve daha uzun süren ikinci bir "yapay zekâ kışı" başladı. [ 46 ] 
+ O zamana kadar yapay zekâ projelerinin büyük kısmı, planlar, hedefler, inançlar ve bilinen gerçekler gibi zihinsel kavramları temsil etmek için yüksek seviyede semboller kullanmaya odaklanmıştı. Ancak 1980'lerde bazı araştırmacılar, bu yaklaşımın insan bilişinin tüm süreçlerini, özellikle algı, robotik, öğrenme ve örüntü tanıma gibi karmaşık süreçleri taklit edemeyeceği konusunda şüphe duymaya başladı. [ 47 ] Bu nedenle, "alt sembolik" yöntemlere yöneldiler. [ 48 ] Rodney Brooks, genel olarak "temsil" fikrini reddederek hayatta kalabilen ve hareket edebilen makineler geliştirmeye odaklandı. [ h ] Judea Pearl ve Lofti Zadeh gibi isimler, eksik ve belirsiz bilgileri mantıksal kesinlik yerine mâkul tahminlerle işleyebilen yöntemler geliştirdi. [ 53 ] Ayrıca Geoffrey Hinton ve diğer araştırmacılar, " bağlantısallık " ve sinir ağ araştırmalarını yeniden canlandırarak bu alanın gelişimine katkıda bulundu. [ 54 ] 1990'da Yann LeCun, evrişimli sinir ağlarının el yazısı ile yazılmış rakamları tanıyabildiğini gösterdi; bu, sinir ağlarının birçok başarılı uygulamasından ilkiydi. [ 55 ] 
+ Yapay zekâ, 1990'ların sonları ve 21. yüzyılın başlarında, formal matematik yöntemlerinden yararlanarak ve belirli problemlere özel çözümler geliştirerek itibarını yeniden kazanmaya başladı. Bu " dar " ve "formal" yaklaşım, araştırmacıların doğrulanabilir sonuçlar üretmesini ve istatistik, ekonomi ve matematik gibi diğer alanlarla iş birliği yapmasını sağladı. [ 56 ] 2000'li yıllara gelindiğinde, yapay zekâ araştırmacılarının geliştirdiği çözümler yaygın olarak kullanılmaya başlanmıştı. Ancak 1990'larda bu çözümler genellikle "yapay zekâ" olarak adlandırılmıyordu (bu eğilim yapay zekâ etkisi olarak bilinir). [ 57 ] 
+Buna karşın, bazı akademisyenler yapay zekânın ilk hedefinden, yani çok yönlü ve tam anlamıyla zeki makineler yaratma amacından uzaklaştığını düşünmeye başladı. 2002'nin başlarında, bu hedefi yeniden canlandırmak amacıyla yapay genel zekâ ("AGI") adı verilen bir alt alan kuruldu. 2010'lara gelindiğinde, yapay genel zekâ araştırmaları için iyi finanse edilen birçok kurum ortaya çıktı.
+ Derin öğrenme, 2012'de endüstri standartlarında önemli bir üstünlük sağlayarak yapay zekâ alanında yaygın bir şekilde benimsendi. [ 58 ] 
+Birçok spesifik görevde diğer yöntemler terk edildi. [ i ] 
+Bu başarının arkasında daha hızlı bilgisayarlar, [ 60 ] grafik işlem birimleri, bulut bilişim [ 61 ] gibi donanım geliştirmeleriyle ImageNet gibi dikkatle oluşturulmuş veri kümelerinin de dâhil olduğu [ 61 ] büyük miktarda veriye erişim [ 62 ] yatıyordu. Derin öğrenmenin bu yükselişi, yapay zekâya olan ilgi ve finansmanda büyük bir artışı tetikledi. [ j ] 2015-2019 yılları arasında makine öğrenimi araştırmalarındaki toplam yayımlanma sayısında %50'lik bir artış görüldü. [ 63 ] 
+ 2016'da, adalet ve teknolojinin yanlış kullanımı gibi etik sorunlar, makine öğrenimi konferanslarında ana gündem maddesi hâline geldi. Bu konularda yapılan yayımlar hızla artarken, yeni finansman kaynakları sağlandı ve birçok araştırmacı kariyerlerini bu alanlara yönlendirdi. Aynı dönemde, yapay zekânın insan çıkarlarına uygun şekilde geliştirilmesini konu alan " uyum problemi " akademik bir çalışma alanı olarak ciddiyet kazandı. [ 64 ] 
+ 2010'ların sonları ve 2020'lerin başlarında, yapay genel zekâ üzerine çalışan şirketler dikkat çeken yazılımlar üretmeye başladı. 2015 yılında DeepMind tarafından geliştirilen AlphaGo, oyunun kuralları öğretilerek kendi stratejisini geliştirdi ve dünya şampiyonu Go oyuncusunu yendi. 2020'de OpenAI tarafından çıkarılan GPT-3, insan benzeri yüksek kaliteli metinler üretebilen bir geniş dil modeli olarak dikkat çekti. [ 65 ] 30 Kasım 2022'de kullanıma sunulan ChatGPT ise iki ay içinde 100 milyon kullanıcıya ulaşarak tarihin en hızlı büyüyen tüketici yazılımı oldu. [ 66 ] 2022 yılı, yapay zekânın geniş kitleler tarafından fark edildiği ve yaygın bir şekilde konuşulmaya başlandığı bir dönüm noktası olarak kabul edildi. [ 67 ] Bu yazılımlar, büyük bir yapay zeka patlamasını tetikledi. Büyük ölçekli şirketler yapay zekâ araştırmalarına milyarlarca dolar yatırım yapmaya başladı. AI Impacts'in verilerine göre, 2022 yılında sadece ABD'de yapay zekâya yıllık yaklaşık $50 milyar yatırım yapıldı. ABD'deki yeni bilgisayar bilimi doktora mezunlarının yaklaşık %20'si yapay zekâ üzerine uzmanlaştı. [ 68 ] Aynı yıl, ABD'de yapay zekâ ile ilgili 800.000 iş ilanı bulundu. [ 69 ] PitchBook araştırmasına göre, 2024'te yeni fon alan girişimlerin %22'si kendilerini yapay zekâ şirketi olarak tanımlıyordu. [ 70 ]
+
+Yapay zekâ
+İlk araştırmalar ve yapay sinir ağları. İdealize edilmiş tanımıyla yapay zekâ konusundaki ilk çalışmalardan biri McCulloch ve Pitts tarafından yapılmıştır. Bu araştırmacıların önerdiği, yapay sinir hücrelerini kullanan hesaplama modeli, önermeler mantığı, fizyoloji ve Turing 'in hesaplama kuramına dayanıyordu. Herhangi bir hesaplanabilir fonksiyonun sinir hücrelerinden oluşan ağlarla hesaplanabileceğini ve mantıksal ve ve veya işlemlerinin gerçekleştirilebileceğini gösterdiler. Bu ağ yapılarının uygun şekilde tanımlanmaları hâlinde öğrenme becerisi kazanabileceğini de ileri sürdüler. Hebb, sinir hücreleri arasındaki bağlantıların şiddetlerini değiştirmek için basit bir kural önerince, öğrenebilen yapay sinir ağlarını gerçekleştirmek de olası hale gelmiştir.
+ 1950'lerde Shannon ve Turing bilgisayarlar için satranç programları yazıyorlardı. İlk yapay sinir ağı temelli bilgisayar SNARC, MIT 'de Minsky ve Edmonds tarafından 1951'de yapıldı. Çalışmalarını Princeton Üniversitesi 'nde sürdüren Mc Carthy, Minsky, Shannon ve Rochester 'le birlikte 1956 yılında Dartmouth 'da iki aylık bir açık çalışma düzenledi. Bu toplantıda birçok çalışmanın temelleri atılmakla birlikte, toplantının en önemli özelliği Mc Carthy tarafından önerilen yapay zekâ adının konmasıdır. İlk kuram ispatlayan programlardan Logic Theorist (Mantık kuramcısı) burada Newell ve Simon tarafından tanıtılmıştır.
+
+Yapay zekâ
+Yeni yaklaşımlar. Daha sonra Newell ve Simon, insan gibi düşünme yaklaşımına göre üretilmiş ilk program olan Genel Sorun Çözücü (General Problem Solver)'ı geliştirmişlerdir. Simon, daha sonra fiziksel simge varsayımını ortaya atmış ve bu kuram, insandan bağımsız zeki sistemler yapma çalışmalarıyla uğraşanların hareket noktasını oluşturmuştur. Simon 'ın bu tanımlaması bilim adamlarının yapay zekâya yaklaşımlarında iki farklı akımın ortaya çıktığını belirginleştirmesi açısından önemlidir [ 71 ]: Sembolik Yapay Zekâ ve Sibernetik Yapay Zekâ.
+
+Yapay zekâ
+Sembolik yapay zekâ. Simon 'ın sembolik yaklaşımından sonraki yıllarda mantık temelli çalışmalar egemen olmuş ve programların başarımlarını göstermek için bir takım yapay sorunlar ve dünyalar kullanılmıştır. Daha sonraları bu sorunlar gerçek yaşamı hiçbir şekilde temsil etmeyen oyuncak dünyalar olmakla suçlanmış ve yapay zekânın yalnızca bu alanlarda başarılı olabileceği ve gerçek yaşamdaki sorunların çözümüne ölçeklenemeyeceği ileri sürülmüştür.
+ Geliştirilen programların gerçek sorunlarla karşılaşıldığında çok kötü bir başarım göstermesinin ardındaki temel neden, bu programların yalnızca sentaktik süreçleri benzeşimlendirerek anlam çıkarma, bağlantı kurma ve fikir yürütme gibi süreçler konusunda başarısız olmasıydı. Bu dönemin en ünlü programlarından Weizenbaum tarafından geliştirilen Eliza, karşısındaki ile sohbet edebiliyor gibi görünmesine karşın, yalnızca karşısındaki insanın cümleleri üzerinde bazı işlemler yapıyordu. İlk makine çevirisi çalışmaları sırasında benzeri yaklaşımlar kullanılıp çok gülünç çevirilerle karşılaşılınca bu çalışmaların desteklenmesi durdurulmuştu. Bu yetersizlikler aslında insan beynindeki semantik süreçlerin yeterince incelenmemesinden kaynaklanmaktaydı.
+
+Yapay zekâ
+Sibernetik yapay zekâ. Yapay sinir ağları çalışmalarının dahil olduğu sibernetik cephede de durum aynıydı. Zeki davranışı benzeşimlendirmek için bu çalışmalarda kullanılan temel yapılardaki bazı önemli yetersizliklerin ortaya konmasıyla birçok araştırmacılar çalışmalarını durdurdular. Buna en temel örnek, Yapay sinir ağları konusundaki çalışmaların Marvin Minsky ve Seymour Papert 'in 1969'da yayınlanan Perceptrons adlı kitaplarında tek katmanlı algaçların bazı basit problemleri çözemeyeceğini gösterip aynı kısırlığın çok katmanlı algaçlarda da beklenilmesi gerektiğini söylemeleri ile bıçakla kesilmiş gibi durmasıdır.
+ Sibernetik akımın uğradığı başarısızlığın temel sebebi de benzer şekilde Yapay Sinir Ağının tek katmanlı görevi başarması fakat bu görevle ilgili vargıların veya sonuçların bir yargıya dönüşerek diğer kavramlar ile bir ilişki kurulamamasından kaynaklanmaktadır. Bu durum aynı zamanda semantik süreçlerin de benzeşimlendirilememesi gerçeğini doğurdu.
+
+Yapay zekâ
+Uzman sistemler. Her iki akımın da uğradığı başarısızlıklar, her sorunu çözecek genel amaçlı sistemler yerine belirli bir uzmanlık alanındaki bilgiyle donatılmış programları kullanma fikrinin gelişmesine sebep oldu ve bu durum yapay zekâ alanında yeniden bir canlanmaya yol açtı. Kısa sürede Uzman sistemler adı verilen bir metodoloji gelişti.
+ Uzman sistemler bir konuda belli ön koşullar aynı anda var olduğunda konunun bir uzmanın (bazen ne olasılıkla) ne karar alacağını belirleyen kuralların tümünü içeren bir programı gelen problemlere uygulamak temellidir. Bunun bir avantajı her verilen kararın hangi kurallar uygulanarak verildiğinin kolayca bilinmesi idi. Bu birçok kuralcı bürokratik karar örgütleri için kolayca uygulamalar geliştirilebilmesi demekti. Bu doğal olarak bir otomobilin tamiri için önerilerde bulunan uzman sistem programının otomobilin ne işe yaradığından haberi olmaması da demekti. Buna rağmen uzman sistemlerin başarıları beraberinde ilk ticari uygulamaları da getirdi.
+ Yapay zekâ yavaş yavaş bir endüstri hâline geliyordu. DEC tarafından kullanılan ve müşteri siparişlerine göre donanım seçimi yapan R1 adlı uzman sistem şirkete bir yılda 40 milyon dolarlık tasarruf sağlamıştı. Birden diğer ülkeler de yapay zekâyı yeniden keşfettiler ve araştırmalara büyük kaynaklar ayrılmaya başlandı. 1988'de yapay zekâ endüstrisinin cirosu 2 milyar dolara ulaşmıştı.
+
+Yapay zekâ
+Doğal dil işleme. Antropoloji bilimi, gelişmiş insan zekâsı ile dil arasındaki bağlantıyı gözler önüne serdiğinde, dil üzerinden yürütülen yapay zekâ çalışmaları tekrar önem kazandı. İnsan zekâsının doğrudan doğruya kavramlarla düşünmediği, dil ile düşündüğü, dil kodları olan kelimeler ile kavramlar arasında bağlantı kurduğu anlaşıldı. Bu sayede insan aklı kavramlar ile düşünen Hayvan beyninden daha hızlı işlem yapabilmekteydi ve dil dizgeleri olan cümleler yani şablonlar ile etkili bir öğrenmeye ve bilgisini soyut olarak genişletebilme yeteneğine sahip olmuştu. İnsanların iletişimde kullandıkları Türkçe, İngilizce gibi doğal dilleri anlayan bilgisayarlar konusundaki çalışmalar hızlanmaya başladı. Önce, yine Uzman sistemler olarak karşımıza çıkan doğal dil anlayan programlar, daha sonra Sembolik Yapay Zekâ ile ilgilenenler arasında ilgiyle karşılandı ve yazılım alanındaki gelişmeler sayesinde İngilizce olan A.I.M.L (Artificial intelligence Markup Language) ve Türkçe T.Y.İ.D (Türkçe Yapay Zekâ İşaretleme Dili) gibi bilgisayar dilleri ile sentaktik (Örüntü) işlemine uygun veri erişim metotları geliştirilebildi. Bugün Sembolik Yapay Zekâ araştırmacıları özel Yapay Zekâ dillerini kullanarak verileri birbiri ile ilişkilendirebilmekte, geliştirilen özel prosedürler sayesinde anlam çıkarma ve çıkarımsama yapma gibi ileri seviye bilişsel fonksiyonları benzetimlendirmeye çalışmaktadırlar.
+ Bütün bu gelişmelerin ve süreçlerin sonunda bir grup yapay zekâ araştırmacısı, insan gibi düşünebilen sistemleri araştırmaya devam ederken diğer bir grup ise ticari değeri olan rasyonel karar alan sistemler (Uzman sistemler) üzerine yoğunlaştı.
+
+Yapay zekâ
+Diyalog bazlı yapay zeka. Doğal dil işleme ve makine öğrenmesi gibi yapay zeka teknolojileri kullanılarak insan ve makine (yazılım) arasında bir diyaloğun sürdürülmesini sağlayan yapay zeka alt dalına "diyalog bazlı yapay zeka" (conversational artificial intelligence) denir. Daha önce insanların bilgisayara komut vermesinde kullanılan web, mobil uygulama gibi grafiksel arayüzlerin (GUI) yerine geçmeyi amaçlayan diyalog bazlı arayüzler (CUI) insanların bilgisayara günlük dilde yazarak veya konuşarak komut verebilmesini amaçlar. Günümüzde, chatbotlar ve sesli asistanlar diyalog bazlı yapay zeka alanında sıkça kullanılan teknolojik ürünler olarak karşımıza çıkmaktadır.
+
+Yapay zekâ
+Chatbotlar. Chatbotlar, diyalog bazlı yapay zekanın günlük hayatta kullanılan bir örneğidir. Kullanıcılar, Türkçeye sohbet robotları olarak geçmiş bu dijital ürünler ile yazışarak belirli bir konuda bilgi alabilir veya uçak bileti almak, banka havalesi yapmak veya bir kitap satın almak gibi günlük işlerini yapabilirler. Chatbotlar, şirketlerin web sitesinde veya mobil uygulamasında yer alabilirler. Bunun dışında chatbotlar, WhatsApp, Facebook Messenger gibi genel mesajlaşma platformlarında veya Google Assistant, Siri gibi sesli asistanlarda da yer alabilirler.
+ Chatbotlar kullanıcı ile etkileşim kurma yöntemini, arkasında yer alan teknolojik altyapıya göre farklı çeşitlerde oluşturulabilir. Örneğin bir chatbot kullanıcı ile, sadece kullanıcı onunla etkileşime girdiğinde iletişim kuruyorsa reaktif bir chatbottur, eğer bir uyarıcı ile tetiklenerek kullanıcı ile olan diyaloğu başlatan taraf oluyorsa buna proaktif bir chatbot denir. Teknoloji açısından bakılacak olursa, yapay zeka tabanlı chatbotların yanında, doğal dil işleme, makine öğrenmesi gibi yapay zeka teknolojileri kullanılmadan geliştirilen kural tabanlı chatbotlar da kullanılmaktadır. Ancak bu iki tür chatbotun davranışı farklıdır. Kural bazlı chatbotlarda genellikle kullanıcıya belirli seçenekler sunulur ve yaratılan deneyim bu seçeneklerle sınırlı kalır. Yapay zeka tabanlı chatbotlarda ise kullanıcı serbest bir metin yazabilir, chatbotun doğal dil işleme teknolojisi bu metni anlamlandırıp doğru yanıtı belirleyerek kullanıcıya sunar. [ 72 ]
+
+Yapay zekâ
+Süper zekâ ve tekillik. Süper zekâ, en parlak ve en yetenekli insan zihninin zekâsını çok aşan bir zekâya sahip varsayımsal bir etkendir. [ 73 ] Yapay genel zekâ üzerine yapılan araştırmalar yeterince zeki bir yazılım üretirse, yazılım kendini yeniden programlayabilir ve geliştirebilir. Gelişen yazılım kendini geliştirmede daha da iyi olur ve I. J. Good 'un " zekâ patlaması " ve Vernor Vinge 'in " tekillik " olarak adlandırdığı şeye yol açar. [ 74 ] 
+ Ancak teknolojiler sonsuza kadar üstel olarak gelişemez ve genellikle S şeklinde bir eğri izler, teknolojinin yapabileceği şeyin fiziksel sınırlarına ulaştığında yavaşlar. [ 75 ]
+
+Yapay zekâ
+Transhümanizm. Robot tasarımcısı Hans Moravec, sibernetikçi Kevin Warwick ve mucit Ray Kurzweil, gelecekte insanların ve makinelerin birleşerek her ikisinden de daha yetenekli ve güçlü siborglara dönüşebileceğini öngördüler. Transhümanizm olarak adlandırılan bu fikrin kökleri, Aldous Huxley ve Robert Ettinger 'ın yazılarında bahsedilmektedir. [ 76 ] 
+ Edward Fredkin, "yapay zekânın evrimin bir sonraki adımı" olduğunu savunmaktaydı; bu fikir ilk olarak Samuel Butler 'ın " Darwin among the Machines " adlı mektubunda 1863'te ortaya atıldı ve George Dyson tarafından 1998'deki Darwin Among the Machines: The Evolution of Global Intelligence adlı kitabında geliştirildi. [ 77 ]
+
+Yapay zekâ
+Uygulama alanları. Yapay zekanın uygulama alanlarının bazı örnekleri şu şekildedir:
+ Önerici sistemler: Kullanıcıların geçmiş davranışlarına dayanarak yeni içerik önerilmesi. Örneğin, sosyal medya sitelerinde yeni arkadaş, mağazalarda başka bir ürün, gazetede başka bir haber önerileri. 
+ Makine çevirisi: Bir dilde ifade edilen cümleyi farklı bir dile çevirmek. Örneğin, Google Translate, Microsoft Tercüman ve Yandex.Çeviri gibi çevrimiçi araçlar. 
+ Sinyal işleme: Ses ve görüntü gibi sinyallerin işlenerek bilgi çıkarımı. Örneğin, yüz ve ses tanıma. 
+ Prosedürel içerik üretimi: Rassal yöntemler kullanarak yapay içerik üretme. Örneğin, üretimsel müzik ve video oyunlarında prosedürel dünyalar. 
+ Regresyon analizi: Geçmiş verilere dayanılarak bir değişkenin gelecekteki değerinin tahmin edilmesi. Örneğin, ekonomik öngörüler, üretim miktarı öngörüleri. 
+ Görüntü işleme: Dijital görüntülerde bulunan objeleri tanıma, yerini bulma, sınıflandırma gibi işlemlerin tümü. Yapay zekadan önce bu işlemler Hough dönüşümü gibi kurala dayalı algoritmalar ile sürdürülürken, günümüzde bu kurallar veriden öğrenilmektedir. Görüntülemenin sık kullanıldığı tıp, [ 78 ] biyoloji, [ 79 ] otomotiv, [ 80 ] üretim [ 81 ] gibi alanlarda kullanılmaktadır. 
+ Makale yazma: Dünyada yapay zeka ile yazılan ilk köşe yazısı 8 Eylül 2020 tarihinde The Guardian gazetesinde yayınlanmıştır. [ 82 ] Türkiye'de yapay zekanın yazdığı ilk haber ise Şalom gazetesinde 2018 yılında yayınlanmıştır. [ 83 ]
+
+Yapay zekâ
+Alt dallar. Makine Zekâsı (Sembolik Yapay Zekâ) 
+ Yapay Sinir Ağları (Sibernetik Yapay Zekâ) 
+ Doğal Dil işleme (Dil ile düşünme) 
+ Görüntü İşleme 
+ Konuşma Sentezi (Yapay Konuşma) 
+ Konuşma Anlama (Konuşma Analizi) 
+ Tümevarımlı mantık programlama 
+ Bilgi-tabanlı sistem 
+ Bilgisayarlı görü 
+ Doğal dil üretme 
+ Uzman sistemler 
+ Sinirsel şebeke 
+ Makine öğrenimi 
+ Örüntü Tanıma 
+ Genetik Algoritmalar 
+ Genetik Programlama 
+ Bulanık Mantık 
+ Çoklu Örnekle Öğrenme (Multiple Instance Learning)
+
+Yapay zekâ
+Ayrıca bakınız. Yapay zekâ mühendisliği 
+ Yapay zekâya yönelik programlama dilleri listesi 
+ Yapay zekâ projeleri listesi 
+ Yapay zekâ uygulamaları 
+ Derin öğrenme yazılımlarının karşılaştırılması 
+ Video gözetimi için yapay zeka 
+ Sağlık hizmetlerinde yapay zekâ 
+ Video oyunlarında yapay zekâ 
+ Yapay zekânın kontrolü devralması 
+ Üretken yapay zekâ 
+ Yapay zekâ alanında ilerleme 
+ Açık kaynaklı yapay zeka 
+ Yapay Zekâ Soğuk Savaşı 
+ Yapay zekâ silahlanma yarışı 
+ Yapay Zekâ Yasası 
+ Yapay zekâ sanatı 
+ Yapay zekâ çağı 
+ Yapay zekâ etiği 
+ Yapay zekâ kışı 
+ Yapay zeka felsefesi 
+ Yapay hayal gücü 
+ Genetik Programlama 
+ Nöro-sembolik yapay zeka 
+ Yapay zeka etkisi 
+ Sembolik yapay zeka 
+ Genetik Programlama 
+ AI slop 
+ Toplu zekâ 
+ Yapay bilinç 
+ Durum tabanlı çıkarsama 
+ Yapay genel zekâ 
+ Duygu analizi 
+ Çince odası 
+ Bilişsel dilbilim
+
+Yapay zekâ
+Yapay zekâ (İngilizce: Artificial intelligence, AI); hesaplama sistemlerinin öğrenme, akıl, problem çözme, algılama ve karar verme gibi tipik olarak insan zekâsıyla ilişkilendirilen görevleri yerine getirme yeteneğidir. Dördüncü Sanayi Devrimi 'nin en yaygın özelliklerinden biri olarak kabul edilir. İlk ve ikinci kategoriler arasındaki ayrım genellikle seçilen kısaltmayla ortaya çıkar. Güçlü yapay zeka genellikle yapay genel zekâ (İngilizce: Artificial general intelligence kelimelerinin kısaltılmışı olarak: AGI) olarak etiketlenirken, doğal zekayı taklit etme girişimleri yapay biyolojik zekâ (İngilizce: Artificial biological intelligence: ABI) olarak adlandırılır. Önde gelen yapay zekâ ders kitapları, alanı zeki etmenlerin çalışması olarak tanımlar: Çevresini algılayan ve hedeflerine başarıyla ulaşma şansını en üst düzeye çıkaran eylemleri gerçekleştiren herhangi bir cihaz. [ 3 ] Toplum arasında, yapay zekâ kavramı genellikle insanların insan zihni ile ilişkilendirdiği öğrenme ve problem çözme gibi bilişsel eylemleri taklit eden makineleri tanımlamak için kullanılır. [ 4 ] 
+ Makineler daha becerikli hâle geldikçe, zekâ gerektirdiği düşünülen görevler genellikle yapay zekâ etkisi olarak bilinen bir fenomen olan yapay zekâ tanımından çıkarılır. [ 5 ] Tesler'in teoremindeki bir espri, "Yapay zekâ henüz yapılmamış şeydir" der. [ 6 ] Örneğin, optik karakter tanıma yapay zekâ olarak değerlendirilen şeylerin dışında tutulur, [ 7 ] rutin teknoloji hâline gelir. [ 8 ] 
+ Genellikle yapay zekâ olarak sınıflandırılan modern makine yetenekleri satranç ve Go [ 9 ] gibi stratejik oyun sistemlerinde, en üst düzeyde rekabet eden insan konuşmasını anlama, [ 10 ] poker ya da otonom arabalar gibi kusurlu-bilgi oyunlarını içerik dağıtım ağındaki akıllı yönlendirmeyi ve askeri simülasyonları kapsar. [ 11 ] 
+ Yapay zekâ çalışmaları sıklıkla insanın düşünme yöntemlerini taklit eden yapay algoritmalar geliştirmeye yöneliktir, [ 12 ] ancak bununla sınırlı değildir. Öğrenebilen ve gelecekte insan zekâsından bağımsız gelişebilecek bir yapay zekâ kavramına doğru yeni yönelimler oluşmaktadır. Bu yönelim, insanın evreni ve doğayı anlama çabasında kendisine yardımcı olabilecek belki de kendisinden daha zeki, insan ötesi varlıklar meydana getirme düşünün bir ürünüdür. Bu düş, 1920'li yıllarda yazılan ve sonraları Isaac Asimov 'u etkileyen modern bilimkurgu edebiyatının öncü yazarlarından Karel Čapek 'in eserlerinde dışa vurmuştur. Karel Čapek, R.U.R. adlı tiyatro oyununda yapay zekâya sahip robotlar ile insanlığın ortak toplumsal sorunlarını ele alarak 1920 yılında yapay zekânın insan aklından bağımsız gelişebileceğini öngörmüştür. [ 13 ]
+
+Yapay zekâ
+Tanım. Yapay zekâ, idealleştirilmiş bir perspektife göre insan zekâsına özgü yüksek bilişsel fonksiyonları veya otonom davranışları sergileyen bir yapay işletim sistemidir. Bu sistem, algılama, öğrenme, çoğul kavramları bağlama, düşünme, fikir yürütme (belirtme), sorun çözme, iletişim kurma ve karar verme gibi yeteneklere sahip olmalıdır. [ 14 ] Ayrıca, bu yapay zekâ sistemi düşüncelerinden tepkiler üretebilmeli (eyleyici yapay zekâ) ve bu tepkileri fiziksel olarak dışa vurabilmelidir.
+Hedefler. Zekâyı simüle etme (veya oluşturma) genel problemi, alt problemlere ayrılmıştır. Bu alt problemler, araştırmacıların zeki bir sistemden sergilemesini beklediği belirli özellikler veya yeteneklerden oluşur. Aşağıda açıklanan özellikler, yapay zekâ araştırmalarında en çok dikkat çeken konular arasında yer almakta ve bu araştırmaların kapsamını belirlemektedir. [ a ]
+
+Yapay zekâ
+Akıl yürütme ve problem çözme. Yapay zekânın ilk araştırmacıları, insanların bulmacaları çözerken veya mantıksal çıkarımlar yaparken kullandığı adım adım akıl yürütmeyi taklit eden algoritmalar geliştirmiştir. [ 15 ] 1980'lerin sonları ve 1990'larda, belirsiz veya eksik bilgiyle başa çıkmak için olasılık ve ekonomi kavramlarını kullanan yöntemler geliştirilmiştir. [ 16 ] 
+ Bu algoritmaların birçoğu, büyük ölçekli akıl yürütme problemlerini çözmek için yetersizdir, çünkü "kombinatoryal patlama" denilen bir durum yaşarlar: Problemler büyüdükçe bu algoritmaların çalışması üstel bir şekilde yavaşlar. [ 17 ] Hatta insanlar bile erken dönem yapay zekânın modelleyebildiği adım adım akıl yürütmeyi nadiren kullanır. İnsanlar, çoğu sorunlarını hızlı ve sezgisel yargılarla çözerler. [ 18 ] Doğru ve verimli akıl yürütme, hâlâ çözülememiş bir problemdir.
+
+Yapay zekâ
+Bilgi temsili. Bilgi temsili ve bilgi mühendisliği, [ 19 ] yapay zekâ programlarının sorulara akıllıca yanıt vermesini ve gerçek dünya ile ilgili çıkarımlarda bulunmasını sağlar. Formel bilgi temsilleri; içerik tabanlı indeksleme ve bilgi erişimi, [ 20 ] sahne yorumlama, [ 21 ] klinik karar destek sistemleri, [ 22 ] bilgi keşfi (büyük veritabanlarından "ilginç" ve eyleme geçirilebilir çıkarımlarda bulunma) [ 23 ] gibi birçok alanda kullanılmaktadır. [ 24 ]
+
+Yapay zekâ
+Tarihçe. Yapay zekâ tarihi, antik çağlarda, usta zanaatkarlar tarafından zeka veya bilinç kazandırılan yapay varlıklara ilişkin mitler, hikâyeler ve söylentilerle başladı. Mekanik ya da "formel" akıl yürütme üzerine çalışmalar, antik çağda filozoflar ve matematikçilerle birlikte devam etti. Mantık alanındaki bu çalışmalar, Alan Turing 'in algoritmalar teorisinin temelini oluşturdu. Turing'in teorisi, "0" ve "1" gibi basit sembolleri kullanarak bir makinenin, insan aklının gerçekleştirebileceği her türlü matematiksel akıl yürütmeyi simüle edebileceğini öne sürdü. [ 25 ] [ 26 ] Bu teori, sibernetik, bilgi teorisi ve nörobiyoloji gibi alanlardaki keşiflerle birleşerek, araştırmacılara "elektronik bir beyin" inşa etme olasılığını düşünmeye yöneltti. [ b ] Öne çıkan çalışmalar arasında, 1943'teki Warren McCullouch ve Walter Pitts 'in "yapay nöronlar" tasarımı [ 28 ] ve Turing'in 1950'de yayımladığı, "makine zekâsının" mümkün olduğunu gösterdiği Turing testini tanıtan Bilgi İşlem Makineleri ve Zekâ adlı makalesi bulunmaktaydı. [ 26 ] [ 29 ] Bu dönemde yapılan bu tür araştırmalar, yapay zekânın temel alanlarının ortaya çıkardı. [ 30 ] 
+ 1956'da Dartmouth College 'deki bir atölye çalışmasında yapay zeka araştırma alanı kuruldu. [ c ] [ 32 ] Bu atölyeye katılan araştırmacılar, 1960'larda yapay zekâ alanına liderlik ettiler. [ d ] Öğrencileriyle beraber bu araştırmacılar, basının "şaşırtıcı" olarak nitelendirdiği projeler ürettiler. [ e ] Bu dönemde bilgisayarlar, dama stratejileri öğrenmiş, cebir problemlerini çözmüş, mantıksal teoremleri kanıtlamış ve İngilizce konuşmuştu. [ f ] [ 35 ] 1950'lerin sonu ve 1960'ların başlarında, hem İngiltere'deki hem de Amerika Birleşik Devletleri'ndeki birçok üniversitede yapay zekâ laboratuvarları kuruldu. [ 26 ] 
+ 1960'lar ve 1970'lerdeki araştırmacılar, genel zekâya sahip bir makine üretmenin mümkün olduğuna inanıyor ve bunu alanlarının nihai hedefi olarak görüyordu. [ 36 ] 1965'te Herbert Simon, "makinelerin yirmi yıl içinde bir insanın yapabileceği her işi yapabilir hâle geleceği" tahmininde bulunmuş, [ 37 ] 1967'de Marvin Minsky, "bir nesil içinde... 'yapay zekâ' sorununun büyük ölçüde çözüleceği" yorumunu yapmıştı. [ 38 ] Ancak bu öngörüler, yapay zekânın geliştirilmesindeki zorlukları göz ardı etmişti. [ g ] 1974'te Sir James Lighthill 'ın eleştirileri [ 40 ] ve ABD Kongresi'nin daha somut projelere fon sağlama baskısı nedeniyle, ABD ve İngiltere hükûmetleri keşif amaçlı yapay zekâ araştırmalarına verilen desteği durdurma kararı aldı. [ 41 ] Minsky ve Seymour Papert 'ın Perceptrons adlı kitabı, yapay sinir ağlarının gerçek dünya problemlerini çözmede etkisiz olduğunu savunmuş ve bu yaklaşım, itibarını kaybetmişti. [ 42 ] Bunun sonucunda, yapay zekâ projelerine fon bulmanın zorlaştığı " yapay zekâ kışı " adı verilen bir dönem başladı. [ 43 ] 
+ 1980'lerin başında yapay zekâ araştırmaları, uzman sistemlerin ticari başarısıyla yeniden canlandı. [ 44 ] Uzman sistemler, uzmanların bilgi ve analiz yeteneklerini taklit eden bir tür yapay zekâ programıydı. 1985 yılına gelindiğinde, yapay zekâ pazarı 1 milyar doları aşmıştı. Aynı dönemde Japonya'nın beşinci nesil bilgisayar projesi, ABD ve Britanya hükûmetlerini akademik araştırmalara yeniden fon sağlamaya teşvik etti. [ 45 ] Ancak, 1987'de Lisp makinesi pazarının çöküşüyle yapay zekâ tekrar itibar kaybetti ve daha uzun süren ikinci bir "yapay zekâ kışı" başladı. [ 46 ] 
+ O zamana kadar yapay zekâ projelerinin büyük kısmı, planlar, hedefler, inançlar ve bilinen gerçekler gibi zihinsel kavramları temsil etmek için yüksek seviyede semboller kullanmaya odaklanmıştı. Ancak 1980'lerde bazı araştırmacılar, bu yaklaşımın insan bilişinin tüm süreçlerini, özellikle algı, robotik, öğrenme ve örüntü tanıma gibi karmaşık süreçleri taklit edemeyeceği konusunda şüphe duymaya başladı. [ 47 ] Bu nedenle, "alt sembolik" yöntemlere yöneldiler. [ 48 ] Rodney Brooks, genel olarak "temsil" fikrini reddederek hayatta kalabilen ve hareket edebilen makineler geliştirmeye odaklandı. [ h ] Judea Pearl ve Lofti Zadeh gibi isimler, eksik ve belirsiz bilgileri mantıksal kesinlik yerine mâkul tahminlerle işleyebilen yöntemler geliştirdi. [ 53 ] Ayrıca Geoffrey Hinton ve diğer araştırmacılar, " bağlantısallık " ve sinir ağ araştırmalarını yeniden canlandırarak bu alanın gelişimine katkıda bulundu. [ 54 ] 1990'da Yann LeCun, evrişimli sinir ağlarının el yazısı ile yazılmış rakamları tanıyabildiğini gösterdi; bu, sinir ağlarının birçok başarılı uygulamasından ilkiydi. [ 55 ] 
+ Yapay zekâ, 1990'ların sonları ve 21. yüzyılın başlarında, formal matematik yöntemlerinden yararlanarak ve belirli problemlere özel çözümler geliştirerek itibarını yeniden kazanmaya başladı. Bu " dar " ve "formal" yaklaşım, araştırmacıların doğrulanabilir sonuçlar üretmesini ve istatistik, ekonomi ve matematik gibi diğer alanlarla iş birliği yapmasını sağladı. [ 56 ] 2000'li yıllara gelindiğinde, yapay zekâ araştırmacılarının geliştirdiği çözümler yaygın olarak kullanılmaya başlanmıştı. Ancak 1990'larda bu çözümler genellikle "yapay zekâ" olarak adlandırılmıyordu (bu eğilim yapay zekâ etkisi olarak bilinir). [ 57 ] 
+Buna karşın, bazı akademisyenler yapay zekânın ilk hedefinden, yani çok yönlü ve tam anlamıyla zeki makineler yaratma amacından uzaklaştığını düşünmeye başladı. 2002'nin başlarında, bu hedefi yeniden canlandırmak amacıyla yapay genel zekâ ("AGI") adı verilen bir alt alan kuruldu. 2010'lara gelindiğinde, yapay genel zekâ araştırmaları için iyi finanse edilen birçok kurum ortaya çıktı.
+ Derin öğrenme, 2012'de endüstri standartlarında önemli bir üstünlük sağlayarak yapay zekâ alanında yaygın bir şekilde benimsendi. [ 58 ] 
+Birçok spesifik görevde diğer yöntemler terk edildi. [ i ] 
+Bu başarının arkasında daha hızlı bilgisayarlar, [ 60 ] grafik işlem birimleri, bulut bilişim [ 61 ] gibi donanım geliştirmeleriyle ImageNet gibi dikkatle oluşturulmuş veri kümelerinin de dâhil olduğu [ 61 ] büyük miktarda veriye erişim [ 62 ] yatıyordu. Derin öğrenmenin bu yükselişi, yapay zekâya olan ilgi ve finansmanda büyük bir artışı tetikledi. [ j ] 2015-2019 yılları arasında makine öğrenimi araştırmalarındaki toplam yayımlanma sayısında %50'lik bir artış görüldü. [ 63 ] 
+ 2016'da, adalet ve teknolojinin yanlış kullanımı gibi etik sorunlar, makine öğrenimi konferanslarında ana gündem maddesi hâline geldi. Bu konularda yapılan yayımlar hızla artarken, yeni finansman kaynakları sağlandı ve birçok araştırmacı kariyerlerini bu alanlara yönlendirdi. Aynı dönemde, yapay zekânın insan çıkarlarına uygun şekilde geliştirilmesini konu alan " uyum problemi " akademik bir çalışma alanı olarak ciddiyet kazandı. [ 64 ] 
+ 2010'ların sonları ve 2020'lerin başlarında, yapay genel zekâ üzerine çalışan şirketler dikkat çeken yazılımlar üretmeye başladı. 2015 yılında DeepMind tarafından geliştirilen AlphaGo, oyunun kuralları öğretilerek kendi stratejisini geliştirdi ve dünya şampiyonu Go oyuncusunu yendi. 2020'de OpenAI tarafından çıkarılan GPT-3, insan benzeri yüksek kaliteli metinler üretebilen bir geniş dil modeli olarak dikkat çekti. [ 65 ] 30 Kasım 2022'de kullanıma sunulan ChatGPT ise iki ay içinde 100 milyon kullanıcıya ulaşarak tarihin en hızlı büyüyen tüketici yazılımı oldu. [ 66 ] 2022 yılı, yapay zekânın geniş kitleler tarafından fark edildiği ve yaygın bir şekilde konuşulmaya başlandığı bir dönüm noktası olarak kabul edildi. [ 67 ] Bu yazılımlar, büyük bir yapay zeka patlamasını tetikledi. Büyük ölçekli şirketler yapay zekâ araştırmalarına milyarlarca dolar yatırım yapmaya başladı. AI Impacts'in verilerine göre, 2022 yılında sadece ABD'de yapay zekâya yıllık yaklaşık $50 milyar yatırım yapıldı. ABD'deki yeni bilgisayar bilimi doktora mezunlarının yaklaşık %20'si yapay zekâ üzerine uzmanlaştı. [ 68 ] Aynı yıl, ABD'de yapay zekâ ile ilgili 800.000 iş ilanı bulundu. [ 69 ] PitchBook araştırmasına göre, 2024'te yeni fon alan girişimlerin %22'si kendilerini yapay zekâ şirketi olarak tanımlıyordu. [ 70 ]
+
+Yapay zekâ
+İlk araştırmalar ve yapay sinir ağları. İdealize edilmiş tanımıyla yapay zekâ konusundaki ilk çalışmalardan biri McCulloch ve Pitts tarafından yapılmıştır. Bu araştırmacıların önerdiği, yapay sinir hücrelerini kullanan hesaplama modeli, önermeler mantığı, fizyoloji ve Turing 'in hesaplama kuramına dayanıyordu. Herhangi bir hesaplanabilir fonksiyonun sinir hücrelerinden oluşan ağlarla hesaplanabileceğini ve mantıksal ve ve veya işlemlerinin gerçekleştirilebileceğini gösterdiler. Bu ağ yapılarının uygun şekilde tanımlanmaları hâlinde öğrenme becerisi kazanabileceğini de ileri sürdüler. Hebb, sinir hücreleri arasındaki bağlantıların şiddetlerini değiştirmek için basit bir kural önerince, öğrenebilen yapay sinir ağlarını gerçekleştirmek de olası hale gelmiştir.
+ 1950'lerde Shannon ve Turing bilgisayarlar için satranç programları yazıyorlardı. İlk yapay sinir ağı temelli bilgisayar SNARC, MIT 'de Minsky ve Edmonds tarafından 1951'de yapıldı. Çalışmalarını Princeton Üniversitesi 'nde sürdüren Mc Carthy, Minsky, Shannon ve Rochester 'le birlikte 1956 yılında Dartmouth 'da iki aylık bir açık çalışma düzenledi. Bu toplantıda birçok çalışmanın temelleri atılmakla birlikte, toplantının en önemli özelliği Mc Carthy tarafından önerilen yapay zekâ adının konmasıdır. İlk kuram ispatlayan programlardan Logic Theorist (Mantık kuramcısı) burada Newell ve Simon tarafından tanıtılmıştır.
+
+Yapay zekâ
+Yeni yaklaşımlar. Daha sonra Newell ve Simon, insan gibi düşünme yaklaşımına göre üretilmiş ilk program olan Genel Sorun Çözücü (General Problem Solver)'ı geliştirmişlerdir. Simon, daha sonra fiziksel simge varsayımını ortaya atmış ve bu kuram, insandan bağımsız zeki sistemler yapma çalışmalarıyla uğraşanların hareket noktasını oluşturmuştur. Simon 'ın bu tanımlaması bilim adamlarının yapay zekâya yaklaşımlarında iki farklı akımın ortaya çıktığını belirginleştirmesi açısından önemlidir [ 71 ]: Sembolik Yapay Zekâ ve Sibernetik Yapay Zekâ.
+
+Yapay zekâ
+Sembolik yapay zekâ. Simon 'ın sembolik yaklaşımından sonraki yıllarda mantık temelli çalışmalar egemen olmuş ve programların başarımlarını göstermek için bir takım yapay sorunlar ve dünyalar kullanılmıştır. Daha sonraları bu sorunlar gerçek yaşamı hiçbir şekilde temsil etmeyen oyuncak dünyalar olmakla suçlanmış ve yapay zekânın yalnızca bu alanlarda başarılı olabileceği ve gerçek yaşamdaki sorunların çözümüne ölçeklenemeyeceği ileri sürülmüştür.
+ Geliştirilen programların gerçek sorunlarla karşılaşıldığında çok kötü bir başarım göstermesinin ardındaki temel neden, bu programların yalnızca sentaktik süreçleri benzeşimlendirerek anlam çıkarma, bağlantı kurma ve fikir yürütme gibi süreçler konusunda başarısız olmasıydı. Bu dönemin en ünlü programlarından Weizenbaum tarafından geliştirilen Eliza, karşısındaki ile sohbet edebiliyor gibi görünmesine karşın, yalnızca karşısındaki insanın cümleleri üzerinde bazı işlemler yapıyordu. İlk makine çevirisi çalışmaları sırasında benzeri yaklaşımlar kullanılıp çok gülünç çevirilerle karşılaşılınca bu çalışmaların desteklenmesi durdurulmuştu. Bu yetersizlikler aslında insan beynindeki semantik süreçlerin yeterince incelenmemesinden kaynaklanmaktaydı.
+
+Yapay zekâ
+Sibernetik yapay zekâ. Yapay sinir ağları çalışmalarının dahil olduğu sibernetik cephede de durum aynıydı. Zeki davranışı benzeşimlendirmek için bu çalışmalarda kullanılan temel yapılardaki bazı önemli yetersizliklerin ortaya konmasıyla birçok araştırmacılar çalışmalarını durdurdular. Buna en temel örnek, Yapay sinir ağları konusundaki çalışmaların Marvin Minsky ve Seymour Papert 'in 1969'da yayınlanan Perceptrons adlı kitaplarında tek katmanlı algaçların bazı basit problemleri çözemeyeceğini gösterip aynı kısırlığın çok katmanlı algaçlarda da beklenilmesi gerektiğini söylemeleri ile bıçakla kesilmiş gibi durmasıdır.
+ Sibernetik akımın uğradığı başarısızlığın temel sebebi de benzer şekilde Yapay Sinir Ağının tek katmanlı görevi başarması fakat bu görevle ilgili vargıların veya sonuçların bir yargıya dönüşerek diğer kavramlar ile bir ilişki kurulamamasından kaynaklanmaktadır. Bu durum aynı zamanda semantik süreçlerin de benzeşimlendirilememesi gerçeğini doğurdu.
+
+Yapay zekâ
+Uzman sistemler. Her iki akımın da uğradığı başarısızlıklar, her sorunu çözecek genel amaçlı sistemler yerine belirli bir uzmanlık alanındaki bilgiyle donatılmış programları kullanma fikrinin gelişmesine sebep oldu ve bu durum yapay zekâ alanında yeniden bir canlanmaya yol açtı. Kısa sürede Uzman sistemler adı verilen bir metodoloji gelişti.
+ Uzman sistemler bir konuda belli ön koşullar aynı anda var olduğunda konunun bir uzmanın (bazen ne olasılıkla) ne karar alacağını belirleyen kuralların tümünü içeren bir programı gelen problemlere uygulamak temellidir. Bunun bir avantajı her verilen kararın hangi kurallar uygulanarak verildiğinin kolayca bilinmesi idi. Bu birçok kuralcı bürokratik karar örgütleri için kolayca uygulamalar geliştirilebilmesi demekti. Bu doğal olarak bir otomobilin tamiri için önerilerde bulunan uzman sistem programının otomobilin ne işe yaradığından haberi olmaması da demekti. Buna rağmen uzman sistemlerin başarıları beraberinde ilk ticari uygulamaları da getirdi.
+ Yapay zekâ yavaş yavaş bir endüstri hâline geliyordu. DEC tarafından kullanılan ve müşteri siparişlerine göre donanım seçimi yapan R1 adlı uzman sistem şirkete bir yılda 40 milyon dolarlık tasarruf sağlamıştı. Birden diğer ülkeler de yapay zekâyı yeniden keşfettiler ve araştırmalara büyük kaynaklar ayrılmaya başlandı. 1988'de yapay zekâ endüstrisinin cirosu 2 milyar dolara ulaşmıştı.
+
+Yapay zekâ
+Doğal dil işleme. Antropoloji bilimi, gelişmiş insan zekâsı ile dil arasındaki bağlantıyı gözler önüne serdiğinde, dil üzerinden yürütülen yapay zekâ çalışmaları tekrar önem kazandı. İnsan zekâsının doğrudan doğruya kavramlarla düşünmediği, dil ile düşündüğü, dil kodları olan kelimeler ile kavramlar arasında bağlantı kurduğu anlaşıldı. Bu sayede insan aklı kavramlar ile düşünen Hayvan beyninden daha hızlı işlem yapabilmekteydi ve dil dizgeleri olan cümleler yani şablonlar ile etkili bir öğrenmeye ve bilgisini soyut olarak genişletebilme yeteneğine sahip olmuştu. İnsanların iletişimde kullandıkları Türkçe, İngilizce gibi doğal dilleri anlayan bilgisayarlar konusundaki çalışmalar hızlanmaya başladı. Önce, yine Uzman sistemler olarak karşımıza çıkan doğal dil anlayan programlar, daha sonra Sembolik Yapay Zekâ ile ilgilenenler arasında ilgiyle karşılandı ve yazılım alanındaki gelişmeler sayesinde İngilizce olan A.I.M.L (Artificial intelligence Markup Language) ve Türkçe T.Y.İ.D (Türkçe Yapay Zekâ İşaretleme Dili) gibi bilgisayar dilleri ile sentaktik (Örüntü) işlemine uygun veri erişim metotları geliştirilebildi. Bugün Sembolik Yapay Zekâ araştırmacıları özel Yapay Zekâ dillerini kullanarak verileri birbiri ile ilişkilendirebilmekte, geliştirilen özel prosedürler sayesinde anlam çıkarma ve çıkarımsama yapma gibi ileri seviye bilişsel fonksiyonları benzetimlendirmeye çalışmaktadırlar.
+ Bütün bu gelişmelerin ve süreçlerin sonunda bir grup yapay zekâ araştırmacısı, insan gibi düşünebilen sistemleri araştırmaya devam ederken diğer bir grup ise ticari değeri olan rasyonel karar alan sistemler (Uzman sistemler) üzerine yoğunlaştı.
+
+Yapay zekâ
+Diyalog bazlı yapay zeka. Doğal dil işleme ve makine öğrenmesi gibi yapay zeka teknolojileri kullanılarak insan ve makine (yazılım) arasında bir diyaloğun sürdürülmesini sağlayan yapay zeka alt dalına "diyalog bazlı yapay zeka" (conversational artificial intelligence) denir. Daha önce insanların bilgisayara komut vermesinde kullanılan web, mobil uygulama gibi grafiksel arayüzlerin (GUI) yerine geçmeyi amaçlayan diyalog bazlı arayüzler (CUI) insanların bilgisayara günlük dilde yazarak veya konuşarak komut verebilmesini amaçlar. Günümüzde, chatbotlar ve sesli asistanlar diyalog bazlı yapay zeka alanında sıkça kullanılan teknolojik ürünler olarak karşımıza çıkmaktadır.
+
+Yapay zekâ
+Chatbotlar. Chatbotlar, diyalog bazlı yapay zekanın günlük hayatta kullanılan bir örneğidir. Kullanıcılar, Türkçeye sohbet robotları olarak geçmiş bu dijital ürünler ile yazışarak belirli bir konuda bilgi alabilir veya uçak bileti almak, banka havalesi yapmak veya bir kitap satın almak gibi günlük işlerini yapabilirler. Chatbotlar, şirketlerin web sitesinde veya mobil uygulamasında yer alabilirler. Bunun dışında chatbotlar, WhatsApp, Facebook Messenger gibi genel mesajlaşma platformlarında veya Google Assistant, Siri gibi sesli asistanlarda da yer alabilirler.
+ Chatbotlar kullanıcı ile etkileşim kurma yöntemini, arkasında yer alan teknolojik altyapıya göre farklı çeşitlerde oluşturulabilir. Örneğin bir chatbot kullanıcı ile, sadece kullanıcı onunla etkileşime girdiğinde iletişim kuruyorsa reaktif bir chatbottur, eğer bir uyarıcı ile tetiklenerek kullanıcı ile olan diyaloğu başlatan taraf oluyorsa buna proaktif bir chatbot denir. Teknoloji açısından bakılacak olursa, yapay zeka tabanlı chatbotların yanında, doğal dil işleme, makine öğrenmesi gibi yapay zeka teknolojileri kullanılmadan geliştirilen kural tabanlı chatbotlar da kullanılmaktadır. Ancak bu iki tür chatbotun davranışı farklıdır. Kural bazlı chatbotlarda genellikle kullanıcıya belirli seçenekler sunulur ve yaratılan deneyim bu seçeneklerle sınırlı kalır. Yapay zeka tabanlı chatbotlarda ise kullanıcı serbest bir metin yazabilir, chatbotun doğal dil işleme teknolojisi bu metni anlamlandırıp doğru yanıtı belirleyerek kullanıcıya sunar. [ 72 ]
+
+Yapay zekâ
+Süper zekâ ve tekillik. Süper zekâ, en parlak ve en yetenekli insan zihninin zekâsını çok aşan bir zekâya sahip varsayımsal bir etkendir. [ 73 ] Yapay genel zekâ üzerine yapılan araştırmalar yeterince zeki bir yazılım üretirse, yazılım kendini yeniden programlayabilir ve geliştirebilir. Gelişen yazılım kendini geliştirmede daha da iyi olur ve I. J. Good 'un " zekâ patlaması " ve Vernor Vinge 'in " tekillik " olarak adlandırdığı şeye yol açar. [ 74 ] 
+ Ancak teknolojiler sonsuza kadar üstel olarak gelişemez ve genellikle S şeklinde bir eğri izler, teknolojinin yapabileceği şeyin fiziksel sınırlarına ulaştığında yavaşlar. [ 75 ]
+
+Yapay zekâ
+Transhümanizm. Robot tasarımcısı Hans Moravec, sibernetikçi Kevin Warwick ve mucit Ray Kurzweil, gelecekte insanların ve makinelerin birleşerek her ikisinden de daha yetenekli ve güçlü siborglara dönüşebileceğini öngördüler. Transhümanizm olarak adlandırılan bu fikrin kökleri, Aldous Huxley ve Robert Ettinger 'ın yazılarında bahsedilmektedir. [ 76 ] 
+ Edward Fredkin, "yapay zekânın evrimin bir sonraki adımı" olduğunu savunmaktaydı; bu fikir ilk olarak Samuel Butler 'ın " Darwin among the Machines " adlı mektubunda 1863'te ortaya atıldı ve George Dyson tarafından 1998'deki Darwin Among the Machines: The Evolution of Global Intelligence adlı kitabında geliştirildi. [ 77 ]
+
+Yapay zekâ
+Uygulama alanları. Yapay zekanın uygulama alanlarının bazı örnekleri şu şekildedir:
+ Önerici sistemler: Kullanıcıların geçmiş davranışlarına dayanarak yeni içerik önerilmesi. Örneğin, sosyal medya sitelerinde yeni arkadaş, mağazalarda başka bir ürün, gazetede başka bir haber önerileri. 
+ Makine çevirisi: Bir dilde ifade edilen cümleyi farklı bir dile çevirmek. Örneğin, Google Translate, Microsoft Tercüman ve Yandex.Çeviri gibi çevrimiçi araçlar. 
+ Sinyal işleme: Ses ve görüntü gibi sinyallerin işlenerek bilgi çıkarımı. Örneğin, yüz ve ses tanıma. 
+ Prosedürel içerik üretimi: Rassal yöntemler kullanarak yapay içerik üretme. Örneğin, üretimsel müzik ve video oyunlarında prosedürel dünyalar. 
+ Regresyon analizi: Geçmiş verilere dayanılarak bir değişkenin gelecekteki değerinin tahmin edilmesi. Örneğin, ekonomik öngörüler, üretim miktarı öngörüleri. 
+ Görüntü işleme: Dijital görüntülerde bulunan objeleri tanıma, yerini bulma, sınıflandırma gibi işlemlerin tümü. Yapay zekadan önce bu işlemler Hough dönüşümü gibi kurala dayalı algoritmalar ile sürdürülürken, günümüzde bu kurallar veriden öğrenilmektedir. Görüntülemenin sık kullanıldığı tıp, [ 78 ] biyoloji, [ 79 ] otomotiv, [ 80 ] üretim [ 81 ] gibi alanlarda kullanılmaktadır. 
+ Makale yazma: Dünyada yapay zeka ile yazılan ilk köşe yazısı 8 Eylül 2020 tarihinde The Guardian gazetesinde yayınlanmıştır. [ 82 ] Türkiye'de yapay zekanın yazdığı ilk haber ise Şalom gazetesinde 2018 yılında yayınlanmıştır. [ 83 ]
+
+Yapay zekâ
+Alt dallar. Makine Zekâsı (Sembolik Yapay Zekâ) 
+ Yapay Sinir Ağları (Sibernetik Yapay Zekâ) 
+ Doğal Dil işleme (Dil ile düşünme) 
+ Görüntü İşleme 
+ Konuşma Sentezi (Yapay Konuşma) 
+ Konuşma Anlama (Konuşma Analizi) 
+ Tümevarımlı mantık programlama 
+ Bilgi-tabanlı sistem 
+ Bilgisayarlı görü 
+ Doğal dil üretme 
+ Uzman sistemler 
+ Sinirsel şebeke 
+ Makine öğrenimi 
+ Örüntü Tanıma 
+ Genetik Algoritmalar 
+ Genetik Programlama 
+ Bulanık Mantık 
+ Çoklu Örnekle Öğrenme (Multiple Instance Learning)
+
+Yapay zekâ
+Ayrıca bakınız. Yapay zekâ mühendisliği 
+ Yapay zekâya yönelik programlama dilleri listesi 
+ Yapay zekâ projeleri listesi 
+ Yapay zekâ uygulamaları 
+ Derin öğrenme yazılımlarının karşılaştırılması 
+ Video gözetimi için yapay zeka 
+ Sağlık hizmetlerinde yapay zekâ 
+ Video oyunlarında yapay zekâ 
+ Yapay zekânın kontrolü devralması 
+ Üretken yapay zekâ 
+ Yapay zekâ alanında ilerleme 
+ Açık kaynaklı yapay zeka 
+ Yapay Zekâ Soğuk Savaşı 
+ Yapay zekâ silahlanma yarışı 
+ Yapay Zekâ Yasası 
+ Yapay zekâ sanatı 
+ Yapay zekâ çağı 
+ Yapay zekâ etiği 
+ Yapay zekâ kışı 
+ Yapay zeka felsefesi 
+ Yapay hayal gücü 
+ Genetik Programlama 
+ Nöro-sembolik yapay zeka 
+ Yapay zeka etkisi 
+ Sembolik yapay zeka 
+ Genetik Programlama 
+ AI slop 
+ Toplu zekâ 
+ Yapay bilinç 
+ Durum tabanlı çıkarsama 
+ Yapay genel zekâ 
+ Duygu analizi 
+ Çince odası 
+ Bilişsel dilbilim
+
+Yapay zekâ
+Yapay zekâ (İngilizce: Artificial intelligence, AI); hesaplama sistemlerinin öğrenme, akıl, problem çözme, algılama ve karar verme gibi tipik olarak insan zekâsıyla ilişkilendirilen görevleri yerine getirme yeteneğidir. Dördüncü Sanayi Devrimi 'nin en yaygın özelliklerinden biri olarak kabul edilir. İlk ve ikinci kategoriler arasındaki ayrım genellikle seçilen kısaltmayla ortaya çıkar. Güçlü yapay zeka genellikle yapay genel zekâ (İngilizce: Artificial general intelligence kelimelerinin kısaltılmışı olarak: AGI) olarak etiketlenirken, doğal zekayı taklit etme girişimleri yapay biyolojik zekâ (İngilizce: Artificial biological intelligence: ABI) olarak adlandırılır. Önde gelen yapay zekâ ders kitapları, alanı zeki etmenlerin çalışması olarak tanımlar: Çevresini algılayan ve hedeflerine başarıyla ulaşma şansını en üst düzeye çıkaran eylemleri gerçekleştiren herhangi bir cihaz. [ 3 ] Toplum arasında, yapay zekâ kavramı genellikle insanların insan zihni ile ilişkilendirdiği öğrenme ve problem çözme gibi bilişsel eylemleri taklit eden makineleri tanımlamak için kullanılır. [ 4 ] 
+ Makineler daha becerikli hâle geldikçe, zekâ gerektirdiği düşünülen görevler genellikle yapay zekâ etkisi olarak bilinen bir fenomen olan yapay zekâ tanımından çıkarılır. [ 5 ] Tesler'in teoremindeki bir espri, "Yapay zekâ henüz yapılmamış şeydir" der. [ 6 ] Örneğin, optik karakter tanıma yapay zekâ olarak değerlendirilen şeylerin dışında tutulur, [ 7 ] rutin teknoloji hâline gelir. [ 8 ] 
+ Genellikle yapay zekâ olarak sınıflandırılan modern makine yetenekleri satranç ve Go [ 9 ] gibi stratejik oyun sistemlerinde, en üst düzeyde rekabet eden insan konuşmasını anlama, [ 10 ] poker ya da otonom arabalar gibi kusurlu-bilgi oyunlarını içerik dağıtım ağındaki akıllı yönlendirmeyi ve askeri simülasyonları kapsar. [ 11 ] 
+ Yapay zekâ çalışmaları sıklıkla insanın düşünme yöntemlerini taklit eden yapay algoritmalar geliştirmeye yöneliktir, [ 12 ] ancak bununla sınırlı değildir. Öğrenebilen ve gelecekte insan zekâsından bağımsız gelişebilecek bir yapay zekâ kavramına doğru yeni yönelimler oluşmaktadır. Bu yönelim, insanın evreni ve doğayı anlama çabasında kendisine yardımcı olabilecek belki de kendisinden daha zeki, insan ötesi varlıklar meydana getirme düşünün bir ürünüdür. Bu düş, 1920'li yıllarda yazılan ve sonraları Isaac Asimov 'u etkileyen modern bilimkurgu edebiyatının öncü yazarlarından Karel Čapek 'in eserlerinde dışa vurmuştur. Karel Čapek, R.U.R. adlı tiyatro oyununda yapay zekâya sahip robotlar ile insanlığın ortak toplumsal sorunlarını ele alarak 1920 yılında yapay zekânın insan aklından bağımsız gelişebileceğini öngörmüştür. [ 13 ]
+
+Yapay zekâ
+Tanım. Yapay zekâ, idealleştirilmiş bir perspektife göre insan zekâsına özgü yüksek bilişsel fonksiyonları veya otonom davranışları sergileyen bir yapay işletim sistemidir. Bu sistem, algılama, öğrenme, çoğul kavramları bağlama, düşünme, fikir yürütme (belirtme), sorun çözme, iletişim kurma ve karar verme gibi yeteneklere sahip olmalıdır. [ 14 ] Ayrıca, bu yapay zekâ sistemi düşüncelerinden tepkiler üretebilmeli (eyleyici yapay zekâ) ve bu tepkileri fiziksel olarak dışa vurabilmelidir.
+Hedefler. Zekâyı simüle etme (veya oluşturma) genel problemi, alt problemlere ayrılmıştır. Bu alt problemler, araştırmacıların zeki bir sistemden sergilemesini beklediği belirli özellikler veya yeteneklerden oluşur. Aşağıda açıklanan özellikler, yapay zekâ araştırmalarında en çok dikkat çeken konular arasında yer almakta ve bu araştırmaların kapsamını belirlemektedir. [ a ]
+
+Yapay zekâ
+Akıl yürütme ve problem çözme. Yapay zekânın ilk araştırmacıları, insanların bulmacaları çözerken veya mantıksal çıkarımlar yaparken kullandığı adım adım akıl yürütmeyi taklit eden algoritmalar geliştirmiştir. [ 15 ] 1980'lerin sonları ve 1990'larda, belirsiz veya eksik bilgiyle başa çıkmak için olasılık ve ekonomi kavramlarını kullanan yöntemler geliştirilmiştir. [ 16 ] 
+ Bu algoritmaların birçoğu, büyük ölçekli akıl yürütme problemlerini çözmek için yetersizdir, çünkü "kombinatoryal patlama" denilen bir durum yaşarlar: Problemler büyüdükçe bu algoritmaların çalışması üstel bir şekilde yavaşlar. [ 17 ] Hatta insanlar bile erken dönem yapay zekânın modelleyebildiği adım adım akıl yürütmeyi nadiren kullanır. İnsanlar, çoğu sorunlarını hızlı ve sezgisel yargılarla çözerler. [ 18 ] Doğru ve verimli akıl yürütme, hâlâ çözülememiş bir problemdir.
+
+Yapay zekâ
+Bilgi temsili. Bilgi temsili ve bilgi mühendisliği, [ 19 ] yapay zekâ programlarının sorulara akıllıca yanıt vermesini ve gerçek dünya ile ilgili çıkarımlarda bulunmasını sağlar. Formel bilgi temsilleri; içerik tabanlı indeksleme ve bilgi erişimi, [ 20 ] sahne yorumlama, [ 21 ] klinik karar destek sistemleri, [ 22 ] bilgi keşfi (büyük veritabanlarından "ilginç" ve eyleme geçirilebilir çıkarımlarda bulunma) [ 23 ] gibi birçok alanda kullanılmaktadır. [ 24 ]
+
+Yapay zekâ
+Tarihçe. Yapay zekâ tarihi, antik çağlarda, usta zanaatkarlar tarafından zeka veya bilinç kazandırılan yapay varlıklara ilişkin mitler, hikâyeler ve söylentilerle başladı. Mekanik ya da "formel" akıl yürütme üzerine çalışmalar, antik çağda filozoflar ve matematikçilerle birlikte devam etti. Mantık alanındaki bu çalışmalar, Alan Turing 'in algoritmalar teorisinin temelini oluşturdu. Turing'in teorisi, "0" ve "1" gibi basit sembolleri kullanarak bir makinenin, insan aklının gerçekleştirebileceği her türlü matematiksel akıl yürütmeyi simüle edebileceğini öne sürdü. [ 25 ] [ 26 ] Bu teori, sibernetik, bilgi teorisi ve nörobiyoloji gibi alanlardaki keşiflerle birleşerek, araştırmacılara "elektronik bir beyin" inşa etme olasılığını düşünmeye yöneltti. [ b ] Öne çıkan çalışmalar arasında, 1943'teki Warren McCullouch ve Walter Pitts 'in "yapay nöronlar" tasarımı [ 28 ] ve Turing'in 1950'de yayımladığı, "makine zekâsının" mümkün olduğunu gösterdiği Turing testini tanıtan Bilgi İşlem Makineleri ve Zekâ adlı makalesi bulunmaktaydı. [ 26 ] [ 29 ] Bu dönemde yapılan bu tür araştırmalar, yapay zekânın temel alanlarının ortaya çıkardı. [ 30 ] 
+ 1956'da Dartmouth College 'deki bir atölye çalışmasında yapay zeka araştırma alanı kuruldu. [ c ] [ 32 ] Bu atölyeye katılan araştırmacılar, 1960'larda yapay zekâ alanına liderlik ettiler. [ d ] Öğrencileriyle beraber bu araştırmacılar, basının "şaşırtıcı" olarak nitelendirdiği projeler ürettiler. [ e ] Bu dönemde bilgisayarlar, dama stratejileri öğrenmiş, cebir problemlerini çözmüş, mantıksal teoremleri kanıtlamış ve İngilizce konuşmuştu. [ f ] [ 35 ] 1950'lerin sonu ve 1960'ların başlarında, hem İngiltere'deki hem de Amerika Birleşik Devletleri'ndeki birçok üniversitede yapay zekâ laboratuvarları kuruldu. [ 26 ] 
+ 1960'lar ve 1970'lerdeki araştırmacılar, genel zekâya sahip bir makine üretmenin mümkün olduğuna inanıyor ve bunu alanlarının nihai hedefi olarak görüyordu. [ 36 ] 1965'te Herbert Simon, "makinelerin yirmi yıl içinde bir insanın yapabileceği her işi yapabilir hâle geleceği" tahmininde bulunmuş, [ 37 ] 1967'de Marvin Minsky, "bir nesil içinde... 'yapay zekâ' sorununun büyük ölçüde çözüleceği" yorumunu yapmıştı. [ 38 ] Ancak bu öngörüler, yapay zekânın geliştirilmesindeki zorlukları göz ardı etmişti. [ g ] 1974'te Sir James Lighthill 'ın eleştirileri [ 40 ] ve ABD Kongresi'nin daha somut projelere fon sağlama baskısı nedeniyle, ABD ve İngiltere hükûmetleri keşif amaçlı yapay zekâ araştırmalarına verilen desteği durdurma kararı aldı. [ 41 ] Minsky ve Seymour Papert 'ın Perceptrons adlı kitabı, yapay sinir ağlarının gerçek dünya problemlerini çözmede etkisiz olduğunu savunmuş ve bu yaklaşım, itibarını kaybetmişti. [ 42 ] Bunun sonucunda, yapay zekâ projelerine fon bulmanın zorlaştığı " yapay zekâ kışı " adı verilen bir dönem başladı. [ 43 ] 
+ 1980'lerin başında yapay zekâ araştırmaları, uzman sistemlerin ticari başarısıyla yeniden canlandı. [ 44 ] Uzman sistemler, uzmanların bilgi ve analiz yeteneklerini taklit eden bir tür yapay zekâ programıydı. 1985 yılına gelindiğinde, yapay zekâ pazarı 1 milyar doları aşmıştı. Aynı dönemde Japonya'nın beşinci nesil bilgisayar projesi, ABD ve Britanya hükûmetlerini akademik araştırmalara yeniden fon sağlamaya teşvik etti. [ 45 ] Ancak, 1987'de Lisp makinesi pazarının çöküşüyle yapay zekâ tekrar itibar kaybetti ve daha uzun süren ikinci bir "yapay zekâ kışı" başladı. [ 46 ] 
+ O zamana kadar yapay zekâ projelerinin büyük kısmı, planlar, hedefler, inançlar ve bilinen gerçekler gibi zihinsel kavramları temsil etmek için yüksek seviyede semboller kullanmaya odaklanmıştı. Ancak 1980'lerde bazı araştırmacılar, bu yaklaşımın insan bilişinin tüm süreçlerini, özellikle algı, robotik, öğrenme ve örüntü tanıma gibi karmaşık süreçleri taklit edemeyeceği konusunda şüphe duymaya başladı. [ 47 ] Bu nedenle, "alt sembolik" yöntemlere yöneldiler. [ 48 ] Rodney Brooks, genel olarak "temsil" fikrini reddederek hayatta kalabilen ve hareket edebilen makineler geliştirmeye odaklandı. [ h ] Judea Pearl ve Lofti Zadeh gibi isimler, eksik ve belirsiz bilgileri mantıksal kesinlik yerine mâkul tahminlerle işleyebilen yöntemler geliştirdi. [ 53 ] Ayrıca Geoffrey Hinton ve diğer araştırmacılar, " bağlantısallık " ve sinir ağ araştırmalarını yeniden canlandırarak bu alanın gelişimine katkıda bulundu. [ 54 ] 1990'da Yann LeCun, evrişimli sinir ağlarının el yazısı ile yazılmış rakamları tanıyabildiğini gösterdi; bu, sinir ağlarının birçok başarılı uygulamasından ilkiydi. [ 55 ] 
+ Yapay zekâ, 1990'ların sonları ve 21. yüzyılın başlarında, formal matematik yöntemlerinden yararlanarak ve belirli problemlere özel çözümler geliştirerek itibarını yeniden kazanmaya başladı. Bu " dar " ve "formal" yaklaşım, araştırmacıların doğrulanabilir sonuçlar üretmesini ve istatistik, ekonomi ve matematik gibi diğer alanlarla iş birliği yapmasını sağladı. [ 56 ] 2000'li yıllara gelindiğinde, yapay zekâ araştırmacılarının geliştirdiği çözümler yaygın olarak kullanılmaya başlanmıştı. Ancak 1990'larda bu çözümler genellikle "yapay zekâ" olarak adlandırılmıyordu (bu eğilim yapay zekâ etkisi olarak bilinir). [ 57 ] 
+Buna karşın, bazı akademisyenler yapay zekânın ilk hedefinden, yani çok yönlü ve tam anlamıyla zeki makineler yaratma amacından uzaklaştığını düşünmeye başladı. 2002'nin başlarında, bu hedefi yeniden canlandırmak amacıyla yapay genel zekâ ("AGI") adı verilen bir alt alan kuruldu. 2010'lara gelindiğinde, yapay genel zekâ araştırmaları için iyi finanse edilen birçok kurum ortaya çıktı.
+ Derin öğrenme, 2012'de endüstri standartlarında önemli bir üstünlük sağlayarak yapay zekâ alanında yaygın bir şekilde benimsendi. [ 58 ] 
+Birçok spesifik görevde diğer yöntemler terk edildi. [ i ] 
+Bu başarının arkasında daha hızlı bilgisayarlar, [ 60 ] grafik işlem birimleri, bulut bilişim [ 61 ] gibi donanım geliştirmeleriyle ImageNet gibi dikkatle oluşturulmuş veri kümelerinin de dâhil olduğu [ 61 ] büyük miktarda veriye erişim [ 62 ] yatıyordu. Derin öğrenmenin bu yükselişi, yapay zekâya olan ilgi ve finansmanda büyük bir artışı tetikledi. [ j ] 2015-2019 yılları arasında makine öğrenimi araştırmalarındaki toplam yayımlanma sayısında %50'lik bir artış görüldü. [ 63 ] 
+ 2016'da, adalet ve teknolojinin yanlış kullanımı gibi etik sorunlar, makine öğrenimi konferanslarında ana gündem maddesi hâline geldi. Bu konularda yapılan yayımlar hızla artarken, yeni finansman kaynakları sağlandı ve birçok araştırmacı kariyerlerini bu alanlara yönlendirdi. Aynı dönemde, yapay zekânın insan çıkarlarına uygun şekilde geliştirilmesini konu alan " uyum problemi " akademik bir çalışma alanı olarak ciddiyet kazandı. [ 64 ] 
+ 2010'ların sonları ve 2020'lerin başlarında, yapay genel zekâ üzerine çalışan şirketler dikkat çeken yazılımlar üretmeye başladı. 2015 yılında DeepMind tarafından geliştirilen AlphaGo, oyunun kuralları öğretilerek kendi stratejisini geliştirdi ve dünya şampiyonu Go oyuncusunu yendi. 2020'de OpenAI tarafından çıkarılan GPT-3, insan benzeri yüksek kaliteli metinler üretebilen bir geniş dil modeli olarak dikkat çekti. [ 65 ] 30 Kasım 2022'de kullanıma sunulan ChatGPT ise iki ay içinde 100 milyon kullanıcıya ulaşarak tarihin en hızlı büyüyen tüketici yazılımı oldu. [ 66 ] 2022 yılı, yapay zekânın geniş kitleler tarafından fark edildiği ve yaygın bir şekilde konuşulmaya başlandığı bir dönüm noktası olarak kabul edildi. [ 67 ] Bu yazılımlar, büyük bir yapay zeka patlamasını tetikledi. Büyük ölçekli şirketler yapay zekâ araştırmalarına milyarlarca dolar yatırım yapmaya başladı. AI Impacts'in verilerine göre, 2022 yılında sadece ABD'de yapay zekâya yıllık yaklaşık $50 milyar yatırım yapıldı. ABD'deki yeni bilgisayar bilimi doktora mezunlarının yaklaşık %20'si yapay zekâ üzerine uzmanlaştı. [ 68 ] Aynı yıl, ABD'de yapay zekâ ile ilgili 800.000 iş ilanı bulundu. [ 69 ] PitchBook araştırmasına göre, 2024'te yeni fon alan girişimlerin %22'si kendilerini yapay zekâ şirketi olarak tanımlıyordu. [ 70 ]
+
+Yapay zekâ
+İlk araştırmalar ve yapay sinir ağları. İdealize edilmiş tanımıyla yapay zekâ konusundaki ilk çalışmalardan biri McCulloch ve Pitts tarafından yapılmıştır. Bu araştırmacıların önerdiği, yapay sinir hücrelerini kullanan hesaplama modeli, önermeler mantığı, fizyoloji ve Turing 'in hesaplama kuramına dayanıyordu. Herhangi bir hesaplanabilir fonksiyonun sinir hücrelerinden oluşan ağlarla hesaplanabileceğini ve mantıksal ve ve veya işlemlerinin gerçekleştirilebileceğini gösterdiler. Bu ağ yapılarının uygun şekilde tanımlanmaları hâlinde öğrenme becerisi kazanabileceğini de ileri sürdüler. Hebb, sinir hücreleri arasındaki bağlantıların şiddetlerini değiştirmek için basit bir kural önerince, öğrenebilen yapay sinir ağlarını gerçekleştirmek de olası hale gelmiştir.
+ 1950'lerde Shannon ve Turing bilgisayarlar için satranç programları yazıyorlardı. İlk yapay sinir ağı temelli bilgisayar SNARC, MIT 'de Minsky ve Edmonds tarafından 1951'de yapıldı. Çalışmalarını Princeton Üniversitesi 'nde sürdüren Mc Carthy, Minsky, Shannon ve Rochester 'le birlikte 1956 yılında Dartmouth 'da iki aylık bir açık çalışma düzenledi. Bu toplantıda birçok çalışmanın temelleri atılmakla birlikte, toplantının en önemli özelliği Mc Carthy tarafından önerilen yapay zekâ adının konmasıdır. İlk kuram ispatlayan programlardan Logic Theorist (Mantık kuramcısı) burada Newell ve Simon tarafından tanıtılmıştır.
+
+Yapay zekâ
+Yeni yaklaşımlar. Daha sonra Newell ve Simon, insan gibi düşünme yaklaşımına göre üretilmiş ilk program olan Genel Sorun Çözücü (General Problem Solver)'ı geliştirmişlerdir. Simon, daha sonra fiziksel simge varsayımını ortaya atmış ve bu kuram, insandan bağımsız zeki sistemler yapma çalışmalarıyla uğraşanların hareket noktasını oluşturmuştur. Simon 'ın bu tanımlaması bilim adamlarının yapay zekâya yaklaşımlarında iki farklı akımın ortaya çıktığını belirginleştirmesi açısından önemlidir [ 71 ]: Sembolik Yapay Zekâ ve Sibernetik Yapay Zekâ.
+
+Yapay zekâ
+Sembolik yapay zekâ. Simon 'ın sembolik yaklaşımından sonraki yıllarda mantık temelli çalışmalar egemen olmuş ve programların başarımlarını göstermek için bir takım yapay sorunlar ve dünyalar kullanılmıştır. Daha sonraları bu sorunlar gerçek yaşamı hiçbir şekilde temsil etmeyen oyuncak dünyalar olmakla suçlanmış ve yapay zekânın yalnızca bu alanlarda başarılı olabileceği ve gerçek yaşamdaki sorunların çözümüne ölçeklenemeyeceği ileri sürülmüştür.
+ Geliştirilen programların gerçek sorunlarla karşılaşıldığında çok kötü bir başarım göstermesinin ardındaki temel neden, bu programların yalnızca sentaktik süreçleri benzeşimlendirerek anlam çıkarma, bağlantı kurma ve fikir yürütme gibi süreçler konusunda başarısız olmasıydı. Bu dönemin en ünlü programlarından Weizenbaum tarafından geliştirilen Eliza, karşısındaki ile sohbet edebiliyor gibi görünmesine karşın, yalnızca karşısındaki insanın cümleleri üzerinde bazı işlemler yapıyordu. İlk makine çevirisi çalışmaları sırasında benzeri yaklaşımlar kullanılıp çok gülünç çevirilerle karşılaşılınca bu çalışmaların desteklenmesi durdurulmuştu. Bu yetersizlikler aslında insan beynindeki semantik süreçlerin yeterince incelenmemesinden kaynaklanmaktaydı.
+
+Yapay zekâ
+Sibernetik yapay zekâ. Yapay sinir ağları çalışmalarının dahil olduğu sibernetik cephede de durum aynıydı. Zeki davranışı benzeşimlendirmek için bu çalışmalarda kullanılan temel yapılardaki bazı önemli yetersizliklerin ortaya konmasıyla birçok araştırmacılar çalışmalarını durdurdular. Buna en temel örnek, Yapay sinir ağları konusundaki çalışmaların Marvin Minsky ve Seymour Papert 'in 1969'da yayınlanan Perceptrons adlı kitaplarında tek katmanlı algaçların bazı basit problemleri çözemeyeceğini gösterip aynı kısırlığın çok katmanlı algaçlarda da beklenilmesi gerektiğini söylemeleri ile bıçakla kesilmiş gibi durmasıdır.
+ Sibernetik akımın uğradığı başarısızlığın temel sebebi de benzer şekilde Yapay Sinir Ağının tek katmanlı görevi başarması fakat bu görevle ilgili vargıların veya sonuçların bir yargıya dönüşerek diğer kavramlar ile bir ilişki kurulamamasından kaynaklanmaktadır. Bu durum aynı zamanda semantik süreçlerin de benzeşimlendirilememesi gerçeğini doğurdu.
+
+Yapay zekâ
+Uzman sistemler. Her iki akımın da uğradığı başarısızlıklar, her sorunu çözecek genel amaçlı sistemler yerine belirli bir uzmanlık alanındaki bilgiyle donatılmış programları kullanma fikrinin gelişmesine sebep oldu ve bu durum yapay zekâ alanında yeniden bir canlanmaya yol açtı. Kısa sürede Uzman sistemler adı verilen bir metodoloji gelişti.
+ Uzman sistemler bir konuda belli ön koşullar aynı anda var olduğunda konunun bir uzmanın (bazen ne olasılıkla) ne karar alacağını belirleyen kuralların tümünü içeren bir programı gelen problemlere uygulamak temellidir. Bunun bir avantajı her verilen kararın hangi kurallar uygulanarak verildiğinin kolayca bilinmesi idi. Bu birçok kuralcı bürokratik karar örgütleri için kolayca uygulamalar geliştirilebilmesi demekti. Bu doğal olarak bir otomobilin tamiri için önerilerde bulunan uzman sistem programının otomobilin ne işe yaradığından haberi olmaması da demekti. Buna rağmen uzman sistemlerin başarıları beraberinde ilk ticari uygulamaları da getirdi.
+ Yapay zekâ yavaş yavaş bir endüstri hâline geliyordu. DEC tarafından kullanılan ve müşteri siparişlerine göre donanım seçimi yapan R1 adlı uzman sistem şirkete bir yılda 40 milyon dolarlık tasarruf sağlamıştı. Birden diğer ülkeler de yapay zekâyı yeniden keşfettiler ve araştırmalara büyük kaynaklar ayrılmaya başlandı. 1988'de yapay zekâ endüstrisinin cirosu 2 milyar dolara ulaşmıştı.
+
+Yapay zekâ
+Doğal dil işleme. Antropoloji bilimi, gelişmiş insan zekâsı ile dil arasındaki bağlantıyı gözler önüne serdiğinde, dil üzerinden yürütülen yapay zekâ çalışmaları tekrar önem kazandı. İnsan zekâsının doğrudan doğruya kavramlarla düşünmediği, dil ile düşündüğü, dil kodları olan kelimeler ile kavramlar arasında bağlantı kurduğu anlaşıldı. Bu sayede insan aklı kavramlar ile düşünen Hayvan beyninden daha hızlı işlem yapabilmekteydi ve dil dizgeleri olan cümleler yani şablonlar ile etkili bir öğrenmeye ve bilgisini soyut olarak genişletebilme yeteneğine sahip olmuştu. İnsanların iletişimde kullandıkları Türkçe, İngilizce gibi doğal dilleri anlayan bilgisayarlar konusundaki çalışmalar hızlanmaya başladı. Önce, yine Uzman sistemler olarak karşımıza çıkan doğal dil anlayan programlar, daha sonra Sembolik Yapay Zekâ ile ilgilenenler arasında ilgiyle karşılandı ve yazılım alanındaki gelişmeler sayesinde İngilizce olan A.I.M.L (Artificial intelligence Markup Language) ve Türkçe T.Y.İ.D (Türkçe Yapay Zekâ İşaretleme Dili) gibi bilgisayar dilleri ile sentaktik (Örüntü) işlemine uygun veri erişim metotları geliştirilebildi. Bugün Sembolik Yapay Zekâ araştırmacıları özel Yapay Zekâ dillerini kullanarak verileri birbiri ile ilişkilendirebilmekte, geliştirilen özel prosedürler sayesinde anlam çıkarma ve çıkarımsama yapma gibi ileri seviye bilişsel fonksiyonları benzetimlendirmeye çalışmaktadırlar.
+ Bütün bu gelişmelerin ve süreçlerin sonunda bir grup yapay zekâ araştırmacısı, insan gibi düşünebilen sistemleri araştırmaya devam ederken diğer bir grup ise ticari değeri olan rasyonel karar alan sistemler (Uzman sistemler) üzerine yoğunlaştı.
+
+Yapay zekâ
+Diyalog bazlı yapay zeka. Doğal dil işleme ve makine öğrenmesi gibi yapay zeka teknolojileri kullanılarak insan ve makine (yazılım) arasında bir diyaloğun sürdürülmesini sağlayan yapay zeka alt dalına "diyalog bazlı yapay zeka" (conversational artificial intelligence) denir. Daha önce insanların bilgisayara komut vermesinde kullanılan web, mobil uygulama gibi grafiksel arayüzlerin (GUI) yerine geçmeyi amaçlayan diyalog bazlı arayüzler (CUI) insanların bilgisayara günlük dilde yazarak veya konuşarak komut verebilmesini amaçlar. Günümüzde, chatbotlar ve sesli asistanlar diyalog bazlı yapay zeka alanında sıkça kullanılan teknolojik ürünler olarak karşımıza çıkmaktadır.
+
+Yapay zekâ
+Chatbotlar. Chatbotlar, diyalog bazlı yapay zekanın günlük hayatta kullanılan bir örneğidir. Kullanıcılar, Türkçeye sohbet robotları olarak geçmiş bu dijital ürünler ile yazışarak belirli bir konuda bilgi alabilir veya uçak bileti almak, banka havalesi yapmak veya bir kitap satın almak gibi günlük işlerini yapabilirler. Chatbotlar, şirketlerin web sitesinde veya mobil uygulamasında yer alabilirler. Bunun dışında chatbotlar, WhatsApp, Facebook Messenger gibi genel mesajlaşma platformlarında veya Google Assistant, Siri gibi sesli asistanlarda da yer alabilirler.
+ Chatbotlar kullanıcı ile etkileşim kurma yöntemini, arkasında yer alan teknolojik altyapıya göre farklı çeşitlerde oluşturulabilir. Örneğin bir chatbot kullanıcı ile, sadece kullanıcı onunla etkileşime girdiğinde iletişim kuruyorsa reaktif bir chatbottur, eğer bir uyarıcı ile tetiklenerek kullanıcı ile olan diyaloğu başlatan taraf oluyorsa buna proaktif bir chatbot denir. Teknoloji açısından bakılacak olursa, yapay zeka tabanlı chatbotların yanında, doğal dil işleme, makine öğrenmesi gibi yapay zeka teknolojileri kullanılmadan geliştirilen kural tabanlı chatbotlar da kullanılmaktadır. Ancak bu iki tür chatbotun davranışı farklıdır. Kural bazlı chatbotlarda genellikle kullanıcıya belirli seçenekler sunulur ve yaratılan deneyim bu seçeneklerle sınırlı kalır. Yapay zeka tabanlı chatbotlarda ise kullanıcı serbest bir metin yazabilir, chatbotun doğal dil işleme teknolojisi bu metni anlamlandırıp doğru yanıtı belirleyerek kullanıcıya sunar. [ 72 ]
+
+Yapay zekâ
+Süper zekâ ve tekillik. Süper zekâ, en parlak ve en yetenekli insan zihninin zekâsını çok aşan bir zekâya sahip varsayımsal bir etkendir. [ 73 ] Yapay genel zekâ üzerine yapılan araştırmalar yeterince zeki bir yazılım üretirse, yazılım kendini yeniden programlayabilir ve geliştirebilir. Gelişen yazılım kendini geliştirmede daha da iyi olur ve I. J. Good 'un " zekâ patlaması " ve Vernor Vinge 'in " tekillik " olarak adlandırdığı şeye yol açar. [ 74 ] 
+ Ancak teknolojiler sonsuza kadar üstel olarak gelişemez ve genellikle S şeklinde bir eğri izler, teknolojinin yapabileceği şeyin fiziksel sınırlarına ulaştığında yavaşlar. [ 75 ]
+
+Yapay zekâ
+Transhümanizm. Robot tasarımcısı Hans Moravec, sibernetikçi Kevin Warwick ve mucit Ray Kurzweil, gelecekte insanların ve makinelerin birleşerek her ikisinden de daha yetenekli ve güçlü siborglara dönüşebileceğini öngördüler. Transhümanizm olarak adlandırılan bu fikrin kökleri, Aldous Huxley ve Robert Ettinger 'ın yazılarında bahsedilmektedir. [ 76 ] 
+ Edward Fredkin, "yapay zekânın evrimin bir sonraki adımı" olduğunu savunmaktaydı; bu fikir ilk olarak Samuel Butler 'ın " Darwin among the Machines " adlı mektubunda 1863'te ortaya atıldı ve George Dyson tarafından 1998'deki Darwin Among the Machines: The Evolution of Global Intelligence adlı kitabında geliştirildi. [ 77 ]
+
+Yapay zekâ
+Uygulama alanları. Yapay zekanın uygulama alanlarının bazı örnekleri şu şekildedir:
+ Önerici sistemler: Kullanıcıların geçmiş davranışlarına dayanarak yeni içerik önerilmesi. Örneğin, sosyal medya sitelerinde yeni arkadaş, mağazalarda başka bir ürün, gazetede başka bir haber önerileri. 
+ Makine çevirisi: Bir dilde ifade edilen cümleyi farklı bir dile çevirmek. Örneğin, Google Translate, Microsoft Tercüman ve Yandex.Çeviri gibi çevrimiçi araçlar. 
+ Sinyal işleme: Ses ve görüntü gibi sinyallerin işlenerek bilgi çıkarımı. Örneğin, yüz ve ses tanıma. 
+ Prosedürel içerik üretimi: Rassal yöntemler kullanarak yapay içerik üretme. Örneğin, üretimsel müzik ve video oyunlarında prosedürel dünyalar. 
+ Regresyon analizi: Geçmiş verilere dayanılarak bir değişkenin gelecekteki değerinin tahmin edilmesi. Örneğin, ekonomik öngörüler, üretim miktarı öngörüleri. 
+ Görüntü işleme: Dijital görüntülerde bulunan objeleri tanıma, yerini bulma, sınıflandırma gibi işlemlerin tümü. Yapay zekadan önce bu işlemler Hough dönüşümü gibi kurala dayalı algoritmalar ile sürdürülürken, günümüzde bu kurallar veriden öğrenilmektedir. Görüntülemenin sık kullanıldığı tıp, [ 78 ] biyoloji, [ 79 ] otomotiv, [ 80 ] üretim [ 81 ] gibi alanlarda kullanılmaktadır. 
+ Makale yazma: Dünyada yapay zeka ile yazılan ilk köşe yazısı 8 Eylül 2020 tarihinde The Guardian gazetesinde yayınlanmıştır. [ 82 ] Türkiye'de yapay zekanın yazdığı ilk haber ise Şalom gazetesinde 2018 yılında yayınlanmıştır. [ 83 ]
+
+Yapay zekâ
+Alt dallar. Makine Zekâsı (Sembolik Yapay Zekâ) 
+ Yapay Sinir Ağları (Sibernetik Yapay Zekâ) 
+ Doğal Dil işleme (Dil ile düşünme) 
+ Görüntü İşleme 
+ Konuşma Sentezi (Yapay Konuşma) 
+ Konuşma Anlama (Konuşma Analizi) 
+ Tümevarımlı mantık programlama 
+ Bilgi-tabanlı sistem 
+ Bilgisayarlı görü 
+ Doğal dil üretme 
+ Uzman sistemler 
+ Sinirsel şebeke 
+ Makine öğrenimi 
+ Örüntü Tanıma 
+ Genetik Algoritmalar 
+ Genetik Programlama 
+ Bulanık Mantık 
+ Çoklu Örnekle Öğrenme (Multiple Instance Learning)
+
+Yapay zekâ
+Ayrıca bakınız. Yapay zekâ mühendisliği 
+ Yapay zekâya yönelik programlama dilleri listesi 
+ Yapay zekâ projeleri listesi 
+ Yapay zekâ uygulamaları 
+ Derin öğrenme yazılımlarının karşılaştırılması 
+ Video gözetimi için yapay zeka 
+ Sağlık hizmetlerinde yapay zekâ 
+ Video oyunlarında yapay zekâ 
+ Yapay zekânın kontrolü devralması 
+ Üretken yapay zekâ 
+ Yapay zekâ alanında ilerleme 
+ Açık kaynaklı yapay zeka 
+ Yapay Zekâ Soğuk Savaşı 
+ Yapay zekâ silahlanma yarışı 
+ Yapay Zekâ Yasası 
+ Yapay zekâ sanatı 
+ Yapay zekâ çağı 
+ Yapay zekâ etiği 
+ Yapay zekâ kışı 
+ Yapay zeka felsefesi 
+ Yapay hayal gücü 
+ Genetik Programlama 
+ Nöro-sembolik yapay zeka 
+ Yapay zeka etkisi 
+ Sembolik yapay zeka 
+ Genetik Programlama 
+ AI slop 
+ Toplu zekâ 
+ Yapay bilinç 
+ Durum tabanlı çıkarsama 
+ Yapay genel zekâ 
+ Duygu analizi 
+ Çince odası 
+ Bilişsel dilbilim
+
+Yapay zekâ
+Yapay zekâ (İngilizce: Artificial intelligence, AI); hesaplama sistemlerinin öğrenme, akıl, problem çözme, algılama ve karar verme gibi tipik olarak insan zekâsıyla ilişkilendirilen görevleri yerine getirme yeteneğidir. Dördüncü Sanayi Devrimi 'nin en yaygın özelliklerinden biri olarak kabul edilir. İlk ve ikinci kategoriler arasındaki ayrım genellikle seçilen kısaltmayla ortaya çıkar. Güçlü yapay zeka genellikle yapay genel zekâ (İngilizce: Artificial general intelligence kelimelerinin kısaltılmışı olarak: AGI) olarak etiketlenirken, doğal zekayı taklit etme girişimleri yapay biyolojik zekâ (İngilizce: Artificial biological intelligence: ABI) olarak adlandırılır. Önde gelen yapay zekâ ders kitapları, alanı zeki etmenlerin çalışması olarak tanımlar: Çevresini algılayan ve hedeflerine başarıyla ulaşma şansını en üst düzeye çıkaran eylemleri gerçekleştiren herhangi bir cihaz. [ 3 ] Toplum arasında, yapay zekâ kavramı genellikle insanların insan zihni ile ilişkilendirdiği öğrenme ve problem çözme gibi bilişsel eylemleri taklit eden makineleri tanımlamak için kullanılır. [ 4 ] 
+ Makineler daha becerikli hâle geldikçe, zekâ gerektirdiği düşünülen görevler genellikle yapay zekâ etkisi olarak bilinen bir fenomen olan yapay zekâ tanımından çıkarılır. [ 5 ] Tesler'in teoremindeki bir espri, "Yapay zekâ henüz yapılmamış şeydir" der. [ 6 ] Örneğin, optik karakter tanıma yapay zekâ olarak değerlendirilen şeylerin dışında tutulur, [ 7 ] rutin teknoloji hâline gelir. [ 8 ] 
+ Genellikle yapay zekâ olarak sınıflandırılan modern makine yetenekleri satranç ve Go [ 9 ] gibi stratejik oyun sistemlerinde, en üst düzeyde rekabet eden insan konuşmasını anlama, [ 10 ] poker ya da otonom arabalar gibi kusurlu-bilgi oyunlarını içerik dağıtım ağındaki akıllı yönlendirmeyi ve askeri simülasyonları kapsar. [ 11 ] 
+ Yapay zekâ çalışmaları sıklıkla insanın düşünme yöntemlerini taklit eden yapay algoritmalar geliştirmeye yöneliktir, [ 12 ] ancak bununla sınırlı değildir. Öğrenebilen ve gelecekte insan zekâsından bağımsız gelişebilecek bir yapay zekâ kavramına doğru yeni yönelimler oluşmaktadır. Bu yönelim, insanın evreni ve doğayı anlama çabasında kendisine yardımcı olabilecek belki de kendisinden daha zeki, insan ötesi varlıklar meydana getirme düşünün bir ürünüdür. Bu düş, 1920'li yıllarda yazılan ve sonraları Isaac Asimov 'u etkileyen modern bilimkurgu edebiyatının öncü yazarlarından Karel Čapek 'in eserlerinde dışa vurmuştur. Karel Čapek, R.U.R. adlı tiyatro oyununda yapay zekâya sahip robotlar ile insanlığın ortak toplumsal sorunlarını ele alarak 1920 yılında yapay zekânın insan aklından bağımsız gelişebileceğini öngörmüştür. [ 13 ]
+
+Yapay zekâ
+Tanım. Yapay zekâ, idealleştirilmiş bir perspektife göre insan zekâsına özgü yüksek bilişsel fonksiyonları veya otonom davranışları sergileyen bir yapay işletim sistemidir. Bu sistem, algılama, öğrenme, çoğul kavramları bağlama, düşünme, fikir yürütme (belirtme), sorun çözme, iletişim kurma ve karar verme gibi yeteneklere sahip olmalıdır. [ 14 ] Ayrıca, bu yapay zekâ sistemi düşüncelerinden tepkiler üretebilmeli (eyleyici yapay zekâ) ve bu tepkileri fiziksel olarak dışa vurabilmelidir.
+Hedefler. Zekâyı simüle etme (veya oluşturma) genel problemi, alt problemlere ayrılmıştır. Bu alt problemler, araştırmacıların zeki bir sistemden sergilemesini beklediği belirli özellikler veya yeteneklerden oluşur. Aşağıda açıklanan özellikler, yapay zekâ araştırmalarında en çok dikkat çeken konular arasında yer almakta ve bu araştırmaların kapsamını belirlemektedir. [ a ]
+
+Yapay zekâ
+Akıl yürütme ve problem çözme. Yapay zekânın ilk araştırmacıları, insanların bulmacaları çözerken veya mantıksal çıkarımlar yaparken kullandığı adım adım akıl yürütmeyi taklit eden algoritmalar geliştirmiştir. [ 15 ] 1980'lerin sonları ve 1990'larda, belirsiz veya eksik bilgiyle başa çıkmak için olasılık ve ekonomi kavramlarını kullanan yöntemler geliştirilmiştir. [ 16 ] 
+ Bu algoritmaların birçoğu, büyük ölçekli akıl yürütme problemlerini çözmek için yetersizdir, çünkü "kombinatoryal patlama" denilen bir durum yaşarlar: Problemler büyüdükçe bu algoritmaların çalışması üstel bir şekilde yavaşlar. [ 17 ] Hatta insanlar bile erken dönem yapay zekânın modelleyebildiği adım adım akıl yürütmeyi nadiren kullanır. İnsanlar, çoğu sorunlarını hızlı ve sezgisel yargılarla çözerler. [ 18 ] Doğru ve verimli akıl yürütme, hâlâ çözülememiş bir problemdir.
+
+Yapay zekâ
+Bilgi temsili. Bilgi temsili ve bilgi mühendisliği, [ 19 ] yapay zekâ programlarının sorulara akıllıca yanıt vermesini ve gerçek dünya ile ilgili çıkarımlarda bulunmasını sağlar. Formel bilgi temsilleri; içerik tabanlı indeksleme ve bilgi erişimi, [ 20 ] sahne yorumlama, [ 21 ] klinik karar destek sistemleri, [ 22 ] bilgi keşfi (büyük veritabanlarından "ilginç" ve eyleme geçirilebilir çıkarımlarda bulunma) [ 23 ] gibi birçok alanda kullanılmaktadır. [ 24 ]
+
+Yapay zekâ
+Tarihçe. Yapay zekâ tarihi, antik çağlarda, usta zanaatkarlar tarafından zeka veya bilinç kazandırılan yapay varlıklara ilişkin mitler, hikâyeler ve söylentilerle başladı. Mekanik ya da "formel" akıl yürütme üzerine çalışmalar, antik çağda filozoflar ve matematikçilerle birlikte devam etti. Mantık alanındaki bu çalışmalar, Alan Turing 'in algoritmalar teorisinin temelini oluşturdu. Turing'in teorisi, "0" ve "1" gibi basit sembolleri kullanarak bir makinenin, insan aklının gerçekleştirebileceği her türlü matematiksel akıl yürütmeyi simüle edebileceğini öne sürdü. [ 25 ] [ 26 ] Bu teori, sibernetik, bilgi teorisi ve nörobiyoloji gibi alanlardaki keşiflerle birleşerek, araştırmacılara "elektronik bir beyin" inşa etme olasılığını düşünmeye yöneltti. [ b ] Öne çıkan çalışmalar arasında, 1943'teki Warren McCullouch ve Walter Pitts 'in "yapay nöronlar" tasarımı [ 28 ] ve Turing'in 1950'de yayımladığı, "makine zekâsının" mümkün olduğunu gösterdiği Turing testini tanıtan Bilgi İşlem Makineleri ve Zekâ adlı makalesi bulunmaktaydı. [ 26 ] [ 29 ] Bu dönemde yapılan bu tür araştırmalar, yapay zekânın temel alanlarının ortaya çıkardı. [ 30 ] 
+ 1956'da Dartmouth College 'deki bir atölye çalışmasında yapay zeka araştırma alanı kuruldu. [ c ] [ 32 ] Bu atölyeye katılan araştırmacılar, 1960'larda yapay zekâ alanına liderlik ettiler. [ d ] Öğrencileriyle beraber bu araştırmacılar, basının "şaşırtıcı" olarak nitelendirdiği projeler ürettiler. [ e ] Bu dönemde bilgisayarlar, dama stratejileri öğrenmiş, cebir problemlerini çözmüş, mantıksal teoremleri kanıtlamış ve İngilizce konuşmuştu. [ f ] [ 35 ] 1950'lerin sonu ve 1960'ların başlarında, hem İngiltere'deki hem de Amerika Birleşik Devletleri'ndeki birçok üniversitede yapay zekâ laboratuvarları kuruldu. [ 26 ] 
+ 1960'lar ve 1970'lerdeki araştırmacılar, genel zekâya sahip bir makine üretmenin mümkün olduğuna inanıyor ve bunu alanlarının nihai hedefi olarak görüyordu. [ 36 ] 1965'te Herbert Simon, "makinelerin yirmi yıl içinde bir insanın yapabileceği her işi yapabilir hâle geleceği" tahmininde bulunmuş, [ 37 ] 1967'de Marvin Minsky, "bir nesil içinde... 'yapay zekâ' sorununun büyük ölçüde çözüleceği" yorumunu yapmıştı. [ 38 ] Ancak bu öngörüler, yapay zekânın geliştirilmesindeki zorlukları göz ardı etmişti. [ g ] 1974'te Sir James Lighthill 'ın eleştirileri [ 40 ] ve ABD Kongresi'nin daha somut projelere fon sağlama baskısı nedeniyle, ABD ve İngiltere hükûmetleri keşif amaçlı yapay zekâ araştırmalarına verilen desteği durdurma kararı aldı. [ 41 ] Minsky ve Seymour Papert 'ın Perceptrons adlı kitabı, yapay sinir ağlarının gerçek dünya problemlerini çözmede etkisiz olduğunu savunmuş ve bu yaklaşım, itibarını kaybetmişti. [ 42 ] Bunun sonucunda, yapay zekâ projelerine fon bulmanın zorlaştığı " yapay zekâ kışı " adı verilen bir dönem başladı. [ 43 ] 
+ 1980'lerin başında yapay zekâ araştırmaları, uzman sistemlerin ticari başarısıyla yeniden canlandı. [ 44 ] Uzman sistemler, uzmanların bilgi ve analiz yeteneklerini taklit eden bir tür yapay zekâ programıydı. 1985 yılına gelindiğinde, yapay zekâ pazarı 1 milyar doları aşmıştı. Aynı dönemde Japonya'nın beşinci nesil bilgisayar projesi, ABD ve Britanya hükûmetlerini akademik araştırmalara yeniden fon sağlamaya teşvik etti. [ 45 ] Ancak, 1987'de Lisp makinesi pazarının çöküşüyle yapay zekâ tekrar itibar kaybetti ve daha uzun süren ikinci bir "yapay zekâ kışı" başladı. [ 46 ] 
+ O zamana kadar yapay zekâ projelerinin büyük kısmı, planlar, hedefler, inançlar ve bilinen gerçekler gibi zihinsel kavramları temsil etmek için yüksek seviyede semboller kullanmaya odaklanmıştı. Ancak 1980'lerde bazı araştırmacılar, bu yaklaşımın insan bilişinin tüm süreçlerini, özellikle algı, robotik, öğrenme ve örüntü tanıma gibi karmaşık süreçleri taklit edemeyeceği konusunda şüphe duymaya başladı. [ 47 ] Bu nedenle, "alt sembolik" yöntemlere yöneldiler. [ 48 ] Rodney Brooks, genel olarak "temsil" fikrini reddederek hayatta kalabilen ve hareket edebilen makineler geliştirmeye odaklandı. [ h ] Judea Pearl ve Lofti Zadeh gibi isimler, eksik ve belirsiz bilgileri mantıksal kesinlik yerine mâkul tahminlerle işleyebilen yöntemler geliştirdi. [ 53 ] Ayrıca Geoffrey Hinton ve diğer araştırmacılar, " bağlantısallık " ve sinir ağ araştırmalarını yeniden canlandırarak bu alanın gelişimine katkıda bulundu. [ 54 ] 1990'da Yann LeCun, evrişimli sinir ağlarının el yazısı ile yazılmış rakamları tanıyabildiğini gösterdi; bu, sinir ağlarının birçok başarılı uygulamasından ilkiydi. [ 55 ] 
+ Yapay zekâ, 1990'ların sonları ve 21. yüzyılın başlarında, formal matematik yöntemlerinden yararlanarak ve belirli problemlere özel çözümler geliştirerek itibarını yeniden kazanmaya başladı. Bu " dar " ve "formal" yaklaşım, araştırmacıların doğrulanabilir sonuçlar üretmesini ve istatistik, ekonomi ve matematik gibi diğer alanlarla iş birliği yapmasını sağladı. [ 56 ] 2000'li yıllara gelindiğinde, yapay zekâ araştırmacılarının geliştirdiği çözümler yaygın olarak kullanılmaya başlanmıştı. Ancak 1990'larda bu çözümler genellikle "yapay zekâ" olarak adlandırılmıyordu (bu eğilim yapay zekâ etkisi olarak bilinir). [ 57 ] 
+Buna karşın, bazı akademisyenler yapay zekânın ilk hedefinden, yani çok yönlü ve tam anlamıyla zeki makineler yaratma amacından uzaklaştığını düşünmeye başladı. 2002'nin başlarında, bu hedefi yeniden canlandırmak amacıyla yapay genel zekâ ("AGI") adı verilen bir alt alan kuruldu. 2010'lara gelindiğinde, yapay genel zekâ araştırmaları için iyi finanse edilen birçok kurum ortaya çıktı.
+ Derin öğrenme, 2012'de endüstri standartlarında önemli bir üstünlük sağlayarak yapay zekâ alanında yaygın bir şekilde benimsendi. [ 58 ] 
+Birçok spesifik görevde diğer yöntemler terk edildi. [ i ] 
+Bu başarının arkasında daha hızlı bilgisayarlar, [ 60 ] grafik işlem birimleri, bulut bilişim [ 61 ] gibi donanım geliştirmeleriyle ImageNet gibi dikkatle oluşturulmuş veri kümelerinin de dâhil olduğu [ 61 ] büyük miktarda veriye erişim [ 62 ] yatıyordu. Derin öğrenmenin bu yükselişi, yapay zekâya olan ilgi ve finansmanda büyük bir artışı tetikledi. [ j ] 2015-2019 yılları arasında makine öğrenimi araştırmalarındaki toplam yayımlanma sayısında %50'lik bir artış görüldü. [ 63 ] 
+ 2016'da, adalet ve teknolojinin yanlış kullanımı gibi etik sorunlar, makine öğrenimi konferanslarında ana gündem maddesi hâline geldi. Bu konularda yapılan yayımlar hızla artarken, yeni finansman kaynakları sağlandı ve birçok araştırmacı kariyerlerini bu alanlara yönlendirdi. Aynı dönemde, yapay zekânın insan çıkarlarına uygun şekilde geliştirilmesini konu alan " uyum problemi " akademik bir çalışma alanı olarak ciddiyet kazandı. [ 64 ] 
+ 2010'ların sonları ve 2020'lerin başlarında, yapay genel zekâ üzerine çalışan şirketler dikkat çeken yazılımlar üretmeye başladı. 2015 yılında DeepMind tarafından geliştirilen AlphaGo, oyunun kuralları öğretilerek kendi stratejisini geliştirdi ve dünya şampiyonu Go oyuncusunu yendi. 2020'de OpenAI tarafından çıkarılan GPT-3, insan benzeri yüksek kaliteli metinler üretebilen bir geniş dil modeli olarak dikkat çekti. [ 65 ] 30 Kasım 2022'de kullanıma sunulan ChatGPT ise iki ay içinde 100 milyon kullanıcıya ulaşarak tarihin en hızlı büyüyen tüketici yazılımı oldu. [ 66 ] 2022 yılı, yapay zekânın geniş kitleler tarafından fark edildiği ve yaygın bir şekilde konuşulmaya başlandığı bir dönüm noktası olarak kabul edildi. [ 67 ] Bu yazılımlar, büyük bir yapay zeka patlamasını tetikledi. Büyük ölçekli şirketler yapay zekâ araştırmalarına milyarlarca dolar yatırım yapmaya başladı. AI Impacts'in verilerine göre, 2022 yılında sadece ABD'de yapay zekâya yıllık yaklaşık $50 milyar yatırım yapıldı. ABD'deki yeni bilgisayar bilimi doktora mezunlarının yaklaşık %20'si yapay zekâ üzerine uzmanlaştı. [ 68 ] Aynı yıl, ABD'de yapay zekâ ile ilgili 800.000 iş ilanı bulundu. [ 69 ] PitchBook araştırmasına göre, 2024'te yeni fon alan girişimlerin %22'si kendilerini yapay zekâ şirketi olarak tanımlıyordu. [ 70 ]
+
+Yapay zekâ
+İlk araştırmalar ve yapay sinir ağları. İdealize edilmiş tanımıyla yapay zekâ konusundaki ilk çalışmalardan biri McCulloch ve Pitts tarafından yapılmıştır. Bu araştırmacıların önerdiği, yapay sinir hücrelerini kullanan hesaplama modeli, önermeler mantığı, fizyoloji ve Turing 'in hesaplama kuramına dayanıyordu. Herhangi bir hesaplanabilir fonksiyonun sinir hücrelerinden oluşan ağlarla hesaplanabileceğini ve mantıksal ve ve veya işlemlerinin gerçekleştirilebileceğini gösterdiler. Bu ağ yapılarının uygun şekilde tanımlanmaları hâlinde öğrenme becerisi kazanabileceğini de ileri sürdüler. Hebb, sinir hücreleri arasındaki bağlantıların şiddetlerini değiştirmek için basit bir kural önerince, öğrenebilen yapay sinir ağlarını gerçekleştirmek de olası hale gelmiştir.
+ 1950'lerde Shannon ve Turing bilgisayarlar için satranç programları yazıyorlardı. İlk yapay sinir ağı temelli bilgisayar SNARC, MIT 'de Minsky ve Edmonds tarafından 1951'de yapıldı. Çalışmalarını Princeton Üniversitesi 'nde sürdüren Mc Carthy, Minsky, Shannon ve Rochester 'le birlikte 1956 yılında Dartmouth 'da iki aylık bir açık çalışma düzenledi. Bu toplantıda birçok çalışmanın temelleri atılmakla birlikte, toplantının en önemli özelliği Mc Carthy tarafından önerilen yapay zekâ adının konmasıdır. İlk kuram ispatlayan programlardan Logic Theorist (Mantık kuramcısı) burada Newell ve Simon tarafından tanıtılmıştır.
+
+Yapay zekâ
+Yeni yaklaşımlar. Daha sonra Newell ve Simon, insan gibi düşünme yaklaşımına göre üretilmiş ilk program olan Genel Sorun Çözücü (General Problem Solver)'ı geliştirmişlerdir. Simon, daha sonra fiziksel simge varsayımını ortaya atmış ve bu kuram, insandan bağımsız zeki sistemler yapma çalışmalarıyla uğraşanların hareket noktasını oluşturmuştur. Simon 'ın bu tanımlaması bilim adamlarının yapay zekâya yaklaşımlarında iki farklı akımın ortaya çıktığını belirginleştirmesi açısından önemlidir [ 71 ]: Sembolik Yapay Zekâ ve Sibernetik Yapay Zekâ.
+
+Yapay zekâ
+Sembolik yapay zekâ. Simon 'ın sembolik yaklaşımından sonraki yıllarda mantık temelli çalışmalar egemen olmuş ve programların başarımlarını göstermek için bir takım yapay sorunlar ve dünyalar kullanılmıştır. Daha sonraları bu sorunlar gerçek yaşamı hiçbir şekilde temsil etmeyen oyuncak dünyalar olmakla suçlanmış ve yapay zekânın yalnızca bu alanlarda başarılı olabileceği ve gerçek yaşamdaki sorunların çözümüne ölçeklenemeyeceği ileri sürülmüştür.
+ Geliştirilen programların gerçek sorunlarla karşılaşıldığında çok kötü bir başarım göstermesinin ardındaki temel neden, bu programların yalnızca sentaktik süreçleri benzeşimlendirerek anlam çıkarma, bağlantı kurma ve fikir yürütme gibi süreçler konusunda başarısız olmasıydı. Bu dönemin en ünlü programlarından Weizenbaum tarafından geliştirilen Eliza, karşısındaki ile sohbet edebiliyor gibi görünmesine karşın, yalnızca karşısındaki insanın cümleleri üzerinde bazı işlemler yapıyordu. İlk makine çevirisi çalışmaları sırasında benzeri yaklaşımlar kullanılıp çok gülünç çevirilerle karşılaşılınca bu çalışmaların desteklenmesi durdurulmuştu. Bu yetersizlikler aslında insan beynindeki semantik süreçlerin yeterince incelenmemesinden kaynaklanmaktaydı.
+
+Yapay zekâ
+Sibernetik yapay zekâ. Yapay sinir ağları çalışmalarının dahil olduğu sibernetik cephede de durum aynıydı. Zeki davranışı benzeşimlendirmek için bu çalışmalarda kullanılan temel yapılardaki bazı önemli yetersizliklerin ortaya konmasıyla birçok araştırmacılar çalışmalarını durdurdular. Buna en temel örnek, Yapay sinir ağları konusundaki çalışmaların Marvin Minsky ve Seymour Papert 'in 1969'da yayınlanan Perceptrons adlı kitaplarında tek katmanlı algaçların bazı basit problemleri çözemeyeceğini gösterip aynı kısırlığın çok katmanlı algaçlarda da beklenilmesi gerektiğini söylemeleri ile bıçakla kesilmiş gibi durmasıdır.
+ Sibernetik akımın uğradığı başarısızlığın temel sebebi de benzer şekilde Yapay Sinir Ağının tek katmanlı görevi başarması fakat bu görevle ilgili vargıların veya sonuçların bir yargıya dönüşerek diğer kavramlar ile bir ilişki kurulamamasından kaynaklanmaktadır. Bu durum aynı zamanda semantik süreçlerin de benzeşimlendirilememesi gerçeğini doğurdu.
+
+Yapay zekâ
+Uzman sistemler. Her iki akımın da uğradığı başarısızlıklar, her sorunu çözecek genel amaçlı sistemler yerine belirli bir uzmanlık alanındaki bilgiyle donatılmış programları kullanma fikrinin gelişmesine sebep oldu ve bu durum yapay zekâ alanında yeniden bir canlanmaya yol açtı. Kısa sürede Uzman sistemler adı verilen bir metodoloji gelişti.
+ Uzman sistemler bir konuda belli ön koşullar aynı anda var olduğunda konunun bir uzmanın (bazen ne olasılıkla) ne karar alacağını belirleyen kuralların tümünü içeren bir programı gelen problemlere uygulamak temellidir. Bunun bir avantajı her verilen kararın hangi kurallar uygulanarak verildiğinin kolayca bilinmesi idi. Bu birçok kuralcı bürokratik karar örgütleri için kolayca uygulamalar geliştirilebilmesi demekti. Bu doğal olarak bir otomobilin tamiri için önerilerde bulunan uzman sistem programının otomobilin ne işe yaradığından haberi olmaması da demekti. Buna rağmen uzman sistemlerin başarıları beraberinde ilk ticari uygulamaları da getirdi.
+ Yapay zekâ yavaş yavaş bir endüstri hâline geliyordu. DEC tarafından kullanılan ve müşteri siparişlerine göre donanım seçimi yapan R1 adlı uzman sistem şirkete bir yılda 40 milyon dolarlık tasarruf sağlamıştı. Birden diğer ülkeler de yapay zekâyı yeniden keşfettiler ve araştırmalara büyük kaynaklar ayrılmaya başlandı. 1988'de yapay zekâ endüstrisinin cirosu 2 milyar dolara ulaşmıştı.
+
+Yapay zekâ
+Doğal dil işleme. Antropoloji bilimi, gelişmiş insan zekâsı ile dil arasındaki bağlantıyı gözler önüne serdiğinde, dil üzerinden yürütülen yapay zekâ çalışmaları tekrar önem kazandı. İnsan zekâsının doğrudan doğruya kavramlarla düşünmediği, dil ile düşündüğü, dil kodları olan kelimeler ile kavramlar arasında bağlantı kurduğu anlaşıldı. Bu sayede insan aklı kavramlar ile düşünen Hayvan beyninden daha hızlı işlem yapabilmekteydi ve dil dizgeleri olan cümleler yani şablonlar ile etkili bir öğrenmeye ve bilgisini soyut olarak genişletebilme yeteneğine sahip olmuştu. İnsanların iletişimde kullandıkları Türkçe, İngilizce gibi doğal dilleri anlayan bilgisayarlar konusundaki çalışmalar hızlanmaya başladı. Önce, yine Uzman sistemler olarak karşımıza çıkan doğal dil anlayan programlar, daha sonra Sembolik Yapay Zekâ ile ilgilenenler arasında ilgiyle karşılandı ve yazılım alanındaki gelişmeler sayesinde İngilizce olan A.I.M.L (Artificial intelligence Markup Language) ve Türkçe T.Y.İ.D (Türkçe Yapay Zekâ İşaretleme Dili) gibi bilgisayar dilleri ile sentaktik (Örüntü) işlemine uygun veri erişim metotları geliştirilebildi. Bugün Sembolik Yapay Zekâ araştırmacıları özel Yapay Zekâ dillerini kullanarak verileri birbiri ile ilişkilendirebilmekte, geliştirilen özel prosedürler sayesinde anlam çıkarma ve çıkarımsama yapma gibi ileri seviye bilişsel fonksiyonları benzetimlendirmeye çalışmaktadırlar.
+ Bütün bu gelişmelerin ve süreçlerin sonunda bir grup yapay zekâ araştırmacısı, insan gibi düşünebilen sistemleri araştırmaya devam ederken diğer bir grup ise ticari değeri olan rasyonel karar alan sistemler (Uzman sistemler) üzerine yoğunlaştı.
+
+Yapay zekâ
+Diyalog bazlı yapay zeka. Doğal dil işleme ve makine öğrenmesi gibi yapay zeka teknolojileri kullanılarak insan ve makine (yazılım) arasında bir diyaloğun sürdürülmesini sağlayan yapay zeka alt dalına "diyalog bazlı yapay zeka" (conversational artificial intelligence) denir. Daha önce insanların bilgisayara komut vermesinde kullanılan web, mobil uygulama gibi grafiksel arayüzlerin (GUI) yerine geçmeyi amaçlayan diyalog bazlı arayüzler (CUI) insanların bilgisayara günlük dilde yazarak veya konuşarak komut verebilmesini amaçlar. Günümüzde, chatbotlar ve sesli asistanlar diyalog bazlı yapay zeka alanında sıkça kullanılan teknolojik ürünler olarak karşımıza çıkmaktadır.
+
+Yapay zekâ
+Chatbotlar. Chatbotlar, diyalog bazlı yapay zekanın günlük hayatta kullanılan bir örneğidir. Kullanıcılar, Türkçeye sohbet robotları olarak geçmiş bu dijital ürünler ile yazışarak belirli bir konuda bilgi alabilir veya uçak bileti almak, banka havalesi yapmak veya bir kitap satın almak gibi günlük işlerini yapabilirler. Chatbotlar, şirketlerin web sitesinde veya mobil uygulamasında yer alabilirler. Bunun dışında chatbotlar, WhatsApp, Facebook Messenger gibi genel mesajlaşma platformlarında veya Google Assistant, Siri gibi sesli asistanlarda da yer alabilirler.
+ Chatbotlar kullanıcı ile etkileşim kurma yöntemini, arkasında yer alan teknolojik altyapıya göre farklı çeşitlerde oluşturulabilir. Örneğin bir chatbot kullanıcı ile, sadece kullanıcı onunla etkileşime girdiğinde iletişim kuruyorsa reaktif bir chatbottur, eğer bir uyarıcı ile tetiklenerek kullanıcı ile olan diyaloğu başlatan taraf oluyorsa buna proaktif bir chatbot denir. Teknoloji açısından bakılacak olursa, yapay zeka tabanlı chatbotların yanında, doğal dil işleme, makine öğrenmesi gibi yapay zeka teknolojileri kullanılmadan geliştirilen kural tabanlı chatbotlar da kullanılmaktadır. Ancak bu iki tür chatbotun davranışı farklıdır. Kural bazlı chatbotlarda genellikle kullanıcıya belirli seçenekler sunulur ve yaratılan deneyim bu seçeneklerle sınırlı kalır. Yapay zeka tabanlı chatbotlarda ise kullanıcı serbest bir metin yazabilir, chatbotun doğal dil işleme teknolojisi bu metni anlamlandırıp doğru yanıtı belirleyerek kullanıcıya sunar. [ 72 ]
+
+Yapay zekâ
+Süper zekâ ve tekillik. Süper zekâ, en parlak ve en yetenekli insan zihninin zekâsını çok aşan bir zekâya sahip varsayımsal bir etkendir. [ 73 ] Yapay genel zekâ üzerine yapılan araştırmalar yeterince zeki bir yazılım üretirse, yazılım kendini yeniden programlayabilir ve geliştirebilir. Gelişen yazılım kendini geliştirmede daha da iyi olur ve I. J. Good 'un " zekâ patlaması " ve Vernor Vinge 'in " tekillik " olarak adlandırdığı şeye yol açar. [ 74 ] 
+ Ancak teknolojiler sonsuza kadar üstel olarak gelişemez ve genellikle S şeklinde bir eğri izler, teknolojinin yapabileceği şeyin fiziksel sınırlarına ulaştığında yavaşlar. [ 75 ]
+
+Yapay zekâ
+Transhümanizm. Robot tasarımcısı Hans Moravec, sibernetikçi Kevin Warwick ve mucit Ray Kurzweil, gelecekte insanların ve makinelerin birleşerek her ikisinden de daha yetenekli ve güçlü siborglara dönüşebileceğini öngördüler. Transhümanizm olarak adlandırılan bu fikrin kökleri, Aldous Huxley ve Robert Ettinger 'ın yazılarında bahsedilmektedir. [ 76 ] 
+ Edward Fredkin, "yapay zekânın evrimin bir sonraki adımı" olduğunu savunmaktaydı; bu fikir ilk olarak Samuel Butler 'ın " Darwin among the Machines " adlı mektubunda 1863'te ortaya atıldı ve George Dyson tarafından 1998'deki Darwin Among the Machines: The Evolution of Global Intelligence adlı kitabında geliştirildi. [ 77 ]
+
+Yapay zekâ
+Uygulama alanları. Yapay zekanın uygulama alanlarının bazı örnekleri şu şekildedir:
+ Önerici sistemler: Kullanıcıların geçmiş davranışlarına dayanarak yeni içerik önerilmesi. Örneğin, sosyal medya sitelerinde yeni arkadaş, mağazalarda başka bir ürün, gazetede başka bir haber önerileri. 
+ Makine çevirisi: Bir dilde ifade edilen cümleyi farklı bir dile çevirmek. Örneğin, Google Translate, Microsoft Tercüman ve Yandex.Çeviri gibi çevrimiçi araçlar. 
+ Sinyal işleme: Ses ve görüntü gibi sinyallerin işlenerek bilgi çıkarımı. Örneğin, yüz ve ses tanıma. 
+ Prosedürel içerik üretimi: Rassal yöntemler kullanarak yapay içerik üretme. Örneğin, üretimsel müzik ve video oyunlarında prosedürel dünyalar. 
+ Regresyon analizi: Geçmiş verilere dayanılarak bir değişkenin gelecekteki değerinin tahmin edilmesi. Örneğin, ekonomik öngörüler, üretim miktarı öngörüleri. 
+ Görüntü işleme: Dijital görüntülerde bulunan objeleri tanıma, yerini bulma, sınıflandırma gibi işlemlerin tümü. Yapay zekadan önce bu işlemler Hough dönüşümü gibi kurala dayalı algoritmalar ile sürdürülürken, günümüzde bu kurallar veriden öğrenilmektedir. Görüntülemenin sık kullanıldığı tıp, [ 78 ] biyoloji, [ 79 ] otomotiv, [ 80 ] üretim [ 81 ] gibi alanlarda kullanılmaktadır. 
+ Makale yazma: Dünyada yapay zeka ile yazılan ilk köşe yazısı 8 Eylül 2020 tarihinde The Guardian gazetesinde yayınlanmıştır. [ 82 ] Türkiye'de yapay zekanın yazdığı ilk haber ise Şalom gazetesinde 2018 yılında yayınlanmıştır. [ 83 ]
+
+Yapay zekâ
+Alt dallar. Makine Zekâsı (Sembolik Yapay Zekâ) 
+ Yapay Sinir Ağları (Sibernetik Yapay Zekâ) 
+ Doğal Dil işleme (Dil ile düşünme) 
+ Görüntü İşleme 
+ Konuşma Sentezi (Yapay Konuşma) 
+ Konuşma Anlama (Konuşma Analizi) 
+ Tümevarımlı mantık programlama 
+ Bilgi-tabanlı sistem 
+ Bilgisayarlı görü 
+ Doğal dil üretme 
+ Uzman sistemler 
+ Sinirsel şebeke 
+ Makine öğrenimi 
+ Örüntü Tanıma 
+ Genetik Algoritmalar 
+ Genetik Programlama 
+ Bulanık Mantık 
+ Çoklu Örnekle Öğrenme (Multiple Instance Learning)
+
+Yapay zekâ
+Ayrıca bakınız. Yapay zekâ mühendisliği 
+ Yapay zekâya yönelik programlama dilleri listesi 
+ Yapay zekâ projeleri listesi 
+ Yapay zekâ uygulamaları 
+ Derin öğrenme yazılımlarının karşılaştırılması 
+ Video gözetimi için yapay zeka 
+ Sağlık hizmetlerinde yapay zekâ 
+ Video oyunlarında yapay zekâ 
+ Yapay zekânın kontrolü devralması 
+ Üretken yapay zekâ 
+ Yapay zekâ alanında ilerleme 
+ Açık kaynaklı yapay zeka 
+ Yapay Zekâ Soğuk Savaşı 
+ Yapay zekâ silahlanma yarışı 
+ Yapay Zekâ Yasası 
+ Yapay zekâ sanatı 
+ Yapay zekâ çağı 
+ Yapay zekâ etiği 
+ Yapay zekâ kışı 
+ Yapay zeka felsefesi 
+ Yapay hayal gücü 
+ Genetik Programlama 
+ Nöro-sembolik yapay zeka 
+ Yapay zeka etkisi 
+ Sembolik yapay zeka 
+ Genetik Programlama 
+ AI slop 
+ Toplu zekâ 
+ Yapay bilinç 
+ Durum tabanlı çıkarsama 
+ Yapay genel zekâ 
+ Duygu analizi 
+ Çince odası 
+ Bilişsel dilbilim
+
+Yapay zekâ
+Yapay zekâ (İngilizce: Artificial intelligence, AI); hesaplama sistemlerinin öğrenme, akıl, problem çözme, algılama ve karar verme gibi tipik olarak insan zekâsıyla ilişkilendirilen görevleri yerine getirme yeteneğidir. Dördüncü Sanayi Devrimi 'nin en yaygın özelliklerinden biri olarak kabul edilir. İlk ve ikinci kategoriler arasındaki ayrım genellikle seçilen kısaltmayla ortaya çıkar. Güçlü yapay zeka genellikle yapay genel zekâ (İngilizce: Artificial general intelligence kelimelerinin kısaltılmışı olarak: AGI) olarak etiketlenirken, doğal zekayı taklit etme girişimleri yapay biyolojik zekâ (İngilizce: Artificial biological intelligence: ABI) olarak adlandırılır. Önde gelen yapay zekâ ders kitapları, alanı zeki etmenlerin çalışması olarak tanımlar: Çevresini algılayan ve hedeflerine başarıyla ulaşma şansını en üst düzeye çıkaran eylemleri gerçekleştiren herhangi bir cihaz. [ 3 ] Toplum arasında, yapay zekâ kavramı genellikle insanların insan zihni ile ilişkilendirdiği öğrenme ve problem çözme gibi bilişsel eylemleri taklit eden makineleri tanımlamak için kullanılır. [ 4 ] 
+ Makineler daha becerikli hâle geldikçe, zekâ gerektirdiği düşünülen görevler genellikle yapay zekâ etkisi olarak bilinen bir fenomen olan yapay zekâ tanımından çıkarılır. [ 5 ] Tesler'in teoremindeki bir espri, "Yapay zekâ henüz yapılmamış şeydir" der. [ 6 ] Örneğin, optik karakter tanıma yapay zekâ olarak değerlendirilen şeylerin dışında tutulur, [ 7 ] rutin teknoloji hâline gelir. [ 8 ] 
+ Genellikle yapay zekâ olarak sınıflandırılan modern makine yetenekleri satranç ve Go [ 9 ] gibi stratejik oyun sistemlerinde, en üst düzeyde rekabet eden insan konuşmasını anlama, [ 10 ] poker ya da otonom arabalar gibi kusurlu-bilgi oyunlarını içerik dağıtım ağındaki akıllı yönlendirmeyi ve askeri simülasyonları kapsar. [ 11 ] 
+ Yapay zekâ çalışmaları sıklıkla insanın düşünme yöntemlerini taklit eden yapay algoritmalar geliştirmeye yöneliktir, [ 12 ] ancak bununla sınırlı değildir. Öğrenebilen ve gelecekte insan zekâsından bağımsız gelişebilecek bir yapay zekâ kavramına doğru yeni yönelimler oluşmaktadır. Bu yönelim, insanın evreni ve doğayı anlama çabasında kendisine yardımcı olabilecek belki de kendisinden daha zeki, insan ötesi varlıklar meydana getirme düşünün bir ürünüdür. Bu düş, 1920'li yıllarda yazılan ve sonraları Isaac Asimov 'u etkileyen modern bilimkurgu edebiyatının öncü yazarlarından Karel Čapek 'in eserlerinde dışa vurmuştur. Karel Čapek, R.U.R. adlı tiyatro oyununda yapay zekâya sahip robotlar ile insanlığın ortak toplumsal sorunlarını ele alarak 1920 yılında yapay zekânın insan aklından bağımsız gelişebileceğini öngörmüştür. [ 13 ]
+
+Yapay zekâ
+Tanım. Yapay zekâ, idealleştirilmiş bir perspektife göre insan zekâsına özgü yüksek bilişsel fonksiyonları veya otonom davranışları sergileyen bir yapay işletim sistemidir. Bu sistem, algılama, öğrenme, çoğul kavramları bağlama, düşünme, fikir yürütme (belirtme), sorun çözme, iletişim kurma ve karar verme gibi yeteneklere sahip olmalıdır. [ 14 ] Ayrıca, bu yapay zekâ sistemi düşüncelerinden tepkiler üretebilmeli (eyleyici yapay zekâ) ve bu tepkileri fiziksel olarak dışa vurabilmelidir.
+Hedefler. Zekâyı simüle etme (veya oluşturma) genel problemi, alt problemlere ayrılmıştır. Bu alt problemler, araştırmacıların zeki bir sistemden sergilemesini beklediği belirli özellikler veya yeteneklerden oluşur. Aşağıda açıklanan özellikler, yapay zekâ araştırmalarında en çok dikkat çeken konular arasında yer almakta ve bu araştırmaların kapsamını belirlemektedir. [ a ]
+
+Yapay zekâ
+Akıl yürütme ve problem çözme. Yapay zekânın ilk araştırmacıları, insanların bulmacaları çözerken veya mantıksal çıkarımlar yaparken kullandığı adım adım akıl yürütmeyi taklit eden algoritmalar geliştirmiştir. [ 15 ] 1980'lerin sonları ve 1990'larda, belirsiz veya eksik bilgiyle başa çıkmak için olasılık ve ekonomi kavramlarını kullanan yöntemler geliştirilmiştir. [ 16 ] 
+ Bu algoritmaların birçoğu, büyük ölçekli akıl yürütme problemlerini çözmek için yetersizdir, çünkü "kombinatoryal patlama" denilen bir durum yaşarlar: Problemler büyüdükçe bu algoritmaların çalışması üstel bir şekilde yavaşlar. [ 17 ] Hatta insanlar bile erken dönem yapay zekânın modelleyebildiği adım adım akıl yürütmeyi nadiren kullanır. İnsanlar, çoğu sorunlarını hızlı ve sezgisel yargılarla çözerler. [ 18 ] Doğru ve verimli akıl yürütme, hâlâ çözülememiş bir problemdir.
+
+Yapay zekâ
+Bilgi temsili. Bilgi temsili ve bilgi mühendisliği, [ 19 ] yapay zekâ programlarının sorulara akıllıca yanıt vermesini ve gerçek dünya ile ilgili çıkarımlarda bulunmasını sağlar. Formel bilgi temsilleri; içerik tabanlı indeksleme ve bilgi erişimi, [ 20 ] sahne yorumlama, [ 21 ] klinik karar destek sistemleri, [ 22 ] bilgi keşfi (büyük veritabanlarından "ilginç" ve eyleme geçirilebilir çıkarımlarda bulunma) [ 23 ] gibi birçok alanda kullanılmaktadır. [ 24 ]
+
+Yapay zekâ
+Tarihçe. Yapay zekâ tarihi, antik çağlarda, usta zanaatkarlar tarafından zeka veya bilinç kazandırılan yapay varlıklara ilişkin mitler, hikâyeler ve söylentilerle başladı. Mekanik ya da "formel" akıl yürütme üzerine çalışmalar, antik çağda filozoflar ve matematikçilerle birlikte devam etti. Mantık alanındaki bu çalışmalar, Alan Turing 'in algoritmalar teorisinin temelini oluşturdu. Turing'in teorisi, "0" ve "1" gibi basit sembolleri kullanarak bir makinenin, insan aklının gerçekleştirebileceği her türlü matematiksel akıl yürütmeyi simüle edebileceğini öne sürdü. [ 25 ] [ 26 ] Bu teori, sibernetik, bilgi teorisi ve nörobiyoloji gibi alanlardaki keşiflerle birleşerek, araştırmacılara "elektronik bir beyin" inşa etme olasılığını düşünmeye yöneltti. [ b ] Öne çıkan çalışmalar arasında, 1943'teki Warren McCullouch ve Walter Pitts 'in "yapay nöronlar" tasarımı [ 28 ] ve Turing'in 1950'de yayımladığı, "makine zekâsının" mümkün olduğunu gösterdiği Turing testini tanıtan Bilgi İşlem Makineleri ve Zekâ adlı makalesi bulunmaktaydı. [ 26 ] [ 29 ] Bu dönemde yapılan bu tür araştırmalar, yapay zekânın temel alanlarının ortaya çıkardı. [ 30 ] 
+ 1956'da Dartmouth College 'deki bir atölye çalışmasında yapay zeka araştırma alanı kuruldu. [ c ] [ 32 ] Bu atölyeye katılan araştırmacılar, 1960'larda yapay zekâ alanına liderlik ettiler. [ d ] Öğrencileriyle beraber bu araştırmacılar, basının "şaşırtıcı" olarak nitelendirdiği projeler ürettiler. [ e ] Bu dönemde bilgisayarlar, dama stratejileri öğrenmiş, cebir problemlerini çözmüş, mantıksal teoremleri kanıtlamış ve İngilizce konuşmuştu. [ f ] [ 35 ] 1950'lerin sonu ve 1960'ların başlarında, hem İngiltere'deki hem de Amerika Birleşik Devletleri'ndeki birçok üniversitede yapay zekâ laboratuvarları kuruldu. [ 26 ] 
+ 1960'lar ve 1970'lerdeki araştırmacılar, genel zekâya sahip bir makine üretmenin mümkün olduğuna inanıyor ve bunu alanlarının nihai hedefi olarak görüyordu. [ 36 ] 1965'te Herbert Simon, "makinelerin yirmi yıl içinde bir insanın yapabileceği her işi yapabilir hâle geleceği" tahmininde bulunmuş, [ 37 ] 1967'de Marvin Minsky, "bir nesil içinde... 'yapay zekâ' sorununun büyük ölçüde çözüleceği" yorumunu yapmıştı. [ 38 ] Ancak bu öngörüler, yapay zekânın geliştirilmesindeki zorlukları göz ardı etmişti. [ g ] 1974'te Sir James Lighthill 'ın eleştirileri [ 40 ] ve ABD Kongresi'nin daha somut projelere fon sağlama baskısı nedeniyle, ABD ve İngiltere hükûmetleri keşif amaçlı yapay zekâ araştırmalarına verilen desteği durdurma kararı aldı. [ 41 ] Minsky ve Seymour Papert 'ın Perceptrons adlı kitabı, yapay sinir ağlarının gerçek dünya problemlerini çözmede etkisiz olduğunu savunmuş ve bu yaklaşım, itibarını kaybetmişti. [ 42 ] Bunun sonucunda, yapay zekâ projelerine fon bulmanın zorlaştığı " yapay zekâ kışı " adı verilen bir dönem başladı. [ 43 ] 
+ 1980'lerin başında yapay zekâ araştırmaları, uzman sistemlerin ticari başarısıyla yeniden canlandı. [ 44 ] Uzman sistemler, uzmanların bilgi ve analiz yeteneklerini taklit eden bir tür yapay zekâ programıydı. 1985 yılına gelindiğinde, yapay zekâ pazarı 1 milyar doları aşmıştı. Aynı dönemde Japonya'nın beşinci nesil bilgisayar projesi, ABD ve Britanya hükûmetlerini akademik araştırmalara yeniden fon sağlamaya teşvik etti. [ 45 ] Ancak, 1987'de Lisp makinesi pazarının çöküşüyle yapay zekâ tekrar itibar kaybetti ve daha uzun süren ikinci bir "yapay zekâ kışı" başladı. [ 46 ] 
+ O zamana kadar yapay zekâ projelerinin büyük kısmı, planlar, hedefler, inançlar ve bilinen gerçekler gibi zihinsel kavramları temsil etmek için yüksek seviyede semboller kullanmaya odaklanmıştı. Ancak 1980'lerde bazı araştırmacılar, bu yaklaşımın insan bilişinin tüm süreçlerini, özellikle algı, robotik, öğrenme ve örüntü tanıma gibi karmaşık süreçleri taklit edemeyeceği konusunda şüphe duymaya başladı. [ 47 ] Bu nedenle, "alt sembolik" yöntemlere yöneldiler. [ 48 ] Rodney Brooks, genel olarak "temsil" fikrini reddederek hayatta kalabilen ve hareket edebilen makineler geliştirmeye odaklandı. [ h ] Judea Pearl ve Lofti Zadeh gibi isimler, eksik ve belirsiz bilgileri mantıksal kesinlik yerine mâkul tahminlerle işleyebilen yöntemler geliştirdi. [ 53 ] Ayrıca Geoffrey Hinton ve diğer araştırmacılar, " bağlantısallık " ve sinir ağ araştırmalarını yeniden canlandırarak bu alanın gelişimine katkıda bulundu. [ 54 ] 1990'da Yann LeCun, evrişimli sinir ağlarının el yazısı ile yazılmış rakamları tanıyabildiğini gösterdi; bu, sinir ağlarının birçok başarılı uygulamasından ilkiydi. [ 55 ] 
+ Yapay zekâ, 1990'ların sonları ve 21. yüzyılın başlarında, formal matematik yöntemlerinden yararlanarak ve belirli problemlere özel çözümler geliştirerek itibarını yeniden kazanmaya başladı. Bu " dar " ve "formal" yaklaşım, araştırmacıların doğrulanabilir sonuçlar üretmesini ve istatistik, ekonomi ve matematik gibi diğer alanlarla iş birliği yapmasını sağladı. [ 56 ] 2000'li yıllara gelindiğinde, yapay zekâ araştırmacılarının geliştirdiği çözümler yaygın olarak kullanılmaya başlanmıştı. Ancak 1990'larda bu çözümler genellikle "yapay zekâ" olarak adlandırılmıyordu (bu eğilim yapay zekâ etkisi olarak bilinir). [ 57 ] 
+Buna karşın, bazı akademisyenler yapay zekânın ilk hedefinden, yani çok yönlü ve tam anlamıyla zeki makineler yaratma amacından uzaklaştığını düşünmeye başladı. 2002'nin başlarında, bu hedefi yeniden canlandırmak amacıyla yapay genel zekâ ("AGI") adı verilen bir alt alan kuruldu. 2010'lara gelindiğinde, yapay genel zekâ araştırmaları için iyi finanse edilen birçok kurum ortaya çıktı.
+ Derin öğrenme, 2012'de endüstri standartlarında önemli bir üstünlük sağlayarak yapay zekâ alanında yaygın bir şekilde benimsendi. [ 58 ] 
+Birçok spesifik görevde diğer yöntemler terk edildi. [ i ] 
+Bu başarının arkasında daha hızlı bilgisayarlar, [ 60 ] grafik işlem birimleri, bulut bilişim [ 61 ] gibi donanım geliştirmeleriyle ImageNet gibi dikkatle oluşturulmuş veri kümelerinin de dâhil olduğu [ 61 ] büyük miktarda veriye erişim [ 62 ] yatıyordu. Derin öğrenmenin bu yükselişi, yapay zekâya olan ilgi ve finansmanda büyük bir artışı tetikledi. [ j ] 2015-2019 yılları arasında makine öğrenimi araştırmalarındaki toplam yayımlanma sayısında %50'lik bir artış görüldü. [ 63 ] 
+ 2016'da, adalet ve teknolojinin yanlış kullanımı gibi etik sorunlar, makine öğrenimi konferanslarında ana gündem maddesi hâline geldi. Bu konularda yapılan yayımlar hızla artarken, yeni finansman kaynakları sağlandı ve birçok araştırmacı kariyerlerini bu alanlara yönlendirdi. Aynı dönemde, yapay zekânın insan çıkarlarına uygun şekilde geliştirilmesini konu alan " uyum problemi " akademik bir çalışma alanı olarak ciddiyet kazandı. [ 64 ] 
+ 2010'ların sonları ve 2020'lerin başlarında, yapay genel zekâ üzerine çalışan şirketler dikkat çeken yazılımlar üretmeye başladı. 2015 yılında DeepMind tarafından geliştirilen AlphaGo, oyunun kuralları öğretilerek kendi stratejisini geliştirdi ve dünya şampiyonu Go oyuncusunu yendi. 2020'de OpenAI tarafından çıkarılan GPT-3, insan benzeri yüksek kaliteli metinler üretebilen bir geniş dil modeli olarak dikkat çekti. [ 65 ] 30 Kasım 2022'de kullanıma sunulan ChatGPT ise iki ay içinde 100 milyon kullanıcıya ulaşarak tarihin en hızlı büyüyen tüketici yazılımı oldu. [ 66 ] 2022 yılı, yapay zekânın geniş kitleler tarafından fark edildiği ve yaygın bir şekilde konuşulmaya başlandığı bir dönüm noktası olarak kabul edildi. [ 67 ] Bu yazılımlar, büyük bir yapay zeka patlamasını tetikledi. Büyük ölçekli şirketler yapay zekâ araştırmalarına milyarlarca dolar yatırım yapmaya başladı. AI Impacts'in verilerine göre, 2022 yılında sadece ABD'de yapay zekâya yıllık yaklaşık $50 milyar yatırım yapıldı. ABD'deki yeni bilgisayar bilimi doktora mezunlarının yaklaşık %20'si yapay zekâ üzerine uzmanlaştı. [ 68 ] Aynı yıl, ABD'de yapay zekâ ile ilgili 800.000 iş ilanı bulundu. [ 69 ] PitchBook araştırmasına göre, 2024'te yeni fon alan girişimlerin %22'si kendilerini yapay zekâ şirketi olarak tanımlıyordu. [ 70 ]
+
+Yapay zekâ
+İlk araştırmalar ve yapay sinir ağları. İdealize edilmiş tanımıyla yapay zekâ konusundaki ilk çalışmalardan biri McCulloch ve Pitts tarafından yapılmıştır. Bu araştırmacıların önerdiği, yapay sinir hücrelerini kullanan hesaplama modeli, önermeler mantığı, fizyoloji ve Turing 'in hesaplama kuramına dayanıyordu. Herhangi bir hesaplanabilir fonksiyonun sinir hücrelerinden oluşan ağlarla hesaplanabileceğini ve mantıksal ve ve veya işlemlerinin gerçekleştirilebileceğini gösterdiler. Bu ağ yapılarının uygun şekilde tanımlanmaları hâlinde öğrenme becerisi kazanabileceğini de ileri sürdüler. Hebb, sinir hücreleri arasındaki bağlantıların şiddetlerini değiştirmek için basit bir kural önerince, öğrenebilen yapay sinir ağlarını gerçekleştirmek de olası hale gelmiştir.
+ 1950'lerde Shannon ve Turing bilgisayarlar için satranç programları yazıyorlardı. İlk yapay sinir ağı temelli bilgisayar SNARC, MIT 'de Minsky ve Edmonds tarafından 1951'de yapıldı. Çalışmalarını Princeton Üniversitesi 'nde sürdüren Mc Carthy, Minsky, Shannon ve Rochester 'le birlikte 1956 yılında Dartmouth 'da iki aylık bir açık çalışma düzenledi. Bu toplantıda birçok çalışmanın temelleri atılmakla birlikte, toplantının en önemli özelliği Mc Carthy tarafından önerilen yapay zekâ adının konmasıdır. İlk kuram ispatlayan programlardan Logic Theorist (Mantık kuramcısı) burada Newell ve Simon tarafından tanıtılmıştır.
+
+Yapay zekâ
+Yeni yaklaşımlar. Daha sonra Newell ve Simon, insan gibi düşünme yaklaşımına göre üretilmiş ilk program olan Genel Sorun Çözücü (General Problem Solver)'ı geliştirmişlerdir. Simon, daha sonra fiziksel simge varsayımını ortaya atmış ve bu kuram, insandan bağımsız zeki sistemler yapma çalışmalarıyla uğraşanların hareket noktasını oluşturmuştur. Simon 'ın bu tanımlaması bilim adamlarının yapay zekâya yaklaşımlarında iki farklı akımın ortaya çıktığını belirginleştirmesi açısından önemlidir [ 71 ]: Sembolik Yapay Zekâ ve Sibernetik Yapay Zekâ.
+
+Yapay zekâ
+Sembolik yapay zekâ. Simon 'ın sembolik yaklaşımından sonraki yıllarda mantık temelli çalışmalar egemen olmuş ve programların başarımlarını göstermek için bir takım yapay sorunlar ve dünyalar kullanılmıştır. Daha sonraları bu sorunlar gerçek yaşamı hiçbir şekilde temsil etmeyen oyuncak dünyalar olmakla suçlanmış ve yapay zekânın yalnızca bu alanlarda başarılı olabileceği ve gerçek yaşamdaki sorunların çözümüne ölçeklenemeyeceği ileri sürülmüştür.
+ Geliştirilen programların gerçek sorunlarla karşılaşıldığında çok kötü bir başarım göstermesinin ardındaki temel neden, bu programların yalnızca sentaktik süreçleri benzeşimlendirerek anlam çıkarma, bağlantı kurma ve fikir yürütme gibi süreçler konusunda başarısız olmasıydı. Bu dönemin en ünlü programlarından Weizenbaum tarafından geliştirilen Eliza, karşısındaki ile sohbet edebiliyor gibi görünmesine karşın, yalnızca karşısındaki insanın cümleleri üzerinde bazı işlemler yapıyordu. İlk makine çevirisi çalışmaları sırasında benzeri yaklaşımlar kullanılıp çok gülünç çevirilerle karşılaşılınca bu çalışmaların desteklenmesi durdurulmuştu. Bu yetersizlikler aslında insan beynindeki semantik süreçlerin yeterince incelenmemesinden kaynaklanmaktaydı.
+
+Yapay zekâ
+Sibernetik yapay zekâ. Yapay sinir ağları çalışmalarının dahil olduğu sibernetik cephede de durum aynıydı. Zeki davranışı benzeşimlendirmek için bu çalışmalarda kullanılan temel yapılardaki bazı önemli yetersizliklerin ortaya konmasıyla birçok araştırmacılar çalışmalarını durdurdular. Buna en temel örnek, Yapay sinir ağları konusundaki çalışmaların Marvin Minsky ve Seymour Papert 'in 1969'da yayınlanan Perceptrons adlı kitaplarında tek katmanlı algaçların bazı basit problemleri çözemeyeceğini gösterip aynı kısırlığın çok katmanlı algaçlarda da beklenilmesi gerektiğini söylemeleri ile bıçakla kesilmiş gibi durmasıdır.
+ Sibernetik akımın uğradığı başarısızlığın temel sebebi de benzer şekilde Yapay Sinir Ağının tek katmanlı görevi başarması fakat bu görevle ilgili vargıların veya sonuçların bir yargıya dönüşerek diğer kavramlar ile bir ilişki kurulamamasından kaynaklanmaktadır. Bu durum aynı zamanda semantik süreçlerin de benzeşimlendirilememesi gerçeğini doğurdu.
+
+Yapay zekâ
+Uzman sistemler. Her iki akımın da uğradığı başarısızlıklar, her sorunu çözecek genel amaçlı sistemler yerine belirli bir uzmanlık alanındaki bilgiyle donatılmış programları kullanma fikrinin gelişmesine sebep oldu ve bu durum yapay zekâ alanında yeniden bir canlanmaya yol açtı. Kısa sürede Uzman sistemler adı verilen bir metodoloji gelişti.
+ Uzman sistemler bir konuda belli ön koşullar aynı anda var olduğunda konunun bir uzmanın (bazen ne olasılıkla) ne karar alacağını belirleyen kuralların tümünü içeren bir programı gelen problemlere uygulamak temellidir. Bunun bir avantajı her verilen kararın hangi kurallar uygulanarak verildiğinin kolayca bilinmesi idi. Bu birçok kuralcı bürokratik karar örgütleri için kolayca uygulamalar geliştirilebilmesi demekti. Bu doğal olarak bir otomobilin tamiri için önerilerde bulunan uzman sistem programının otomobilin ne işe yaradığından haberi olmaması da demekti. Buna rağmen uzman sistemlerin başarıları beraberinde ilk ticari uygulamaları da getirdi.
+ Yapay zekâ yavaş yavaş bir endüstri hâline geliyordu. DEC tarafından kullanılan ve müşteri siparişlerine göre donanım seçimi yapan R1 adlı uzman sistem şirkete bir yılda 40 milyon dolarlık tasarruf sağlamıştı. Birden diğer ülkeler de yapay zekâyı yeniden keşfettiler ve araştırmalara büyük kaynaklar ayrılmaya başlandı. 1988'de yapay zekâ endüstrisinin cirosu 2 milyar dolara ulaşmıştı.
+
+Yapay zekâ
+Doğal dil işleme. Antropoloji bilimi, gelişmiş insan zekâsı ile dil arasındaki bağlantıyı gözler önüne serdiğinde, dil üzerinden yürütülen yapay zekâ çalışmaları tekrar önem kazandı. İnsan zekâsının doğrudan doğruya kavramlarla düşünmediği, dil ile düşündüğü, dil kodları olan kelimeler ile kavramlar arasında bağlantı kurduğu anlaşıldı. Bu sayede insan aklı kavramlar ile düşünen Hayvan beyninden daha hızlı işlem yapabilmekteydi ve dil dizgeleri olan cümleler yani şablonlar ile etkili bir öğrenmeye ve bilgisini soyut olarak genişletebilme yeteneğine sahip olmuştu. İnsanların iletişimde kullandıkları Türkçe, İngilizce gibi doğal dilleri anlayan bilgisayarlar konusundaki çalışmalar hızlanmaya başladı. Önce, yine Uzman sistemler olarak karşımıza çıkan doğal dil anlayan programlar, daha sonra Sembolik Yapay Zekâ ile ilgilenenler arasında ilgiyle karşılandı ve yazılım alanındaki gelişmeler sayesinde İngilizce olan A.I.M.L (Artificial intelligence Markup Language) ve Türkçe T.Y.İ.D (Türkçe Yapay Zekâ İşaretleme Dili) gibi bilgisayar dilleri ile sentaktik (Örüntü) işlemine uygun veri erişim metotları geliştirilebildi. Bugün Sembolik Yapay Zekâ araştırmacıları özel Yapay Zekâ dillerini kullanarak verileri birbiri ile ilişkilendirebilmekte, geliştirilen özel prosedürler sayesinde anlam çıkarma ve çıkarımsama yapma gibi ileri seviye bilişsel fonksiyonları benzetimlendirmeye çalışmaktadırlar.
+ Bütün bu gelişmelerin ve süreçlerin sonunda bir grup yapay zekâ araştırmacısı, insan gibi düşünebilen sistemleri araştırmaya devam ederken diğer bir grup ise ticari değeri olan rasyonel karar alan sistemler (Uzman sistemler) üzerine yoğunlaştı.
+
+Yapay zekâ
+Diyalog bazlı yapay zeka. Doğal dil işleme ve makine öğrenmesi gibi yapay zeka teknolojileri kullanılarak insan ve makine (yazılım) arasında bir diyaloğun sürdürülmesini sağlayan yapay zeka alt dalına "diyalog bazlı yapay zeka" (conversational artificial intelligence) denir. Daha önce insanların bilgisayara komut vermesinde kullanılan web, mobil uygulama gibi grafiksel arayüzlerin (GUI) yerine geçmeyi amaçlayan diyalog bazlı arayüzler (CUI) insanların bilgisayara günlük dilde yazarak veya konuşarak komut verebilmesini amaçlar. Günümüzde, chatbotlar ve sesli asistanlar diyalog bazlı yapay zeka alanında sıkça kullanılan teknolojik ürünler olarak karşımıza çıkmaktadır.
+
+Yapay zekâ
+Chatbotlar. Chatbotlar, diyalog bazlı yapay zekanın günlük hayatta kullanılan bir örneğidir. Kullanıcılar, Türkçeye sohbet robotları olarak geçmiş bu dijital ürünler ile yazışarak belirli bir konuda bilgi alabilir veya uçak bileti almak, banka havalesi yapmak veya bir kitap satın almak gibi günlük işlerini yapabilirler. Chatbotlar, şirketlerin web sitesinde veya mobil uygulamasında yer alabilirler. Bunun dışında chatbotlar, WhatsApp, Facebook Messenger gibi genel mesajlaşma platformlarında veya Google Assistant, Siri gibi sesli asistanlarda da yer alabilirler.
+ Chatbotlar kullanıcı ile etkileşim kurma yöntemini, arkasında yer alan teknolojik altyapıya göre farklı çeşitlerde oluşturulabilir. Örneğin bir chatbot kullanıcı ile, sadece kullanıcı onunla etkileşime girdiğinde iletişim kuruyorsa reaktif bir chatbottur, eğer bir uyarıcı ile tetiklenerek kullanıcı ile olan diyaloğu başlatan taraf oluyorsa buna proaktif bir chatbot denir. Teknoloji açısından bakılacak olursa, yapay zeka tabanlı chatbotların yanında, doğal dil işleme, makine öğrenmesi gibi yapay zeka teknolojileri kullanılmadan geliştirilen kural tabanlı chatbotlar da kullanılmaktadır. Ancak bu iki tür chatbotun davranışı farklıdır. Kural bazlı chatbotlarda genellikle kullanıcıya belirli seçenekler sunulur ve yaratılan deneyim bu seçeneklerle sınırlı kalır. Yapay zeka tabanlı chatbotlarda ise kullanıcı serbest bir metin yazabilir, chatbotun doğal dil işleme teknolojisi bu metni anlamlandırıp doğru yanıtı belirleyerek kullanıcıya sunar. [ 72 ]
+
+Yapay zekâ
+Süper zekâ ve tekillik. Süper zekâ, en parlak ve en yetenekli insan zihninin zekâsını çok aşan bir zekâya sahip varsayımsal bir etkendir. [ 73 ] Yapay genel zekâ üzerine yapılan araştırmalar yeterince zeki bir yazılım üretirse, yazılım kendini yeniden programlayabilir ve geliştirebilir. Gelişen yazılım kendini geliştirmede daha da iyi olur ve I. J. Good 'un " zekâ patlaması " ve Vernor Vinge 'in " tekillik " olarak adlandırdığı şeye yol açar. [ 74 ] 
+ Ancak teknolojiler sonsuza kadar üstel olarak gelişemez ve genellikle S şeklinde bir eğri izler, teknolojinin yapabileceği şeyin fiziksel sınırlarına ulaştığında yavaşlar. [ 75 ]
+
+Yapay zekâ
+Transhümanizm. Robot tasarımcısı Hans Moravec, sibernetikçi Kevin Warwick ve mucit Ray Kurzweil, gelecekte insanların ve makinelerin birleşerek her ikisinden de daha yetenekli ve güçlü siborglara dönüşebileceğini öngördüler. Transhümanizm olarak adlandırılan bu fikrin kökleri, Aldous Huxley ve Robert Ettinger 'ın yazılarında bahsedilmektedir. [ 76 ] 
+ Edward Fredkin, "yapay zekânın evrimin bir sonraki adımı" olduğunu savunmaktaydı; bu fikir ilk olarak Samuel Butler 'ın " Darwin among the Machines " adlı mektubunda 1863'te ortaya atıldı ve George Dyson tarafından 1998'deki Darwin Among the Machines: The Evolution of Global Intelligence adlı kitabında geliştirildi. [ 77 ]
+
+Yapay zekâ
+Uygulama alanları. Yapay zekanın uygulama alanlarının bazı örnekleri şu şekildedir:
+ Önerici sistemler: Kullanıcıların geçmiş davranışlarına dayanarak yeni içerik önerilmesi. Örneğin, sosyal medya sitelerinde yeni arkadaş, mağazalarda başka bir ürün, gazetede başka bir haber önerileri. 
+ Makine çevirisi: Bir dilde ifade edilen cümleyi farklı bir dile çevirmek. Örneğin, Google Translate, Microsoft Tercüman ve Yandex.Çeviri gibi çevrimiçi araçlar. 
+ Sinyal işleme: Ses ve görüntü gibi sinyallerin işlenerek bilgi çıkarımı. Örneğin, yüz ve ses tanıma. 
+ Prosedürel içerik üretimi: Rassal yöntemler kullanarak yapay içerik üretme. Örneğin, üretimsel müzik ve video oyunlarında prosedürel dünyalar. 
+ Regresyon analizi: Geçmiş verilere dayanılarak bir değişkenin gelecekteki değerinin tahmin edilmesi. Örneğin, ekonomik öngörüler, üretim miktarı öngörüleri. 
+ Görüntü işleme: Dijital görüntülerde bulunan objeleri tanıma, yerini bulma, sınıflandırma gibi işlemlerin tümü. Yapay zekadan önce bu işlemler Hough dönüşümü gibi kurala dayalı algoritmalar ile sürdürülürken, günümüzde bu kurallar veriden öğrenilmektedir. Görüntülemenin sık kullanıldığı tıp, [ 78 ] biyoloji, [ 79 ] otomotiv, [ 80 ] üretim [ 81 ] gibi alanlarda kullanılmaktadır. 
+ Makale yazma: Dünyada yapay zeka ile yazılan ilk köşe yazısı 8 Eylül 2020 tarihinde The Guardian gazetesinde yayınlanmıştır. [ 82 ] Türkiye'de yapay zekanın yazdığı ilk haber ise Şalom gazetesinde 2018 yılında yayınlanmıştır. [ 83 ]
+
+Yapay zekâ
+Alt dallar. Makine Zekâsı (Sembolik Yapay Zekâ) 
+ Yapay Sinir Ağları (Sibernetik Yapay Zekâ) 
+ Doğal Dil işleme (Dil ile düşünme) 
+ Görüntü İşleme 
+ Konuşma Sentezi (Yapay Konuşma) 
+ Konuşma Anlama (Konuşma Analizi) 
+ Tümevarımlı mantık programlama 
+ Bilgi-tabanlı sistem 
+ Bilgisayarlı görü 
+ Doğal dil üretme 
+ Uzman sistemler 
+ Sinirsel şebeke 
+ Makine öğrenimi 
+ Örüntü Tanıma 
+ Genetik Algoritmalar 
+ Genetik Programlama 
+ Bulanık Mantık 
+ Çoklu Örnekle Öğrenme (Multiple Instance Learning)
+
+Yapay zekâ
+Ayrıca bakınız. Yapay zekâ mühendisliği 
+ Yapay zekâya yönelik programlama dilleri listesi 
+ Yapay zekâ projeleri listesi 
+ Yapay zekâ uygulamaları 
+ Derin öğrenme yazılımlarının karşılaştırılması 
+ Video gözetimi için yapay zeka 
+ Sağlık hizmetlerinde yapay zekâ 
+ Video oyunlarında yapay zekâ 
+ Yapay zekânın kontrolü devralması 
+ Üretken yapay zekâ 
+ Yapay zekâ alanında ilerleme 
+ Açık kaynaklı yapay zeka 
+ Yapay Zekâ Soğuk Savaşı 
+ Yapay zekâ silahlanma yarışı 
+ Yapay Zekâ Yasası 
+ Yapay zekâ sanatı 
+ Yapay zekâ çağı 
+ Yapay zekâ etiği 
+ Yapay zekâ kışı 
+ Yapay zeka felsefesi 
+ Yapay hayal gücü 
+ Genetik Programlama 
+ Nöro-sembolik yapay zeka 
+ Yapay zeka etkisi 
+ Sembolik yapay zeka 
+ Genetik Programlama 
+ AI slop 
+ Toplu zekâ 
+ Yapay bilinç 
+ Durum tabanlı çıkarsama 
+ Yapay genel zekâ 
+ Duygu analizi 
+ Çince odası 
+ Bilişsel dilbilim
+
+Yapay zekâ
+Yapay zekâ (İngilizce: Artificial intelligence, AI); hesaplama sistemlerinin öğrenme, akıl, problem çözme, algılama ve karar verme gibi tipik olarak insan zekâsıyla ilişkilendirilen görevleri yerine getirme yeteneğidir. Dördüncü Sanayi Devrimi 'nin en yaygın özelliklerinden biri olarak kabul edilir. İlk ve ikinci kategoriler arasındaki ayrım genellikle seçilen kısaltmayla ortaya çıkar. Güçlü yapay zeka genellikle yapay genel zekâ (İngilizce: Artificial general intelligence kelimelerinin kısaltılmışı olarak: AGI) olarak etiketlenirken, doğal zekayı taklit etme girişimleri yapay biyolojik zekâ (İngilizce: Artificial biological intelligence: ABI) olarak adlandırılır. Önde gelen yapay zekâ ders kitapları, alanı zeki etmenlerin çalışması olarak tanımlar: Çevresini algılayan ve hedeflerine başarıyla ulaşma şansını en üst düzeye çıkaran eylemleri gerçekleştiren herhangi bir cihaz. [ 3 ] Toplum arasında, yapay zekâ kavramı genellikle insanların insan zihni ile ilişkilendirdiği öğrenme ve problem çözme gibi bilişsel eylemleri taklit eden makineleri tanımlamak için kullanılır. [ 4 ] 
+ Makineler daha becerikli hâle geldikçe, zekâ gerektirdiği düşünülen görevler genellikle yapay zekâ etkisi olarak bilinen bir fenomen olan yapay zekâ tanımından çıkarılır. [ 5 ] Tesler'in teoremindeki bir espri, "Yapay zekâ henüz yapılmamış şeydir" der. [ 6 ] Örneğin, optik karakter tanıma yapay zekâ olarak değerlendirilen şeylerin dışında tutulur, [ 7 ] rutin teknoloji hâline gelir. [ 8 ] 
+ Genellikle yapay zekâ olarak sınıflandırılan modern makine yetenekleri satranç ve Go [ 9 ] gibi stratejik oyun sistemlerinde, en üst düzeyde rekabet eden insan konuşmasını anlama, [ 10 ] poker ya da otonom arabalar gibi kusurlu-bilgi oyunlarını içerik dağıtım ağındaki akıllı yönlendirmeyi ve askeri simülasyonları kapsar. [ 11 ] 
+ Yapay zekâ çalışmaları sıklıkla insanın düşünme yöntemlerini taklit eden yapay algoritmalar geliştirmeye yöneliktir, [ 12 ] ancak bununla sınırlı değildir. Öğrenebilen ve gelecekte insan zekâsından bağımsız gelişebilecek bir yapay zekâ kavramına doğru yeni yönelimler oluşmaktadır. Bu yönelim, insanın evreni ve doğayı anlama çabasında kendisine yardımcı olabilecek belki de kendisinden daha zeki, insan ötesi varlıklar meydana getirme düşünün bir ürünüdür. Bu düş, 1920'li yıllarda yazılan ve sonraları Isaac Asimov 'u etkileyen modern bilimkurgu edebiyatının öncü yazarlarından Karel Čapek 'in eserlerinde dışa vurmuştur. Karel Čapek, R.U.R. adlı tiyatro oyununda yapay zekâya sahip robotlar ile insanlığın ortak toplumsal sorunlarını ele alarak 1920 yılında yapay zekânın insan aklından bağımsız gelişebileceğini öngörmüştür. [ 13 ]
+
+Yapay zekâ
+Tanım. Yapay zekâ, idealleştirilmiş bir perspektife göre insan zekâsına özgü yüksek bilişsel fonksiyonları veya otonom davranışları sergileyen bir yapay işletim sistemidir. Bu sistem, algılama, öğrenme, çoğul kavramları bağlama, düşünme, fikir yürütme (belirtme), sorun çözme, iletişim kurma ve karar verme gibi yeteneklere sahip olmalıdır. [ 14 ] Ayrıca, bu yapay zekâ sistemi düşüncelerinden tepkiler üretebilmeli (eyleyici yapay zekâ) ve bu tepkileri fiziksel olarak dışa vurabilmelidir.
+Hedefler. Zekâyı simüle etme (veya oluşturma) genel problemi, alt problemlere ayrılmıştır. Bu alt problemler, araştırmacıların zeki bir sistemden sergilemesini beklediği belirli özellikler veya yeteneklerden oluşur. Aşağıda açıklanan özellikler, yapay zekâ araştırmalarında en çok dikkat çeken konular arasında yer almakta ve bu araştırmaların kapsamını belirlemektedir. [ a ]
+
+Yapay zekâ
+Akıl yürütme ve problem çözme. Yapay zekânın ilk araştırmacıları, insanların bulmacaları çözerken veya mantıksal çıkarımlar yaparken kullandığı adım adım akıl yürütmeyi taklit eden algoritmalar geliştirmiştir. [ 15 ] 1980'lerin sonları ve 1990'larda, belirsiz veya eksik bilgiyle başa çıkmak için olasılık ve ekonomi kavramlarını kullanan yöntemler geliştirilmiştir. [ 16 ] 
+ Bu algoritmaların birçoğu, büyük ölçekli akıl yürütme problemlerini çözmek için yetersizdir, çünkü "kombinatoryal patlama" denilen bir durum yaşarlar: Problemler büyüdükçe bu algoritmaların çalışması üstel bir şekilde yavaşlar. [ 17 ] Hatta insanlar bile erken dönem yapay zekânın modelleyebildiği adım adım akıl yürütmeyi nadiren kullanır. İnsanlar, çoğu sorunlarını hızlı ve sezgisel yargılarla çözerler. [ 18 ] Doğru ve verimli akıl yürütme, hâlâ çözülememiş bir problemdir.
+
+Yapay zekâ
+Bilgi temsili. Bilgi temsili ve bilgi mühendisliği, [ 19 ] yapay zekâ programlarının sorulara akıllıca yanıt vermesini ve gerçek dünya ile ilgili çıkarımlarda bulunmasını sağlar. Formel bilgi temsilleri; içerik tabanlı indeksleme ve bilgi erişimi, [ 20 ] sahne yorumlama, [ 21 ] klinik karar destek sistemleri, [ 22 ] bilgi keşfi (büyük veritabanlarından "ilginç" ve eyleme geçirilebilir çıkarımlarda bulunma) [ 23 ] gibi birçok alanda kullanılmaktadır. [ 24 ]
+
+Yapay zekâ
+Tarihçe. Yapay zekâ tarihi, antik çağlarda, usta zanaatkarlar tarafından zeka veya bilinç kazandırılan yapay varlıklara ilişkin mitler, hikâyeler ve söylentilerle başladı. Mekanik ya da "formel" akıl yürütme üzerine çalışmalar, antik çağda filozoflar ve matematikçilerle birlikte devam etti. Mantık alanındaki bu çalışmalar, Alan Turing 'in algoritmalar teorisinin temelini oluşturdu. Turing'in teorisi, "0" ve "1" gibi basit sembolleri kullanarak bir makinenin, insan aklının gerçekleştirebileceği her türlü matematiksel akıl yürütmeyi simüle edebileceğini öne sürdü. [ 25 ] [ 26 ] Bu teori, sibernetik, bilgi teorisi ve nörobiyoloji gibi alanlardaki keşiflerle birleşerek, araştırmacılara "elektronik bir beyin" inşa etme olasılığını düşünmeye yöneltti. [ b ] Öne çıkan çalışmalar arasında, 1943'teki Warren McCullouch ve Walter Pitts 'in "yapay nöronlar" tasarımı [ 28 ] ve Turing'in 1950'de yayımladığı, "makine zekâsının" mümkün olduğunu gösterdiği Turing testini tanıtan Bilgi İşlem Makineleri ve Zekâ adlı makalesi bulunmaktaydı. [ 26 ] [ 29 ] Bu dönemde yapılan bu tür araştırmalar, yapay zekânın temel alanlarının ortaya çıkardı. [ 30 ] 
+ 1956'da Dartmouth College 'deki bir atölye çalışmasında yapay zeka araştırma alanı kuruldu. [ c ] [ 32 ] Bu atölyeye katılan araştırmacılar, 1960'larda yapay zekâ alanına liderlik ettiler. [ d ] Öğrencileriyle beraber bu araştırmacılar, basının "şaşırtıcı" olarak nitelendirdiği projeler ürettiler. [ e ] Bu dönemde bilgisayarlar, dama stratejileri öğrenmiş, cebir problemlerini çözmüş, mantıksal teoremleri kanıtlamış ve İngilizce konuşmuştu. [ f ] [ 35 ] 1950'lerin sonu ve 1960'ların başlarında, hem İngiltere'deki hem de Amerika Birleşik Devletleri'ndeki birçok üniversitede yapay zekâ laboratuvarları kuruldu. [ 26 ] 
+ 1960'lar ve 1970'lerdeki araştırmacılar, genel zekâya sahip bir makine üretmenin mümkün olduğuna inanıyor ve bunu alanlarının nihai hedefi olarak görüyordu. [ 36 ] 1965'te Herbert Simon, "makinelerin yirmi yıl içinde bir insanın yapabileceği her işi yapabilir hâle geleceği" tahmininde bulunmuş, [ 37 ] 1967'de Marvin Minsky, "bir nesil içinde... 'yapay zekâ' sorununun büyük ölçüde çözüleceği" yorumunu yapmıştı. [ 38 ] Ancak bu öngörüler, yapay zekânın geliştirilmesindeki zorlukları göz ardı etmişti. [ g ] 1974'te Sir James Lighthill 'ın eleştirileri [ 40 ] ve ABD Kongresi'nin daha somut projelere fon sağlama baskısı nedeniyle, ABD ve İngiltere hükûmetleri keşif amaçlı yapay zekâ araştırmalarına verilen desteği durdurma kararı aldı. [ 41 ] Minsky ve Seymour Papert 'ın Perceptrons adlı kitabı, yapay sinir ağlarının gerçek dünya problemlerini çözmede etkisiz olduğunu savunmuş ve bu yaklaşım, itibarını kaybetmişti. [ 42 ] Bunun sonucunda, yapay zekâ projelerine fon bulmanın zorlaştığı " yapay zekâ kışı " adı verilen bir dönem başladı. [ 43 ] 
+ 1980'lerin başında yapay zekâ araştırmaları, uzman sistemlerin ticari başarısıyla yeniden canlandı. [ 44 ] Uzman sistemler, uzmanların bilgi ve analiz yeteneklerini taklit eden bir tür yapay zekâ programıydı. 1985 yılına gelindiğinde, yapay zekâ pazarı 1 milyar doları aşmıştı. Aynı dönemde Japonya'nın beşinci nesil bilgisayar projesi, ABD ve Britanya hükûmetlerini akademik araştırmalara yeniden fon sağlamaya teşvik etti. [ 45 ] Ancak, 1987'de Lisp makinesi pazarının çöküşüyle yapay zekâ tekrar itibar kaybetti ve daha uzun süren ikinci bir "yapay zekâ kışı" başladı. [ 46 ] 
+ O zamana kadar yapay zekâ projelerinin büyük kısmı, planlar, hedefler, inançlar ve bilinen gerçekler gibi zihinsel kavramları temsil etmek için yüksek seviyede semboller kullanmaya odaklanmıştı. Ancak 1980'lerde bazı araştırmacılar, bu yaklaşımın insan bilişinin tüm süreçlerini, özellikle algı, robotik, öğrenme ve örüntü tanıma gibi karmaşık süreçleri taklit edemeyeceği konusunda şüphe duymaya başladı. [ 47 ] Bu nedenle, "alt sembolik" yöntemlere yöneldiler. [ 48 ] Rodney Brooks, genel olarak "temsil" fikrini reddederek hayatta kalabilen ve hareket edebilen makineler geliştirmeye odaklandı. [ h ] Judea Pearl ve Lofti Zadeh gibi isimler, eksik ve belirsiz bilgileri mantıksal kesinlik yerine mâkul tahminlerle işleyebilen yöntemler geliştirdi. [ 53 ] Ayrıca Geoffrey Hinton ve diğer araştırmacılar, " bağlantısallık " ve sinir ağ araştırmalarını yeniden canlandırarak bu alanın gelişimine katkıda bulundu. [ 54 ] 1990'da Yann LeCun, evrişimli sinir ağlarının el yazısı ile yazılmış rakamları tanıyabildiğini gösterdi; bu, sinir ağlarının birçok başarılı uygulamasından ilkiydi. [ 55 ] 
+ Yapay zekâ, 1990'ların sonları ve 21. yüzyılın başlarında, formal matematik yöntemlerinden yararlanarak ve belirli problemlere özel çözümler geliştirerek itibarını yeniden kazanmaya başladı. Bu " dar " ve "formal" yaklaşım, araştırmacıların doğrulanabilir sonuçlar üretmesini ve istatistik, ekonomi ve matematik gibi diğer alanlarla iş birliği yapmasını sağladı. [ 56 ] 2000'li yıllara gelindiğinde, yapay zekâ araştırmacılarının geliştirdiği çözümler yaygın olarak kullanılmaya başlanmıştı. Ancak 1990'larda bu çözümler genellikle "yapay zekâ" olarak adlandırılmıyordu (bu eğilim yapay zekâ etkisi olarak bilinir). [ 57 ] 
+Buna karşın, bazı akademisyenler yapay zekânın ilk hedefinden, yani çok yönlü ve tam anlamıyla zeki makineler yaratma amacından uzaklaştığını düşünmeye başladı. 2002'nin başlarında, bu hedefi yeniden canlandırmak amacıyla yapay genel zekâ ("AGI") adı verilen bir alt alan kuruldu. 2010'lara gelindiğinde, yapay genel zekâ araştırmaları için iyi finanse edilen birçok kurum ortaya çıktı.
+ Derin öğrenme, 2012'de endüstri standartlarında önemli bir üstünlük sağlayarak yapay zekâ alanında yaygın bir şekilde benimsendi. [ 58 ] 
+Birçok spesifik görevde diğer yöntemler terk edildi. [ i ] 
+Bu başarının arkasında daha hızlı bilgisayarlar, [ 60 ] grafik işlem birimleri, bulut bilişim [ 61 ] gibi donanım geliştirmeleriyle ImageNet gibi dikkatle oluşturulmuş veri kümelerinin de dâhil olduğu [ 61 ] büyük miktarda veriye erişim [ 62 ] yatıyordu. Derin öğrenmenin bu yükselişi, yapay zekâya olan ilgi ve finansmanda büyük bir artışı tetikledi. [ j ] 2015-2019 yılları arasında makine öğrenimi araştırmalarındaki toplam yayımlanma sayısında %50'lik bir artış görüldü. [ 63 ] 
+ 2016'da, adalet ve teknolojinin yanlış kullanımı gibi etik sorunlar, makine öğrenimi konferanslarında ana gündem maddesi hâline geldi. Bu konularda yapılan yayımlar hızla artarken, yeni finansman kaynakları sağlandı ve birçok araştırmacı kariyerlerini bu alanlara yönlendirdi. Aynı dönemde, yapay zekânın insan çıkarlarına uygun şekilde geliştirilmesini konu alan " uyum problemi " akademik bir çalışma alanı olarak ciddiyet kazandı. [ 64 ] 
+ 2010'ların sonları ve 2020'lerin başlarında, yapay genel zekâ üzerine çalışan şirketler dikkat çeken yazılımlar üretmeye başladı. 2015 yılında DeepMind tarafından geliştirilen AlphaGo, oyunun kuralları öğretilerek kendi stratejisini geliştirdi ve dünya şampiyonu Go oyuncusunu yendi. 2020'de OpenAI tarafından çıkarılan GPT-3, insan benzeri yüksek kaliteli metinler üretebilen bir geniş dil modeli olarak dikkat çekti. [ 65 ] 30 Kasım 2022'de kullanıma sunulan ChatGPT ise iki ay içinde 100 milyon kullanıcıya ulaşarak tarihin en hızlı büyüyen tüketici yazılımı oldu. [ 66 ] 2022 yılı, yapay zekânın geniş kitleler tarafından fark edildiği ve yaygın bir şekilde konuşulmaya başlandığı bir dönüm noktası olarak kabul edildi. [ 67 ] Bu yazılımlar, büyük bir yapay zeka patlamasını tetikledi. Büyük ölçekli şirketler yapay zekâ araştırmalarına milyarlarca dolar yatırım yapmaya başladı. AI Impacts'in verilerine göre, 2022 yılında sadece ABD'de yapay zekâya yıllık yaklaşık $50 milyar yatırım yapıldı. ABD'deki yeni bilgisayar bilimi doktora mezunlarının yaklaşık %20'si yapay zekâ üzerine uzmanlaştı. [ 68 ] Aynı yıl, ABD'de yapay zekâ ile ilgili 800.000 iş ilanı bulundu. [ 69 ] PitchBook araştırmasına göre, 2024'te yeni fon alan girişimlerin %22'si kendilerini yapay zekâ şirketi olarak tanımlıyordu. [ 70 ]
+
+Yapay zekâ
+İlk araştırmalar ve yapay sinir ağları. İdealize edilmiş tanımıyla yapay zekâ konusundaki ilk çalışmalardan biri McCulloch ve Pitts tarafından yapılmıştır. Bu araştırmacıların önerdiği, yapay sinir hücrelerini kullanan hesaplama modeli, önermeler mantığı, fizyoloji ve Turing 'in hesaplama kuramına dayanıyordu. Herhangi bir hesaplanabilir fonksiyonun sinir hücrelerinden oluşan ağlarla hesaplanabileceğini ve mantıksal ve ve veya işlemlerinin gerçekleştirilebileceğini gösterdiler. Bu ağ yapılarının uygun şekilde tanımlanmaları hâlinde öğrenme becerisi kazanabileceğini de ileri sürdüler. Hebb, sinir hücreleri arasındaki bağlantıların şiddetlerini değiştirmek için basit bir kural önerince, öğrenebilen yapay sinir ağlarını gerçekleştirmek de olası hale gelmiştir.
+ 1950'lerde Shannon ve Turing bilgisayarlar için satranç programları yazıyorlardı. İlk yapay sinir ağı temelli bilgisayar SNARC, MIT 'de Minsky ve Edmonds tarafından 1951'de yapıldı. Çalışmalarını Princeton Üniversitesi 'nde sürdüren Mc Carthy, Minsky, Shannon ve Rochester 'le birlikte 1956 yılında Dartmouth 'da iki aylık bir açık çalışma düzenledi. Bu toplantıda birçok çalışmanın temelleri atılmakla birlikte, toplantının en önemli özelliği Mc Carthy tarafından önerilen yapay zekâ adının konmasıdır. İlk kuram ispatlayan programlardan Logic Theorist (Mantık kuramcısı) burada Newell ve Simon tarafından tanıtılmıştır.
+
+Yapay zekâ
+Yeni yaklaşımlar. Daha sonra Newell ve Simon, insan gibi düşünme yaklaşımına göre üretilmiş ilk program olan Genel Sorun Çözücü (General Problem Solver)'ı geliştirmişlerdir. Simon, daha sonra fiziksel simge varsayımını ortaya atmış ve bu kuram, insandan bağımsız zeki sistemler yapma çalışmalarıyla uğraşanların hareket noktasını oluşturmuştur. Simon 'ın bu tanımlaması bilim adamlarının yapay zekâya yaklaşımlarında iki farklı akımın ortaya çıktığını belirginleştirmesi açısından önemlidir [ 71 ]: Sembolik Yapay Zekâ ve Sibernetik Yapay Zekâ.
+
+Yapay zekâ
+Sembolik yapay zekâ. Simon 'ın sembolik yaklaşımından sonraki yıllarda mantık temelli çalışmalar egemen olmuş ve programların başarımlarını göstermek için bir takım yapay sorunlar ve dünyalar kullanılmıştır. Daha sonraları bu sorunlar gerçek yaşamı hiçbir şekilde temsil etmeyen oyuncak dünyalar olmakla suçlanmış ve yapay zekânın yalnızca bu alanlarda başarılı olabileceği ve gerçek yaşamdaki sorunların çözümüne ölçeklenemeyeceği ileri sürülmüştür.
+ Geliştirilen programların gerçek sorunlarla karşılaşıldığında çok kötü bir başarım göstermesinin ardındaki temel neden, bu programların yalnızca sentaktik süreçleri benzeşimlendirerek anlam çıkarma, bağlantı kurma ve fikir yürütme gibi süreçler konusunda başarısız olmasıydı. Bu dönemin en ünlü programlarından Weizenbaum tarafından geliştirilen Eliza, karşısındaki ile sohbet edebiliyor gibi görünmesine karşın, yalnızca karşısındaki insanın cümleleri üzerinde bazı işlemler yapıyordu. İlk makine çevirisi çalışmaları sırasında benzeri yaklaşımlar kullanılıp çok gülünç çevirilerle karşılaşılınca bu çalışmaların desteklenmesi durdurulmuştu. Bu yetersizlikler aslında insan beynindeki semantik süreçlerin yeterince incelenmemesinden kaynaklanmaktaydı.
+
+Yapay zekâ
+Sibernetik yapay zekâ. Yapay sinir ağları çalışmalarının dahil olduğu sibernetik cephede de durum aynıydı. Zeki davranışı benzeşimlendirmek için bu çalışmalarda kullanılan temel yapılardaki bazı önemli yetersizliklerin ortaya konmasıyla birçok araştırmacılar çalışmalarını durdurdular. Buna en temel örnek, Yapay sinir ağları konusundaki çalışmaların Marvin Minsky ve Seymour Papert 'in 1969'da yayınlanan Perceptrons adlı kitaplarında tek katmanlı algaçların bazı basit problemleri çözemeyeceğini gösterip aynı kısırlığın çok katmanlı algaçlarda da beklenilmesi gerektiğini söylemeleri ile bıçakla kesilmiş gibi durmasıdır.
+ Sibernetik akımın uğradığı başarısızlığın temel sebebi de benzer şekilde Yapay Sinir Ağının tek katmanlı görevi başarması fakat bu görevle ilgili vargıların veya sonuçların bir yargıya dönüşerek diğer kavramlar ile bir ilişki kurulamamasından kaynaklanmaktadır. Bu durum aynı zamanda semantik süreçlerin de benzeşimlendirilememesi gerçeğini doğurdu.
+
+Yapay zekâ
+Uzman sistemler. Her iki akımın da uğradığı başarısızlıklar, her sorunu çözecek genel amaçlı sistemler yerine belirli bir uzmanlık alanındaki bilgiyle donatılmış programları kullanma fikrinin gelişmesine sebep oldu ve bu durum yapay zekâ alanında yeniden bir canlanmaya yol açtı. Kısa sürede Uzman sistemler adı verilen bir metodoloji gelişti.
+ Uzman sistemler bir konuda belli ön koşullar aynı anda var olduğunda konunun bir uzmanın (bazen ne olasılıkla) ne karar alacağını belirleyen kuralların tümünü içeren bir programı gelen problemlere uygulamak temellidir. Bunun bir avantajı her verilen kararın hangi kurallar uygulanarak verildiğinin kolayca bilinmesi idi. Bu birçok kuralcı bürokratik karar örgütleri için kolayca uygulamalar geliştirilebilmesi demekti. Bu doğal olarak bir otomobilin tamiri için önerilerde bulunan uzman sistem programının otomobilin ne işe yaradığından haberi olmaması da demekti. Buna rağmen uzman sistemlerin başarıları beraberinde ilk ticari uygulamaları da getirdi.
+ Yapay zekâ yavaş yavaş bir endüstri hâline geliyordu. DEC tarafından kullanılan ve müşteri siparişlerine göre donanım seçimi yapan R1 adlı uzman sistem şirkete bir yılda 40 milyon dolarlık tasarruf sağlamıştı. Birden diğer ülkeler de yapay zekâyı yeniden keşfettiler ve araştırmalara büyük kaynaklar ayrılmaya başlandı. 1988'de yapay zekâ endüstrisinin cirosu 2 milyar dolara ulaşmıştı.
+
+Yapay zekâ
+Doğal dil işleme. Antropoloji bilimi, gelişmiş insan zekâsı ile dil arasındaki bağlantıyı gözler önüne serdiğinde, dil üzerinden yürütülen yapay zekâ çalışmaları tekrar önem kazandı. İnsan zekâsının doğrudan doğruya kavramlarla düşünmediği, dil ile düşündüğü, dil kodları olan kelimeler ile kavramlar arasında bağlantı kurduğu anlaşıldı. Bu sayede insan aklı kavramlar ile düşünen Hayvan beyninden daha hızlı işlem yapabilmekteydi ve dil dizgeleri olan cümleler yani şablonlar ile etkili bir öğrenmeye ve bilgisini soyut olarak genişletebilme yeteneğine sahip olmuştu. İnsanların iletişimde kullandıkları Türkçe, İngilizce gibi doğal dilleri anlayan bilgisayarlar konusundaki çalışmalar hızlanmaya başladı. Önce, yine Uzman sistemler olarak karşımıza çıkan doğal dil anlayan programlar, daha sonra Sembolik Yapay Zekâ ile ilgilenenler arasında ilgiyle karşılandı ve yazılım alanındaki gelişmeler sayesinde İngilizce olan A.I.M.L (Artificial intelligence Markup Language) ve Türkçe T.Y.İ.D (Türkçe Yapay Zekâ İşaretleme Dili) gibi bilgisayar dilleri ile sentaktik (Örüntü) işlemine uygun veri erişim metotları geliştirilebildi. Bugün Sembolik Yapay Zekâ araştırmacıları özel Yapay Zekâ dillerini kullanarak verileri birbiri ile ilişkilendirebilmekte, geliştirilen özel prosedürler sayesinde anlam çıkarma ve çıkarımsama yapma gibi ileri seviye bilişsel fonksiyonları benzetimlendirmeye çalışmaktadırlar.
+ Bütün bu gelişmelerin ve süreçlerin sonunda bir grup yapay zekâ araştırmacısı, insan gibi düşünebilen sistemleri araştırmaya devam ederken diğer bir grup ise ticari değeri olan rasyonel karar alan sistemler (Uzman sistemler) üzerine yoğunlaştı.
+
+Yapay zekâ
+Diyalog bazlı yapay zeka. Doğal dil işleme ve makine öğrenmesi gibi yapay zeka teknolojileri kullanılarak insan ve makine (yazılım) arasında bir diyaloğun sürdürülmesini sağlayan yapay zeka alt dalına "diyalog bazlı yapay zeka" (conversational artificial intelligence) denir. Daha önce insanların bilgisayara komut vermesinde kullanılan web, mobil uygulama gibi grafiksel arayüzlerin (GUI) yerine geçmeyi amaçlayan diyalog bazlı arayüzler (CUI) insanların bilgisayara günlük dilde yazarak veya konuşarak komut verebilmesini amaçlar. Günümüzde, chatbotlar ve sesli asistanlar diyalog bazlı yapay zeka alanında sıkça kullanılan teknolojik ürünler olarak karşımıza çıkmaktadır.
+
+Yapay zekâ
+Chatbotlar. Chatbotlar, diyalog bazlı yapay zekanın günlük hayatta kullanılan bir örneğidir. Kullanıcılar, Türkçeye sohbet robotları olarak geçmiş bu dijital ürünler ile yazışarak belirli bir konuda bilgi alabilir veya uçak bileti almak, banka havalesi yapmak veya bir kitap satın almak gibi günlük işlerini yapabilirler. Chatbotlar, şirketlerin web sitesinde veya mobil uygulamasında yer alabilirler. Bunun dışında chatbotlar, WhatsApp, Facebook Messenger gibi genel mesajlaşma platformlarında veya Google Assistant, Siri gibi sesli asistanlarda da yer alabilirler.
+ Chatbotlar kullanıcı ile etkileşim kurma yöntemini, arkasında yer alan teknolojik altyapıya göre farklı çeşitlerde oluşturulabilir. Örneğin bir chatbot kullanıcı ile, sadece kullanıcı onunla etkileşime girdiğinde iletişim kuruyorsa reaktif bir chatbottur, eğer bir uyarıcı ile tetiklenerek kullanıcı ile olan diyaloğu başlatan taraf oluyorsa buna proaktif bir chatbot denir. Teknoloji açısından bakılacak olursa, yapay zeka tabanlı chatbotların yanında, doğal dil işleme, makine öğrenmesi gibi yapay zeka teknolojileri kullanılmadan geliştirilen kural tabanlı chatbotlar da kullanılmaktadır. Ancak bu iki tür chatbotun davranışı farklıdır. Kural bazlı chatbotlarda genellikle kullanıcıya belirli seçenekler sunulur ve yaratılan deneyim bu seçeneklerle sınırlı kalır. Yapay zeka tabanlı chatbotlarda ise kullanıcı serbest bir metin yazabilir, chatbotun doğal dil işleme teknolojisi bu metni anlamlandırıp doğru yanıtı belirleyerek kullanıcıya sunar. [ 72 ]
+
+Yapay zekâ
+Süper zekâ ve tekillik. Süper zekâ, en parlak ve en yetenekli insan zihninin zekâsını çok aşan bir zekâya sahip varsayımsal bir etkendir. [ 73 ] Yapay genel zekâ üzerine yapılan araştırmalar yeterince zeki bir yazılım üretirse, yazılım kendini yeniden programlayabilir ve geliştirebilir. Gelişen yazılım kendini geliştirmede daha da iyi olur ve I. J. Good 'un " zekâ patlaması " ve Vernor Vinge 'in " tekillik " olarak adlandırdığı şeye yol açar. [ 74 ] 
+ Ancak teknolojiler sonsuza kadar üstel olarak gelişemez ve genellikle S şeklinde bir eğri izler, teknolojinin yapabileceği şeyin fiziksel sınırlarına ulaştığında yavaşlar. [ 75 ]
+
+Yapay zekâ
+Transhümanizm. Robot tasarımcısı Hans Moravec, sibernetikçi Kevin Warwick ve mucit Ray Kurzweil, gelecekte insanların ve makinelerin birleşerek her ikisinden de daha yetenekli ve güçlü siborglara dönüşebileceğini öngördüler. Transhümanizm olarak adlandırılan bu fikrin kökleri, Aldous Huxley ve Robert Ettinger 'ın yazılarında bahsedilmektedir. [ 76 ] 
+ Edward Fredkin, "yapay zekânın evrimin bir sonraki adımı" olduğunu savunmaktaydı; bu fikir ilk olarak Samuel Butler 'ın " Darwin among the Machines " adlı mektubunda 1863'te ortaya atıldı ve George Dyson tarafından 1998'deki Darwin Among the Machines: The Evolution of Global Intelligence adlı kitabında geliştirildi. [ 77 ]
+
+Yapay zekâ
+Uygulama alanları. Yapay zekanın uygulama alanlarının bazı örnekleri şu şekildedir:
+ Önerici sistemler: Kullanıcıların geçmiş davranışlarına dayanarak yeni içerik önerilmesi. Örneğin, sosyal medya sitelerinde yeni arkadaş, mağazalarda başka bir ürün, gazetede başka bir haber önerileri. 
+ Makine çevirisi: Bir dilde ifade edilen cümleyi farklı bir dile çevirmek. Örneğin, Google Translate, Microsoft Tercüman ve Yandex.Çeviri gibi çevrimiçi araçlar. 
+ Sinyal işleme: Ses ve görüntü gibi sinyallerin işlenerek bilgi çıkarımı. Örneğin, yüz ve ses tanıma. 
+ Prosedürel içerik üretimi: Rassal yöntemler kullanarak yapay içerik üretme. Örneğin, üretimsel müzik ve video oyunlarında prosedürel dünyalar. 
+ Regresyon analizi: Geçmiş verilere dayanılarak bir değişkenin gelecekteki değerinin tahmin edilmesi. Örneğin, ekonomik öngörüler, üretim miktarı öngörüleri. 
+ Görüntü işleme: Dijital görüntülerde bulunan objeleri tanıma, yerini bulma, sınıflandırma gibi işlemlerin tümü. Yapay zekadan önce bu işlemler Hough dönüşümü gibi kurala dayalı algoritmalar ile sürdürülürken, günümüzde bu kurallar veriden öğrenilmektedir. Görüntülemenin sık kullanıldığı tıp, [ 78 ] biyoloji, [ 79 ] otomotiv, [ 80 ] üretim [ 81 ] gibi alanlarda kullanılmaktadır. 
+ Makale yazma: Dünyada yapay zeka ile yazılan ilk köşe yazısı 8 Eylül 2020 tarihinde The Guardian gazetesinde yayınlanmıştır. [ 82 ] Türkiye'de yapay zekanın yazdığı ilk haber ise Şalom gazetesinde 2018 yılında yayınlanmıştır. [ 83 ]
+
+Yapay zekâ
+Alt dallar. Makine Zekâsı (Sembolik Yapay Zekâ) 
+ Yapay Sinir Ağları (Sibernetik Yapay Zekâ) 
+ Doğal Dil işleme (Dil ile düşünme) 
+ Görüntü İşleme 
+ Konuşma Sentezi (Yapay Konuşma) 
+ Konuşma Anlama (Konuşma Analizi) 
+ Tümevarımlı mantık programlama 
+ Bilgi-tabanlı sistem 
+ Bilgisayarlı görü 
+ Doğal dil üretme 
+ Uzman sistemler 
+ Sinirsel şebeke 
+ Makine öğrenimi 
+ Örüntü Tanıma 
+ Genetik Algoritmalar 
+ Genetik Programlama 
+ Bulanık Mantık 
+ Çoklu Örnekle Öğrenme (Multiple Instance Learning)
+
+Yapay zekâ
+Ayrıca bakınız. Yapay zekâ mühendisliği 
+ Yapay zekâya yönelik programlama dilleri listesi 
+ Yapay zekâ projeleri listesi 
+ Yapay zekâ uygulamaları 
+ Derin öğrenme yazılımlarının karşılaştırılması 
+ Video gözetimi için yapay zeka 
+ Sağlık hizmetlerinde yapay zekâ 
+ Video oyunlarında yapay zekâ 
+ Yapay zekânın kontrolü devralması 
+ Üretken yapay zekâ 
+ Yapay zekâ alanında ilerleme 
+ Açık kaynaklı yapay zeka 
+ Yapay Zekâ Soğuk Savaşı 
+ Yapay zekâ silahlanma yarışı 
+ Yapay Zekâ Yasası 
+ Yapay zekâ sanatı 
+ Yapay zekâ çağı 
+ Yapay zekâ etiği 
+ Yapay zekâ kışı 
+ Yapay zeka felsefesi 
+ Yapay hayal gücü 
+ Genetik Programlama 
+ Nöro-sembolik yapay zeka 
+ Yapay zeka etkisi 
+ Sembolik yapay zeka 
+ Genetik Programlama 
+ AI slop 
+ Toplu zekâ 
+ Yapay bilinç 
+ Durum tabanlı çıkarsama 
+ Yapay genel zekâ 
+ Duygu analizi 
+ Çince odası 
+ Bilişsel dilbilim
+
+Yapay zekâ
+Yapay zekâ (İngilizce: Artificial intelligence, AI); hesaplama sistemlerinin öğrenme, akıl, problem çözme, algılama ve karar verme gibi tipik olarak insan zekâsıyla ilişkilendirilen görevleri yerine getirme yeteneğidir. Dördüncü Sanayi Devrimi 'nin en yaygın özelliklerinden biri olarak kabul edilir. İlk ve ikinci kategoriler arasındaki ayrım genellikle seçilen kısaltmayla ortaya çıkar. Güçlü yapay zeka genellikle yapay genel zekâ (İngilizce: Artificial general intelligence kelimelerinin kısaltılmışı olarak: AGI) olarak etiketlenirken, doğal zekayı taklit etme girişimleri yapay biyolojik zekâ (İngilizce: Artificial biological intelligence: ABI) olarak adlandırılır. Önde gelen yapay zekâ ders kitapları, alanı zeki etmenlerin çalışması olarak tanımlar: Çevresini algılayan ve hedeflerine başarıyla ulaşma şansını en üst düzeye çıkaran eylemleri gerçekleştiren herhangi bir cihaz. [ 3 ] Toplum arasında, yapay zekâ kavramı genellikle insanların insan zihni ile ilişkilendirdiği öğrenme ve problem çözme gibi bilişsel eylemleri taklit eden makineleri tanımlamak için kullanılır. [ 4 ] 
+ Makineler daha becerikli hâle geldikçe, zekâ gerektirdiği düşünülen görevler genellikle yapay zekâ etkisi olarak bilinen bir fenomen olan yapay zekâ tanımından çıkarılır. [ 5 ] Tesler'in teoremindeki bir espri, "Yapay zekâ henüz yapılmamış şeydir" der. [ 6 ] Örneğin, optik karakter tanıma yapay zekâ olarak değerlendirilen şeylerin dışında tutulur, [ 7 ] rutin teknoloji hâline gelir. [ 8 ] 
+ Genellikle yapay zekâ olarak sınıflandırılan modern makine yetenekleri satranç ve Go [ 9 ] gibi stratejik oyun sistemlerinde, en üst düzeyde rekabet eden insan konuşmasını anlama, [ 10 ] poker ya da otonom arabalar gibi kusurlu-bilgi oyunlarını içerik dağıtım ağındaki akıllı yönlendirmeyi ve askeri simülasyonları kapsar. [ 11 ] 
+ Yapay zekâ çalışmaları sıklıkla insanın düşünme yöntemlerini taklit eden yapay algoritmalar geliştirmeye yöneliktir, [ 12 ] ancak bununla sınırlı değildir. Öğrenebilen ve gelecekte insan zekâsından bağımsız gelişebilecek bir yapay zekâ kavramına doğru yeni yönelimler oluşmaktadır. Bu yönelim, insanın evreni ve doğayı anlama çabasında kendisine yardımcı olabilecek belki de kendisinden daha zeki, insan ötesi varlıklar meydana getirme düşünün bir ürünüdür. Bu düş, 1920'li yıllarda yazılan ve sonraları Isaac Asimov 'u etkileyen modern bilimkurgu edebiyatının öncü yazarlarından Karel Čapek 'in eserlerinde dışa vurmuştur. Karel Čapek, R.U.R. adlı tiyatro oyununda yapay zekâya sahip robotlar ile insanlığın ortak toplumsal sorunlarını ele alarak 1920 yılında yapay zekânın insan aklından bağımsız gelişebileceğini öngörmüştür. [ 13 ]
+
+Yapay zekâ
+Tanım. Yapay zekâ, idealleştirilmiş bir perspektife göre insan zekâsına özgü yüksek bilişsel fonksiyonları veya otonom davranışları sergileyen bir yapay işletim sistemidir. Bu sistem, algılama, öğrenme, çoğul kavramları bağlama, düşünme, fikir yürütme (belirtme), sorun çözme, iletişim kurma ve karar verme gibi yeteneklere sahip olmalıdır. [ 14 ] Ayrıca, bu yapay zekâ sistemi düşüncelerinden tepkiler üretebilmeli (eyleyici yapay zekâ) ve bu tepkileri fiziksel olarak dışa vurabilmelidir.
+Hedefler. Zekâyı simüle etme (veya oluşturma) genel problemi, alt problemlere ayrılmıştır. Bu alt problemler, araştırmacıların zeki bir sistemden sergilemesini beklediği belirli özellikler veya yeteneklerden oluşur. Aşağıda açıklanan özellikler, yapay zekâ araştırmalarında en çok dikkat çeken konular arasında yer almakta ve bu araştırmaların kapsamını belirlemektedir. [ a ]
+
+Yapay zekâ
+Akıl yürütme ve problem çözme. Yapay zekânın ilk araştırmacıları, insanların bulmacaları çözerken veya mantıksal çıkarımlar yaparken kullandığı adım adım akıl yürütmeyi taklit eden algoritmalar geliştirmiştir. [ 15 ] 1980'lerin sonları ve 1990'larda, belirsiz veya eksik bilgiyle başa çıkmak için olasılık ve ekonomi kavramlarını kullanan yöntemler geliştirilmiştir. [ 16 ] 
+ Bu algoritmaların birçoğu, büyük ölçekli akıl yürütme problemlerini çözmek için yetersizdir, çünkü "kombinatoryal patlama" denilen bir durum yaşarlar: Problemler büyüdükçe bu algoritmaların çalışması üstel bir şekilde yavaşlar. [ 17 ] Hatta insanlar bile erken dönem yapay zekânın modelleyebildiği adım adım akıl yürütmeyi nadiren kullanır. İnsanlar, çoğu sorunlarını hızlı ve sezgisel yargılarla çözerler. [ 18 ] Doğru ve verimli akıl yürütme, hâlâ çözülememiş bir problemdir.
+
+Yapay zekâ
+Bilgi temsili. Bilgi temsili ve bilgi mühendisliği, [ 19 ] yapay zekâ programlarının sorulara akıllıca yanıt vermesini ve gerçek dünya ile ilgili çıkarımlarda bulunmasını sağlar. Formel bilgi temsilleri; içerik tabanlı indeksleme ve bilgi erişimi, [ 20 ] sahne yorumlama, [ 21 ] klinik karar destek sistemleri, [ 22 ] bilgi keşfi (büyük veritabanlarından "ilginç" ve eyleme geçirilebilir çıkarımlarda bulunma) [ 23 ] gibi birçok alanda kullanılmaktadır. [ 24 ]
+
+Yapay zekâ
+Tarihçe. Yapay zekâ tarihi, antik çağlarda, usta zanaatkarlar tarafından zeka veya bilinç kazandırılan yapay varlıklara ilişkin mitler, hikâyeler ve söylentilerle başladı. Mekanik ya da "formel" akıl yürütme üzerine çalışmalar, antik çağda filozoflar ve matematikçilerle birlikte devam etti. Mantık alanındaki bu çalışmalar, Alan Turing 'in algoritmalar teorisinin temelini oluşturdu. Turing'in teorisi, "0" ve "1" gibi basit sembolleri kullanarak bir makinenin, insan aklının gerçekleştirebileceği her türlü matematiksel akıl yürütmeyi simüle edebileceğini öne sürdü. [ 25 ] [ 26 ] Bu teori, sibernetik, bilgi teorisi ve nörobiyoloji gibi alanlardaki keşiflerle birleşerek, araştırmacılara "elektronik bir beyin" inşa etme olasılığını düşünmeye yöneltti. [ b ] Öne çıkan çalışmalar arasında, 1943'teki Warren McCullouch ve Walter Pitts 'in "yapay nöronlar" tasarımı [ 28 ] ve Turing'in 1950'de yayımladığı, "makine zekâsının" mümkün olduğunu gösterdiği Turing testini tanıtan Bilgi İşlem Makineleri ve Zekâ adlı makalesi bulunmaktaydı. [ 26 ] [ 29 ] Bu dönemde yapılan bu tür araştırmalar, yapay zekânın temel alanlarının ortaya çıkardı. [ 30 ] 
+ 1956'da Dartmouth College 'deki bir atölye çalışmasında yapay zeka araştırma alanı kuruldu. [ c ] [ 32 ] Bu atölyeye katılan araştırmacılar, 1960'larda yapay zekâ alanına liderlik ettiler. [ d ] Öğrencileriyle beraber bu araştırmacılar, basının "şaşırtıcı" olarak nitelendirdiği projeler ürettiler. [ e ] Bu dönemde bilgisayarlar, dama stratejileri öğrenmiş, cebir problemlerini çözmüş, mantıksal teoremleri kanıtlamış ve İngilizce konuşmuştu. [ f ] [ 35 ] 1950'lerin sonu ve 1960'ların başlarında, hem İngiltere'deki hem de Amerika Birleşik Devletleri'ndeki birçok üniversitede yapay zekâ laboratuvarları kuruldu. [ 26 ] 
+ 1960'lar ve 1970'lerdeki araştırmacılar, genel zekâya sahip bir makine üretmenin mümkün olduğuna inanıyor ve bunu alanlarının nihai hedefi olarak görüyordu. [ 36 ] 1965'te Herbert Simon, "makinelerin yirmi yıl içinde bir insanın yapabileceği her işi yapabilir hâle geleceği" tahmininde bulunmuş, [ 37 ] 1967'de Marvin Minsky, "bir nesil içinde... 'yapay zekâ' sorununun büyük ölçüde çözüleceği" yorumunu yapmıştı. [ 38 ] Ancak bu öngörüler, yapay zekânın geliştirilmesindeki zorlukları göz ardı etmişti. [ g ] 1974'te Sir James Lighthill 'ın eleştirileri [ 40 ] ve ABD Kongresi'nin daha somut projelere fon sağlama baskısı nedeniyle, ABD ve İngiltere hükûmetleri keşif amaçlı yapay zekâ araştırmalarına verilen desteği durdurma kararı aldı. [ 41 ] Minsky ve Seymour Papert 'ın Perceptrons adlı kitabı, yapay sinir ağlarının gerçek dünya problemlerini çözmede etkisiz olduğunu savunmuş ve bu yaklaşım, itibarını kaybetmişti. [ 42 ] Bunun sonucunda, yapay zekâ projelerine fon bulmanın zorlaştığı " yapay zekâ kışı " adı verilen bir dönem başladı. [ 43 ] 
+ 1980'lerin başında yapay zekâ araştırmaları, uzman sistemlerin ticari başarısıyla yeniden canlandı. [ 44 ] Uzman sistemler, uzmanların bilgi ve analiz yeteneklerini taklit eden bir tür yapay zekâ programıydı. 1985 yılına gelindiğinde, yapay zekâ pazarı 1 milyar doları aşmıştı. Aynı dönemde Japonya'nın beşinci nesil bilgisayar projesi, ABD ve Britanya hükûmetlerini akademik araştırmalara yeniden fon sağlamaya teşvik etti. [ 45 ] Ancak, 1987'de Lisp makinesi pazarının çöküşüyle yapay zekâ tekrar itibar kaybetti ve daha uzun süren ikinci bir "yapay zekâ kışı" başladı. [ 46 ] 
+ O zamana kadar yapay zekâ projelerinin büyük kısmı, planlar, hedefler, inançlar ve bilinen gerçekler gibi zihinsel kavramları temsil etmek için yüksek seviyede semboller kullanmaya odaklanmıştı. Ancak 1980'lerde bazı araştırmacılar, bu yaklaşımın insan bilişinin tüm süreçlerini, özellikle algı, robotik, öğrenme ve örüntü tanıma gibi karmaşık süreçleri taklit edemeyeceği konusunda şüphe duymaya başladı. [ 47 ] Bu nedenle, "alt sembolik" yöntemlere yöneldiler. [ 48 ] Rodney Brooks, genel olarak "temsil" fikrini reddederek hayatta kalabilen ve hareket edebilen makineler geliştirmeye odaklandı. [ h ] Judea Pearl ve Lofti Zadeh gibi isimler, eksik ve belirsiz bilgileri mantıksal kesinlik yerine mâkul tahminlerle işleyebilen yöntemler geliştirdi. [ 53 ] Ayrıca Geoffrey Hinton ve diğer araştırmacılar, " bağlantısallık " ve sinir ağ araştırmalarını yeniden canlandırarak bu alanın gelişimine katkıda bulundu. [ 54 ] 1990'da Yann LeCun, evrişimli sinir ağlarının el yazısı ile yazılmış rakamları tanıyabildiğini gösterdi; bu, sinir ağlarının birçok başarılı uygulamasından ilkiydi. [ 55 ] 
+ Yapay zekâ, 1990'ların sonları ve 21. yüzyılın başlarında, formal matematik yöntemlerinden yararlanarak ve belirli problemlere özel çözümler geliştirerek itibarını yeniden kazanmaya başladı. Bu " dar " ve "formal" yaklaşım, araştırmacıların doğrulanabilir sonuçlar üretmesini ve istatistik, ekonomi ve matematik gibi diğer alanlarla iş birliği yapmasını sağladı. [ 56 ] 2000'li yıllara gelindiğinde, yapay zekâ araştırmacılarının geliştirdiği çözümler yaygın olarak kullanılmaya başlanmıştı. Ancak 1990'larda bu çözümler genellikle "yapay zekâ" olarak adlandırılmıyordu (bu eğilim yapay zekâ etkisi olarak bilinir). [ 57 ] 
+Buna karşın, bazı akademisyenler yapay zekânın ilk hedefinden, yani çok yönlü ve tam anlamıyla zeki makineler yaratma amacından uzaklaştığını düşünmeye başladı. 2002'nin başlarında, bu hedefi yeniden canlandırmak amacıyla yapay genel zekâ ("AGI") adı verilen bir alt alan kuruldu. 2010'lara gelindiğinde, yapay genel zekâ araştırmaları için iyi finanse edilen birçok kurum ortaya çıktı.
+ Derin öğrenme, 2012'de endüstri standartlarında önemli bir üstünlük sağlayarak yapay zekâ alanında yaygın bir şekilde benimsendi. [ 58 ] 
+Birçok spesifik görevde diğer yöntemler terk edildi. [ i ] 
+Bu başarının arkasında daha hızlı bilgisayarlar, [ 60 ] grafik işlem birimleri, bulut bilişim [ 61 ] gibi donanım geliştirmeleriyle ImageNet gibi dikkatle oluşturulmuş veri kümelerinin de dâhil olduğu [ 61 ] büyük miktarda veriye erişim [ 62 ] yatıyordu. Derin öğrenmenin bu yükselişi, yapay zekâya olan ilgi ve finansmanda büyük bir artışı tetikledi. [ j ] 2015-2019 yılları arasında makine öğrenimi araştırmalarındaki toplam yayımlanma sayısında %50'lik bir artış görüldü. [ 63 ] 
+ 2016'da, adalet ve teknolojinin yanlış kullanımı gibi etik sorunlar, makine öğrenimi konferanslarında ana gündem maddesi hâline geldi. Bu konularda yapılan yayımlar hızla artarken, yeni finansman kaynakları sağlandı ve birçok araştırmacı kariyerlerini bu alanlara yönlendirdi. Aynı dönemde, yapay zekânın insan çıkarlarına uygun şekilde geliştirilmesini konu alan " uyum problemi " akademik bir çalışma alanı olarak ciddiyet kazandı. [ 64 ] 
+ 2010'ların sonları ve 2020'lerin başlarında, yapay genel zekâ üzerine çalışan şirketler dikkat çeken yazılımlar üretmeye başladı. 2015 yılında DeepMind tarafından geliştirilen AlphaGo, oyunun kuralları öğretilerek kendi stratejisini geliştirdi ve dünya şampiyonu Go oyuncusunu yendi. 2020'de OpenAI tarafından çıkarılan GPT-3, insan benzeri yüksek kaliteli metinler üretebilen bir geniş dil modeli olarak dikkat çekti. [ 65 ] 30 Kasım 2022'de kullanıma sunulan ChatGPT ise iki ay içinde 100 milyon kullanıcıya ulaşarak tarihin en hızlı büyüyen tüketici yazılımı oldu. [ 66 ] 2022 yılı, yapay zekânın geniş kitleler tarafından fark edildiği ve yaygın bir şekilde konuşulmaya başlandığı bir dönüm noktası olarak kabul edildi. [ 67 ] Bu yazılımlar, büyük bir yapay zeka patlamasını tetikledi. Büyük ölçekli şirketler yapay zekâ araştırmalarına milyarlarca dolar yatırım yapmaya başladı. AI Impacts'in verilerine göre, 2022 yılında sadece ABD'de yapay zekâya yıllık yaklaşık $50 milyar yatırım yapıldı. ABD'deki yeni bilgisayar bilimi doktora mezunlarının yaklaşık %20'si yapay zekâ üzerine uzmanlaştı. [ 68 ] Aynı yıl, ABD'de yapay zekâ ile ilgili 800.000 iş ilanı bulundu. [ 69 ] PitchBook araştırmasına göre, 2024'te yeni fon alan girişimlerin %22'si kendilerini yapay zekâ şirketi olarak tanımlıyordu. [ 70 ]
+
+Yapay zekâ
+İlk araştırmalar ve yapay sinir ağları. İdealize edilmiş tanımıyla yapay zekâ konusundaki ilk çalışmalardan biri McCulloch ve Pitts tarafından yapılmıştır. Bu araştırmacıların önerdiği, yapay sinir hücrelerini kullanan hesaplama modeli, önermeler mantığı, fizyoloji ve Turing 'in hesaplama kuramına dayanıyordu. Herhangi bir hesaplanabilir fonksiyonun sinir hücrelerinden oluşan ağlarla hesaplanabileceğini ve mantıksal ve ve veya işlemlerinin gerçekleştirilebileceğini gösterdiler. Bu ağ yapılarının uygun şekilde tanımlanmaları hâlinde öğrenme becerisi kazanabileceğini de ileri sürdüler. Hebb, sinir hücreleri arasındaki bağlantıların şiddetlerini değiştirmek için basit bir kural önerince, öğrenebilen yapay sinir ağlarını gerçekleştirmek de olası hale gelmiştir.
+ 1950'lerde Shannon ve Turing bilgisayarlar için satranç programları yazıyorlardı. İlk yapay sinir ağı temelli bilgisayar SNARC, MIT 'de Minsky ve Edmonds tarafından 1951'de yapıldı. Çalışmalarını Princeton Üniversitesi 'nde sürdüren Mc Carthy, Minsky, Shannon ve Rochester 'le birlikte 1956 yılında Dartmouth 'da iki aylık bir açık çalışma düzenledi. Bu toplantıda birçok çalışmanın temelleri atılmakla birlikte, toplantının en önemli özelliği Mc Carthy tarafından önerilen yapay zekâ adının konmasıdır. İlk kuram ispatlayan programlardan Logic Theorist (Mantık kuramcısı) burada Newell ve Simon tarafından tanıtılmıştır.
+
+Yapay zekâ
+Yeni yaklaşımlar. Daha sonra Newell ve Simon, insan gibi düşünme yaklaşımına göre üretilmiş ilk program olan Genel Sorun Çözücü (General Problem Solver)'ı geliştirmişlerdir. Simon, daha sonra fiziksel simge varsayımını ortaya atmış ve bu kuram, insandan bağımsız zeki sistemler yapma çalışmalarıyla uğraşanların hareket noktasını oluşturmuştur. Simon 'ın bu tanımlaması bilim adamlarının yapay zekâya yaklaşımlarında iki farklı akımın ortaya çıktığını belirginleştirmesi açısından önemlidir [ 71 ]: Sembolik Yapay Zekâ ve Sibernetik Yapay Zekâ.
+
+Yapay zekâ
+Sembolik yapay zekâ. Simon 'ın sembolik yaklaşımından sonraki yıllarda mantık temelli çalışmalar egemen olmuş ve programların başarımlarını göstermek için bir takım yapay sorunlar ve dünyalar kullanılmıştır. Daha sonraları bu sorunlar gerçek yaşamı hiçbir şekilde temsil etmeyen oyuncak dünyalar olmakla suçlanmış ve yapay zekânın yalnızca bu alanlarda başarılı olabileceği ve gerçek yaşamdaki sorunların çözümüne ölçeklenemeyeceği ileri sürülmüştür.
+ Geliştirilen programların gerçek sorunlarla karşılaşıldığında çok kötü bir başarım göstermesinin ardındaki temel neden, bu programların yalnızca sentaktik süreçleri benzeşimlendirerek anlam çıkarma, bağlantı kurma ve fikir yürütme gibi süreçler konusunda başarısız olmasıydı. Bu dönemin en ünlü programlarından Weizenbaum tarafından geliştirilen Eliza, karşısındaki ile sohbet edebiliyor gibi görünmesine karşın, yalnızca karşısındaki insanın cümleleri üzerinde bazı işlemler yapıyordu. İlk makine çevirisi çalışmaları sırasında benzeri yaklaşımlar kullanılıp çok gülünç çevirilerle karşılaşılınca bu çalışmaların desteklenmesi durdurulmuştu. Bu yetersizlikler aslında insan beynindeki semantik süreçlerin yeterince incelenmemesinden kaynaklanmaktaydı.
+
+Yapay zekâ
+Sibernetik yapay zekâ. Yapay sinir ağları çalışmalarının dahil olduğu sibernetik cephede de durum aynıydı. Zeki davranışı benzeşimlendirmek için bu çalışmalarda kullanılan temel yapılardaki bazı önemli yetersizliklerin ortaya konmasıyla birçok araştırmacılar çalışmalarını durdurdular. Buna en temel örnek, Yapay sinir ağları konusundaki çalışmaların Marvin Minsky ve Seymour Papert 'in 1969'da yayınlanan Perceptrons adlı kitaplarında tek katmanlı algaçların bazı basit problemleri çözemeyeceğini gösterip aynı kısırlığın çok katmanlı algaçlarda da beklenilmesi gerektiğini söylemeleri ile bıçakla kesilmiş gibi durmasıdır.
+ Sibernetik akımın uğradığı başarısızlığın temel sebebi de benzer şekilde Yapay Sinir Ağının tek katmanlı görevi başarması fakat bu görevle ilgili vargıların veya sonuçların bir yargıya dönüşerek diğer kavramlar ile bir ilişki kurulamamasından kaynaklanmaktadır. Bu durum aynı zamanda semantik süreçlerin de benzeşimlendirilememesi gerçeğini doğurdu.
+
+Yapay zekâ
+Uzman sistemler. Her iki akımın da uğradığı başarısızlıklar, her sorunu çözecek genel amaçlı sistemler yerine belirli bir uzmanlık alanındaki bilgiyle donatılmış programları kullanma fikrinin gelişmesine sebep oldu ve bu durum yapay zekâ alanında yeniden bir canlanmaya yol açtı. Kısa sürede Uzman sistemler adı verilen bir metodoloji gelişti.
+ Uzman sistemler bir konuda belli ön koşullar aynı anda var olduğunda konunun bir uzmanın (bazen ne olasılıkla) ne karar alacağını belirleyen kuralların tümünü içeren bir programı gelen problemlere uygulamak temellidir. Bunun bir avantajı her verilen kararın hangi kurallar uygulanarak verildiğinin kolayca bilinmesi idi. Bu birçok kuralcı bürokratik karar örgütleri için kolayca uygulamalar geliştirilebilmesi demekti. Bu doğal olarak bir otomobilin tamiri için önerilerde bulunan uzman sistem programının otomobilin ne işe yaradığından haberi olmaması da demekti. Buna rağmen uzman sistemlerin başarıları beraberinde ilk ticari uygulamaları da getirdi.
+ Yapay zekâ yavaş yavaş bir endüstri hâline geliyordu. DEC tarafından kullanılan ve müşteri siparişlerine göre donanım seçimi yapan R1 adlı uzman sistem şirkete bir yılda 40 milyon dolarlık tasarruf sağlamıştı. Birden diğer ülkeler de yapay zekâyı yeniden keşfettiler ve araştırmalara büyük kaynaklar ayrılmaya başlandı. 1988'de yapay zekâ endüstrisinin cirosu 2 milyar dolara ulaşmıştı.
+
+Yapay zekâ
+Doğal dil işleme. Antropoloji bilimi, gelişmiş insan zekâsı ile dil arasındaki bağlantıyı gözler önüne serdiğinde, dil üzerinden yürütülen yapay zekâ çalışmaları tekrar önem kazandı. İnsan zekâsının doğrudan doğruya kavramlarla düşünmediği, dil ile düşündüğü, dil kodları olan kelimeler ile kavramlar arasında bağlantı kurduğu anlaşıldı. Bu sayede insan aklı kavramlar ile düşünen Hayvan beyninden daha hızlı işlem yapabilmekteydi ve dil dizgeleri olan cümleler yani şablonlar ile etkili bir öğrenmeye ve bilgisini soyut olarak genişletebilme yeteneğine sahip olmuştu. İnsanların iletişimde kullandıkları Türkçe, İngilizce gibi doğal dilleri anlayan bilgisayarlar konusundaki çalışmalar hızlanmaya başladı. Önce, yine Uzman sistemler olarak karşımıza çıkan doğal dil anlayan programlar, daha sonra Sembolik Yapay Zekâ ile ilgilenenler arasında ilgiyle karşılandı ve yazılım alanındaki gelişmeler sayesinde İngilizce olan A.I.M.L (Artificial intelligence Markup Language) ve Türkçe T.Y.İ.D (Türkçe Yapay Zekâ İşaretleme Dili) gibi bilgisayar dilleri ile sentaktik (Örüntü) işlemine uygun veri erişim metotları geliştirilebildi. Bugün Sembolik Yapay Zekâ araştırmacıları özel Yapay Zekâ dillerini kullanarak verileri birbiri ile ilişkilendirebilmekte, geliştirilen özel prosedürler sayesinde anlam çıkarma ve çıkarımsama yapma gibi ileri seviye bilişsel fonksiyonları benzetimlendirmeye çalışmaktadırlar.
+ Bütün bu gelişmelerin ve süreçlerin sonunda bir grup yapay zekâ araştırmacısı, insan gibi düşünebilen sistemleri araştırmaya devam ederken diğer bir grup ise ticari değeri olan rasyonel karar alan sistemler (Uzman sistemler) üzerine yoğunlaştı.
+
+Yapay zekâ
+Diyalog bazlı yapay zeka. Doğal dil işleme ve makine öğrenmesi gibi yapay zeka teknolojileri kullanılarak insan ve makine (yazılım) arasında bir diyaloğun sürdürülmesini sağlayan yapay zeka alt dalına "diyalog bazlı yapay zeka" (conversational artificial intelligence) denir. Daha önce insanların bilgisayara komut vermesinde kullanılan web, mobil uygulama gibi grafiksel arayüzlerin (GUI) yerine geçmeyi amaçlayan diyalog bazlı arayüzler (CUI) insanların bilgisayara günlük dilde yazarak veya konuşarak komut verebilmesini amaçlar. Günümüzde, chatbotlar ve sesli asistanlar diyalog bazlı yapay zeka alanında sıkça kullanılan teknolojik ürünler olarak karşımıza çıkmaktadır.
+
+Yapay zekâ
+Chatbotlar. Chatbotlar, diyalog bazlı yapay zekanın günlük hayatta kullanılan bir örneğidir. Kullanıcılar, Türkçeye sohbet robotları olarak geçmiş bu dijital ürünler ile yazışarak belirli bir konuda bilgi alabilir veya uçak bileti almak, banka havalesi yapmak veya bir kitap satın almak gibi günlük işlerini yapabilirler. Chatbotlar, şirketlerin web sitesinde veya mobil uygulamasında yer alabilirler. Bunun dışında chatbotlar, WhatsApp, Facebook Messenger gibi genel mesajlaşma platformlarında veya Google Assistant, Siri gibi sesli asistanlarda da yer alabilirler.
+ Chatbotlar kullanıcı ile etkileşim kurma yöntemini, arkasında yer alan teknolojik altyapıya göre farklı çeşitlerde oluşturulabilir. Örneğin bir chatbot kullanıcı ile, sadece kullanıcı onunla etkileşime girdiğinde iletişim kuruyorsa reaktif bir chatbottur, eğer bir uyarıcı ile tetiklenerek kullanıcı ile olan diyaloğu başlatan taraf oluyorsa buna proaktif bir chatbot denir. Teknoloji açısından bakılacak olursa, yapay zeka tabanlı chatbotların yanında, doğal dil işleme, makine öğrenmesi gibi yapay zeka teknolojileri kullanılmadan geliştirilen kural tabanlı chatbotlar da kullanılmaktadır. Ancak bu iki tür chatbotun davranışı farklıdır. Kural bazlı chatbotlarda genellikle kullanıcıya belirli seçenekler sunulur ve yaratılan deneyim bu seçeneklerle sınırlı kalır. Yapay zeka tabanlı chatbotlarda ise kullanıcı serbest bir metin yazabilir, chatbotun doğal dil işleme teknolojisi bu metni anlamlandırıp doğru yanıtı belirleyerek kullanıcıya sunar. [ 72 ]
+
+Yapay zekâ
+Süper zekâ ve tekillik. Süper zekâ, en parlak ve en yetenekli insan zihninin zekâsını çok aşan bir zekâya sahip varsayımsal bir etkendir. [ 73 ] Yapay genel zekâ üzerine yapılan araştırmalar yeterince zeki bir yazılım üretirse, yazılım kendini yeniden programlayabilir ve geliştirebilir. Gelişen yazılım kendini geliştirmede daha da iyi olur ve I. J. Good 'un " zekâ patlaması " ve Vernor Vinge 'in " tekillik " olarak adlandırdığı şeye yol açar. [ 74 ] 
+ Ancak teknolojiler sonsuza kadar üstel olarak gelişemez ve genellikle S şeklinde bir eğri izler, teknolojinin yapabileceği şeyin fiziksel sınırlarına ulaştığında yavaşlar. [ 75 ]
+
+Yapay zekâ
+Transhümanizm. Robot tasarımcısı Hans Moravec, sibernetikçi Kevin Warwick ve mucit Ray Kurzweil, gelecekte insanların ve makinelerin birleşerek her ikisinden de daha yetenekli ve güçlü siborglara dönüşebileceğini öngördüler. Transhümanizm olarak adlandırılan bu fikrin kökleri, Aldous Huxley ve Robert Ettinger 'ın yazılarında bahsedilmektedir. [ 76 ] 
+ Edward Fredkin, "yapay zekânın evrimin bir sonraki adımı" olduğunu savunmaktaydı; bu fikir ilk olarak Samuel Butler 'ın " Darwin among the Machines " adlı mektubunda 1863'te ortaya atıldı ve George Dyson tarafından 1998'deki Darwin Among the Machines: The Evolution of Global Intelligence adlı kitabında geliştirildi. [ 77 ]
+
+Yapay zekâ
+Uygulama alanları. Yapay zekanın uygulama alanlarının bazı örnekleri şu şekildedir:
+ Önerici sistemler: Kullanıcıların geçmiş davranışlarına dayanarak yeni içerik önerilmesi. Örneğin, sosyal medya sitelerinde yeni arkadaş, mağazalarda başka bir ürün, gazetede başka bir haber önerileri. 
+ Makine çevirisi: Bir dilde ifade edilen cümleyi farklı bir dile çevirmek. Örneğin, Google Translate, Microsoft Tercüman ve Yandex.Çeviri gibi çevrimiçi araçlar. 
+ Sinyal işleme: Ses ve görüntü gibi sinyallerin işlenerek bilgi çıkarımı. Örneğin, yüz ve ses tanıma. 
+ Prosedürel içerik üretimi: Rassal yöntemler kullanarak yapay içerik üretme. Örneğin, üretimsel müzik ve video oyunlarında prosedürel dünyalar. 
+ Regresyon analizi: Geçmiş verilere dayanılarak bir değişkenin gelecekteki değerinin tahmin edilmesi. Örneğin, ekonomik öngörüler, üretim miktarı öngörüleri. 
+ Görüntü işleme: Dijital görüntülerde bulunan objeleri tanıma, yerini bulma, sınıflandırma gibi işlemlerin tümü. Yapay zekadan önce bu işlemler Hough dönüşümü gibi kurala dayalı algoritmalar ile sürdürülürken, günümüzde bu kurallar veriden öğrenilmektedir. Görüntülemenin sık kullanıldığı tıp, [ 78 ] biyoloji, [ 79 ] otomotiv, [ 80 ] üretim [ 81 ] gibi alanlarda kullanılmaktadır. 
+ Makale yazma: Dünyada yapay zeka ile yazılan ilk köşe yazısı 8 Eylül 2020 tarihinde The Guardian gazetesinde yayınlanmıştır. [ 82 ] Türkiye'de yapay zekanın yazdığı ilk haber ise Şalom gazetesinde 2018 yılında yayınlanmıştır. [ 83 ]
+
+Yapay zekâ
+Alt dallar. Makine Zekâsı (Sembolik Yapay Zekâ) 
+ Yapay Sinir Ağları (Sibernetik Yapay Zekâ) 
+ Doğal Dil işleme (Dil ile düşünme) 
+ Görüntü İşleme 
+ Konuşma Sentezi (Yapay Konuşma) 
+ Konuşma Anlama (Konuşma Analizi) 
+ Tümevarımlı mantık programlama 
+ Bilgi-tabanlı sistem 
+ Bilgisayarlı görü 
+ Doğal dil üretme 
+ Uzman sistemler 
+ Sinirsel şebeke 
+ Makine öğrenimi 
+ Örüntü Tanıma 
+ Genetik Algoritmalar 
+ Genetik Programlama 
+ Bulanık Mantık 
+ Çoklu Örnekle Öğrenme (Multiple Instance Learning)
+
+Yapay zekâ
+Ayrıca bakınız. Yapay zekâ mühendisliği 
+ Yapay zekâya yönelik programlama dilleri listesi 
+ Yapay zekâ projeleri listesi 
+ Yapay zekâ uygulamaları 
+ Derin öğrenme yazılımlarının karşılaştırılması 
+ Video gözetimi için yapay zeka 
+ Sağlık hizmetlerinde yapay zekâ 
+ Video oyunlarında yapay zekâ 
+ Yapay zekânın kontrolü devralması 
+ Üretken yapay zekâ 
+ Yapay zekâ alanında ilerleme 
+ Açık kaynaklı yapay zeka 
+ Yapay Zekâ Soğuk Savaşı 
+ Yapay zekâ silahlanma yarışı 
+ Yapay Zekâ Yasası 
+ Yapay zekâ sanatı 
+ Yapay zekâ çağı 
+ Yapay zekâ etiği 
+ Yapay zekâ kışı 
+ Yapay zeka felsefesi 
+ Yapay hayal gücü 
+ Genetik Programlama 
+ Nöro-sembolik yapay zeka 
+ Yapay zeka etkisi 
+ Sembolik yapay zeka 
+ Genetik Programlama 
+ AI slop 
+ Toplu zekâ 
+ Yapay bilinç 
+ Durum tabanlı çıkarsama 
+ Yapay genel zekâ 
+ Duygu analizi 
+ Çince odası 
+ Bilişsel dilbilim
+

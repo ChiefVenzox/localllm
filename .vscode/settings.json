@@ -1,0 +1,22 @@
+{
+  "// not": "Bu ayarlar Problems panelindeki sahte hatalari (E501 satir uzunlugu, cozulemeyen import) susturur.",
+
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}",
+    "${workspaceFolder}/chiefui-assistant/backend",
+    "${workspaceFolder}/chiefui-assistant/scripts"
+  ],
+  "python.analysis.typeCheckingMode": "off",
+  "python.analysis.exclude": ["**/.venv/**", "**/node_modules/**"],
+
+  "// linter": "satir sinirini 120 yap, E501/E402/F401 yoksay (flake8 + pycodestyle)",
+  "flake8.args": ["--max-line-length=120", "--extend-ignore=E501,E402,F401,W503,E203,E302,E305,E303,E741"],
+  "pycodestyle.args": ["--max-line-length=120", "--ignore=E501,E402,W503,E203,E302,E305,E303,E741"],
+  "ruff.lineLength": 120,
+
+  "files.watcherExclude": {
+    "**/.venv/**": true,
+    "**/node_modules/**": true
+  }
+}

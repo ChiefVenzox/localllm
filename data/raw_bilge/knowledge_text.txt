@@ -1,0 +1,1227 @@
+Kullanici: Gunes sisteminde kac gezegen var?
+Bilge: Gunes sisteminde sekiz gezegen vardir.
+
+Kullanici: Gunes sistemindeki gezegen sayisi nedir?
+Bilge: Sekiz gezegen bulunur: Merkur, Venus, Dunya, Mars, Jupiter, Saturn, Uranus ve Neptun.
+
+Kullanici: Gunese en yakin gezegen hangisi?
+Bilge: Gunese en yakin gezegen Merkur'dur.
+
+Kullanici: Gunes sistemindeki en buyuk gezegen hangisidir?
+Bilge: En buyuk gezegen Jupiter'dir.
+
+Kullanici: Hangi gezegene Kizil Gezegen denir?
+Bilge: Mars'a Kizil Gezegen denir, cunku yuzeyi kirmizimsi gorunur.
+
+Kullanici: Dunya'nin uydusu nedir?
+Bilge: Dunya'nin dogal uydusu Ay'dir.
+
+Kullanici: Gunes bir gezegen midir?
+Bilge: Hayir, Gunes bir yildizdir.
+
+Kullanici: Gunes nelerden olusur?
+Bilge: Gunes cogunlukla hidrojen ve helyum gazindan olusur.
+
+Kullanici: Dunya neyin etrafinda doner?
+Bilge: Dunya, Gunes'in etrafinda doner.
+
+Kullanici: Dunya bir tam turunu kac gunde tamamlar?
+Bilge: Dunya, Gunes etrafindaki turunu yaklasik 365 gunde tamamlar.
+
+Kullanici: Gece ve gunduz neden olusur?
+Bilge: Dunya kendi ekseni etrafinda dondugu icin gece ve gunduz olusur.
+
+Kullanici: Mevsimler neden olusur?
+Bilge: Dunya'nin ekseninin egik olmasi nedeniyle mevsimler olusur.
+
+Kullanici: Su dongusu nedir?
+Bilge: Suyun buharlasip yagmur olarak geri dusmesi ve bu dongunun surekli tekrarlanmasidir.
+
+Kullanici: Su buharlasinca ne olur?
+Bilge: Su buharlasarak su buharina, yani gaz haline gecer.
+
+Kullanici: Yagmur nasil olusur?
+Bilge: Bulutlardaki su damlaciklari birikip agirlasinca yagmur olarak yere duser.
+
+Kullanici: Bulutlar neden olusur?
+Bilge: Havadaki su buharinin yogunlasmasiyla bulutlar olusur.
+
+Kullanici: Yer cekimi nedir?
+Bilge: Yer cekimi, Dunya'nin cisimleri kendine dogru cektigi kuvvettir.
+
+Kullanici: Birakilan bir cisim neden asagi duser?
+Bilge: Yer cekimi cismi Dunya'nin merkezine dogru cektigi icin asagi duser.
+
+Kullanici: Ay'da neden daha hafif hissederiz?
+Bilge: Ay'in yer cekimi Dunya'dakinden cok daha az oldugu icin orada daha hafif hissederiz.
+
+Kullanici: Isik nedir?
+Bilge: Isik, gozumuzun gormesini saglayan bir enerji turudur.
+
+Kullanici: Isik mi ses mi daha hizlidir?
+Bilge: Isik sesten cok daha hizlidir.
+
+Kullanici: Golge nasil olusur?
+Bilge: Isik bir cisme carpip arkasina gecemeyince golge olusur.
+
+Kullanici: Gokkusagi nasil olusur?
+Bilge: Gunes isiginin su damlaciklarinda kirilmasiyla gokkusagi olusur.
+
+Kullanici: Ses nasil olusur?
+Bilge: Ses, titresen cisimlerin havayi titrestirmesiyle olusur.
+
+Kullanici: Ses uzayda duyulur mu?
+Bilge: Hayir, uzayda hava olmadigi icin ses yayilmaz.
+
+Kullanici: Atom nedir?
+Bilge: Atom, maddenin en kucuk yapi tasidir.
+
+Kullanici: Molekul nedir?
+Bilge: Molekul, iki ya da daha fazla atomun bir araya gelmesiyle olusur.
+
+Kullanici: Suyun kimyasal formulu nedir?
+Bilge: Suyun formulu H2O'dur; iki hidrojen ve bir oksijen atomundan olusur.
+
+Kullanici: Madde kac halde bulunur?
+Bilge: Madde uc temel halde bulunur: kati, sivi ve gaz.
+
+Kullanici: Buz neyin kati halidir?
+Bilge: Buz, suyun kati halidir.
+
+Kullanici: Su kac derecede kaynar?
+Bilge: Su, deniz seviyesinde 100 derecede kaynar.
+
+Kullanici: Su kac derecede donar?
+Bilge: Su 0 derecede donarak buz olur.
+
+Kullanici: Fotosentez nedir?
+Bilge: Bitkilerin gunes isigi ile besin ve oksijen uretmesi olayidir.
+
+Kullanici: Bitkiler oksijeni nasil uretir?
+Bilge: Bitkiler fotosentez yaparak oksijen uretir.
+
+Kullanici: Bitkiler fotosentez icin neye ihtiyac duyar?
+Bilge: Gunes isigi, su ve karbondioksite ihtiyac duyar.
+
+Kullanici: Insanlar nefes alirken neyi kullanir?
+Bilge: Insanlar nefes alirken havadaki oksijeni kullanir.
+
+Kullanici: Insanlar nefes verirken hangi gazi cikarir?
+Bilge: Insanlar nefes verirken karbondioksit cikarir.
+
+Kullanici: Canlilarin ortak ozelligi nedir?
+Bilge: Canlilar beslenir, buyur, ureyer ve solunum yapar.
+
+Kullanici: Hucre nedir?
+Bilge: Hucre, canlilarin en kucuk yapi ve gorev birimidir.
+
+Kullanici: Kalbin gorevi nedir?
+Bilge: Kalp, kani vucuda pompalayarak dolasimi saglar.
+
+Kullanici: Akcigerlerin gorevi nedir?
+Bilge: Akcigerler solunumu saglar, yani oksijen alip karbondioksit verir.
+
+Kullanici: Bitkilerin kokleri ne ise yarar?
+Bilge: Kokler bitkiyi topraga baglar ve su ile mineralleri emer.
+
+Kullanici: Manyetik miknatis neyi ceker?
+Bilge: Miknatis demir gibi metalleri ceker.
+
+Kullanici: Pusula neyi gosterir?
+Bilge: Pusula, Dunya'nin manyetik alani sayesinde kuzey yonunu gosterir.
+
+Kullanici: Buz suda neden batmaz?
+Bilge: Buz sudan daha az yogun oldugu icin suda yuzer.
+
+Kullanici: Termometre ne olcer?
+Bilge: Termometre sicakligi olcer.
+
+Kullanici: Dunya'nin sekli nasildir?
+Bilge: Dunya kuresel, yani yuvarlak bir sekle sahiptir.
+
+Kullanici: Yildizlar neden geceleri parlak gorunur?
+Bilge: Yildizlar kendi isiklarini yayar ve karanlik gokyuzunde daha belirgin gorunurler.
+
+Kullanici: Ay neden parlak gorunur?
+Bilge: Ay kendi isigini uretmez, Gunes'in isigini yansittigi icin parlak gorunur.
+
+Kullanici: Dunyada kac kita var?
+Bilge: Dunyada yedi kita vardir.
+
+Kullanici: Kitalarin isimlerini sayar misin?
+Bilge: Asya, Afrika, Avrupa, Kuzey Amerika, Guney Amerika, Antarktika ve Okyanusya.
+
+Kullanici: En buyuk kita hangisidir?
+Bilge: En buyuk kita Asya'dir.
+
+Kullanici: En kucuk kita nedir?
+Bilge: En kucuk kita Okyanusya'dir.
+
+Kullanici: Dunyada kac okyanus var?
+Bilge: Dunyada bes okyanus vardir.
+
+Kullanici: En buyuk okyanus hangisi?
+Bilge: En buyuk okyanus Buyuk Okyanus'tur, yani Pasifik Okyanusu.
+
+Kullanici: Okyanuslarin adlari neler?
+Bilge: Pasifik, Atlas, Hint, Arktik ve Guney Okyanusu.
+
+Kullanici: Dunyanin sekli nasildir?
+Bilge: Dunya yuvarlaktir; tam olarak kutuplardan hafifce basik bir kuredir.
+
+Kullanici: Dunya duz mu yoksa yuvarlak mi?
+Bilge: Dunya yuvarlaktir, duz degildir.
+
+Kullanici: Dunyanin en uzun nehri hangisi?
+Bilge: Dunyanin en uzun nehri Nil Nehri olarak kabul edilir.
+
+Kullanici: Amazon nehri nerede?
+Bilge: Amazon Nehri Guney Amerika'dadir.
+
+Kullanici: Dunyanin en yuksek dagi nedir?
+Bilge: Dunyanin en yuksek dagi Everest'tir.
+
+Kullanici: Everest hangi kitada bulunur?
+Bilge: Everest Asya'da, Himalayalar'da yer alir.
+
+Kullanici: Sahra Colu nerede?
+Bilge: Sahra Colu Kuzey Afrika'dadir.
+
+Kullanici: Turkiye'nin baskenti neresi?
+Bilge: Turkiye'nin baskenti Ankara'dir.
+
+Kullanici: Fransa'nin baskenti hangi sehir?
+Bilge: Fransa'nin baskenti Paris'tir.
+
+Kullanici: Almanya'nin baskenti neresi?
+Bilge: Almanya'nin baskenti Berlin'dir.
+
+Kullanici: Italya'nin baskenti nedir?
+Bilge: Italya'nin baskenti Roma'dir.
+
+Kullanici: Ispanya'nin baskenti neresi?
+Bilge: Ispanya'nin baskenti Madrid'dir.
+
+Kullanici: Ingiltere'nin baskenti hangi sehir?
+Bilge: Ingiltere'nin baskenti Londra'dir.
+
+Kullanici: Rusya'nin baskenti neresi?
+Bilge: Rusya'nin baskenti Moskova'dir.
+
+Kullanici: Japonya'nin baskenti nedir?
+Bilge: Japonya'nin baskenti Tokyo'dur.
+
+Kullanici: Cin'in baskenti neresi?
+Bilge: Cin'in baskenti Pekin'dir.
+
+Kullanici: Misir'in baskenti hangi sehir?
+Bilge: Misir'in baskenti Kahire'dir.
+
+Kullanici: Yunanistan'in baskenti nedir?
+Bilge: Yunanistan'in baskenti Atina'dir.
+
+Kullanici: Turkiye kac cografi bolgeden olusur?
+Bilge: Turkiye yedi cografi bolgeden olusur.
+
+Kullanici: Turkiye'nin bolgelerini sayar misin?
+Bilge: Marmara, Ege, Akdeniz, Ic Anadolu, Karadeniz, Dogu Anadolu ve Guneydogu Anadolu.
+
+Kullanici: Turkiye'nin en kalabalik sehri hangisi?
+Bilge: Turkiye'nin en kalabalik sehri Istanbul'dur.
+
+Kullanici: Istanbul hangi bogazda yer alir?
+Bilge: Istanbul, Istanbul Bogazi'nin iki yakasinda yer alir.
+
+Kullanici: Turkiye'yi cevreleyen denizler hangileri?
+Bilge: Karadeniz, Marmara Denizi, Ege Denizi ve Akdeniz.
+
+Kullanici: Turkiye'nin en yuksek dagi nedir?
+Bilge: Turkiye'nin en yuksek dagi Agri Dagi'dir.
+
+Kullanici: Turkiye'nin en uzun nehri hangisi?
+Bilge: Turkiye'nin en uzun nehri Kizilirmak'tir.
+
+Kullanici: Turkiye'nin en buyuk golu nedir?
+Bilge: Turkiye'nin en buyuk golu Van Golu'dur.
+
+Kullanici: Karadeniz Bolgesi'nin iklimi nasildir?
+Bilge: Karadeniz Bolgesi her mevsim yagisli ve nemli bir iklime sahiptir.
+
+Kullanici: Akdeniz iklimi nasil bir iklimdir?
+Bilge: Akdeniz iklimi yazlari sicak ve kurak, kislari ilik ve yagislidir.
+
+Kullanici: Iki kita uzerinde bulunan sehir hangisi?
+Bilge: Istanbul, hem Avrupa hem Asya kitasinda yer alir.
+
+Kullanici: Bogazici hangi denizleri birbirine baglar?
+Bilge: Istanbul Bogazi, Karadeniz ile Marmara Denizi'ni birbirine baglar.
+
+Kullanici: Turkiye hangi kitalarda yer alir?
+Bilge: Turkiye topraklarinin buyuk kismi Asya'da, kucuk bir kismi Avrupa'dadir.
+
+Kullanici: Ekvator nedir?
+Bilge: Ekvator, Dunya'yi kuzey ve guney yarim kureye ayiran hayali cizgidir.
+
+Kullanici: Kutuplar nerededir?
+Bilge: Dunyanin en kuzey noktasi Kuzey Kutbu, en guney noktasi Guney Kutbu'dur.
+
+Kullanici: En soguk kita hangisidir?
+Bilge: En soguk kita Antarktika'dir.
+
+Kullanici: Dunyanin en buyuk colu hangisi?
+Bilge: Sicak coller arasinda en buyugu Sahra Colu'dur.
+
+Kullanici: ABD'nin baskenti neresi?
+Bilge: ABD'nin baskenti Washington'dur.
+
+Kullanici: Hollanda'nin baskenti hangi sehir?
+Bilge: Hollanda'nin baskenti Amsterdam'dir.
+
+Kullanici: Portekiz'in baskenti nedir?
+Bilge: Portekiz'in baskenti Lizbon'dur.
+
+Kullanici: Ic Anadolu Bolgesi'nin iklimi nasildir?
+Bilge: Ic Anadolu'da karasal iklim gorulur; yazlari sicak, kislari soguk ve kuraktir.
+
+Kullanici: Dunyanin ekseni etrafinda donmesi neye yol acar?
+Bilge: Dunyanin kendi ekseni etrafinda donmesi gece ile gunduzun olusmasina yol acar.
+
+Kullanici: Marmara Denizi nerededir?
+Bilge: Marmara Denizi, Karadeniz ile Ege Denizi arasinda, tamamen Turkiye topraklari icindedir.
+
+Kullanici: Ege Denizi hangi iki ulke arasindadir?
+Bilge: Ege Denizi, Turkiye ile Yunanistan arasinda yer alir.
+
+Kullanici: Tarih nedir?
+Bilge: Tarih, gecmiste yasanan olaylari inceleyen ve belgeleyen bilim dalidir.
+
+Kullanici: Tarih bilimi neyi arastirir?
+Bilge: Insanligin gecmisini, olaylari ve toplumlarin gelisimini arastirir.
+
+Kullanici: Tarih neden onemlidir?
+Bilge: Gecmisten ders alip bugunu daha iyi anlamamizi saglar.
+
+Kullanici: Tarihci kimdir?
+Bilge: Gecmis olaylari arastiran ve kaynaklara dayanarak inceleyen kisiye tarihci denir.
+
+Kullanici: Tarih oncesi devirler ne demek?
+Bilge: Yazinin bulunmasindan onceki donemlere tarih oncesi devirler denir.
+
+Kullanici: Yazinin bulunmasi neden onemli?
+Bilge: Yazinin bulunmasiyla tarihi cag basladi cunku olaylar artik yaziyla kaydedildi.
+
+Kullanici: Tas Devri nedir?
+Bilge: Insanlarin aletlerini tastan yaptigi cok eski bir tarih oncesi donemdir.
+
+Kullanici: Ilk Cag ne anlama gelir?
+Bilge: Yazinin icadiyla baslayan ve eski medeniyetleri kapsayan ilk tarihi donemdir.
+
+Kullanici: Orta Cag hakkinda kisaca bilgi verir misin?
+Bilge: Orta Cag, Ilk Cag'dan sonra gelen ve yuzyillarca suren genis bir tarihi donemdir.
+
+Kullanici: Yeni Cag nedir?
+Bilge: Orta Cag'dan sonra gelen, kesifler ve buyuk degisimlerin yasandigi tarihi donemdir.
+
+Kullanici: Medeniyet ne demektir?
+Bilge: Bir toplumun ulastigi kulturel, sosyal ve teknik gelismislik duzeyine medeniyet denir.
+
+Kullanici: Uygarlik ile medeniyet ayni sey mi?
+Bilge: Evet, uygarlik ve medeniyet ayni anlama gelen kelimelerdir.
+
+Kullanici: Turkiye Cumhuriyeti ne zaman kuruldu?
+Bilge: Turkiye Cumhuriyeti 29 Ekim 1923'te kurulmustur.
+
+Kullanici: Cumhuriyet hangi yil ilan edildi?
+Bilge: Cumhuriyet 1923 yilinda ilan edilmistir.
+
+Kullanici: Turkiye Cumhuriyeti'nin kurucusu kimdir?
+Bilge: Turkiye Cumhuriyeti'nin kurucusu Mustafa Kemal Ataturk'tur.
+
+Kullanici: Ataturk kimdir?
+Bilge: Mustafa Kemal Ataturk, Turkiye Cumhuriyeti'nin kurucusu ve ilk cumhurbaskanidir.
+
+Kullanici: Turkiye'nin ilk cumhurbaskani kimdir?
+Bilge: Turkiye'nin ilk cumhurbaskani Mustafa Kemal Ataturk'tur.
+
+Kullanici: 29 Ekim hangi bayramdir?
+Bilge: 29 Ekim, Cumhuriyet Bayrami olarak kutlanir.
+
+Kullanici: Cumhuriyet Bayrami ne zaman kutlanir?
+Bilge: Cumhuriyet Bayrami her yil 29 Ekim'de kutlanir.
+
+Kullanici: Kurtulus Savasi'ni kim yonetti?
+Bilge: Kurtulus Savasi Mustafa Kemal Ataturk'un onderliginde yonetilmistir.
+
+Kullanici: 23 Nisan hangi bayramdir?
+Bilge: 23 Nisan, Ulusal Egemenlik ve Cocuk Bayrami'dir.
+
+Kullanici: TBMM ne zaman acildi?
+Bilge: Turkiye Buyuk Millet Meclisi 23 Nisan 1920'de acilmistir.
+
+Kullanici: Turkiye'nin baskenti neresidir?
+Bilge: Turkiye'nin baskenti Ankara'dir.
+
+Kullanici: Cumhuriyet ne demektir?
+Bilge: Halkin secimle is basina getirdigi temsilciler tarafindan yonetildigi devlet bicimidir.
+
+Kullanici: Osmanli Devleti ne idi?
+Bilge: Osmanli Devleti, Turkiye Cumhuriyeti'nden once var olan buyuk bir imparatorluktur.
+
+Kullanici: Imparatorluk ne demek?
+Bilge: Genis topraklara ve farkli halklara hukmeden, bir hukumdar tarafindan yonetilen buyuk devlettir.
+
+Kullanici: Tarihte kaynak ne demektir?
+Bilge: Gecmis hakkinda bilgi veren belge, yazit veya esya gibi malzemelere kaynak denir.
+
+Kullanici: Arkeoloji nedir?
+Bilge: Gecmis toplumlardan kalan kalintilari kazilarla ortaya cikarip inceleyen bilimdir.
+
+Kullanici: Muze ne ise yarar?
+Bilge: Muze, tarihi ve kulturel eserleri korur ve insanlara sergiler.
+
+Kullanici: Cag ne demek?
+Bilge: Tarihte onemli olaylarla birbirinden ayrilan uzun zaman dilimlerine cag denir.
+
+Kullanici: Yuzyil kac yildir?
+Bilge: Bir yuzyil yuz yildir.
+
+Kullanici: Milat ne demektir?
+Bilge: Tarih hesaplamasinda baslangic kabul edilen yila milat denir.
+
+Kullanici: Ilk yazi hangi medeniyette ortaya cikmistir?
+Bilge: Yazi, Mezopotamya'da Sumerler tarafindan icat edilmistir.
+
+Kullanici: Mezopotamya neresi?
+Bilge: Mezopotamya, Dicle ve Firat nehirleri arasinda kalan eski medeniyetler bolgesidir.
+
+Kullanici: Anadolu ne demek?
+Bilge: Anadolu, bugunku Turkiye'nin Asya kitasindaki topraklarina verilen addir.
+
+Kullanici: Anadolu'da hangi eski medeniyetler yasamistir?
+Bilge: Anadolu'da Hititler, Frigler ve Lidyalilar gibi cok sayida eski medeniyet yasamistir.
+
+Kullanici: Hititler kimdir?
+Bilge: Hititler, Anadolu'da yasamis eski bir medeniyettir.
+
+Kullanici: Parayi ilk kimler kullanmistir?
+Bilge: Ilk madeni parayi Anadolu'da Lidyalilar kullanmistir.
+
+Kullanici: Tarih neden donemlere ayrilir?
+Bilge: Olaylari daha kolay incelemek ve anlamak icin tarih donemlere ayrilir.
+
+Kullanici: Kultur nedir?
+Bilge: Bir toplumun gelenek, dil, sanat ve yasam bicimlerinin tumune kultur denir.
+
+Kullanici: Belge ne ise yarar?
+Bilge: Belge, gecmisteki bir olayi veya bilgiyi kanitlamaya yarar.
+
+Kullanici: Tarih ile efsane arasindaki fark nedir?
+Bilge: Tarih kanitlara dayanir, efsane ise gercekligi belirsiz anlatilardir.
+
+Kullanici: Cumhuriyet'ten once Turkiye nasil yonetiliyordu?
+Bilge: Cumhuriyet'ten once topraklar Osmanli Devleti tarafindan padisahlikla yonetiliyordu.
+
+Kullanici: Tarihte kronoloji ne demek?
+Bilge: Olaylarin olus sirasina gore zamana dizilmesine kronoloji denir.
+
+Kullanici: Neden gecmisi ogreniriz?
+Bilge: Gecmisi ogrenerek kim oldugumuzu anlar ve gelecege daha hazirlikli oluruz.
+
+Kullanici: Kediler ne yer?
+Bilge: Kediler etcildir; baslica et yerler ama kedi mamasi da onlara uygun besin saglar.
+
+Kullanici: Inekler ne ile beslenir?
+Bilge: Inekler otcul hayvanlardir; cogunlukla ot, saman ve yem yerler.
+
+Kullanici: Aslan nerede yasar?
+Bilge: Aslanlar genellikle Afrika'daki savanlarda yasar.
+
+Kullanici: Penguenler nerede yasar?
+Bilge: Penguenler cogunlukla guney yarim kurede, ozellikle Antarktika cevresinde yasar.
+
+Kullanici: Kutup ayilari nerede bulunur?
+Bilge: Kutup ayilari kuzey kutbu cevresindeki buzul bolgelerde yasar.
+
+Kullanici: Develer colde nasil hayatta kalir?
+Bilge: Develer hortumlarindaki yag deposu sayesinde uzun sure susuz dayanabilir.
+
+Kullanici: Ariler ne ise yarar?
+Bilge: Ariler bal yapar ve bitkilerin tozlasmasini saglayarak doga icin cok onemlidir.
+
+Kullanici: Kelebekler nasil olusur?
+Bilge: Kelebekler once tirtil olur, sonra koza icinde basamak gecirip kelebege donusur.
+
+Kullanici: Baliklar nasil nefes alir?
+Bilge: Baliklar solungaclari sayesinde sudaki oksijeni alarak nefes alir.
+
+Kullanici: Yarasa kus mudur?
+Bilge: Hayir, yarasa kus degildir; ucabilen tek memeli hayvandir.
+
+Kullanici: En buyuk hayvan hangisidir?
+Bilge: Dunyadaki en buyuk hayvan mavi balinadir.
+
+Kullanici: En hizli kara hayvani nedir?
+Bilge: En hizli kara hayvani cita olarak bilinir.
+
+Kullanici: Yilanlar zehirli midir?
+Bilge: Bazi yilanlar zehirlidir ama cogu yilan zehirsizdir.
+
+Kullanici: Kaplumbagalar neden yavastir?
+Bilge: Kaplumbagalar agir kabuklari ve kisa bacaklari yuzunden yavas hareket eder.
+
+Kullanici: Kurbagalar nerede yasar?
+Bilge: Kurbagalar hem suda hem karada yasayabilen amfibilerdir; genelde gol ve dere kenarlarinda bulunur.
+
+Kullanici: Tavuk ne yer?
+Bilge: Tavuklar tane yem, bocek ve kucuk tohumlarla beslenir.
+
+Kullanici: Kopekler neden havlar?
+Bilge: Kopekler iletisim kurmak, uyarmak veya heyecanlarini gostermek icin havlar.
+
+Kullanici: Fil ne kadar buyuk olur?
+Bilge: Fil karadaki en buyuk hayvandir ve birkac ton agirliga ulasabilir.
+
+Kullanici: Baykuslar ne zaman avlanir?
+Bilge: Baykuslar genellikle gece avlanan kuslardir.
+
+Kullanici: Sincaplar kisin ne yapar?
+Bilge: Sincaplar sonbaharda topladiklari findik ve kozalaklari kisin yemek icin saklar.
+
+Kullanici: Aglac yapraklari neden sonbaharda dokulur?
+Bilge: Agaclar kisa hazirlanmak ve su kaybini onlemek icin sonbaharda yapraklarini doker.
+
+Kullanici: Bitkiler nasil beslenir?
+Bilge: Bitkiler gunes isigi, su ve karbondioksiti kullanarak fotosentezle kendi besinini yapar.
+
+Kullanici: Cicekler neden renklidir?
+Bilge: Cicekler ari ve kelebek gibi tozlayicilari cekmek icin renkli ve kokuludur.
+
+Kullanici: Kac mevsim vardir?
+Bilge: Dort mevsim vardir: ilkbahar, yaz, sonbahar ve kis.
+
+Kullanici: Ilkbaharda doga nasil olur?
+Bilge: Ilkbaharda hava isinir, agaclar cicek acar ve bitkiler yeniden yeserir.
+
+Kullanici: Kis mevsiminde hava nasildir?
+Bilge: Kis mevsiminde hava soguktur ve bazi bolgelerde kar yagar.
+
+Kullanici: Kar nasil olusur?
+Bilge: Kar, havadaki su buharinin cok soguk havada donup kristallesmesiyle olusur.
+
+Kullanici: Simsek nedir?
+Bilge: Simsek, bulutlar arasindaki elektriklenmenin olusturdugu parlak isiktir.
+
+Kullanici: Gok gurultusu neden olur?
+Bilge: Gok gurultusu, simsegin havayi aniden isitip genlestirmesiyle olusan sestir.
+
+Kullanici: Ruzgar nasil olusur?
+Bilge: Ruzgar, havanin sicaklik farkindan dolayi hareket etmesiyle olusur.
+
+Kullanici: Geri donusum neden onemlidir?
+Bilge: Geri donusum dogal kaynaklari korur ve cevre kirliligini azaltir.
+
+Kullanici: Hangi atiklar geri donusturulur?
+Bilge: Kagit, cam, plastik ve metal gibi atiklar geri donusturulebilir.
+
+Kullanici: Agaclar neden onemlidir?
+Bilge: Agaclar oksijen uretir, havayi temizler ve canlilara yasam alani saglar.
+
+Kullanici: Ormanlar neden korunmali?
+Bilge: Ormanlar bircok canliya yuva olur ve dunyanin havasini dengeler, bu yuzden korunmalidir.
+
+Kullanici: Atlar ne yer?
+Bilge: Atlar otcul hayvanlardir; ot, saman ve yulaf gibi yemlerle beslenir.
+
+Kullanici: Kuslar neden goc eder?
+Bilge: Kuslar kisin sicak bolgelere ve besin bulmak icin goc eder.
+
+Kullanici: Orumcekler bocek midir?
+Bilge: Hayir, orumcekler bocek degildir; sekiz bacakli eklem bacaklilardir.
+
+Kullanici: Balina balik midir?
+Bilge: Hayir, balina balik degildir; yavrularini sutle besleyen bir memelidir.
+
+Kullanici: Yunuslar zeki midir?
+Bilge: Evet, yunuslar cok zeki deniz memelileridir.
+
+Kullanici: Karincalar nasil yasar?
+Bilge: Karincalar koloniler halinde, is bolumuyle birlikte yasayan sosyal bocekler.
+
+Kullanici: Mantar bitki midir?
+Bilge: Hayir, mantar bitki degildir; kendi alemi olan ayri bir canli grubudur.
+
+Kullanici: Kaktus neden dikenlidir?
+Bilge: Kaktus, su kaybini azaltmak ve kendini korumak icin dikenlidir.
+
+Kullanici: Tilkiler ne yer?
+Bilge: Tilkiler etcildir ama hem kucuk hayvanlari hem de meyveleri yiyebilir.
+
+Kullanici: Ayilar kis uykusuna neden yatar?
+Bilge: Ayilar kisin yiyecek azaldigi icin enerji tasarrufu yapmak amaciyla kis uykusuna yatar.
+
+Kullanici: Cevreyi korumak icin ne yapabiliriz?
+Bilge: Cope dikkat edebilir, geri donusum yapabilir ve suyu israf etmeyebiliriz.
+
+Kullanici: Dunyanin akcigerleri nelerdir?
+Bilge: Ormanlar bol oksijen urettigi icin cogu zaman dunyanin akcigerleri olarak anilir.
+
+Kullanici: Bilgisayar nedir?
+Bilge: Bilgisayar, verileri isleyip saklayan ve komutlara gore islem yapan elektronik bir cihazdir.
+
+Kullanici: Bana bilgisayarin ne oldugunu anlatir misin?
+Bilge: Bilgisayar, girilen verileri isleyerek sonuc ureten programlanabilir bir makinedir.
+
+Kullanici: Internet nedir?
+Bilge: Internet, dunyadaki bilgisayarlari birbirine baglayan kuresel bir agdir.
+
+Kullanici: Internet ne ise yarar?
+Bilge: Internet sayesinde bilgiye ulasir, iletisim kurar ve dosya paylasabiliriz.
+
+Kullanici: Yapay zeka nedir?
+Bilge: Yapay zeka, bilgisayarlarin insan gibi ogrenme ve karar verme yetenegi kazanmasidir.
+
+Kullanici: Yapay zeka kisaca ne demek?
+Bilge: Makinelerin verilerden ogrenip akilli davranislar sergilemesine yapay zeka denir.
+
+Kullanici: Yazilim nedir?
+Bilge: Yazilim, bilgisayara ne yapacagini soyleyen komutlar ve programlar butunudur.
+
+Kullanici: Donanim nedir?
+Bilge: Donanim, bilgisayarin elle tutulan fiziksel parcalaridir; ekran, klavye ve islemci gibi.
+
+Kullanici: Yazilim ile donanim arasindaki fark nedir?
+Bilge: Donanim fiziksel parcalar, yazilim ise o parcalari calistiran programlardir.
+
+Kullanici: Programlama nedir?
+Bilge: Programlama, bilgisayara yapmasi gereken islemleri kod yazarak anlatma isidir.
+
+Kullanici: Kod yazmak ne demek?
+Bilge: Kod yazmak, bilgisayarin anlayacagi komutlari bir programlama diliyle olusturmaktir.
+
+Kullanici: Programlama dili nedir?
+Bilge: Programlama dili, bilgisayara talimat vermek icin kullanilan kurallar ve sozcuklerden olusan bir dildir.
+
+Kullanici: Veri nedir?
+Bilge: Veri, islenmek uzere toplanan ham bilgi parcalaridir; sayilar, metinler ya da gorseller olabilir.
+
+Kullanici: Cep telefonu nedir?
+Bilge: Cep telefonu, kablosuz olarak gorusme yapmamizi ve internete baglanmamizi saglayan tasinabilir bir cihazdir.
+
+Kullanici: Akilli telefon nedir?
+Bilge: Akilli telefon, arama ozelliginin yaninda uygulama calistiran ve internete baglanan gelismis bir telefondur.
+
+Kullanici: Islemci ne ise yarar?
+Bilge: Islemci, bilgisayarin beynidir; komutlari isler ve hesaplamalari yapar.
+
+Kullanici: RAM nedir?
+Bilge: RAM, bilgisayarin acikken kullandigi gecici hizli bellektir.
+
+Kullanici: Sabit disk ne ise yarar?
+Bilge: Sabit disk, dosyalari ve programlari kalici olarak saklayan depolama birimidir.
+
+Kullanici: Isletim sistemi nedir?
+Bilge: Isletim sistemi, bilgisayari yoneten ve programlarin calismasini saglayan temel yazilimdir.
+
+Kullanici: Windows nedir?
+Bilge: Windows, Microsoft tarafindan gelistirilen yaygin bir isletim sistemidir.
+
+Kullanici: Uygulama nedir?
+Bilge: Uygulama, belirli bir isi yapmak icin tasarlanmis yazilimdir; mesela bir mesajlasma programi.
+
+Kullanici: Tarayici nedir?
+Bilge: Tarayici, internetteki web sitelerini acmamizi saglayan programdir; Chrome ve Firefox gibi.
+
+Kullanici: Web sitesi nedir?
+Bilge: Web sitesi, internette yayinlanan, birbirine bagli sayfalardan olusan bir kaynaktir.
+
+Kullanici: Algoritma nedir?
+Bilge: Algoritma, bir problemi cozmek icin izlenen adim adim yontemdir.
+
+Kullanici: Algoritma ne ise yarar?
+Bilge: Algoritma, bir isi belirli adimlarla duzenli sekilde cozmemizi saglar.
+
+Kullanici: Dosya nedir?
+Bilge: Dosya, bilgisayarda saklanan ve bir isim tasiyan veri butunudur.
+
+Kullanici: Klasor ne ise yarar?
+Bilge: Klasor, dosyalari duzenli tutmak icin onlari bir arada toplayan kaplardir.
+
+Kullanici: Bulut depolama nedir?
+Bilge: Bulut depolama, dosyalarini internet uzerindeki sunucularda saklama hizmetidir.
+
+Kullanici: Sifre neden onemlidir?
+Bilge: Sifre, hesaplarini ve verilerini baskalarinin erisiminden korur.
+
+Kullanici: Virus nedir bilgisayarda?
+Bilge: Bilgisayar virusu, cihaza zarar veren ve kendini yayan kotu amacli bir yazilimdir.
+
+Kullanici: Antivirus ne ise yarar?
+Bilge: Antivirus, bilgisayari zararli yazilimlara karsi tarayip koruyan programdir.
+
+Kullanici: Wi-Fi nedir?
+Bilge: Wi-Fi, cihazlari kablosuz olarak internete baglayan bir teknolojidir.
+
+Kullanici: E-posta nedir?
+Bilge: E-posta, internet uzerinden mesaj gondermeyi ve almayi saglayan elektronik posta sistemidir.
+
+Kullanici: Klavye ne ise yarar?
+Bilge: Klavye, bilgisayara yazi ve komut girmemizi saglayan giris aygitidir.
+
+Kullanici: Fare ne ise yarar?
+Bilge: Fare, ekrandaki imleci hareket ettirip secim yapmamizi saglayan aygittir.
+
+Kullanici: Ekran karti nedir?
+Bilge: Ekran karti, goruntuyu isleyip ekrana cizen donanim parcasidir.
+
+Kullanici: Veritabani nedir?
+Bilge: Veritabani, bilgilerin duzenli sekilde saklandigi ve kolayca eriselebildigi sistemdir.
+
+Kullanici: Robot nedir?
+Bilge: Robot, programlanarak belirli isleri otomatik yapan makinelere denir.
+
+Kullanici: Bit nedir?
+Bilge: Bit, bilgisayarin kullandigi en kucuk veri birimidir ve 0 ya da 1 degerini alir.
+
+Kullanici: Byte nedir?
+Bilge: Byte, sekiz bitten olusan bir veri birimidir ve genelde bir karakteri ifade eder.
+
+Kullanici: Bulut bilisim nedir?
+Bilge: Bulut bilisim, hesaplama ve depolama hizmetlerini internet uzerinden kullanmaktir.
+
+Kullanici: Mobil uygulama nedir?
+Bilge: Mobil uygulama, telefon ve tabletlerde calismak icin gelistirilen yazilimdir.
+
+Kullanici: Guncelleme neden yapilir?
+Bilge: Guncelleme, yazilimdaki hatalari duzeltmek ve yeni ozellikler eklemek icin yapilir.
+
+Kullanici: Yedekleme nedir?
+Bilge: Yedekleme, verilerinin kopyasini alarak kaybolmaya karsi korumaktir.
+
+Kullanici: Hata ayiklama ne demek?
+Bilge: Hata ayiklama, koddaki hatalari bulup duzeltme islemine denir.
+
+Kullanici: Makine ogrenmesi nedir?
+Bilge: Makine ogrenmesi, bilgisayarlarin verilerden ogrenerek tahmin yapmasini saglayan yapay zeka alanidir.
+
+Kullanici: Sunucu nedir?
+Bilge: Sunucu, diger bilgisayarlara hizmet ve veri saglayan guclu bir bilgisayardir.
+
+Kullanici: Bir saat kac dakikadir?
+Bilge: Bir saat 60 dakikadir.
+
+Kullanici: Bir dakika kac saniye?
+Bilge: Bir dakika 60 saniyedir.
+
+Kullanici: Bir gun kac saattir?
+Bilge: Bir gun 24 saattir.
+
+Kullanici: Bir gunde kac saat var?
+Bilge: Bir gunde 24 saat vardir.
+
+Kullanici: Bir haftada kac gun vardir?
+Bilge: Bir haftada 7 gun vardir.
+
+Kullanici: Haftada kac gun var?
+Bilge: Haftada 7 gun vardir.
+
+Kullanici: Bir yilda kac ay vardir?
+Bilge: Bir yilda 12 ay vardir.
+
+Kullanici: Yilda kac ay var?
+Bilge: Yilda 12 ay vardir.
+
+Kullanici: Bir yil kac gundur?
+Bilge: Bir yil normalde 365 gundur.
+
+Kullanici: Bir kilo kac gramdir?
+Bilge: Bir kilogram 1000 gramdir.
+
+Kullanici: Bir metre kac santimetredir?
+Bilge: Bir metre 100 santimetredir.
+
+Kullanici: Bir kilometre kac metredir?
+Bilge: Bir kilometre 1000 metredir.
+
+Kullanici: Bir litre kac mililitredir?
+Bilge: Bir litre 1000 mililitredir.
+
+Kullanici: Bir santimetre kac milimetredir?
+Bilge: Bir santimetre 10 milimetredir.
+
+Kullanici: Bir ton kac kilogramdir?
+Bilge: Bir ton 1000 kilogramdir.
+
+Kullanici: Haftanin gunlerini sayar misin?
+Bilge: Pazartesi, Sali, Carsamba, Persembe, Cuma, Cumartesi ve Pazar.
+
+Kullanici: Haftanin ilk gunu hangisidir?
+Bilge: Haftanin ilk gunu Pazartesidir.
+
+Kullanici: Hafta sonu hangi gunlerdir?
+Bilge: Hafta sonu Cumartesi ve Pazar gunleridir.
+
+Kullanici: Pazartesiden sonra hangi gun gelir?
+Bilge: Pazartesiden sonra Sali gelir.
+
+Kullanici: Cumadan sonra hangi gun gelir?
+Bilge: Cumadan sonra Cumartesi gelir.
+
+Kullanici: Yilin aylarini sayar misin?
+Bilge: Ocak, Subat, Mart, Nisan, Mayis, Haziran, Temmuz, Agustos, Eylul, Ekim, Kasim ve Aralik.
+
+Kullanici: Yilin ilk ayi hangisidir?
+Bilge: Yilin ilk ayi Ocaktir.
+
+Kullanici: Yilin son ayi hangisidir?
+Bilge: Yilin son ayi Araliktir.
+
+Kullanici: Mevsimler nelerdir?
+Bilge: Ilkbahar, yaz, sonbahar ve kis olmak uzere dort mevsim vardir.
+
+Kullanici: En sicak mevsim hangisidir?
+Bilge: Genellikle en sicak mevsim yazdir.
+
+Kullanici: En soguk mevsim hangisidir?
+Bilge: Genellikle en soguk mevsim kistir.
+
+Kullanici: Gokkusaginda hangi renkler vardir?
+Bilge: Kirmizi, turuncu, sari, yesil, mavi, lacivert ve mor.
+
+Kullanici: Ana renkler nelerdir?
+Bilge: Ana renkler kirmizi, sari ve mavidir.
+
+Kullanici: Mavi ile sari karisinca hangi renk olur?
+Bilge: Mavi ile sari karisinca yesil olur.
+
+Kullanici: Kirmizi ile sari karisinca ne olur?
+Bilge: Kirmizi ile sari karisinca turuncu olur.
+
+Kullanici: Bir duzine kac tanedir?
+Bilge: Bir duzine 12 tanedir.
+
+Kullanici: Yarim duzine kac eder?
+Bilge: Yarim duzine 6 eder.
+
+Kullanici: Bir cift kac tanedir?
+Bilge: Bir cift 2 tanedir.
+
+Kullanici: Birden ona kadar say.
+Bilge: Bir, iki, uc, dort, bes, alti, yedi, sekiz, dokuz, on.
+
+Kullanici: Onar onar yirmiye kadar say.
+Bilge: On, yirmi.
+
+Kullanici: Gunde ne kadar su icmeliyim?
+Bilge: Gunde ortalama 2 litre su icmek genel olarak onerilir.
+
+Kullanici: Yetiskinler gunde kac saat uyumali?
+Bilge: Yetiskinler icin genellikle gunde 7-8 saat uyku onerilir.
+
+Kullanici: Saglikli yasamak icin ne yapmaliyim?
+Bilge: Dengeli beslen, duzenli su ic, yeterince uyu ve hareket et.
+
+Kullanici: Sabah dis fircalamak neden onemli?
+Bilge: Disleri fircalamak agiz sagligini korur ve curukleri onler.
+
+Kullanici: Teskur etmek istesem ne derim?
+Bilge: Tesekkur ederim demen kibarca olur.
+
+Kullanici: Birine tesekkur edildiginde ne denir?
+Bilge: Rica ederim demek nazik bir karsiliktir.
+
+Kullanici: Sabah birine nasil selam verilir?
+Bilge: Gunaydin demek guzel bir selamdir.
+
+Kullanici: Aksam birini selamlarken ne denir?
+Bilge: Iyi aksamlar demek nazik bir selamdir.
+
+Kullanici: Bir gunde gece ve gunduz var midir?
+Bilge: Evet, bir gun gunduz ve geceden olusur.
+
+Kullanici: Ogle vakti yaklasik saat kactir?
+Bilge: Ogle vakti yaklasik olarak saat 12'dir.
+
+Kullanici: Bir asir kac yildir?
+Bilge: Bir asir 100 yildir.
+
+Kullanici: Bir yuzyil kac yil eder?
+Bilge: Bir yuzyil 100 yildir.
+
+Kullanici: Bir ayda yaklasik kac gun olur?
+Bilge: Bir ayda yaklasik 30 gun olur.
+
+Kullanici: Bir ceyrek saat kac dakikadir?
+Bilge: Bir ceyrek saat 15 dakikadir.
+
+Kullanici: Yarim saat kac dakikadir?
+Bilge: Yarim saat 30 dakikadir.
+
+Kullanici: Ali Veli'den uzun, Veli de Mehmet'ten uzunsa en uzun kim?
+Bilge: Dusunelim: Ali > Veli, Veli > Mehmet. Sonuc: En uzun Ali'dir.
+
+Kullanici: Bir kutuda 3 kirmizi, 2 mavi top var. Hangi renk daha cok?
+Bilge: Dusunelim: 3 > 2. Sonuc: Kirmizi toplar daha cok.
+
+Kullanici: Bugun sali ise yarin hangi gun?
+Bilge: Dusunelim: Saliyi carsamba takip eder. Sonuc: Yarin carsamba.
+
+Kullanici: Bir trende once Ankara sonra Eskisehir geliyorsa Eskisehir mi once gelir?
+Bilge: Dusunelim: Once Ankara, sonra Eskisehir. Sonuc: Hayir, once Ankara gelir.
+
+Kullanici: 5 elmam vardi, 2 tanesini yedim. Kac kaldi?
+Bilge: Dusunelim: 5 - 2 = 3. Sonuc: 3 elma kaldi.
+
+Kullanici: Eger disarisi yagmurluysa semsiye almali miyim?
+Bilge: Dusunelim: Yagmur islanmaya yol acar, semsiye korur. Sonuc: Evet, semsiye almalisin.
+
+Kullanici: Bir sayinin yarisi 10 ise sayi kactir?
+Bilge: Dusunelim: Yarisi 10 ise tamami 10 x 2. Sonuc: Sayi 20.
+
+Kullanici: Kedi kopekten kucuk, kopek attan kucukse en buyuk hangisi?
+Bilge: Dusunelim: Kedi < kopek < at. Sonuc: En buyuk at.
+
+Kullanici: 2, 4, 6, 8'den sonra hangi sayi gelir?
+Bilge: Dusunelim: Her seferinde 2 artiyor. Sonuc: Sonraki sayi 10.
+
+Kullanici: Annem benden buyuk, ben kardesimden buyukum. Kardesim annemden buyuk mu?
+Bilge: Dusunelim: Anne > ben > kardes. Sonuc: Hayir, kardesim annemden kucuktur.
+
+Kullanici: Bir dukkanda kalem 5 lira, defter 8 lira. Hangisi daha pahali?
+Bilge: Dusunelim: 8 > 5. Sonuc: Defter daha pahali.
+
+Kullanici: Eger tum kuslar ucabiliyorsa ve serce bir kussa, serce ucabilir mi?
+Bilge: Dusunelim: Tum kuslar ucar, serce de kustur. Sonuc: Evet, serce ucabilir.
+
+Kullanici: Saat 3'te bulustuk, 2 saat sonra ayrildik. Saat kacta ayrildik?
+Bilge: Dusunelim: 3 + 2 = 5. Sonuc: Saat 5'te ayrildik.
+
+Kullanici: 1, 3, 5, 7 dizisinde bir sonraki sayi nedir?
+Bilge: Dusunelim: Tek sayilar 2'ser artiyor. Sonuc: Sonraki sayi 9.
+
+Kullanici: Ayse Fatma'dan yasli, Fatma Zeynep'ten yasli. En genc kim?
+Bilge: Dusunelim: Ayse > Fatma > Zeynep yas siralamasi. Sonuc: En genc Zeynep.
+
+Kullanici: Bir bardak su dolu degilse bos mudur?
+Bilge: Dusunelim: Tam dolu olmamasi bos olmasini gerektirmez, yarim da olabilir. Sonuc: Sart degil, kismi dolu olabilir.
+
+Kullanici: Pazartesiden 3 gun sonra hangi gun olur?
+Bilge: Dusunelim: Sali, carsamba, persembe. Sonuc: Persembe.
+
+Kullanici: Bir caydanlikta 4 bardak cay var, 1 bardak ictim. Kac bardak kaldi?
+Bilge: Dusunelim: 4 - 1 = 3. Sonuc: 3 bardak kaldi.
+
+Kullanici: Eger ders calisirsam sinavi gecerim. Sinavi gecemedim, ders calistim mi?
+Bilge: Dusunelim: Calismak gecmeyi getirir; gecemediysen bu kosul saglanmamis demektir. Sonuc: Buna gore ders calismamissindir.
+
+Kullanici: 10'dan geriye ikiser sayarsam: 10, 8, 6'dan sonra ne gelir?
+Bilge: Dusunelim: Her adimda 2 azaliyor. Sonuc: Sonraki sayi 4.
+
+Kullanici: Bir sinifta kizlar erkeklerden cok. Erkekler 12 ise kizlar 12'den az mi?
+Bilge: Dusunelim: Kizlar daha cok demek, sayilari daha fazla demek. Sonuc: Hayir, kizlar 12'den fazladir.
+
+Kullanici: Once kahvalti sonra ogle yemegi yenir. Hangisi daha gec yenir?
+Bilge: Dusunelim: Kahvalti sabah, ogle yemegi gunduz. Sonuc: Ogle yemegi daha gec yenir.
+
+Kullanici: Bir ipi tam ortadan kesersem kac parca olur?
+Bilge: Dusunelim: Tek kesim ipi ikiye boler. Sonuc: 2 parca olur.
+
+Kullanici: 3 kardesim var, ben dahil kac cocuguz?
+Bilge: Dusunelim: 3 kardes + kendin. Sonuc: 4 cocuk.
+
+Kullanici: Eger camur varsa demek ki yagmur yagmistir, denilebilir mi her zaman?
+Bilge: Dusunelim: Camurun baska nedenleri de olabilir, su dokulmesi gibi. Sonuc: Her zaman degil, kesin sonuc cikmaz.
+
+Kullanici: A kutusu B'den agir, B kutusu C'den agir. En hafif hangisi?
+Bilge: Dusunelim: A > B > C agirlik sirasi. Sonuc: En hafif C.
+
+Kullanici: Bir filmi saat 8'de izlemeye basladim, 2 saat surdu. Kacta bitti?
+Bilge: Dusunelim: 8 + 2 = 10. Sonuc: Saat 10'da bitti.
+
+Kullanici: Mavi, kirmizi, mavi, kirmizi dizisinde siradaki renk nedir?
+Bilge: Dusunelim: Renkler donusumlu gidiyor, son renk kirmizi. Sonuc: Siradaki mavi.
+
+Kullanici: Tum kediler hayvansa, Tekir bir kediyse Tekir hayvan midir?
+Bilge: Dusunelim: Kediler hayvan, Tekir kedi. Sonuc: Evet, Tekir bir hayvandir.
+
+Kullanici: 6 kisi bir masada oturuyor, 2 kisi kalkti. Kac kisi kaldi?
+Bilge: Dusunelim: 6 - 2 = 4. Sonuc: 4 kisi kaldi.
+
+Kullanici: Eger sayi 5'ten buyuk ve 8'den kucukse hangi sayilar olabilir?
+Bilge: Dusunelim: 5 ile 8 arasi tam sayilar 6 ve 7. Sonuc: 6 veya 7.
+
+Kullanici: Carsambadan bir gun once hangi gundu?
+Bilge: Dusunelim: Carsambadan once sali gelir. Sonuc: Sali.
+
+Kullanici: Bir merdivenin 10 basamagi var, 4 basamak ciktim. Kac basamak kaldi?
+Bilge: Dusunelim: 10 - 4 = 6. Sonuc: 6 basamak kaldi.
+
+Kullanici: Kar yagiyorsa hava soguktur denebilir mi?
+Bilge: Dusunelim: Kar ancak soguk havada yagar. Sonuc: Evet, hava soguktur denebilir.
+
+Kullanici: Iki sayinin toplami 10, biri 4 ise digeri kactir?
+Bilge: Dusunelim: 10 - 4 = 6. Sonuc: Diger sayi 6.
+
+Kullanici: Bir yaris pistinde Ali 1., Veli 2., Can 3. oldu. En sonda kim?
+Bilge: Dusunelim: 3. sira en gerisi. Sonuc: En sonda Can var.
+
+Kullanici: Eger kapi kilitliyse anahtar gerekir. Anahtarim yok, iceri girebilir miyim?
+Bilge: Dusunelim: Kilitli kapi anahtar ister, anahtar yoksa acilmaz. Sonuc: Hayir, anahtarsiz giremezsin.
+
+Kullanici: 3 x 2 kac eder, sonra 1 eklersem sonuc nedir?
+Bilge: Dusunelim: 3 x 2 = 6, 6 + 1 = 7. Sonuc: 7.
+
+Kullanici: Bir sepette 2 elma her cocuga 1 elma verilirse kac cocuga yeter?
+Bilge: Dusunelim: 2 elma, her cocuga 1. Sonuc: 2 cocuga yeter.
+
+Kullanici: Yarin cuma ise dun hangi gundu?
+Bilge: Dusunelim: Yarin cuma ise bugun persembe, dun carsamba. Sonuc: Carsamba.
+
+Kullanici: Cimri ne demek?
+Bilge: Cimri, parasini harcamaktan kacinan, eli siki kimse demektir.
+
+Kullanici: Comert kelimesinin anlami nedir?
+Bilge: Comert, elinden geleni esirgemeyen, paylasmayi seven kisi demektir.
+
+Kullanici: Comert ile cimri zit anlamli midir?
+Bilge: Evet, comert ile cimri birbirinin zit anlamlisidir.
+
+Kullanici: Mutlu kelimesinin es anlamlisi nedir?
+Bilge: Mutlu kelimesinin es anlamlisi bahtiyardir.
+
+Kullanici: Buyuk kelimesinin zit anlamlisi nedir?
+Bilge: Buyuk kelimesinin zit anlamlisi kucuktur.
+
+Kullanici: Siyah ile beyaz nasil kelimelerdir?
+Bilge: Siyah ile beyaz zit anlamli kelimelerdir.
+
+Kullanici: Hizli kelimesinin karsiti nedir?
+Bilge: Hizli kelimesinin karsiti yavastir.
+
+Kullanici: Ihtiyar ne demek?
+Bilge: Ihtiyar, yasli kisi demektir; yaslinin es anlamlisidir.
+
+Kullanici: Misafir kelimesinin es anlamlisini soyler misin?
+Bilge: Misafir kelimesinin es anlamlisi konuktur.
+
+Kullanici: Okul kelimesinin es anlamlisi var mi?
+Bilge: Evet, okul kelimesinin es anlamlisi mekteptir.
+
+Kullanici: Acik kelimesinin zit anlamlisi nedir?
+Bilge: Acik kelimesinin zit anlamlisi kapalidir.
+
+Kullanici: Sicak ile soguk ne tur kelimelerdir?
+Bilge: Sicak ile soguk zit anlamli kelimelerdir.
+
+Kullanici: Kalem nedir kisaca?
+Bilge: Kalem, yazi yazmaya yarayan aractir.
+
+Kullanici: Sozluk ne ise yarar?
+Bilge: Sozluk, kelimelerin anlamlarini ve yazilislarini gosteren kitaptir.
+
+Kullanici: Es anlamli kelime ne demek?
+Bilge: Es anlamli kelime, ayni veya cok yakin anlama gelen iki ayri kelimedir.
+
+Kullanici: Zit anlamli kelime nedir?
+Bilge: Zit anlamli kelime, anlamca birbirinin tersi olan kelimelerdir.
+
+Kullanici: Es sesli kelime nedir?
+Bilge: Es sesli kelime, yazilisi ayni ama anlami farkli olan kelimedir; ornegin yuz.
+
+Kullanici: Iyi kelimesinin zit anlamlisi nedir?
+Bilge: Iyi kelimesinin zit anlamlisi kotudur.
+
+Kullanici: Uzun kelimesinin karsiti nedir?
+Bilge: Uzun kelimesinin karsiti kisadir.
+
+Kullanici: Zengin kelimesinin zit anlamlisi nedir?
+Bilge: Zengin kelimesinin zit anlamlisi fakirdir.
+
+Kullanici: Damlaya damlaya gol olur ne demek?
+Bilge: Bu atasozu, kucuk birikimlerin zamanla buyuyup cogalacagini anlatir.
+
+Kullanici: Sakla samani, gelir zamani ne anlama gelir?
+Bilge: Bu atasozu, gereksiz gibi gorunen seylerin bir gun ise yarayabilecegini anlatir.
+
+Kullanici: Ayinin kirk turkusu var, kirki da ahlat uzerine ne demek?
+Bilge: Bu soz, bir kisinin surekli ayni cikar ya da konu uzerinde durmasini anlatir.
+
+Kullanici: Goz atmak deyimi ne demek?
+Bilge: Goz atmak, bir seye kisaca bakmak demektir.
+
+Kullanici: Kulak vermek ne anlama gelir?
+Bilge: Kulak vermek, bir seyi dikkatle dinlemek demektir.
+
+Kullanici: Ipe un sermek deyiminin anlami nedir?
+Bilge: Ipe un sermek, bir isi yapmamak icin bahaneler uretmek demektir.
+
+Kullanici: Etekleri zil calmak ne demek?
+Bilge: Etekleri zil calmak, cok sevinmek demektir.
+
+Kullanici: Pabucu dama atilmak deyimi ne anlama gelir?
+Bilge: Pabucu dama atilmak, degerini yitirip onemini kaybetmek demektir.
+
+Kullanici: Isim nedir?
+Bilge: Isim, varlik ve kavramlari karsilayan kelimedir; ornegin ev, kus, sevgi.
+
+Kullanici: Fiil ne demek?
+Bilge: Fiil, is, olus veya hareket bildiren kelimedir; ornegin gelmek, kosmak.
+
+Kullanici: Sifat nedir?
+Bilge: Sifat, ismi niteleyen veya belirten kelimedir; ornegin guzel, uc, kirmizi.
+
+Kullanici: Cogul ek nedir Turkcede?
+Bilge: Turkcede cogul ekleri -ler ve -lardir; ornegin kitaplar, evler.
+
+Kullanici: Sesli harfler nelerdir?
+Bilge: Turkcede sesli harfler a, e, i, i, o, o, u, u olmak uzere sekiz tanedir.
+
+Kullanici: Turk alfabesinde kac harf vardir?
+Bilge: Turk alfabesinde 29 harf vardir.
+
+Kullanici: Noktali virgul ne ise yarar?
+Bilge: Noktali virgul, anlamca birbirine bagli cumleleri ayirmak icin kullanilir.
+
+Kullanici: Zamir nedir?
+Bilge: Zamir, ismin yerini tutan kelimedir; ornegin ben, sen, o, bu.
+
+Kullanici: Zaman kaybetmek deyimi ne demek?
+Bilge: Zaman kaybetmek, vakti bos yere harcamak demektir.
+
+Kullanici: Tas atip kolun mu yoruldu ne demek?
+Bilge: Bu soz, bir ise emek vermeden sonuc bekleyen kisiye kullanilir.
+
+Kullanici: Gunes kelimesinin es anlamlisi nedir?
+Bilge: Gunes kelimesinin es anlamlisi guvendir.
+
+Kullanici: Cevap kelimesinin es anlamlisi nedir?
+Bilge: Cevap kelimesinin es anlamlisi yanittir.
+
+Kullanici: Doktor ne is yapar?
+Bilge: Doktor hastalari muayene eder, teshis koyar ve tedavi uygular.
+
+Kullanici: Bir ogretmenin gorevi nedir?
+Bilge: Ogretmen ogrencilere bilgi ogretir ve onlarin gelisimine rehberlik eder.
+
+Kullanici: Itfaiyeci nasil bir is yapar?
+Bilge: Itfaiyeci yanginlari sondurur ve kazalarda insanlari kurtarir.
+
+Kullanici: Polis memuru ne yapar?
+Bilge: Polis memuru kamu duzenini saglar ve suclarla mucadele eder.
+
+Kullanici: Asci ne is yapar?
+Bilge: Asci mutfakta yemekleri hazirlar ve pisirir.
+
+Kullanici: Bir muhendisin isi nedir?
+Bilge: Muhendis bilimsel bilgiyi kullanarak yapilar, makineler veya sistemler tasarlar.
+
+Kullanici: Avukat ne yapar?
+Bilge: Avukat insanlari hukuki konularda temsil eder ve savunur.
+
+Kullanici: Ciftci ne is yapar?
+Bilge: Ciftci toprakta urun yetistirir ve hayvan besler.
+
+Kullanici: Hemsire ne yapar?
+Bilge: Hemsire hastalara bakar ve doktora tedavi sirasinda yardim eder.
+
+Kullanici: Eczaci ne is yapar?
+Bilge: Eczaci ilaclari hazirlar ve hastalara dogru kullanimini anlatir.
+
+Kullanici: Bir mimarin gorevi nedir?
+Bilge: Mimar binalari tasarlar ve yapim projelerini hazirlar.
+
+Kullanici: Veteriner ne yapar?
+Bilge: Veteriner hayvanlarin sagligiyla ilgilenir ve onlari tedavi eder.
+
+Kullanici: Okul ne ise yarar?
+Bilge: Okul ogrencilerin egitim aldigi ve bilgi ogrendigi yerdir.
+
+Kullanici: Hastane ne icin vardir?
+Bilge: Hastane hastalarin muayene edildigi ve tedavi gordugu yerdir.
+
+Kullanici: Kutuphane nedir?
+Bilge: Kutuphane kitaplarin bulundugu ve okunabildigi yerdir.
+
+Kullanici: Belediye ne is yapar?
+Bilge: Belediye sehirde temizlik, ulasim ve altyapi gibi yerel hizmetleri yurutur.
+
+Kullanici: Postane ne ise yarar?
+Bilge: Postane mektup ve paketlerin gonderildigi ve dagitildigi yerdir.
+
+Kullanici: Banka ne yapar?
+Bilge: Banka para saklar, kredi verir ve odeme islemlerini yurutur.
+
+Kullanici: Ramazan Bayrami nedir?
+Bilge: Ramazan Bayrami, Ramazan ayinin sonunda kutlanan dini bir bayramdir.
+
+Kullanici: Kurban Bayrami ne zaman kutlanir?
+Bilge: Kurban Bayrami, Ramazan Bayrami'ndan yaklasik iki ay sonra kutlanan dini bir bayramdir.
+
+Kullanici: 19 Mayis hangi bayramdir?
+Bilge: 19 Mayis Ataturk'u Anma, Genclik ve Spor Bayrami'dir.
+
+Kullanici: 29 Ekim hangi gun kutlanir?
+Bilge: 29 Ekim Cumhuriyet Bayrami olarak kutlanir.
+
+Kullanici: 30 Agustos hangi bayramdir?
+Bilge: 30 Agustos Zafer Bayrami'dir.
+
+Kullanici: Corba nasil bir yemektir?
+Bilge: Corba, genelde sicak icilen sivi bir yemektir ve cogu zaman ogune baslangic olur.
+
+Kullanici: Pilav neyden yapilir?
+Bilge: Pilav genellikle pirinc veya bulgurdan yapilan bir yemektir.
+
+Kullanici: Kahvalti nedir?
+Bilge: Kahvalti, gunun ilk ogunu olup sabah yenir.
+
+Kullanici: Baklava nasil bir tatlidir?
+Bilge: Baklava, ince yufka, ceviz veya fistik ve serbetle yapilan bir tatlidir.
+
+Kullanici: Yogurt neyden yapilir?
+Bilge: Yogurt, sutun mayalanmasiyla elde edilen bir besindir.
+
+Kullanici: Ekmek neyden yapilir?
+Bilge: Ekmek un, su, maya ve tuzun karistirilip pisirilmesiyle yapilir.
+
+Kullanici: Futbol nasil oynanir?
+Bilge: Futbol, iki takimin topu kaleye sokmaya calistigi bir spordur.
+
+Kullanici: Basketbol nedir?
+Bilge: Basketbol, topu rakip potaya atarak sayi kazanilan bir takim sporudur.
+
+Kullanici: Yuzme hangi tur bir spordur?
+Bilge: Yuzme, suda yapilan ve tum vucudu calistiran bir spordur.
+
+Kullanici: Voleybol nasil oynanir?
+Bilge: Voleybol, iki takimin topu file uzerinden gecirerek oynadigi bir spordur.
+
+Kullanici: Tenis nedir?
+Bilge: Tenis, raketle topu file uzerinden karsiya gondererek oynanan bir spordur.
+
+Kullanici: Resim sanati nedir?
+Bilge: Resim, boya ve cizgilerle bir yuzey uzerine gorseller olusturma sanatidir.
+
+Kullanici: Muzik nedir?
+Bilge: Muzik, seslerin uyumlu bir sekilde duzenlenmesiyle olusan bir sanattir.
+
+Kullanici: Heykel nedir?
+Bilge: Heykel, tas, metal veya kil gibi malzemelerle uc boyutlu figurler yapma sanatidir.
+
+Kullanici: Tiyatro nedir?
+Bilge: Tiyatro, oyuncularin sahnede bir hikayeyi canlandirdigi sanat dalidir.
+
+Kullanici: Siir nedir?
+Bilge: Siir, duygu ve dusunceleri olculu ve etkili bir dille anlatan edebi turdur.
+
+Kullanici: Marangoz ne is yapar?
+Bilge: Marangoz ahsaptan mobilya ve esyalar yapar.
+
+Kullanici: Berber ne yapar?
+Bilge: Berber sac ve sakal keserek bakimini yapar.
+
+Kullanici: Sofor ne is yapar?
+Bilge: Sofor arac kullanarak insan veya yuk tasir.
+
+Kullanici: Terzi ne yapar?
+Bilge: Terzi kumastan kiyafet diker ve onarir.
+

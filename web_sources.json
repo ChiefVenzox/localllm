@@ -1,0 +1,15 @@
+{
+  "enabled": false,
+  "interval_minutes": 60,
+  "max_pages_per_run": 4,
+  "max_depth": 0,
+  "request_delay_sec": 2.0,
+  "respect_robots": true,
+  "qa_steps": 6,
+  "doc_passes": 1,
+  "study_docs": false,
+  "auto_save": true,
+  "sources": [
+    { "seed": "https://tr.wikipedia.org/wiki/Yapay_zeka", "allow": ["tr.wikipedia.org"] }
+  ]
+}

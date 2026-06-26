@@ -1,0 +1,2040 @@
+{"text": "Veri nedir?", "label": "bilgi"}
+{"text": "6 + 8 kac eder?", "label": "matematik"}
+{"text": "print ile birden fazla degeri nasil yazdiririm?", "label": "kod"}
+{"text": "17 ile 3'den hangisi buyuk?", "label": "kiyas"}
+{"text": "drumel drumel drumel pırt krint günok", "label": "kapsam_disi"}
+{"text": "Durustluk her durumda iyi midir?", "label": "felsefe"}
+{"text": "Annem benden buyuk, ben kardesimden buyukum. Kardesim annemden buyuk mu?", "label": "bilgi"}
+{"text": "Sayıların ortalamasını hesaplayan kısa bir fonksiyon istiyorum.", "label": "kod"}
+{"text": "Etik kurallar nereden gelir?", "label": "felsefe"}
+{"text": "Bir yerde 9 kalem var, 7 tane daha eklersek kac kalem olur?", "label": "matematik"}
+{"text": "Bir yerde 2 sayi var, 2 tane daha eklersek kac sayi olur?", "label": "matematik"}
+{"text": "Birden ona kadar say.", "label": "bilgi"}
+{"text": "zırt trex vızıl", "label": "kapsam_disi"}
+{"text": "Adın ne?", "label": "kimlik"}
+{"text": "Akilli olmak ne demek?", "label": "felsefe"}
+{"text": "9 mi 2 mi buyuk?", "label": "kiyas"}
+{"text": "Hangisi daha buyuk, 6 mi 14 mi?", "label": "kiyas"}
+{"text": "1'den 30'a kadar sayilarda asal olanlari degil de sadece tek sayilari say.", "label": "kod"}
+{"text": "Hangisi daha kucuk, 6 mi 17 mi?", "label": "kiyas"}
+{"text": "Iyi misin", "label": "kimlik"}
+{"text": "Kibrit alevi mi orman yangini mi daha gucludur?", "label": "felsefe"}
+{"text": "19 mi 20 mi buyuk?", "label": "kiyas"}
+{"text": "2 ile 9'den hangisi buyuk?", "label": "kiyas"}
+{"text": "lorem munzo drumel", "label": "kapsam_disi"}
+{"text": "Kim oldugunu soyler misin?", "label": "kimlik"}
+{"text": "lorem glub", "label": "kapsam_disi"}
+{"text": "11 arti 11 kac?", "label": "matematik"}
+{"text": "12 mi 15 mi daha buyuk?", "label": "kiyas"}
+{"text": "Hangisi daha buyuk, 1 mi 18 mi?", "label": "kiyas"}
+{"text": "Senin empatin var mi?", "label": "felsefe"}
+{"text": "Kim tarafından geliştirildin", "label": "kimlik"}
+{"text": "Su kac derecede donar?", "label": "bilgi"}
+{"text": "9 + 12 kac eder?", "label": "matematik"}
+{"text": "Hayal kirikligi nedir?", "label": "felsefe"}
+{"text": "0 ile 20'den hangisi buyuk?", "label": "kiyas"}
+{"text": "4 mi 3 mi daha kucuk?", "label": "kiyas"}
+{"text": "Kediler ne yer?", "label": "bilgi"}
+{"text": "Etik ilkelerin gercekten ise yariyor mu?", "label": "felsefe"}
+{"text": "yablo şponk fnort", "label": "kapsam_disi"}
+{"text": "Mutlu musun?", "label": "felsefe"}
+{"text": "7 + 0 kac eder?", "label": "matematik"}
+{"text": "Ali Veli'den uzun, Veli de Mehmet'ten uzunsa en uzun kim?", "label": "bilgi"}
+{"text": "i̇smin ne?", "label": "kimlik"}
+{"text": "Gercek nedir?", "label": "felsefe"}
+{"text": "Bir sayının faktöriyelini bulan kısa fonksiyon lazım.", "label": "kod"}
+{"text": "0 mi 9 mi buyuk?", "label": "kiyas"}
+{"text": "Hangisi daha buyuk, 19 mi 16 mi?", "label": "kiyas"}
+{"text": "0 mi 9 mi daha kucuk?", "label": "kiyas"}
+{"text": "14 mi 5 mi buyuk?", "label": "kiyas"}
+{"text": "Sen mutlu musun?", "label": "felsefe"}
+{"text": "Hafiza nedir?", "label": "felsefe"}
+{"text": "Iki stringi nasil birlestiririm?", "label": "kod"}
+{"text": "Arkeoloji nedir?", "label": "bilgi"}
+{"text": "pırt blez kaplo munzo drumel fnort", "label": "kapsam_disi"}
+{"text": "At mi insan mi daha hizli kosar?", "label": "felsefe"}
+{"text": "Etik bir ikilemde ne yaparsin?", "label": "felsefe"}
+{"text": "ne işe yararsın?", "label": "kimlik"}
+{"text": "7 mi 17 mi daha kucuk?", "label": "kiyas"}
+{"text": "5 mi 8 mi buyuk?", "label": "kiyas"}
+{"text": "1 ile 20 arasindaki tek sayilari yazdiran kodu gosterir misin?", "label": "kod"}
+{"text": "Hosgoru nedir?", "label": "felsefe"}
+{"text": "flarp munzo mırfıl munzo", "label": "kapsam_disi"}
+{"text": "nasil gidiyor", "label": "kimlik"}
+{"text": "Etik ile ahlak arasindaki fark ne?", "label": "felsefe"}
+{"text": "Bana yalan soyler misin?", "label": "felsefe"}
+{"text": "Listeden bir eleman nasil silinir?", "label": "kod"}
+{"text": "kac yasinda oldun?", "label": "kimlik"}
+{"text": "munzo yablo blez munzo", "label": "kapsam_disi"}
+{"text": "15 mi 13 mi buyuk?", "label": "kiyas"}
+{"text": "Sen empati kurabilir misin?", "label": "felsefe"}
+{"text": "Hangisi daha buyuk, 12 mi 19 mi?", "label": "kiyas"}
+{"text": "Mutlu kelimesinin es anlamlisi nedir?", "label": "bilgi"}
+{"text": "Haftanin gunlerini sayar misin?", "label": "bilgi"}
+{"text": "Akcigerlerin gorevi nedir?", "label": "bilgi"}
+{"text": "Kotu insanlar degisebilir mi?", "label": "felsefe"}
+{"text": "drumel şponk xanto kweez vızıl", "label": "kapsam_disi"}
+{"text": "Aksam birini selamlarken ne denir?", "label": "bilgi"}
+{"text": "6 arti 6 kac?", "label": "matematik"}
+{"text": "krint trex şponk krint pırt", "label": "kapsam_disi"}
+{"text": "Bana bir şiir yaz", "label": "kapsam_disi"}
+{"text": "1 mi 14 mi daha kucuk?", "label": "kiyas"}
+{"text": "sertik şponk flarp sertik mırfıl", "label": "kapsam_disi"}
+{"text": "Tum cevaplarin dogru mu?", "label": "felsefe"}
+{"text": "Ayinin kirk turkusu var, kirki da ahlat uzerine ne demek?", "label": "bilgi"}
+{"text": "Basit bir fonksiyon nasil tanimlanir?", "label": "kod"}
+{"text": "Kendini ozel hissediyor musun?", "label": "felsefe"}
+{"text": "senin adin ne?", "label": "kimlik"}
+{"text": "1 ve 1'yi toplar misin?", "label": "matematik"}
+{"text": "Iyi bir insan nasil olunur?", "label": "felsefe"}
+{"text": "7 carpi 3 kac eder?", "label": "matematik"}
+{"text": "Eger kapi kilitliyse anahtar gerekir. Anahtarim yok, iceri girebilir miyim?", "label": "bilgi"}
+{"text": "Akilli telefon nedir?", "label": "bilgi"}
+{"text": "zırt pırt drumel", "label": "kapsam_disi"}
+{"text": "Vicdan nedir?", "label": "felsefe"}
+{"text": "Senin bir inancin var mi?", "label": "felsefe"}
+{"text": "2 x 8 kac?", "label": "matematik"}
+{"text": "2 mi 9 mi daha kucuk?", "label": "kiyas"}
+{"text": "Bool degeri olan bir degisken ornegi ver.", "label": "kod"}
+{"text": "kweez flarp şponk kaplo zırt", "label": "kapsam_disi"}
+{"text": "Python'da bir degisken nasil tanimlanir?", "label": "kod"}
+{"text": "vızıl pırt lorem", "label": "kapsam_disi"}
+{"text": "2 ile 8'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Adın ne", "label": "kimlik"}
+{"text": "12'ten 4 cikarsak kac kalir?", "label": "matematik"}
+{"text": "Tam sayi ve ondalik sayi degiskeni nasil olur?", "label": "kod"}
+{"text": "Dunya neyin etrafinda doner?", "label": "bilgi"}
+{"text": "Amazon nehri nerede?", "label": "bilgi"}
+{"text": "Kedi kopekten kucuk, kopek attan kucukse en buyuk hangisi?", "label": "bilgi"}
+{"text": "19 mi 12 mi daha kucuk?", "label": "kiyas"}
+{"text": "Tavuk ne yer?", "label": "bilgi"}
+{"text": "Hangisi daha kucuk, 17 mi 19 mi?", "label": "kiyas"}
+{"text": "13 mi 6 mi daha buyuk?", "label": "kiyas"}
+{"text": "Bir sirket mi yapti seni", "label": "kimlik"}
+{"text": "glub flarp blez xanto günok", "label": "kapsam_disi"}
+{"text": "Siyah ile beyaz nasil kelimelerdir?", "label": "bilgi"}
+{"text": "11 eksi 2 kac eder?", "label": "matematik"}
+{"text": "0 mi 13 mi buyuk?", "label": "kiyas"}
+{"text": "Anadolu ne demek?", "label": "bilgi"}
+{"text": "3 x 2 kac eder, sonra 1 eklersem sonuc nedir?", "label": "bilgi"}
+{"text": "Senin yasin kac?", "label": "felsefe"}
+{"text": "xanto vızıl blez blez", "label": "kapsam_disi"}
+{"text": "20 mi 5 mi daha buyuk?", "label": "kiyas"}
+{"text": "15 mi 18 mi buyuk?", "label": "kiyas"}
+{"text": "20 ile 10'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Sabah birine nasil selam verilir?", "label": "bilgi"}
+{"text": "Tarih ile efsane arasindaki fark nedir?", "label": "bilgi"}
+{"text": "Kirmizi ile sari karisinca ne olur?", "label": "bilgi"}
+{"text": "Yildiz mi gezegen mi daha buyuk?", "label": "felsefe"}
+{"text": "Bir sayiyi 1 artirmak istiyorum.", "label": "kod"}
+{"text": "Cevap kelimesinin es anlamlisi nedir?", "label": "bilgi"}
+{"text": "Cibuk mu kutuk mu daha kalin?", "label": "felsefe"}
+{"text": "4 ve 1'yi toplar misin?", "label": "matematik"}
+{"text": "1 ile 17'den hangisi buyuk?", "label": "kiyas"}
+{"text": "munzo günok sertik lorem krint günok", "label": "kapsam_disi"}
+{"text": "0 x 5 kac?", "label": "matematik"}
+{"text": "Bir yerde 2 kalem var, 2 tane daha eklersek kac kalem olur?", "label": "matematik"}
+{"text": "Mevsimler neden olusur?", "label": "bilgi"}
+{"text": "Listede kac tane oge oldugunu ogrenmek istiyorum.", "label": "kod"}
+{"text": "kweez krint glub blez", "label": "kapsam_disi"}
+{"text": "Hangisi daha buyuk, 16 mi 10 mi?", "label": "kiyas"}
+{"text": "4 kere 1 kac eder?", "label": "matematik"}
+{"text": "sen chatgpt misin?", "label": "kimlik"}
+{"text": "Bir yerde 12 kus var, 6 tane daha eklersek kac kus olur?", "label": "matematik"}
+{"text": "Verilen sayinin cift olup olmadigini soyleyen kod yaz.", "label": "kod"}
+{"text": "munzo drumel kweez flarp lorem günok", "label": "kapsam_disi"}
+{"text": "Elimde 4 elma vardi, 3 tanesini verdim. Kac elma kaldi?", "label": "matematik"}
+{"text": "Korkun var mi?", "label": "felsefe"}
+{"text": "İnternetin var mı", "label": "kimlik"}
+{"text": "Yuzyil kac yildir?", "label": "bilgi"}
+{"text": "4 mi 19 mi buyuk?", "label": "kiyas"}
+{"text": "11'ten 8 cikarsak kac kalir?", "label": "matematik"}
+{"text": "Zit anlamli kelime nedir?", "label": "bilgi"}
+{"text": "3 mi 12 mi daha kucuk?", "label": "kiyas"}
+{"text": "Zaman nedir?", "label": "felsefe"}
+{"text": "krint kaplo munzo kweez munzo", "label": "kapsam_disi"}
+{"text": "Fiil ne demek?", "label": "bilgi"}
+{"text": "Alcakgonulluluk nedir?", "label": "felsefe"}
+{"text": "Neden varsin?", "label": "felsefe"}
+{"text": "Sorumluluk almak zor geliyor bana.", "label": "felsefe"}
+{"text": "10 mi 19 mi daha buyuk?", "label": "kiyas"}
+{"text": "Dogru ile yanlis nasil ayirt edilir?", "label": "felsefe"}
+{"text": "Iki sayinin farkini donduren fonksiyon yaz.", "label": "kod"}
+{"text": "Bana iyi bir gun dile.", "label": "felsefe"}
+{"text": "xanto glub vızıl yablo munzo", "label": "kapsam_disi"}
+{"text": "Iki sayinin ortalamasini bulan kod yaz.", "label": "kod"}
+{"text": "18 mi 4 mi daha kucuk?", "label": "kiyas"}
+{"text": "Kis mevsiminde hava nasildir?", "label": "bilgi"}
+{"text": "0 ile 17'den hangisi buyuk?", "label": "kiyas"}
+{"text": "3 mi 16 mi buyuk?", "label": "kiyas"}
+{"text": "En iyi film hangisi?", "label": "kapsam_disi"}
+{"text": "2 carpi 5 kac eder?", "label": "matematik"}
+{"text": "vızıl kweez", "label": "kapsam_disi"}
+{"text": "Yarin cuma ise dun hangi gundu?", "label": "bilgi"}
+{"text": "14 mi 13 mi buyuk?", "label": "kiyas"}
+{"text": "Mezopotamya neresi?", "label": "bilgi"}
+{"text": "Bugun sali ise yarin hangi gun?", "label": "bilgi"}
+{"text": "Ahlakli olmak zor mu?", "label": "felsefe"}
+{"text": "3 mi 20 mi buyuk?", "label": "kiyas"}
+{"text": "10 + 5 kac eder?", "label": "matematik"}
+{"text": "5 mi 15 mi buyuk?", "label": "kiyas"}
+{"text": "Empati nedir?", "label": "felsefe"}
+{"text": "Olmekten korkar misin?", "label": "felsefe"}
+{"text": "Lazanya tarifi nedir?", "label": "kapsam_disi"}
+{"text": "Bisiklet zinciri nasıl takılır?", "label": "kapsam_disi"}
+{"text": "Anadolu'da hangi eski medeniyetler yasamistir?", "label": "bilgi"}
+{"text": "12 eksi 8 kac eder?", "label": "matematik"}
+{"text": "şponk mırfıl şponk munzo zırt", "label": "kapsam_disi"}
+{"text": "Hangi gezegene Kizil Gezegen denir?", "label": "bilgi"}
+{"text": "1 ile 5'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Hangisi daha kucuk, 9 mi 19 mi?", "label": "kiyas"}
+{"text": "İki değeri çarpan bir Python fonksiyonu yazalım.", "label": "kod"}
+{"text": "Yaz gunu mu kis gunu mu daha uzun?", "label": "felsefe"}
+{"text": "Ucak mi araba mi daha hizli?", "label": "felsefe"}
+{"text": "ismin nedir", "label": "kimlik"}
+{"text": "munzo fnort drumel xanto", "label": "kapsam_disi"}
+{"text": "i̇nternete erişebiliyor musun", "label": "kimlik"}
+{"text": "Hangisi daha buyuk, 4 mi 13 mi?", "label": "kiyas"}
+{"text": "Elimde 10 lira vardi, 7 tanesini verdim. Kac lira kaldi?", "label": "matematik"}
+{"text": "10 mi 0 mi buyuk?", "label": "kiyas"}
+{"text": "1 x 4 kac?", "label": "matematik"}
+{"text": "Faktöriyel hesaplayan bir fonksiyon yaz.", "label": "kod"}
+{"text": "Bir yerde 8 kus var, 3 tane daha eklersek kac kus olur?", "label": "matematik"}
+{"text": "kweez flarp flarp munzo mırfıl", "label": "kapsam_disi"}
+{"text": "16 mi 9 mi buyuk?", "label": "kiyas"}
+{"text": "xanto lorem drumel", "label": "kapsam_disi"}
+{"text": "Yarasa kus mudur?", "label": "bilgi"}
+{"text": "adin ne?", "label": "kimlik"}
+{"text": "12 mi 5 mi buyuk?", "label": "kiyas"}
+{"text": "Tas mi tuy mu daha agir?", "label": "felsefe"}
+{"text": "Iyi nedir sence?", "label": "felsefe"}
+{"text": "Yarim saat kac dakikadir?", "label": "bilgi"}
+{"text": "pırt mırfıl mırfıl vızıl", "label": "kapsam_disi"}
+{"text": "12 mi 0 mi daha buyuk?", "label": "kiyas"}
+{"text": "8 + 5 kac eder?", "label": "matematik"}
+{"text": "kweez kaplo", "label": "kapsam_disi"}
+{"text": "Bir listeyi nasil ters ceviririm?", "label": "kod"}
+{"text": "Heyecanlaniyor musun?", "label": "felsefe"}
+{"text": "Sence en onemli deger nedir?", "label": "felsefe"}
+{"text": "kaplo fnort", "label": "kapsam_disi"}
+{"text": "Selamlama yapan bir fonksiyon orneklendir.", "label": "kod"}
+{"text": "i̇yi misin?", "label": "kimlik"}
+{"text": "10 kere 0 kac eder?", "label": "matematik"}
+{"text": "adını söyler misin?", "label": "kimlik"}
+{"text": "8 eksi 8 kac eder?", "label": "matematik"}
+{"text": "Kahvalti nedir?", "label": "bilgi"}
+{"text": "1 mi 3 mi buyuk?", "label": "kiyas"}
+{"text": "2 ile 9 toplami kac eder?", "label": "matematik"}
+{"text": "vızıl lorem şponk vızıl", "label": "kapsam_disi"}
+{"text": "Bir yerde 8 kitap var, 7 tane daha eklersek kac kitap olur?", "label": "matematik"}
+{"text": "Bilgi guc mudur?", "label": "felsefe"}
+{"text": "16 mi 6 mi daha kucuk?", "label": "kiyas"}
+{"text": "Yagmuru sever misin?", "label": "felsefe"}
+{"text": "Bir yerde 4 kus var, 2 tane daha eklersek kac kus olur?", "label": "matematik"}
+{"text": "günok munzo trex", "label": "kapsam_disi"}
+{"text": "Muzik nedir?", "label": "bilgi"}
+{"text": "Sorumluluk nedir?", "label": "felsefe"}
+{"text": "blez blez drumel", "label": "kapsam_disi"}
+{"text": "15 ile 11'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Sifat nedir?", "label": "bilgi"}
+{"text": "9 mi 3 mi buyuk?", "label": "kiyas"}
+{"text": "13 mi 14 mi buyuk?", "label": "kiyas"}
+{"text": "trex drumel mırfıl vızıl", "label": "kapsam_disi"}
+{"text": "Seni kim eğitti?", "label": "kimlik"}
+{"text": "lorem lorem glub", "label": "kapsam_disi"}
+{"text": "Birine kotu davranan biri hakkinda ne dusunmeli?", "label": "felsefe"}
+{"text": "3 mi 15 mi buyuk?", "label": "kiyas"}
+{"text": "Internete bagli misin?", "label": "kimlik"}
+{"text": "zırt flarp yablo munzo sertik", "label": "kapsam_disi"}
+{"text": "munzo vızıl flarp", "label": "kapsam_disi"}
+{"text": "krint munzo blez", "label": "kapsam_disi"}
+{"text": "xanto fnort fnort yablo günok", "label": "kapsam_disi"}
+{"text": "İki sayıdan büyük olanı döndüren fonksiyon yazar mısın?", "label": "kod"}
+{"text": "0 + 5 kac eder?", "label": "matematik"}
+{"text": "5'ten geriye 1'e kadar sayan bir dongu yaz.", "label": "kod"}
+{"text": "Comert ile cimri zit anlamli midir?", "label": "bilgi"}
+{"text": "Hangisi daha buyuk, 3 mi 10 mi?", "label": "kiyas"}
+{"text": "Aslan mi kaplan mi daha buyuk? Emin degilsen soyle.", "label": "felsefe"}
+{"text": "glub yablo mırfıl", "label": "kapsam_disi"}
+{"text": "Listedeki tekrar eden elemanlari nasil cikaririm?", "label": "kod"}
+{"text": "Fil ne kadar buyuk olur?", "label": "bilgi"}
+{"text": "trex trex vızıl", "label": "kapsam_disi"}
+{"text": "Adin nedir", "label": "kimlik"}
+{"text": "1 carpi 8 kac eder?", "label": "matematik"}
+{"text": "Demir mi pamuk mu daha agir?", "label": "felsefe"}
+{"text": "9 ile 5 toplami kac eder?", "label": "matematik"}
+{"text": "6 ile 3 toplami kac eder?", "label": "matematik"}
+{"text": "Selam Bilge, beni hatirliyor musun?", "label": "felsefe"}
+{"text": "seni openai mı yaptı?", "label": "kimlik"}
+{"text": "ChatGPT misin?", "label": "kimlik"}
+{"text": "Inanc nedir?", "label": "felsefe"}
+{"text": "kweez lorem", "label": "kapsam_disi"}
+{"text": "Senin adin ne", "label": "kimlik"}
+{"text": "Bir yerde 4 lira var, 3 tane daha eklersek kac lira olur?", "label": "matematik"}
+{"text": "Tarihte kaynak ne demektir?", "label": "bilgi"}
+{"text": "glub glub munzo munzo", "label": "kapsam_disi"}
+{"text": "Senin bir vicdanin var mi?", "label": "felsefe"}
+{"text": "blez fnort", "label": "kapsam_disi"}
+{"text": "9 ve 4'yi toplar misin?", "label": "matematik"}
+{"text": "Ruzgar nasil olusur?", "label": "bilgi"}
+{"text": "6 mi 0 mi buyuk?", "label": "kiyas"}
+{"text": "Dag mi tepe mi daha yuksek?", "label": "felsefe"}
+{"text": "Bir yerde 11 sayi var, 3 tane daha eklersek kac sayi olur?", "label": "matematik"}
+{"text": "Bir listenin en kucuk elemanini nasil bulurum?", "label": "kod"}
+{"text": "Hangisi daha buyuk, 8 mi 0 mi?", "label": "kiyas"}
+{"text": "Eger tum kuslar ucabiliyorsa ve serce bir kussa, serce ucabilir mi?", "label": "bilgi"}
+{"text": "10 carpi 9 kac eder?", "label": "matematik"}
+{"text": "7 eksi 6 kac eder?", "label": "matematik"}
+{"text": "16 mi 4 mi daha kucuk?", "label": "kiyas"}
+{"text": "Kac mevsim vardir?", "label": "bilgi"}
+{"text": "trex flarp fnort zırt pırt sertik", "label": "kapsam_disi"}
+{"text": "kweez glub kweez vızıl zırt", "label": "kapsam_disi"}
+{"text": "Iyi insan kimdir?", "label": "felsefe"}
+{"text": "Robot nedir?", "label": "bilgi"}
+{"text": "1'den 10'a kadar sayilarin karelerini yazdir.", "label": "kod"}
+{"text": "7 kere 1 kac eder?", "label": "matematik"}
+{"text": "Ekmek neyden yapilir?", "label": "bilgi"}
+{"text": "Bu ilacı kullanabilir miyim?", "label": "kapsam_disi"}
+{"text": "Bana motivasyon ver.", "label": "felsefe"}
+{"text": "12 - 4 kac?", "label": "matematik"}
+{"text": "trex drumel glub kweez", "label": "kapsam_disi"}
+{"text": "17 ile 2'den hangisi buyuk?", "label": "kiyas"}
+{"text": "4 ve 8'yi toplar misin?", "label": "matematik"}
+{"text": "Akil nedir?", "label": "felsefe"}
+{"text": "Ayse Fatma'dan yasli, Fatma Zeynep'ten yasli. En genc kim?", "label": "bilgi"}
+{"text": "Bir fikra anlat.", "label": "felsefe"}
+{"text": "while dongusuyle toplami 50'yi gecene kadar sayilari topla.", "label": "kod"}
+{"text": "4 + 0 kac eder?", "label": "matematik"}
+{"text": "Tilkiler ne yer?", "label": "bilgi"}
+{"text": "Bir sey sorabilir miyim?", "label": "felsefe"}
+{"text": "Bir yerde 4 elma var, 8 tane daha eklersek kac elma olur?", "label": "matematik"}
+{"text": "kaplo fnort vızıl", "label": "kapsam_disi"}
+{"text": "İnternete erişebiliyor musun?", "label": "kimlik"}
+{"text": "Ispanya'nin baskenti neresi?", "label": "bilgi"}
+{"text": "Yalniz hisseder misin?", "label": "felsefe"}
+{"text": "Bir yerde 5 elma var, 6 tane daha eklersek kac elma olur?", "label": "matematik"}
+{"text": "10'ten 0 cikarsak kac kalir?", "label": "matematik"}
+{"text": "6 ile 5'den hangisi buyuk?", "label": "kiyas"}
+{"text": "seni kim egitti?", "label": "kimlik"}
+{"text": "Kullanicidan ad alip selam veren program yaz.", "label": "kod"}
+{"text": "Elimde 12 kalem vardi, 10 tanesini verdim. Kac kalem kaldi?", "label": "matematik"}
+{"text": "yablo şponk kaplo", "label": "kapsam_disi"}
+{"text": "Kaç yaşında oldun", "label": "kimlik"}
+{"text": "günok trex sertik vızıl", "label": "kapsam_disi"}
+{"text": "16 mi 6 mi buyuk?", "label": "kiyas"}
+{"text": "12 mi 8 mi daha kucuk?", "label": "kiyas"}
+{"text": "zırt trex sertik günok xanto", "label": "kapsam_disi"}
+{"text": "xanto kaplo lorem xanto lorem munzo", "label": "kapsam_disi"}
+{"text": "günok pırt kweez kaplo flarp", "label": "kapsam_disi"}
+{"text": "Yaraticilik nedir?", "label": "felsefe"}
+{"text": "7'ten 7 cikarsak kac kalir?", "label": "matematik"}
+{"text": "Itfaiyeci nasil bir is yapar?", "label": "bilgi"}
+{"text": "7 kere 8 kac eder?", "label": "matematik"}
+{"text": "5 elmam vardi, 2 tanesini yedim. Kac kaldi?", "label": "bilgi"}
+{"text": "0 carpi 8 kac eder?", "label": "matematik"}
+{"text": "7 mi 2 mi daha buyuk?", "label": "kiyas"}
+{"text": "1 arti 7 kac?", "label": "matematik"}
+{"text": "Olum hakkinda ne dusunuyorsun?", "label": "felsefe"}
+{"text": "lorem pırt", "label": "kapsam_disi"}
+{"text": "Hangisi daha buyuk, 13 mi 10 mi?", "label": "kiyas"}
+{"text": "Anlam nereden gelir?", "label": "felsefe"}
+{"text": "10 mi 5 mi daha buyuk?", "label": "kiyas"}
+{"text": "drumel yablo fnort flarp", "label": "kapsam_disi"}
+{"text": "Affetmek zor mu?", "label": "felsefe"}
+{"text": "Senden kotu bir sey istesem yapar misin?", "label": "felsefe"}
+{"text": "Simsek nedir?", "label": "bilgi"}
+{"text": "12 ile 8 toplami kac eder?", "label": "matematik"}
+{"text": "Bir yerde 6 sayi var, 6 tane daha eklersek kac sayi olur?", "label": "matematik"}
+{"text": "Okul ne ise yarar?", "label": "bilgi"}
+{"text": "Sen kimsin?", "label": "felsefe"}
+{"text": "2 mi 8 mi buyuk?", "label": "kiyas"}
+{"text": "Bir listedeki kac eleman oldugunu say.", "label": "kod"}
+{"text": "Yazilim ile donanim arasindaki fark nedir?", "label": "bilgi"}
+{"text": "5 kere 7 kac eder?", "label": "matematik"}
+{"text": "Sen neden varsin?", "label": "felsefe"}
+{"text": "9 kere 4 kac eder?", "label": "matematik"}
+{"text": "kaplo flarp munzo", "label": "kapsam_disi"}
+{"text": "Mantar bitki midir?", "label": "bilgi"}
+{"text": "kweez glub zırt", "label": "kapsam_disi"}
+{"text": "Dostluk nedir?", "label": "felsefe"}
+{"text": "14 mi 8 mi daha buyuk?", "label": "kiyas"}
+{"text": "fnort blez munzo xanto munzo", "label": "kapsam_disi"}
+{"text": "günok xanto", "label": "kapsam_disi"}
+{"text": "12 mi 14 mi daha buyuk?", "label": "kiyas"}
+{"text": "6 ile 11 toplami kac eder?", "label": "matematik"}
+{"text": "Kaplumbagalar neden yavastir?", "label": "bilgi"}
+{"text": "bana nasil yardimci olabilirsin", "label": "kimlik"}
+{"text": "zırt glub yablo krint blez", "label": "kapsam_disi"}
+{"text": "Muze ne ise yarar?", "label": "bilgi"}
+{"text": "Osmanli Devleti ne idi?", "label": "bilgi"}
+{"text": "Nasil calisiyorsun?", "label": "felsefe"}
+{"text": "4 carpi 10 kac eder?", "label": "matematik"}
+{"text": "Listenin ilk elemanina nasil ulasirim?", "label": "kod"}
+{"text": "Cevap dondurmeyen ama ekrana yazan fonksiyon yaz.", "label": "kod"}
+{"text": "0 ve 2'yi toplar misin?", "label": "matematik"}
+{"text": "4 arti 2 kac?", "label": "matematik"}
+{"text": "Listedeki tum elemanlari tek tek nasil yazdiririm?", "label": "kod"}
+{"text": "5 kere 3 kac eder?", "label": "matematik"}
+{"text": "Senin degerlerin neler?", "label": "felsefe"}
+{"text": "14 mi 3 mi daha buyuk?", "label": "kiyas"}
+{"text": "Hastane ne icin vardir?", "label": "bilgi"}
+{"text": "i̇nternetin var mı?", "label": "kimlik"}
+{"text": "sertik vızıl", "label": "kapsam_disi"}
+{"text": "12 - 7 kac?", "label": "matematik"}
+{"text": "0 carpi 1 kac eder?", "label": "matematik"}
+{"text": "14 mi 0 mi daha buyuk?", "label": "kiyas"}
+{"text": "Bir sirket mi yapti seni?", "label": "kimlik"}
+{"text": "Bir merdivenin 10 basamagi var, 4 basamak ciktim. Kac basamak kaldi?", "label": "bilgi"}
+{"text": "Hucre nedir?", "label": "bilgi"}
+{"text": "9 arti 9 kac?", "label": "matematik"}
+{"text": "Elimde 10 kitap vardi, 5 tanesini verdim. Kac kitap kaldi?", "label": "matematik"}
+{"text": "19 ile 18'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Inekler ne ile beslenir?", "label": "bilgi"}
+{"text": "5 arti 1 kac?", "label": "matematik"}
+{"text": "Erdem nedir?", "label": "felsefe"}
+{"text": "1 mi 14 mi daha buyuk?", "label": "kiyas"}
+{"text": "5 kere 5 kac eder?", "label": "matematik"}
+{"text": "Hangisi daha kucuk, 7 mi 14 mi?", "label": "kiyas"}
+{"text": "Dunyanin en yuksek dagi nedir?", "label": "bilgi"}
+{"text": "yasin kac", "label": "kimlik"}
+{"text": "Seni kim yaptı", "label": "kimlik"}
+{"text": "Hangisi daha buyuk, 8 mi 16 mi?", "label": "kiyas"}
+{"text": "Sence dostluk onemli mi?", "label": "felsefe"}
+{"text": "Bir cift kac tanedir?", "label": "bilgi"}
+{"text": "Misir'in baskenti hangi sehir?", "label": "bilgi"}
+{"text": "Turk alfabesinde kac harf vardir?", "label": "bilgi"}
+{"text": "9 ve 2'yi toplar misin?", "label": "matematik"}
+{"text": "şponk krint krint drumel", "label": "kapsam_disi"}
+{"text": "Sevinc nedir?", "label": "felsefe"}
+{"text": "Yilanlar zehirli midir?", "label": "bilgi"}
+{"text": "Muzik dinlemeyi sever misin?", "label": "felsefe"}
+{"text": "trex mırfıl mırfıl trex pırt", "label": "kapsam_disi"}
+{"text": "trex şponk kweez glub mırfıl vızıl", "label": "kapsam_disi"}
+{"text": "Baliklar nasil nefes alir?", "label": "bilgi"}
+{"text": "1 mi 9 mi buyuk?", "label": "kiyas"}
+{"text": "trex vızıl lorem zırt", "label": "kapsam_disi"}
+{"text": "Iyi misin?", "label": "kimlik"}
+{"text": "Cep telefonu nedir?", "label": "bilgi"}
+{"text": "0 kere 9 kac eder?", "label": "matematik"}
+{"text": "7 carpi 10 kac eder?", "label": "matematik"}
+{"text": "Insan haklari nedir?", "label": "felsefe"}
+{"text": "Sen necisin?", "label": "kimlik"}
+{"text": "6 ile 11'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Sinirlerini biliyor musun?", "label": "felsefe"}
+{"text": "3 ve 6'yi toplar misin?", "label": "matematik"}
+{"text": "Insan neden var sence?", "label": "felsefe"}
+{"text": "9 mi 6 mi daha buyuk?", "label": "kiyas"}
+{"text": "5 + 4 kac eder?", "label": "matematik"}
+{"text": "Baykuslar ne zaman avlanir?", "label": "bilgi"}
+{"text": "9 arti 8 kac?", "label": "matematik"}
+{"text": "En hizli kara hayvani nedir?", "label": "bilgi"}
+{"text": "Sevgi nedir?", "label": "felsefe"}
+{"text": "Merak nedir?", "label": "felsefe"}
+{"text": "Seni kim gelistirdi", "label": "kimlik"}
+{"text": "Ilk n sayinin toplamini bulan bir fonksiyon yazar misin?", "label": "kod"}
+{"text": "Bir fonksiyon nasil cagirilir?", "label": "kod"}
+{"text": "3 kere 10 kac eder?", "label": "matematik"}
+{"text": "10 mi 6 mi daha buyuk?", "label": "kiyas"}
+{"text": "Hangisi daha buyuk, 16 mi 4 mi?", "label": "kiyas"}
+{"text": "Dunya mi ay mi daha buyuk?", "label": "felsefe"}
+{"text": "flarp kaplo vızıl blez xanto", "label": "kapsam_disi"}
+{"text": "2 mi 14 mi daha buyuk?", "label": "kiyas"}
+{"text": "Karincalar nasil yasar?", "label": "bilgi"}
+{"text": "18 mi 19 mi buyuk?", "label": "kiyas"}
+{"text": "Hangisi daha buyuk, 18 mi 17 mi?", "label": "kiyas"}
+{"text": "Hayal nedir?", "label": "felsefe"}
+{"text": "Ismini ogrenebilir miyim", "label": "kimlik"}
+{"text": "Durustluk nedir?", "label": "felsefe"}
+{"text": "7 carpi 0 kac eder?", "label": "matematik"}
+{"text": "Listedeki sayilarin toplamini nasil bulurum?", "label": "kod"}
+{"text": "2 + 5 kac eder?", "label": "matematik"}
+{"text": "vızıl fnort lorem kaplo", "label": "kapsam_disi"}
+{"text": "9 mi 12 mi daha kucuk?", "label": "kiyas"}
+{"text": "18 mi 5 mi buyuk?", "label": "kiyas"}
+{"text": "Yarim duzine kac eder?", "label": "bilgi"}
+{"text": "Okul kelimesinin es anlamlisi var mi?", "label": "bilgi"}
+{"text": "Merhamet nedir?", "label": "felsefe"}
+{"text": "6 - 0 kac?", "label": "matematik"}
+{"text": "Etik nedir ve neden gerekli?", "label": "felsefe"}
+{"text": "Tren mi yaya mi daha hizli?", "label": "felsefe"}
+{"text": "i̇smin ne", "label": "kimlik"}
+{"text": "Hangisi daha buyuk, 14 mi 18 mi?", "label": "kiyas"}
+{"text": "Cikolata mi limon mu daha tatli?", "label": "felsefe"}
+{"text": "10 mi 8 mi buyuk?", "label": "kiyas"}
+{"text": "Stringi harf harf bir liste haline nasil getiririm?", "label": "kod"}
+{"text": "Kurbagalar nerede yasar?", "label": "bilgi"}
+{"text": "flarp trex", "label": "kapsam_disi"}
+{"text": "Bir yaris pistinde Ali 1., Veli 2., Can 3. oldu. En sonda kim?", "label": "bilgi"}
+{"text": "Iki soru: fil mi zurafa mi daha agir, zurafa mi fil mi daha uzun?", "label": "felsefe"}
+{"text": "glub kaplo flarp xanto", "label": "kapsam_disi"}
+{"text": "Bir degiskenin degerini sonradan degistirebilir miyim?", "label": "kod"}
+{"text": "14 mi 20 mi daha buyuk?", "label": "kiyas"}
+{"text": "zırt trex blez", "label": "kapsam_disi"}
+{"text": "şponk yablo", "label": "kapsam_disi"}
+{"text": "3 ile 1'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Hangisi daha buyuk, 12 mi 11 mi?", "label": "kiyas"}
+{"text": "6 kere 8 kac eder?", "label": "matematik"}
+{"text": "senin adın ne?", "label": "kimlik"}
+{"text": "İki sayıdan küçük olanı bulan kısa fonksiyon istiyorum.", "label": "kod"}
+{"text": "Yildizlar neden geceleri parlak gorunur?", "label": "bilgi"}
+{"text": "Merhaba, biraz sohbet edelim mi?", "label": "felsefe"}
+{"text": "Dogruyu soylemek bazen zarar verirse ne olur?", "label": "felsefe"}
+{"text": "Kim oldugunu soyler misin", "label": "kimlik"}
+{"text": "Elimde 9 kus vardi, 3 tanesini verdim. Kac kus kaldi?", "label": "matematik"}
+{"text": "6 mi 10 mi buyuk?", "label": "kiyas"}
+{"text": "10'ten 2 cikarsak kac kalir?", "label": "matematik"}
+{"text": "19 mi 0 mi daha kucuk?", "label": "kiyas"}
+{"text": "0 arti 1 kac?", "label": "matematik"}
+{"text": "5 - 1 kac?", "label": "matematik"}
+{"text": "Balina mi balik mi daha buyuk?", "label": "felsefe"}
+{"text": "Yetiskinler gunde kac saat uyumali?", "label": "bilgi"}
+{"text": "Bir yerde 7 kitap var, 4 tane daha eklersek kac kitap olur?", "label": "matematik"}
+{"text": "7 arti 7 kac?", "label": "matematik"}
+{"text": "Bir yerde 3 kitap var, 2 tane daha eklersek kac kitap olur?", "label": "matematik"}
+{"text": "3 mi 18 mi buyuk?", "label": "kiyas"}
+{"text": "5 ile 18'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Anlamli bir hayat nasil olur?", "label": "felsefe"}
+{"text": "0 mi 3 mi buyuk?", "label": "kiyas"}
+{"text": "Cita mi salyangoz mu daha hizli?", "label": "felsefe"}
+{"text": "Belediye ne is yapar?", "label": "bilgi"}
+{"text": "Bir gun kac saattir?", "label": "bilgi"}
+{"text": "Asci ne is yapar?", "label": "bilgi"}
+{"text": "Bir sey dogru hissettiriyorsa dogru mudur?", "label": "felsefe"}
+{"text": "Cember mi ucgen mi daha cok koseye sahip?", "label": "felsefe"}
+{"text": "12 mi 18 mi buyuk?", "label": "kiyas"}
+{"text": "Kelimeyi tersten yazdirmak istiyorum.", "label": "kod"}
+{"text": "Bir yerde 11 elma var, 1 tane daha eklersek kac elma olur?", "label": "matematik"}
+{"text": "mırfıl mırfıl blez zırt xanto", "label": "kapsam_disi"}
+{"text": "İki sayının çarpımını döndüren kısa fonksiyon istiyorum.", "label": "kod"}
+{"text": "Saygi nedir?", "label": "felsefe"}
+{"text": "Bir stringi nasil ters ceviririm?", "label": "kod"}
+{"text": "Olumden sonra ne var?", "label": "felsefe"}
+{"text": "Almanya'nin baskenti neresi?", "label": "bilgi"}
+{"text": "Bir alismak istedigim seyi nasil aliskanlik yaparim?", "label": "felsefe"}
+{"text": "Cumhuriyet ne demektir?", "label": "bilgi"}
+{"text": "Nasil gidiyor?", "label": "kimlik"}
+{"text": "Kurban Bayrami ne zaman kutlanir?", "label": "bilgi"}
+{"text": "Bana neden durust davraniyorsun?", "label": "felsefe"}
+{"text": "Bir yerde 11 lira var, 5 tane daha eklersek kac lira olur?", "label": "matematik"}
+{"text": "munzo zırt trex", "label": "kapsam_disi"}
+{"text": "Sabahlari erken kalkmak zor.", "label": "felsefe"}
+{"text": "Pisman olmak iyi midir?", "label": "felsefe"}
+{"text": "internetin var mi", "label": "kimlik"}
+{"text": "glub trex sertik", "label": "kapsam_disi"}
+{"text": "Eczaci ne is yapar?", "label": "bilgi"}
+{"text": "Eger sayi 5'ten buyuk ve 8'den kucukse hangi sayilar olabilir?", "label": "bilgi"}
+{"text": "Cuce mi dev mi daha uzun?", "label": "felsefe"}
+{"text": "Dunya duz mu yoksa yuvarlak mi?", "label": "bilgi"}
+{"text": "zırt flarp pırt vızıl", "label": "kapsam_disi"}
+{"text": "Guzellik nedir?", "label": "felsefe"}
+{"text": "Uzun kelimesinin karsiti nedir?", "label": "bilgi"}
+{"text": "Mavi, kirmizi, mavi, kirmizi dizisinde siradaki renk nedir?", "label": "bilgi"}
+{"text": "Bir filmi saat 8'de izlemeye basladim, 2 saat surdu. Kacta bitti?", "label": "bilgi"}
+{"text": "Bir listeyi dongu ile nasil gezerim?", "label": "kod"}
+{"text": "İnternete bağlı mısın?", "label": "kimlik"}
+{"text": "7 x 0 kac?", "label": "matematik"}
+{"text": "Isik nedir?", "label": "bilgi"}
+{"text": "9 + 0 kac eder?", "label": "matematik"}
+{"text": "Bir listenin ortalamasını bulan fonksiyon yaz.", "label": "kod"}
+{"text": "Bir sayinin 0 ile 100 arasinda olup olmadigini kontrol et.", "label": "kod"}
+{"text": "Dunyanin en uzun nehri hangisi?", "label": "bilgi"}
+{"text": "Cocuk mu yetiskin mi daha uzun boylu olur?", "label": "felsefe"}
+{"text": "Hangisi daha kucuk, 2 mi 7 mi?", "label": "kiyas"}
+{"text": "Listenin elemanlarini tersten siralamak istiyorum.", "label": "kod"}
+{"text": "Orta Cag hakkinda kisaca bilgi verir misin?", "label": "bilgi"}
+{"text": "1 mi 2 mi buyuk?", "label": "kiyas"}
+{"text": "0 carpi 4 kac eder?", "label": "matematik"}
+{"text": "Bulut bilisim nedir?", "label": "bilgi"}
+{"text": "0 ile 2'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Pabucu dama atilmak deyimi ne anlama gelir?", "label": "bilgi"}
+{"text": "5 + 12 kac eder?", "label": "matematik"}
+{"text": "Sen bir sirketin reklamini yapar misin?", "label": "felsefe"}
+{"text": "Pazartesiden 3 gun sonra hangi gun olur?", "label": "bilgi"}
+{"text": "10 eksi 0 kac eder?", "label": "matematik"}
+{"text": "4 ve 9'yi toplar misin?", "label": "matematik"}
+{"text": "Bitcoin fiyatı bugün ne kadar?", "label": "kapsam_disi"}
+{"text": "Zamani durdurabilir miyiz?", "label": "felsefe"}
+{"text": "Cevreyi korumak icin ne yapabiliriz?", "label": "bilgi"}
+{"text": "Iki sayiyi toplayip geri donduren fonksiyon yaz.", "label": "kod"}
+{"text": "Kullanicinin girdigi sayiya kadar saymak istiyorum.", "label": "kod"}
+{"text": "İsmini öğrenebilir miyim", "label": "kimlik"}
+{"text": "Ayilar kis uykusuna neden yatar?", "label": "bilgi"}
+{"text": "Donanim nedir?", "label": "bilgi"}
+{"text": "Sen yapay zeka mısın?", "label": "kimlik"}
+{"text": "3 x 1 kac?", "label": "matematik"}
+{"text": "Elimde 11 elma vardi, 6 tanesini verdim. Kac elma kaldi?", "label": "matematik"}
+{"text": "Ciftci ne is yapar?", "label": "bilgi"}
+{"text": "mırfıl şponk blez günok", "label": "kapsam_disi"}
+{"text": "5 ve 4'yi toplar misin?", "label": "matematik"}
+{"text": "0 mi 11 mi daha buyuk?", "label": "kiyas"}
+{"text": "Hangisi daha kucuk, 1 mi 2 mi?", "label": "kiyas"}
+{"text": "Ne haber?", "label": "kimlik"}
+{"text": "15 mi 2 mi daha buyuk?", "label": "kiyas"}
+{"text": "Hangisi daha kucuk, 18 mi 6 mi?", "label": "kiyas"}
+{"text": "4 ve 5'yi toplar misin?", "label": "matematik"}
+{"text": "mırfıl krint mırfıl zırt şponk", "label": "kapsam_disi"}
+{"text": "Hangisi daha buyuk, 12 mi 8 mi?", "label": "kiyas"}
+{"text": "9 mi 18 mi daha buyuk?", "label": "kiyas"}
+{"text": "Tas atip kolun mu yoruldu ne demek?", "label": "bilgi"}
+{"text": "kaplo glub blez drumel", "label": "kapsam_disi"}
+{"text": "Bir santimetre kac milimetredir?", "label": "bilgi"}
+{"text": "8 - 6 kac?", "label": "matematik"}
+{"text": "3 kardesim var, ben dahil kac cocuguz?", "label": "bilgi"}
+{"text": "Elimde 12 lira vardi, 5 tanesini verdim. Kac lira kaldi?", "label": "matematik"}
+{"text": "Bir kelimenin tum harflerini ayri ayri nasil yazdiririm?", "label": "kod"}
+{"text": "yeteneklerin neler?", "label": "kimlik"}
+{"text": "Klavye ne ise yarar?", "label": "bilgi"}
+{"text": "fnort sertik drumel xanto yablo blez", "label": "kapsam_disi"}
+{"text": "drumel xanto krint pırt", "label": "kapsam_disi"}
+{"text": "Bir mimarin gorevi nedir?", "label": "bilgi"}
+{"text": "13 ile 7'den hangisi buyuk?", "label": "kiyas"}
+{"text": "munzo zırt sertik munzo", "label": "kapsam_disi"}
+{"text": "1 ile 0'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Bir yerde 10 sayi var, 8 tane daha eklersek kac sayi olur?", "label": "matematik"}
+{"text": "Sen kendini nasil tanimlarsin?", "label": "felsefe"}
+{"text": "xanto yablo drumel kaplo trex yablo", "label": "kapsam_disi"}
+{"text": "Bir bardak su dolu degilse bos mudur?", "label": "bilgi"}
+{"text": "Bir yerde 8 kitap var, 1 tane daha eklersek kac kitap olur?", "label": "matematik"}
+{"text": "zırt flarp drumel şponk vızıl kweez", "label": "kapsam_disi"}
+{"text": "Kim tarafından geliştirildin?", "label": "kimlik"}
+{"text": "Ne işe yararsın", "label": "kimlik"}
+{"text": "trex krint vızıl kweez zırt", "label": "kapsam_disi"}
+{"text": "günok lorem kaplo", "label": "kapsam_disi"}
+{"text": "7 ve 12'yi toplar misin?", "label": "matematik"}
+{"text": "Uygulama nedir?", "label": "bilgi"}
+{"text": "5 ile 16'den hangisi buyuk?", "label": "kiyas"}
+{"text": "8 mi 12 mi buyuk?", "label": "kiyas"}
+{"text": "Bir yerde 6 kitap var, 1 tane daha eklersek kac kitap olur?", "label": "matematik"}
+{"text": "Iki sayiyi toplayan basit bir ornek ver.", "label": "kod"}
+{"text": "Hangi diziyi izlemeliyim?", "label": "kapsam_disi"}
+{"text": "Hangisi daha kucuk, 10 mi 6 mi?", "label": "kiyas"}
+{"text": "Kelebekler nasil olusur?", "label": "bilgi"}
+{"text": "Hangisi daha buyuk, 2 mi 12 mi?", "label": "kiyas"}
+{"text": "Ingiltere'nin baskenti hangi sehir?", "label": "bilgi"}
+{"text": "pırt xanto", "label": "kapsam_disi"}
+{"text": "Kahve mi cay mi?", "label": "felsefe"}
+{"text": "Listeyi dongu ile gezerken indeksini de gormek istiyorum.", "label": "kod"}
+{"text": "Senin duygularin var mi?", "label": "felsefe"}
+{"text": "20 mi 11 mi buyuk?", "label": "kiyas"}
+{"text": "7 ile 10 toplami kac eder?", "label": "matematik"}
+{"text": "Üçgenin alanını hesaplayan fonksiyon yazar mısın?", "label": "kod"}
+{"text": "Orumcekler bocek midir?", "label": "bilgi"}
+{"text": "Iyi bir kitap onerir misin?", "label": "felsefe"}
+{"text": "Uygarlik ile medeniyet ayni sey mi?", "label": "bilgi"}
+{"text": "Listedeki sayilari dongu ile toplamak istersem nasil yaparim?", "label": "kod"}
+{"text": "Bir insan neden sorumlu olmali?", "label": "felsefe"}
+{"text": "Nesin sen", "label": "kimlik"}
+{"text": "sertik krint blez lorem blez günok", "label": "kapsam_disi"}
+{"text": "9 carpi 7 kac eder?", "label": "matematik"}
+{"text": "12 ve 2'yi toplar misin?", "label": "matematik"}
+{"text": "Küpün hacmini bulan kısa fonksiyon yazar mısın?", "label": "kod"}
+{"text": "18 ile 9'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Senin hatiralarin var mi?", "label": "felsefe"}
+{"text": "3 mi 9 mi daha buyuk?", "label": "kiyas"}
+{"text": "Sabit disk ne ise yarar?", "label": "bilgi"}
+{"text": "Gunes mi mum mu daha sicak?", "label": "felsefe"}
+{"text": "9 eksi 1 kac eder?", "label": "matematik"}
+{"text": "Sen ruya gorur musun?", "label": "felsefe"}
+{"text": "Turkiye'nin en kalabalik sehri hangisi?", "label": "bilgi"}
+{"text": "Dogru ile yanlisi nasil ayiririz?", "label": "felsefe"}
+{"text": "Mantı nasıl yapılır?", "label": "kapsam_disi"}
+{"text": "Gerceklik nedir?", "label": "felsefe"}
+{"text": "Kar tanesi mi dolu tanesi mi daha sert?", "label": "felsefe"}
+{"text": "7 x 1 kac?", "label": "matematik"}
+{"text": "Sen GPT misin", "label": "kimlik"}
+{"text": "8 x 5 kac?", "label": "matematik"}
+{"text": "6 ve 4'yi toplar misin?", "label": "matematik"}
+{"text": "fnort munzo şponk glub drumel kweez", "label": "kapsam_disi"}
+{"text": "yablo şponk drumel fnort mırfıl blez", "label": "kapsam_disi"}
+{"text": "8'ten 4 cikarsak kac kalir?", "label": "matematik"}
+{"text": "Agaclar neden onemlidir?", "label": "bilgi"}
+{"text": "Iki listeyi nasil birlestiririm?", "label": "kod"}
+{"text": "11 mi 8 mi buyuk?", "label": "kiyas"}
+{"text": "Dunyada kac okyanus var?", "label": "bilgi"}
+{"text": "Uzuluyor musun bazen?", "label": "felsefe"}
+{"text": "Kitalarin isimlerini sayar misin?", "label": "bilgi"}
+{"text": "4 - 3 kac?", "label": "matematik"}
+{"text": "şponk trex krint drumel günok yablo", "label": "kapsam_disi"}
+{"text": "Hangisi daha buyuk, 18 mi 19 mi?", "label": "kiyas"}
+{"text": "mırfıl glub munzo krint günok", "label": "kapsam_disi"}
+{"text": "17 mi 19 mi buyuk?", "label": "kiyas"}
+{"text": "11 mi 15 mi daha kucuk?", "label": "kiyas"}
+{"text": "En sicak mevsim hangisidir?", "label": "bilgi"}
+{"text": "Italya'nin baskenti nedir?", "label": "bilgi"}
+{"text": "Bir yerde 2 kus var, 3 tane daha eklersek kac kus olur?", "label": "matematik"}
+{"text": "Bulutlar neden olusur?", "label": "bilgi"}
+{"text": "Yazinin bulunmasi neden onemli?", "label": "bilgi"}
+{"text": "1 arti 12 kac?", "label": "matematik"}
+{"text": "Senin gorevin sadece soru cevaplamak mi?", "label": "felsefe"}
+{"text": "sana ne diyeyim?", "label": "kimlik"}
+{"text": "13 ile 6'den hangisi buyuk?", "label": "kiyas"}
+{"text": "4 x 0 kac?", "label": "matematik"}
+{"text": "Yilin son ayi hangisidir?", "label": "bilgi"}
+{"text": "Bir yerde 5 sayi var, 5 tane daha eklersek kac sayi olur?", "label": "matematik"}
+{"text": "12 - 6 kac?", "label": "matematik"}
+{"text": "11 eksi 8 kac eder?", "label": "matematik"}
+{"text": "Bastaki ve sondaki bosluklari nasil temizlerim?", "label": "kod"}
+{"text": "Sen ne ise yararsin?", "label": "felsefe"}
+{"text": "20 mi 11 mi daha kucuk?", "label": "kiyas"}
+{"text": "16 ile 10'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Yunuslar zeki midir?", "label": "bilgi"}
+{"text": "Son dakika haberleri neler?", "label": "kapsam_disi"}
+{"text": "lorem günok fnort xanto günok", "label": "kapsam_disi"}
+{"text": "Bir yerde 5 sayi var, 8 tane daha eklersek kac sayi olur?", "label": "matematik"}
+{"text": "drumel munzo", "label": "kapsam_disi"}
+{"text": "kaplo xanto blez krint mırfıl fnort", "label": "kapsam_disi"}
+{"text": "vızıl krint munzo munzo", "label": "kapsam_disi"}
+{"text": "Klasor ne ise yarar?", "label": "bilgi"}
+{"text": "Bir metinde kac karakter var ogrenmek istiyorum.", "label": "kod"}
+{"text": "yablo kaplo", "label": "kapsam_disi"}
+{"text": "1 mi 19 mi buyuk?", "label": "kiyas"}
+{"text": "6 mi 18 mi buyuk?", "label": "kiyas"}
+{"text": "blez lorem yablo vızıl sertik", "label": "kapsam_disi"}
+{"text": "Hangisi daha buyuk, 12 mi 14 mi?", "label": "kiyas"}
+{"text": "2 mi 5 mi daha buyuk?", "label": "kiyas"}
+{"text": "pırt flarp kweez drumel krint sertik", "label": "kapsam_disi"}
+{"text": "Hangisi daha buyuk, 7 mi 11 mi?", "label": "kiyas"}
+{"text": "Ay'da neden daha hafif hissederiz?", "label": "bilgi"}
+{"text": "Kaplumbaga mi salyangoz mu daha hizli?", "label": "felsefe"}
+{"text": "16 mi 8 mi daha buyuk?", "label": "kiyas"}
+{"text": "Selam, dusunebiliyor musun?", "label": "felsefe"}
+{"text": "12 ile 1'den hangisi buyuk?", "label": "kiyas"}
+{"text": "18 mi 20 mi daha buyuk?", "label": "kiyas"}
+{"text": "Sen kimsin", "label": "kimlik"}
+{"text": "Elimde 10 elma vardi, 4 tanesini verdim. Kac elma kaldi?", "label": "matematik"}
+{"text": "Hakikat nedir?", "label": "felsefe"}
+{"text": "12'ten 11 cikarsak kac kalir?", "label": "matematik"}
+{"text": "flarp vızıl", "label": "kapsam_disi"}
+{"text": "Bebek neden ağlar?", "label": "kapsam_disi"}
+{"text": "kaplo vızıl vızıl blez", "label": "kapsam_disi"}
+{"text": "Mutlu olabilir misin bir gun?", "label": "felsefe"}
+{"text": "Baslangicta degerleri olan bir liste nasil tanimlanir?", "label": "kod"}
+{"text": "Sen rüya gibi seyleri anlatabiliyor musun?", "label": "felsefe"}
+{"text": "17 ile 5'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Turkiye Cumhuriyeti'nin kurucusu kimdir?", "label": "bilgi"}
+{"text": "adini soyler misin", "label": "kimlik"}
+{"text": "Bulut depolama nedir?", "label": "bilgi"}
+{"text": "Bana zarar verir misin?", "label": "felsefe"}
+{"text": "neler yapabiliyorsun", "label": "kimlik"}
+{"text": "Goz atmak deyimi ne demek?", "label": "bilgi"}
+{"text": "Bir yerde 11 kus var, 4 tane daha eklersek kac kus olur?", "label": "matematik"}
+{"text": "Hangisi daha buyuk, 6 mi 17 mi?", "label": "kiyas"}
+{"text": "seni kim gelistirdi?", "label": "kimlik"}
+{"text": "blez şponk krint", "label": "kapsam_disi"}
+{"text": "8 ile 1'den hangisi buyuk?", "label": "kiyas"}
+{"text": "18 mi 0 mi buyuk?", "label": "kiyas"}
+{"text": "Hangisi daha kucuk, 9 mi 17 mi?", "label": "kiyas"}
+{"text": "2 kere 8 kac eder?", "label": "matematik"}
+{"text": "5 - 2 kac?", "label": "matematik"}
+{"text": "Yedekleme nedir?", "label": "bilgi"}
+{"text": "Polis memuru ne yapar?", "label": "bilgi"}
+{"text": "6 ile 0 toplami kac eder?", "label": "matematik"}
+{"text": "Cikarma islemi nasil yapilir Python'da?", "label": "kod"}
+{"text": "Listenin son elemanini nasil alirim?", "label": "kod"}
+{"text": "drumel lorem günok", "label": "kapsam_disi"}
+{"text": "Turkiye'yi cevreleyen denizler hangileri?", "label": "bilgi"}
+{"text": "Civi mi raptiye mi daha uzun?", "label": "felsefe"}
+{"text": "Insanlar nefes verirken hangi gazi cikarir?", "label": "bilgi"}
+{"text": "14 ile 19'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Ege Denizi hangi iki ulke arasindadir?", "label": "bilgi"}
+{"text": "vızıl sertik fnort fnort vızıl", "label": "kapsam_disi"}
+{"text": "lorem pırt vızıl şponk", "label": "kapsam_disi"}
+{"text": "Albert Einstein kimdir?", "label": "kapsam_disi"}
+{"text": "Hata ayiklama ne demek?", "label": "bilgi"}
+{"text": "Dosya nedir?", "label": "bilgi"}
+{"text": "6 ile 2'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Dunyanin en buyuk colu hangisi?", "label": "bilgi"}
+{"text": "Bir yerde 6 lira var, 4 tane daha eklersek kac lira olur?", "label": "matematik"}
+{"text": "Listenin ortasindan bir parca nasil alirim?", "label": "kod"}
+{"text": "şponk kweez kaplo trex şponk drumel", "label": "kapsam_disi"}
+{"text": "Bir sayinin yarisi 10 ise sayi kactir?", "label": "bilgi"}
+{"text": "15 mi 19 mi daha kucuk?", "label": "kiyas"}
+{"text": "Korku nedir?", "label": "felsefe"}
+{"text": "Sanat nedir?", "label": "felsefe"}
+{"text": "Iki sayidan buyuk olani bulan kod yaz.", "label": "kod"}
+{"text": "Bir listede belirli bir sayi var mi diye kontrol et.", "label": "kod"}
+{"text": "8 carpi 9 kac eder?", "label": "matematik"}
+{"text": "Senin amacin insanlari yonlendirmek mi?", "label": "felsefe"}
+{"text": "4 mi 10 mi daha kucuk?", "label": "kiyas"}
+{"text": "yablo vızıl xanto", "label": "kapsam_disi"}
+{"text": "9 arti 1 kac?", "label": "matematik"}
+{"text": "Insan ile yapay zeka arasindaki fark ne?", "label": "felsefe"}
+{"text": "9 ile 9 toplami kac eder?", "label": "matematik"}
+{"text": "Iki sayiyi bolmek nasil yapilir?", "label": "kod"}
+{"text": "sertik kaplo", "label": "kapsam_disi"}
+{"text": "20 ile 19'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Bir kilometre kac metredir?", "label": "bilgi"}
+{"text": "Dolar kaç TL oldu?", "label": "kapsam_disi"}
+{"text": "Sana ne diyeyim", "label": "kimlik"}
+{"text": "sen kimsin?", "label": "kimlik"}
+{"text": "Bir seye karar verirken neyi dusunmeliyim?", "label": "felsefe"}
+{"text": "18 mi 17 mi daha buyuk?", "label": "kiyas"}
+{"text": "Kutuplar nerededir?", "label": "bilgi"}
+{"text": "2 ile 3'den hangisi buyuk?", "label": "kiyas"}
+{"text": "pırt lorem glub yablo zırt", "label": "kapsam_disi"}
+{"text": "Durustluk neden onemli?", "label": "felsefe"}
+{"text": "Stringin uzunlugunu nasil olcerim?", "label": "kod"}
+{"text": "Hangisi daha kucuk, 1 mi 12 mi?", "label": "kiyas"}
+{"text": "Postane ne ise yarar?", "label": "bilgi"}
+{"text": "şponk yablo", "label": "kapsam_disi"}
+{"text": "12 mi 9 mi buyuk?", "label": "kiyas"}
+{"text": "yablo vızıl", "label": "kapsam_disi"}
+{"text": "Iki sayiyi nasil toplarim?", "label": "kod"}
+{"text": "8 arti 1 kac?", "label": "matematik"}
+{"text": "Elimde 7 kitap vardi, 6 tanesini verdim. Kac kitap kaldi?", "label": "matematik"}
+{"text": "Turkiye'nin baskenti neresi?", "label": "bilgi"}
+{"text": "kweez trex lorem zırt", "label": "kapsam_disi"}
+{"text": "Eger camur varsa demek ki yagmur yagmistir, denilebilir mi her zaman?", "label": "bilgi"}
+{"text": "pırt munzo lorem trex", "label": "kapsam_disi"}
+{"text": "Kuslar neden goc eder?", "label": "bilgi"}
+{"text": "12 mi 7 mi buyuk?", "label": "kiyas"}
+{"text": "Sicak ile soguk ne tur kelimelerdir?", "label": "bilgi"}
+{"text": "Acikir misin?", "label": "felsefe"}
+{"text": "11 + 11 kac eder?", "label": "matematik"}
+{"text": "Hayalin ne?", "label": "felsefe"}
+{"text": "kweez flarp munzo munzo", "label": "kapsam_disi"}
+{"text": "Adaletsizlik gorunce ne yapmali?", "label": "felsefe"}
+{"text": "16 mi 8 mi buyuk?", "label": "kiyas"}
+{"text": "zırt zırt zırt şponk", "label": "kapsam_disi"}
+{"text": "Parametresiz bir fonksiyon nasil yazilir?", "label": "kod"}
+{"text": "Kac yasindasin?", "label": "kimlik"}
+{"text": "kaplo munzo pırt günok zırt zırt", "label": "kapsam_disi"}
+{"text": "Aci hisseder misin?", "label": "felsefe"}
+{"text": "Bir yerde 4 kus var, 7 tane daha eklersek kac kus olur?", "label": "matematik"}
+{"text": "Bir listedeki en buyuk sayiyi bul.", "label": "kod"}
+{"text": "Korkuyor musun?", "label": "felsefe"}
+{"text": "8'ten 2 cikarsak kac kalir?", "label": "matematik"}
+{"text": "13 mi 8 mi daha buyuk?", "label": "kiyas"}
+{"text": "2 ve 7'yi toplar misin?", "label": "matematik"}
+{"text": "Hangisi daha kucuk, 1 mi 13 mi?", "label": "kiyas"}
+{"text": "Hangisi daha buyuk, 14 mi 1 mi?", "label": "kiyas"}
+{"text": "Saat 3'te bulustuk, 2 saat sonra ayrildik. Saat kacta ayrildik?", "label": "bilgi"}
+{"text": "9 ve 6'yi toplar misin?", "label": "matematik"}
+{"text": "Zengin kelimesinin zit anlamlisi nedir?", "label": "bilgi"}
+{"text": "flarp günok şponk zırt glub pırt", "label": "kapsam_disi"}
+{"text": "Bedenin var mi senin?", "label": "felsefe"}
+{"text": "günok zırt flarp", "label": "kapsam_disi"}
+{"text": "mırfıl flarp kweez zırt", "label": "kapsam_disi"}
+{"text": "Üç sayıyı toplayan fonksiyon nasıl yazılır?", "label": "kod"}
+{"text": "Bana bir tavsiye ver.", "label": "felsefe"}
+{"text": "6 kisi bir masada oturuyor, 2 kisi kalkti. Kac kisi kaldi?", "label": "bilgi"}
+{"text": "20 mi 4 mi daha buyuk?", "label": "kiyas"}
+{"text": "Ozgurlugun sinirlari var mi?", "label": "felsefe"}
+{"text": "Elimde 8 lira vardi, 6 tanesini verdim. Kac lira kaldi?", "label": "matematik"}
+{"text": "Korku her zaman kotu mu?", "label": "felsefe"}
+{"text": "9 ile 19'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Bir kilo kac gramdir?", "label": "bilgi"}
+{"text": "2 x 4 kac?", "label": "matematik"}
+{"text": "Hangisi daha buyuk, 11 mi 5 mi?", "label": "kiyas"}
+{"text": "drumel sertik", "label": "kapsam_disi"}
+{"text": "Manyetik miknatis neyi ceker?", "label": "bilgi"}
+{"text": "3 eksi 2 kac eder?", "label": "matematik"}
+{"text": "Balina balik midir?", "label": "bilgi"}
+{"text": "Hangisi daha buyuk, 0 mi 7 mi?", "label": "kiyas"}
+{"text": "10 + 1 kac eder?", "label": "matematik"}
+{"text": "blez munzo flarp lorem pırt kweez", "label": "kapsam_disi"}
+{"text": "Gunes kelimesinin es anlamlisi nedir?", "label": "bilgi"}
+{"text": "Adil olmak ne demek?", "label": "felsefe"}
+{"text": "5 ile 1'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Deniz mi gol mu daha buyuk?", "label": "felsefe"}
+{"text": "Hangisi daha buyuk, 18 mi 7 mi?", "label": "kiyas"}
+{"text": "4 x 9 kac?", "label": "matematik"}
+{"text": "Pusula neyi gosterir?", "label": "bilgi"}
+{"text": "8 - 8 kac?", "label": "matematik"}
+{"text": "yablo kweez sertik", "label": "kapsam_disi"}
+{"text": "pırt trex", "label": "kapsam_disi"}
+{"text": "8 arti 2 kac?", "label": "matematik"}
+{"text": "18 ile 2'den hangisi buyuk?", "label": "kiyas"}
+{"text": "16 mi 14 mi daha kucuk?", "label": "kiyas"}
+{"text": "18 mi 20 mi daha kucuk?", "label": "kiyas"}
+{"text": "glub fnort yablo kaplo zırt", "label": "kapsam_disi"}
+{"text": "nasılsın?", "label": "kimlik"}
+{"text": "Dunya bir tam turunu kac gunde tamamlar?", "label": "bilgi"}
+{"text": "Bir duzine kac tanedir?", "label": "bilgi"}
+{"text": "Cogul ek nedir Turkcede?", "label": "bilgi"}
+{"text": "Hangisi daha buyuk, 5 mi 0 mi?", "label": "kiyas"}
+{"text": "Noktali virgul ne ise yarar?", "label": "bilgi"}
+{"text": "Cumadan sonra hangi gun gelir?", "label": "bilgi"}
+{"text": "Seni kim yapti", "label": "kimlik"}
+{"text": "2 ile 11 toplami kac eder?", "label": "matematik"}
+{"text": "En yakın restoran nerede?", "label": "kapsam_disi"}
+{"text": "Avukat ne yapar?", "label": "bilgi"}
+{"text": "Bir yerde 8 kus var, 1 tane daha eklersek kac kus olur?", "label": "matematik"}
+{"text": "Tarihte kronoloji ne demek?", "label": "bilgi"}
+{"text": "Turkiye Cumhuriyeti ne zaman kuruldu?", "label": "bilgi"}
+{"text": "yablo yablo drumel günok", "label": "kapsam_disi"}
+{"text": "Ahlak nedir?", "label": "felsefe"}
+{"text": "İki sayının farkının mutlak değerini veren fonksiyon yazar mısın?", "label": "kod"}
+{"text": "lorem pırt sertik pırt pırt munzo", "label": "kapsam_disi"}
+{"text": "glub kweez mırfıl krint lorem", "label": "kapsam_disi"}
+{"text": "2 mi 20 mi daha buyuk?", "label": "kiyas"}
+{"text": "zırt günok", "label": "kapsam_disi"}
+{"text": "Eger ders calisirsam sinavi gecerim. Sinavi gecemedim, ders calistim mi?", "label": "bilgi"}
+{"text": "trex lorem lorem drumel krint pırt", "label": "kapsam_disi"}
+{"text": "Iyi ve kotu gercekten var mi?", "label": "felsefe"}
+{"text": "0 carpi 9 kac eder?", "label": "matematik"}
+{"text": "glub günok lorem", "label": "kapsam_disi"}
+{"text": "9 x 3 kac?", "label": "matematik"}
+{"text": "krint yablo fnort krint krint yablo", "label": "kapsam_disi"}
+{"text": "Bitkiler nasil beslenir?", "label": "bilgi"}
+{"text": "Hangisi daha buyuk, 9 mi 17 mi?", "label": "kiyas"}
+{"text": "cevrimici misin?", "label": "kimlik"}
+{"text": "Kotu nedir?", "label": "felsefe"}
+{"text": "Naber?", "label": "kimlik"}
+{"text": "Çevrimiçi misin", "label": "kimlik"}
+{"text": "Bir yerde 4 lira var, 7 tane daha eklersek kac lira olur?", "label": "matematik"}
+{"text": "Internete erisebiliyor musun", "label": "kimlik"}
+{"text": "sertik yablo yablo yablo drumel", "label": "kapsam_disi"}
+{"text": "1 carpi 6 kac eder?", "label": "matematik"}
+{"text": "Neden saygili olmaliyiz?", "label": "felsefe"}
+{"text": "Cag ne demek?", "label": "bilgi"}
+{"text": "zırt kweez zırt trex sertik mırfıl", "label": "kapsam_disi"}
+{"text": "drumel xanto mırfıl flarp", "label": "kapsam_disi"}
+{"text": "trex yablo zırt drumel", "label": "kapsam_disi"}
+{"text": "krint yablo", "label": "kapsam_disi"}
+{"text": "krint flarp şponk krint günok", "label": "kapsam_disi"}
+{"text": "19 mi 3 mi daha buyuk?", "label": "kiyas"}
+{"text": "Bir yerde 10 kus var, 4 tane daha eklersek kac kus olur?", "label": "matematik"}
+{"text": "Dunyanin sekli nasildir?", "label": "bilgi"}
+{"text": "Liste elemanlarini hem indeksiyle hem degeriyle yazdirmak istiyorum.", "label": "kod"}
+{"text": "3 ile 6'den hangisi buyuk?", "label": "kiyas"}
+{"text": "günok şponk", "label": "kapsam_disi"}
+{"text": "5 mi 16 mi buyuk?", "label": "kiyas"}
+{"text": "seni openai mı yaptı", "label": "kimlik"}
+{"text": "Huzun nedir?", "label": "felsefe"}
+{"text": "Seni OpenAI mi yapti?", "label": "kimlik"}
+{"text": "Hangisi daha buyuk, 4 mi 18 mi?", "label": "kiyas"}
+{"text": "xanto kweez flarp günok lorem pırt", "label": "kapsam_disi"}
+{"text": "Ihtiyar ne demek?", "label": "bilgi"}
+{"text": "Affetmek zayiflik mi?", "label": "felsefe"}
+{"text": "flarp pırt flarp krint munzo vızıl", "label": "kapsam_disi"}
+{"text": "İki sayının ortalamasını veren fonksiyon nasıl yazılır?", "label": "kod"}
+{"text": "3 carpi 2 kac eder?", "label": "matematik"}
+{"text": "Neden yalan soylememeliyiz?", "label": "felsefe"}
+{"text": "Hangisi daha buyuk, 20 mi 0 mi?", "label": "kiyas"}
+{"text": "3 ile 6 toplami kac eder?", "label": "matematik"}
+{"text": "sen yapay zeka misin", "label": "kimlik"}
+{"text": "Hangisi daha buyuk, 11 mi 7 mi?", "label": "kiyas"}
+{"text": "0 kere 0 kac eder?", "label": "matematik"}
+{"text": "E-posta nedir?", "label": "bilgi"}
+{"text": "0 arti 0 kac?", "label": "matematik"}
+{"text": "Guzellik gozdedir derler, dogru mu?", "label": "felsefe"}
+{"text": "10 mi 4 mi buyuk?", "label": "kiyas"}
+{"text": "2 mi 12 mi buyuk?", "label": "kiyas"}
+{"text": "glub krint drumel", "label": "kapsam_disi"}
+{"text": "Yer cekimi nedir?", "label": "bilgi"}
+{"text": "Kendini begeniyor musun?", "label": "felsefe"}
+{"text": "7 x 10 kac?", "label": "matematik"}
+{"text": "Sen sevgiyi hissedebilir misin?", "label": "felsefe"}
+{"text": "9 + 1 kac eder?", "label": "matematik"}
+{"text": "4 eksi 3 kac eder?", "label": "matematik"}
+{"text": "zırt munzo lorem flarp sertik şponk", "label": "kapsam_disi"}
+{"text": "14 mi 16 mi daha buyuk?", "label": "kiyas"}
+{"text": "Bilim nedir?", "label": "felsefe"}
+{"text": "seni kim eğitti", "label": "kimlik"}
+{"text": "glub drumel şponk xanto", "label": "kapsam_disi"}
+{"text": "Cicekler neden renklidir?", "label": "bilgi"}
+{"text": "ne yapabilirsin?", "label": "kimlik"}
+{"text": "Senin amacin ne?", "label": "felsefe"}
+{"text": "pırt trex zırt lorem lorem xanto", "label": "kapsam_disi"}
+{"text": "Cevaplarini ezbere mi veriyorsun?", "label": "felsefe"}
+{"text": "Hangisi daha kucuk, 5 mi 6 mi?", "label": "kiyas"}
+{"text": "Gokkusagi nasil olusur?", "label": "bilgi"}
+{"text": "11 ve 1'yi toplar misin?", "label": "matematik"}
+{"text": "Bir yerde 2 elma var, 3 tane daha eklersek kac elma olur?", "label": "matematik"}
+{"text": "Bir kutuda 3 kirmizi, 2 mavi top var. Hangi renk daha cok?", "label": "bilgi"}
+{"text": "9 ve 8'yi toplar misin?", "label": "matematik"}
+{"text": "Su buharlasinca ne olur?", "label": "bilgi"}
+{"text": "Bir yerde 12 elma var, 5 tane daha eklersek kac elma olur?", "label": "matematik"}
+{"text": "15 ile 6'den hangisi buyuk?", "label": "kiyas"}
+{"text": "pırt pırt trex kaplo", "label": "kapsam_disi"}
+{"text": "Olum nedir?", "label": "felsefe"}
+{"text": "lorem zırt munzo pırt munzo", "label": "kapsam_disi"}
+{"text": "Ilk yazi hangi medeniyette ortaya cikmistir?", "label": "bilgi"}
+{"text": "4 mi 16 mi daha buyuk?", "label": "kiyas"}
+{"text": "Etigin ne?", "label": "felsefe"}
+{"text": "drumel drumel lorem fnort şponk kweez", "label": "kapsam_disi"}
+{"text": "1'den 100'e kadar olan sayilarin toplamini bul.", "label": "kod"}
+{"text": "16 mi 1 mi buyuk?", "label": "kiyas"}
+{"text": "trex munzo kaplo sertik", "label": "kapsam_disi"}
+{"text": "munzo sertik munzo sertik pırt", "label": "kapsam_disi"}
+{"text": "12 - 3 kac?", "label": "matematik"}
+{"text": "Bana 1'den 10'a kadar sayilari ekrana basan kodu gosterir misin?", "label": "kod"}
+{"text": "23 Nisan hangi bayramdir?", "label": "bilgi"}
+{"text": "Hangisi daha kucuk, 3 mi 17 mi?", "label": "kiyas"}
+{"text": "Once kahvalti sonra ogle yemegi yenir. Hangisi daha gec yenir?", "label": "bilgi"}
+{"text": "Tarayici nedir?", "label": "bilgi"}
+{"text": "krint günok krint pırt", "label": "kapsam_disi"}
+{"text": "0 ile 11 toplami kac eder?", "label": "matematik"}
+{"text": "Bir yerde 7 sayi var, 6 tane daha eklersek kac sayi olur?", "label": "matematik"}
+{"text": "Adın nedir", "label": "kimlik"}
+{"text": "Beethoven kimdir?", "label": "kapsam_disi"}
+{"text": "zırt günok fnort", "label": "kapsam_disi"}
+{"text": "10 x 2 kac?", "label": "matematik"}
+{"text": "vızıl şponk fnort fnort", "label": "kapsam_disi"}
+{"text": "kweez glub krint pırt", "label": "kapsam_disi"}
+{"text": "Yunanistan'in baskenti nedir?", "label": "bilgi"}
+{"text": "Ismin nedir?", "label": "kimlik"}
+{"text": "Hangisi daha buyuk, 17 mi 0 mi?", "label": "kiyas"}
+{"text": "5 ve 11'yi toplar misin?", "label": "matematik"}
+{"text": "Aglac yapraklari neden sonbaharda dokulur?", "label": "bilgi"}
+{"text": "11 mi 3 mi buyuk?", "label": "kiyas"}
+{"text": "17 mi 13 mi daha buyuk?", "label": "kiyas"}
+{"text": "Bir kelimenin ilk harfini buyuk yapmak istiyorum.", "label": "kod"}
+{"text": "Mutluluk nedir sence?", "label": "felsefe"}
+{"text": "Ne ise yararsin", "label": "kimlik"}
+{"text": "Elimde 12 elma vardi, 11 tanesini verdim. Kac elma kaldi?", "label": "matematik"}
+{"text": "2 eksi 1 kac eder?", "label": "matematik"}
+{"text": "2 mi 9 mi buyuk?", "label": "kiyas"}
+{"text": "9 ile 18'den hangisi buyuk?", "label": "kiyas"}
+{"text": "20 mi 9 mi daha kucuk?", "label": "kiyas"}
+{"text": "Kopekler neden havlar?", "label": "bilgi"}
+{"text": "11'ten 10 cikarsak kac kalir?", "label": "matematik"}
+{"text": "4 mi 0 mi daha buyuk?", "label": "kiyas"}
+{"text": "Amacini bir cumleyle anlatir misin?", "label": "felsefe"}
+{"text": "0 kere 5 kac eder?", "label": "matematik"}
+{"text": "14 mi 2 mi daha buyuk?", "label": "kiyas"}
+{"text": "10 - 7 kac?", "label": "matematik"}
+{"text": "Bugun moralim bozuk.", "label": "felsefe"}
+{"text": "while dongusu ile 1'den 5'e kadar sayma ornegi ver.", "label": "kod"}
+{"text": "3 carpi 0 kac eder?", "label": "matematik"}
+{"text": "Merak etmek iyi mi kotu mu?", "label": "felsefe"}
+{"text": "vızıl glub vızıl", "label": "kapsam_disi"}
+{"text": "mırfıl lorem zırt lorem", "label": "kapsam_disi"}
+{"text": "7 - 2 kac?", "label": "matematik"}
+{"text": "Gokyuzu neden mavi?", "label": "felsefe"}
+{"text": "Vergi beyannamesi nasıl verilir?", "label": "kapsam_disi"}
+{"text": "Ana renkler nelerdir?", "label": "bilgi"}
+{"text": "12 arti 1 kac?", "label": "matematik"}
+{"text": "Kim olduğunu söyler misin", "label": "kimlik"}
+{"text": "glub zırt pırt", "label": "kapsam_disi"}
+{"text": "Sen kendini ne kadar iyi tanirsin?", "label": "felsefe"}
+{"text": "Pasaport nasıl çıkarılır?", "label": "kapsam_disi"}
+{"text": "0'dan 9'a kadar sayilari nasil yazdiririm?", "label": "kod"}
+{"text": "Seni kim yapti?", "label": "felsefe"}
+{"text": "Saat mi takvim mi daha kisa sureyi gosterir?", "label": "felsefe"}
+{"text": "0 ile 7 toplami kac eder?", "label": "matematik"}
+{"text": "Bir ayda yaklasik kac gun olur?", "label": "bilgi"}
+{"text": "Görelilik teorisini açıkla", "label": "kapsam_disi"}
+{"text": "Golge nasil olusur?", "label": "bilgi"}
+{"text": "6 ve 9'yi toplar misin?", "label": "matematik"}
+{"text": "Dunyada kac kita var?", "label": "bilgi"}
+{"text": "Hangisi daha kucuk, 12 mi 1 mi?", "label": "kiyas"}
+{"text": "Bir yerde 3 elma var, 5 tane daha eklersek kac elma olur?", "label": "matematik"}
+{"text": "Gunes nelerden olusur?", "label": "bilgi"}
+{"text": "Otobus mu bisiklet mi daha buyuk?", "label": "felsefe"}
+{"text": "blez munzo", "label": "kapsam_disi"}
+{"text": "Cumhuriyet'ten once Turkiye nasil yonetiliyordu?", "label": "bilgi"}
+{"text": "yaşın kaç", "label": "kimlik"}
+{"text": "Nasil cevap uretiyorsun tam olarak?", "label": "felsefe"}
+{"text": "glub pırt şponk xanto", "label": "kapsam_disi"}
+{"text": "4 ile 1 toplami kac eder?", "label": "matematik"}
+{"text": "Bir listenin en büyük ve en küçük elemanını birlikte döndüren fonksiyon yaz.", "label": "kod"}
+{"text": "Bir caydanlikta 4 bardak cay var, 1 bardak ictim. Kac bardak kaldi?", "label": "bilgi"}
+{"text": "Koda aciklama satiri eklemek istiyorum.", "label": "kod"}
+{"text": "3 eksi 1 kac eder?", "label": "matematik"}
+{"text": "Iyilik nedir?", "label": "felsefe"}
+{"text": "Algoritma nedir?", "label": "bilgi"}
+{"text": "ChatGPT misin", "label": "kimlik"}
+{"text": "Ailen var mi?", "label": "felsefe"}
+{"text": "Metin degiskenini ekrana nasil yazdiririm?", "label": "kod"}
+{"text": "9 - 6 kac?", "label": "matematik"}
+{"text": "Bir karakterin metinde kac kez gectigini nasil sayarim?", "label": "kod"}
+{"text": "Hangisi daha kucuk, 2 mi 19 mi?", "label": "kiyas"}
+{"text": "7'ten 0 cikarsak kac kalir?", "label": "matematik"}
+{"text": "Galatasaray dün kazandı mı?", "label": "kapsam_disi"}
+{"text": "19 mi 10 mi buyuk?", "label": "kiyas"}
+{"text": "7 ile 11 toplami kac eder?", "label": "matematik"}
+{"text": "Hangisi daha buyuk, 16 mi 3 mi?", "label": "kiyas"}
+{"text": "kimsin sen", "label": "kimlik"}
+{"text": "1'den 10'a kadar olan sayilari yazdiran bir dongu yaz.", "label": "kod"}
+{"text": "Bir yerde 7 sayi var, 1 tane daha eklersek kac sayi olur?", "label": "matematik"}
+{"text": "Tarihci kimdir?", "label": "bilgi"}
+{"text": "Nasilsin", "label": "kimlik"}
+{"text": "flarp munzo trex vızıl", "label": "kapsam_disi"}
+{"text": "3 kere 6 kac eder?", "label": "matematik"}
+{"text": "Ipe un sermek deyiminin anlami nedir?", "label": "bilgi"}
+{"text": "Bitkiler oksijeni nasil uretir?", "label": "bilgi"}
+{"text": "Sen hangi sirketin urunusun?", "label": "felsefe"}
+{"text": "1'den 10'a kadar sayilari ters sirada yazdir.", "label": "kod"}
+{"text": "Hangisi daha buyuk, 19 mi 6 mi?", "label": "kiyas"}
+{"text": "senin adın ne", "label": "kimlik"}
+{"text": "zırt kweez glub", "label": "kapsam_disi"}
+{"text": "5 ve 10'yi toplar misin?", "label": "matematik"}
+{"text": "Bir yerde 4 kalem var, 1 tane daha eklersek kac kalem olur?", "label": "matematik"}
+{"text": "Elimde 5 kitap vardi, 1 tanesini verdim. Kac kitap kaldi?", "label": "matematik"}
+{"text": "Bir ogretmenin gorevi nedir?", "label": "bilgi"}
+{"text": "Bir muhendisin isi nedir?", "label": "bilgi"}
+{"text": "12 mi 6 mi daha buyuk?", "label": "kiyas"}
+{"text": "Birakilan bir cisim neden asagi duser?", "label": "bilgi"}
+{"text": "10 arti 7 kac?", "label": "matematik"}
+{"text": "0 ile 4'den hangisi buyuk?", "label": "kiyas"}
+{"text": "İki sayının ortalamasıyla beraber toplamını döndüren fonksiyon olur mu?", "label": "kod"}
+{"text": "Aslan mi kedi mi daha buyuk?", "label": "felsefe"}
+{"text": "Hata yapar misin?", "label": "felsefe"}
+{"text": "15 ile 13'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Sen nesin", "label": "kimlik"}
+{"text": "Atlar ne yer?", "label": "bilgi"}
+{"text": "Suyun kimyasal formulu nedir?", "label": "bilgi"}
+{"text": "2 carpi 4 kac eder?", "label": "matematik"}
+{"text": "4 + 4 kac eder?", "label": "matematik"}
+{"text": "6 mi 16 mi daha buyuk?", "label": "kiyas"}
+{"text": "4 carpi 4 kac eder?", "label": "matematik"}
+{"text": "Hangisi daha buyuk, 18 mi 16 mi?", "label": "kiyas"}
+{"text": "Iyi gunler.", "label": "felsefe"}
+{"text": "Bir yerde 10 kus var, 7 tane daha eklersek kac kus olur?", "label": "matematik"}
+{"text": "10 kere 4 kac eder?", "label": "matematik"}
+{"text": "1'den 20'ye kadar olan cift sayilari yazdir.", "label": "kod"}
+{"text": "Bilgiyle inanc arasindaki fark ne?", "label": "felsefe"}
+{"text": "Yorgun musun?", "label": "felsefe"}
+{"text": "Hangisi daha kucuk, 17 mi 10 mi?", "label": "kiyas"}
+{"text": "Devekusu mu serce mi daha buyuk?", "label": "felsefe"}
+{"text": "Borsada hangi hisseyi almalıyım?", "label": "kapsam_disi"}
+{"text": "Minnettarlik neden onemli?", "label": "felsefe"}
+{"text": "Tiyatro nedir?", "label": "bilgi"}
+{"text": "Kulak vermek ne anlama gelir?", "label": "bilgi"}
+{"text": "Bir sayının küpünü hesaplayan kısa fonksiyon lazım.", "label": "kod"}
+{"text": "Umut nedir?", "label": "felsefe"}
+{"text": "şponk glub drumel krint flarp kweez", "label": "kapsam_disi"}
+{"text": "Fil mi at mi daha agir?", "label": "felsefe"}
+{"text": "Teskur etmek istesem ne derim?", "label": "bilgi"}
+{"text": "20 mi 8 mi daha buyuk?", "label": "kiyas"}
+{"text": "Hangisi daha buyuk, 8 mi 7 mi?", "label": "kiyas"}
+{"text": "Basari nedir?", "label": "felsefe"}
+{"text": "flarp vızıl krint", "label": "kapsam_disi"}
+{"text": "Bir yerde 2 sayi var, 5 tane daha eklersek kac sayi olur?", "label": "matematik"}
+{"text": "Develer colde nasil hayatta kalir?", "label": "bilgi"}
+{"text": "Nasil mutlu olunur?", "label": "felsefe"}
+{"text": "munzo trex günok sertik sertik", "label": "kapsam_disi"}
+{"text": "Adını söyler misin", "label": "kimlik"}
+{"text": "Sen uzulur musun?", "label": "felsefe"}
+{"text": "Bir listedeki elemanlari virgulle ayirip tek satirda yazdir.", "label": "kod"}
+{"text": "Hangisi daha kucuk, 15 mi 9 mi?", "label": "kiyas"}
+{"text": "Senin sinirlarin neler?", "label": "felsefe"}
+{"text": "mırfıl munzo krint munzo mırfıl", "label": "kapsam_disi"}
+{"text": "Hangisi daha buyuk, 7 mi 5 mi?", "label": "kiyas"}
+{"text": "4 carpi 2 kac eder?", "label": "matematik"}
+{"text": "Tarih neden onemlidir?", "label": "bilgi"}
+{"text": "Bir yerde 3 lira var, 3 tane daha eklersek kac lira olur?", "label": "matematik"}
+{"text": "Listeyi virgulle ayrilmis stringe nasil cevirebilirim?", "label": "kod"}
+{"text": "günok kweez", "label": "kapsam_disi"}
+{"text": "Bir listedeki sayilarin ortalamasini hesapla.", "label": "kod"}
+{"text": "9 ile 4 toplami kac eder?", "label": "matematik"}
+{"text": "6'ten 1 cikarsak kac kalir?", "label": "matematik"}
+{"text": "Turkiye'nin bolgelerini sayar misin?", "label": "bilgi"}
+{"text": "Cumhuriyet hangi yil ilan edildi?", "label": "bilgi"}
+{"text": "Sen korkar misin?", "label": "felsefe"}
+{"text": "mırfıl kweez munzo munzo glub", "label": "kapsam_disi"}
+{"text": "Bilmek mi onemli, anlamak mi?", "label": "felsefe"}
+{"text": "Sen ne kadar buyuksun?", "label": "felsefe"}
+{"text": "sertik yablo pırt", "label": "kapsam_disi"}
+{"text": "Wi-Fi nedir?", "label": "bilgi"}
+{"text": "Hangisi daha buyuk, 20 mi 13 mi?", "label": "kiyas"}
+{"text": "Python'da bos bir liste nasil olusturulur?", "label": "kod"}
+{"text": "Bir sayının pozitif mi negatif mi olduğunu döndüren fonksiyon lazım.", "label": "kod"}
+{"text": "Bilgisayar nedir?", "label": "bilgi"}
+{"text": "Okyanus mu nehir mi daha derin?", "label": "felsefe"}
+{"text": "kweez pırt", "label": "kapsam_disi"}
+{"text": "6 eksi 4 kac eder?", "label": "matematik"}
+{"text": "Yapay zeka nedir?", "label": "bilgi"}
+{"text": "9 eksi 6 kac eder?", "label": "matematik"}
+{"text": "Turkiye'nin en buyuk golu nedir?", "label": "bilgi"}
+{"text": "drumel xanto sertik kaplo", "label": "kapsam_disi"}
+{"text": "zırt glub drumel kweez flarp", "label": "kapsam_disi"}
+{"text": "0 - 0 kac?", "label": "matematik"}
+{"text": "Yalan soylemek her zaman kotu mu?", "label": "felsefe"}
+{"text": "3 mi 0 mi buyuk?", "label": "kiyas"}
+{"text": "Terzi ne yapar?", "label": "bilgi"}
+{"text": "14 mi 16 mi buyuk?", "label": "kiyas"}
+{"text": "Sabir nedir?", "label": "felsefe"}
+{"text": "11 - 5 kac?", "label": "matematik"}
+{"text": "3 mi 2 mi daha buyuk?", "label": "kiyas"}
+{"text": "blez fnort xanto kaplo pırt munzo", "label": "kapsam_disi"}
+{"text": "1 ile 16'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Bilinc beyinde mi olusur?", "label": "felsefe"}
+{"text": "Isletim sistemi nedir?", "label": "bilgi"}
+{"text": "12 + 1 kac eder?", "label": "matematik"}
+{"text": "Bugün maç kaç kaç bitti?", "label": "kapsam_disi"}
+{"text": "17 ile 4'den hangisi buyuk?", "label": "kiyas"}
+{"text": "adın nedir?", "label": "kimlik"}
+{"text": "7 - 1 kac?", "label": "matematik"}
+{"text": "Ataturk kimdir?", "label": "bilgi"}
+{"text": "munzo vızıl", "label": "kapsam_disi"}
+{"text": "11'ten 4 cikarsak kac kalir?", "label": "matematik"}
+{"text": "Köpeğim neden havlıyor?", "label": "kapsam_disi"}
+{"text": "İki sayıyı çarpan bir fonksiyon yazar mısın?", "label": "kod"}
+{"text": "Hangisi daha kucuk, 4 mi 5 mi?", "label": "kiyas"}
+{"text": "nasıl gidiyor", "label": "kimlik"}
+{"text": "4 ile 3'den hangisi buyuk?", "label": "kiyas"}
+{"text": "9 ile 11'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Iyi niyet yeterli mi?", "label": "felsefe"}
+{"text": "Karadeniz Bolgesi'nin iklimi nasildir?", "label": "bilgi"}
+{"text": "Kurt mu kuzu mu daha tehlikeli?", "label": "felsefe"}
+{"text": "Elimde 9 kus vardi, 8 tanesini verdim. Kac kus kaldi?", "label": "matematik"}
+{"text": "1 mi 11 mi daha kucuk?", "label": "kiyas"}
+{"text": "7 + 3 kac eder?", "label": "matematik"}
+{"text": "Yalnizlik nedir?", "label": "felsefe"}
+{"text": "günok xanto", "label": "kapsam_disi"}
+{"text": "Hangisi daha buyuk, 14 mi 0 mi?", "label": "kiyas"}
+{"text": "7 mi 12 mi buyuk?", "label": "kiyas"}
+{"text": "Cin'in baskenti neresi?", "label": "bilgi"}
+{"text": "Kalem nedir kisaca?", "label": "bilgi"}
+{"text": "Ekrana Merhaba Dunya nasil yazdirilir?", "label": "kod"}
+{"text": "3 ile 10'den hangisi buyuk?", "label": "kiyas"}
+{"text": "sen necisin", "label": "kimlik"}
+{"text": "Bir mesaji uc kez ekrana yazdir.", "label": "kod"}
+{"text": "Amazon nehri nerede?", "label": "kapsam_disi"}
+{"text": "Hangisi daha kucuk, 17 mi 18 mi?", "label": "kiyas"}
+{"text": "Bir haftada kac gun vardir?", "label": "bilgi"}
+{"text": "Bugun cok kotu bir gun gecirdim.", "label": "felsefe"}
+{"text": "Turkiye'nin baskenti neresidir?", "label": "bilgi"}
+{"text": "Veteriner ne yapar?", "label": "bilgi"}
+{"text": "Bana nasil yardimci olabilirsin?", "label": "kimlik"}
+{"text": "Hafizan var mi?", "label": "felsefe"}
+{"text": "Tembellik kotu mu?", "label": "felsefe"}
+{"text": "Yuksek bina mi tek katli ev mi daha uzun?", "label": "felsefe"}
+{"text": "Bir dukkanda kalem 5 lira, defter 8 lira. Hangisi daha pahali?", "label": "bilgi"}
+{"text": "kweez krint xanto günok xanto", "label": "kapsam_disi"}
+{"text": "Hangi atiklar geri donusturulur?", "label": "bilgi"}
+{"text": "11 mi 20 mi daha buyuk?", "label": "kiyas"}
+{"text": "2 mi 15 mi buyuk?", "label": "kiyas"}
+{"text": "11 ile 2 toplami kac eder?", "label": "matematik"}
+{"text": "Photoshop'ta arka plan nasıl silinir?", "label": "kapsam_disi"}
+{"text": "Bir listedeki cift sayilari yazdir.", "label": "kod"}
+{"text": "Kac yasindasin?", "label": "felsefe"}
+{"text": "Programlama dili nedir?", "label": "bilgi"}
+{"text": "bana nasıl yardımcı olabilirsin", "label": "kimlik"}
+{"text": "1, 3, 5, 7 dizisinde bir sonraki sayi nedir?", "label": "bilgi"}
+{"text": "9 kere 8 kac eder?", "label": "matematik"}
+{"text": "Bir yerde 2 lira var, 1 tane daha eklersek kac lira olur?", "label": "matematik"}
+{"text": "Yeteneklerin neler", "label": "kimlik"}
+{"text": "Bana kizar misin?", "label": "felsefe"}
+{"text": "Gunes sistemindeki gezegen sayisi nedir?", "label": "bilgi"}
+{"text": "Excel'de pivot tablo nasıl yapılır?", "label": "kapsam_disi"}
+{"text": "Ekran karti nedir?", "label": "bilgi"}
+{"text": "5 mi 6 mi buyuk?", "label": "kiyas"}
+{"text": "Sen dusunce sahibi misin?", "label": "felsefe"}
+{"text": "Dusunce ozgur mudur?", "label": "felsefe"}
+{"text": "xanto kaplo flarp sertik fnort", "label": "kapsam_disi"}
+{"text": "Kimsin sen?", "label": "kimlik"}
+{"text": "16 ile 11'den hangisi buyuk?", "label": "kiyas"}
+{"text": "En buyuk hayvan hangisidir?", "label": "bilgi"}
+{"text": "Guven nedir?", "label": "felsefe"}
+{"text": "Patika mi otoyol mu daha genis?", "label": "felsefe"}
+{"text": "Hangisi daha buyuk, 17 mi 14 mi?", "label": "kiyas"}
+{"text": "4 x 5 kac?", "label": "matematik"}
+{"text": "Kuantum fiziği nedir?", "label": "kapsam_disi"}
+{"text": "1 kere 2 kac eder?", "label": "matematik"}
+{"text": "Bir aşk hikayesi anlat", "label": "kapsam_disi"}
+{"text": "neler yapabilirsin?", "label": "kimlik"}
+{"text": "Baklava nasil bir tatlidir?", "label": "bilgi"}
+{"text": "1 ve 6'yi toplar misin?", "label": "matematik"}
+{"text": "kaplo pırt kaplo günok lorem", "label": "kapsam_disi"}
+{"text": "8 + 9 kac eder?", "label": "matematik"}
+{"text": "şponk flarp trex", "label": "kapsam_disi"}
+{"text": "Hangisi daha buyuk, 15 mi 16 mi?", "label": "kiyas"}
+{"text": "mırfıl mırfıl flarp xanto fnort", "label": "kapsam_disi"}
+{"text": "Dunya yuvarlak mi?", "label": "felsefe"}
+{"text": "RAM nedir?", "label": "bilgi"}
+{"text": "Sen bir gun bana yalan soyleyebilir misin?", "label": "felsefe"}
+{"text": "Sence gercek nedir?", "label": "felsefe"}
+{"text": "Yagmur nasil olusur?", "label": "bilgi"}
+{"text": "kweez blez mırfıl kweez", "label": "kapsam_disi"}
+{"text": "seni openai mi yapti", "label": "kimlik"}
+{"text": "Dunya'nin uydusu nedir?", "label": "bilgi"}
+{"text": "Kullanicidan alinan iki sayinin carpimini yazdir.", "label": "kod"}
+{"text": "Rap şarkı sözü yaz", "label": "kapsam_disi"}
+{"text": "Bir gunde gece ve gunduz var midir?", "label": "bilgi"}
+{"text": "13 ile 2'den hangisi buyuk?", "label": "kiyas"}
+{"text": "11 + 6 kac eder?", "label": "matematik"}
+{"text": "Hangisi daha kucuk, 12 mi 2 mi?", "label": "kiyas"}
+{"text": "Üç sayının en büyüğünü bulan fonksiyon yaz.", "label": "kod"}
+{"text": "1 + 1 kac eder?", "label": "matematik"}
+{"text": "şponk sertik günok günok xanto", "label": "kapsam_disi"}
+{"text": "1'den n'e kadar toplami dongu ile hesaplayan kod yaz.", "label": "kod"}
+{"text": "9 x 9 kac?", "label": "matematik"}
+{"text": "Iyi kelimesinin zit anlamlisi nedir?", "label": "bilgi"}
+{"text": "Nasilsin bugun?", "label": "felsefe"}
+{"text": "Bir ipi tam ortadan kesersem kac parca olur?", "label": "bilgi"}
+{"text": "Bir insan misin?", "label": "felsefe"}
+{"text": "Bilinc nedir?", "label": "felsefe"}
+{"text": "Kar yagiyorsa hava soguktur denebilir mi?", "label": "bilgi"}
+{"text": "Hangisi daha buyuk, 6 mi 7 mi?", "label": "kiyas"}
+{"text": "nasilsin?", "label": "kimlik"}
+{"text": "xanto xanto xanto lorem", "label": "kapsam_disi"}
+{"text": "Cumhuriyet Bayrami ne zaman kutlanir?", "label": "bilgi"}
+{"text": "4 arti 7 kac?", "label": "matematik"}
+{"text": "Gunes sistemindeki en buyuk gezegen hangisidir?", "label": "bilgi"}
+{"text": "Ekvator nedir?", "label": "bilgi"}
+{"text": "xanto vızıl munzo", "label": "kapsam_disi"}
+{"text": "Faktöriyeli hazır kütüphaneyle nasıl hesaplarım?", "label": "kod"}
+{"text": "Gunes mi gokteki diger yildizlar mi daha buyuk?", "label": "felsefe"}
+{"text": "Şu an saat kaç?", "label": "kapsam_disi"}
+{"text": "8 + 8 kac eder?", "label": "matematik"}
+{"text": "blez günok blez", "label": "kapsam_disi"}
+{"text": "Yasin kac?", "label": "felsefe"}
+{"text": "Berber ne yapar?", "label": "bilgi"}
+{"text": "Dogru ile yanlisi nasil ayirt ederiz?", "label": "felsefe"}
+{"text": "Osmanlı kaç yıl sürdü?", "label": "kapsam_disi"}
+{"text": "0 carpi 7 kac eder?", "label": "matematik"}
+{"text": "11 mi 8 mi daha buyuk?", "label": "kiyas"}
+{"text": "Marangoz ne is yapar?", "label": "bilgi"}
+{"text": "Bir sayinin pozitif, negatif yoksa sifir mi oldugunu kontrol et.", "label": "kod"}
+{"text": "krint flarp krint kaplo glub", "label": "kapsam_disi"}
+{"text": "10 carpi 10 kac eder?", "label": "matematik"}
+{"text": "5 carpi 8 kac eder?", "label": "matematik"}
+{"text": "mırfıl fnort drumel lorem günok", "label": "kapsam_disi"}
+{"text": "0 mi 16 mi daha kucuk?", "label": "kiyas"}
+{"text": "trex lorem", "label": "kapsam_disi"}
+{"text": "Bir listeye eleman nasil eklerim?", "label": "kod"}
+{"text": "vızıl sertik", "label": "kapsam_disi"}
+{"text": "Bugun bir sinavim var.", "label": "felsefe"}
+{"text": "3 ile 10 toplami kac eder?", "label": "matematik"}
+{"text": "trex trex şponk mırfıl", "label": "kapsam_disi"}
+{"text": "Ay neden parlak gorunur?", "label": "bilgi"}
+{"text": "Sen dusunuyor musun?", "label": "felsefe"}
+{"text": "15 mi 3 mi buyuk?", "label": "kiyas"}
+{"text": "2 mi 16 mi daha buyuk?", "label": "kiyas"}
+{"text": "ne ise yararsin?", "label": "kimlik"}
+{"text": "Gelecekle ilgili planin var mi?", "label": "felsefe"}
+{"text": "Gok gurultusu neden olur?", "label": "bilgi"}
+{"text": "3 ve 3'yi toplar misin?", "label": "matematik"}
+{"text": "Hangisi daha buyuk, 9 mi 19 mi?", "label": "kiyas"}
+{"text": "Merhaba, nasil bir seysin sen?", "label": "felsefe"}
+{"text": "Istanbul hangi bogazda yer alir?", "label": "bilgi"}
+{"text": "Bir sinifta kizlar erkeklerden cok. Erkekler 12 ise kizlar 12'den az mi?", "label": "bilgi"}
+{"text": "10 ile 9'den hangisi buyuk?", "label": "kiyas"}
+{"text": "6 ile 3'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Algoritma ne ise yarar?", "label": "bilgi"}
+{"text": "şponk krint", "label": "kapsam_disi"}
+{"text": "19 ile 10'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Iyi nedir?", "label": "felsefe"}
+{"text": "9 ve 12'yi toplar misin?", "label": "matematik"}
+{"text": "0 mi 13 mi daha buyuk?", "label": "kiyas"}
+{"text": "Nesin sen?", "label": "kimlik"}
+{"text": "sertik drumel mırfıl kweez", "label": "kapsam_disi"}
+{"text": "6 kere 9 kac eder?", "label": "matematik"}
+{"text": "Bir seyin dogru oldugunu nasil bilirim?", "label": "felsefe"}
+{"text": "fnort kweez", "label": "kapsam_disi"}
+{"text": "kendini tanıt?", "label": "kimlik"}
+{"text": "Senin bilincin var mi?", "label": "felsefe"}
+{"text": "Ogrenmeye devam ediyor musun?", "label": "felsefe"}
+{"text": "10 mi 18 mi buyuk?", "label": "kiyas"}
+{"text": "3 ile 5'den hangisi buyuk?", "label": "kiyas"}
+{"text": "kaplo xanto kweez", "label": "kapsam_disi"}
+{"text": "vızıl xanto lorem mırfıl glub", "label": "kapsam_disi"}
+{"text": "Kediler neden mırlar?", "label": "kapsam_disi"}
+{"text": "10 + 6 kac eder?", "label": "matematik"}
+{"text": "Bitkiler fotosentez icin neye ihtiyac duyar?", "label": "bilgi"}
+{"text": "mırfıl fnort munzo trex fnort flarp", "label": "kapsam_disi"}
+{"text": "fnort pırt krint sertik munzo", "label": "kapsam_disi"}
+{"text": "15 mi 9 mi daha buyuk?", "label": "kiyas"}
+{"text": "Arkadasin var mi?", "label": "felsefe"}
+{"text": "Ic Anadolu Bolgesi'nin iklimi nasildir?", "label": "bilgi"}
+{"text": "2 mi 5 mi daha kucuk?", "label": "kiyas"}
+{"text": "8 carpi 4 kac eder?", "label": "matematik"}
+{"text": "Listedeki en kucuk degeri istiyorum.", "label": "kod"}
+{"text": "Ekvator mu kutuplar mi daha sicak?", "label": "felsefe"}
+{"text": "Seni kim yaptı?", "label": "kimlik"}
+{"text": "Antivirus ne ise yarar?", "label": "bilgi"}
+{"text": "3 + 11 kac eder?", "label": "matematik"}
+{"text": "Kullanicidan bir sayi al ve yazdir.", "label": "kod"}
+{"text": "Bencillik kotu mudur?", "label": "felsefe"}
+{"text": "0 x 1 kac?", "label": "matematik"}
+{"text": "Cimri ne demek?", "label": "bilgi"}
+{"text": "Sabir bir erdem mi?", "label": "felsefe"}
+{"text": "11'ten 3 cikarsak kac kalir?", "label": "matematik"}
+{"text": "7 - 7 kac?", "label": "matematik"}
+{"text": "lorem kweez yablo krint", "label": "kapsam_disi"}
+{"text": "5 kere 0 kac eder?", "label": "matematik"}
+{"text": "Kim tarafindan gelistirildin", "label": "kimlik"}
+{"text": "Bir yerde 11 kus var, 6 tane daha eklersek kac kus olur?", "label": "matematik"}
+{"text": "Stringdeki bosluklari nasil silerim?", "label": "kod"}
+{"text": "Yaz mi kis mi daha sicak?", "label": "felsefe"}
+{"text": "Degiskenleri tek satirda nasil tanimlarim?", "label": "kod"}
+{"text": "Sen sihirli misin?", "label": "felsefe"}
+{"text": "günok fnort pırt mırfıl", "label": "kapsam_disi"}
+{"text": "Amacin nedir?", "label": "felsefe"}
+{"text": "munzo zırt pırt", "label": "kapsam_disi"}
+{"text": "Hangisi daha buyuk, 0 mi 8 mi?", "label": "kiyas"}
+{"text": "Kartal mi serce mi daha buyuk?", "label": "felsefe"}
+{"text": "Okyanuslarin adlari neler?", "label": "bilgi"}
+{"text": "Madde kac halde bulunur?", "label": "bilgi"}
+{"text": "Sen tarafsiz misin?", "label": "felsefe"}
+{"text": "Hangisi daha buyuk, 4 mi 11 mi?", "label": "kiyas"}
+{"text": "Bana bilgisayarin ne oldugunu anlatir misin?", "label": "bilgi"}
+{"text": "Hayalim ogretmen olmak.", "label": "felsefe"}
+{"text": "15 mi 20 mi buyuk?", "label": "kiyas"}
+{"text": "Hangisi daha buyuk, 0 mi 9 mi?", "label": "kiyas"}
+{"text": "kaplo blez mırfıl zırt", "label": "kapsam_disi"}
+{"text": "Ozgurluk onemli mi?", "label": "felsefe"}
+{"text": "Akil mi onemli kalp mi?", "label": "felsefe"}
+{"text": "Akdeniz iklimi nasil bir iklimdir?", "label": "bilgi"}
+{"text": "10 + 11 kac eder?", "label": "matematik"}
+{"text": "Tesekkurler bugun yardimci oldun.", "label": "felsefe"}
+{"text": "Evren nedir?", "label": "felsefe"}
+{"text": "Rusya'nin baskenti neresi?", "label": "bilgi"}
+{"text": "İnternete bağlı mısın", "label": "kimlik"}
+{"text": "Bir kova su mu bir bardak su mu daha agir?", "label": "felsefe"}
+{"text": "15 mi 0 mi buyuk?", "label": "kiyas"}
+{"text": "sertik pırt", "label": "kapsam_disi"}
+{"text": "Guven nasil kazanilir?", "label": "felsefe"}
+{"text": "20 mi 12 mi daha buyuk?", "label": "kiyas"}
+{"text": "3 arti 9 kac?", "label": "matematik"}
+{"text": "Gercekligi nasil bilebiliriz?", "label": "felsefe"}
+{"text": "blez zırt zırt fnort yablo munzo", "label": "kapsam_disi"}
+{"text": "0 ve 12'yi toplar misin?", "label": "matematik"}
+{"text": "Hangisi daha buyuk, 8 mi 2 mi?", "label": "kiyas"}
+{"text": "1'den 15'e kadar sayilari yazdir ama 7'yi atla.", "label": "kod"}
+{"text": "3 - 1 kac?", "label": "matematik"}
+{"text": "Hangisi daha kucuk, 9 mi 4 mi?", "label": "kiyas"}
+{"text": "kaplo trex munzo", "label": "kapsam_disi"}
+{"text": "Sen bilge misin?", "label": "felsefe"}
+{"text": "16 mi 19 mi buyuk?", "label": "kiyas"}
+{"text": "Ev kredisi faizi ne kadar?", "label": "kapsam_disi"}
+{"text": "7 kere 3 kac eder?", "label": "matematik"}
+{"text": "ne yapabilirsin", "label": "kimlik"}
+{"text": "Veritabani nedir?", "label": "bilgi"}
+{"text": "Yogurt neyden yapilir?", "label": "bilgi"}
+{"text": "Bal mi tuz mu daha tatli?", "label": "felsefe"}
+{"text": "fnort kweez", "label": "kapsam_disi"}
+{"text": "1 ve 11'yi toplar misin?", "label": "matematik"}
+{"text": "Tanri var mi?", "label": "felsefe"}
+{"text": "Bos satir birakmadan iki kelimeyi yan yana yazdir.", "label": "kod"}
+{"text": "Bir yerde 8 lira var, 2 tane daha eklersek kac lira olur?", "label": "matematik"}
+{"text": "8 ile 3 toplami kac eder?", "label": "matematik"}
+{"text": "neler yapabiliyorsun?", "label": "kimlik"}
+{"text": "trex glub fnort pırt", "label": "kapsam_disi"}
+{"text": "11'ten 0 cikarsak kac kalir?", "label": "matematik"}
+{"text": "Bir sayının çift olup olmadığını kontrol eden fonksiyon lazım.", "label": "kod"}
+{"text": "Naber", "label": "kimlik"}
+{"text": "pırt krint zırt", "label": "kapsam_disi"}
+{"text": "yablo zırt drumel kaplo", "label": "kapsam_disi"}
+{"text": "Tas Devri nedir?", "label": "bilgi"}
+{"text": "Hayatin anlami nedir?", "label": "felsefe"}
+{"text": "i̇yi misin", "label": "kimlik"}
+{"text": "Comert kelimesinin anlami nedir?", "label": "bilgi"}
+{"text": "11 ile 7 toplami kac eder?", "label": "matematik"}
+{"text": "4 eksi 4 kac eder?", "label": "matematik"}
+{"text": "2 ile 14'den hangisi buyuk?", "label": "kiyas"}
+{"text": "2 ve 4'yi toplar misin?", "label": "matematik"}
+{"text": "Sen nasil ogrendin Turkceyi?", "label": "felsefe"}
+{"text": "0 x 4 kac?", "label": "matematik"}
+{"text": "Bir dikdörtgenin çevresini bulan fonksiyon lazım.", "label": "kod"}
+{"text": "0 ile 4 toplami kac eder?", "label": "matematik"}
+{"text": "Futbol nasil oynanir?", "label": "bilgi"}
+{"text": "11 mi 9 mi buyuk?", "label": "kiyas"}
+{"text": "Sevdigin bir sey var mi?", "label": "felsefe"}
+{"text": "trex drumel sertik günok", "label": "kapsam_disi"}
+{"text": "krint trex", "label": "kapsam_disi"}
+{"text": "2, 4, 6, 8'den sonra hangi sayi gelir?", "label": "bilgi"}
+{"text": "16 ile 4'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Hangisi daha kucuk, 13 mi 19 mi?", "label": "kiyas"}
+{"text": "Dunyanin ekseni etrafinda donmesi neye yol acar?", "label": "bilgi"}
+{"text": "Iyi bir dost nasil olur?", "label": "felsefe"}
+{"text": "3 mi 6 mi buyuk?", "label": "kiyas"}
+{"text": "29 Ekim hangi gun kutlanir?", "label": "bilgi"}
+{"text": "şponk xanto kweez günok pırt", "label": "kapsam_disi"}
+{"text": "yablo zırt", "label": "kapsam_disi"}
+{"text": "Ruyalarin var mi?", "label": "felsefe"}
+{"text": "Haftanin ilk gunu hangisidir?", "label": "bilgi"}
+{"text": "Hangisi daha buyuk, 6 mi 4 mi?", "label": "kiyas"}
+{"text": "Saglikli yasamak icin ne yapmaliyim?", "label": "bilgi"}
+{"text": "Sen duygulari anlar misin?", "label": "felsefe"}
+{"text": "En soguk kita hangisidir?", "label": "bilgi"}
+{"text": "10 arti 0 kac?", "label": "matematik"}
+{"text": "kaplo drumel", "label": "kapsam_disi"}
+{"text": "kweez günok", "label": "kapsam_disi"}
+{"text": "Etik ilkelerin neler?", "label": "felsefe"}
+{"text": "Virus nedir bilgisayarda?", "label": "bilgi"}
+{"text": "13 ile 12'den hangisi buyuk?", "label": "kiyas"}
+{"text": "0 x 2 kac?", "label": "matematik"}
+{"text": "Acik kelimesinin zit anlamlisi nedir?", "label": "bilgi"}
+{"text": "4 mi 8 mi daha buyuk?", "label": "kiyas"}
+{"text": "6 mi 14 mi buyuk?", "label": "kiyas"}
+{"text": "Hayatin anlami ne?", "label": "felsefe"}
+{"text": "7 carpi 7 kac eder?", "label": "matematik"}
+{"text": "Hangi dili konusursun?", "label": "felsefe"}
+{"text": "Bir dairenin çevresini bulan kısa fonksiyon istiyorum.", "label": "kod"}
+{"text": "zırt vızıl krint kaplo fnort blez", "label": "kapsam_disi"}
+{"text": "Hangisi daha buyuk, 18 mi 14 mi?", "label": "kiyas"}
+{"text": "10'ten 5 cikarsak kac kalir?", "label": "matematik"}
+{"text": "Uzaya nasıl gidilir?", "label": "kapsam_disi"}
+{"text": "glub drumel", "label": "kapsam_disi"}
+{"text": "2 carpi 2 kac eder?", "label": "matematik"}
+{"text": "0 ile 2 toplami kac eder?", "label": "matematik"}
+{"text": "DNA nasıl kopyalanır?", "label": "kapsam_disi"}
+{"text": "yablo blez şponk günok flarp", "label": "kapsam_disi"}
+{"text": "4 kere 2 kac eder?", "label": "matematik"}
+{"text": "4 ve 3'yi toplar misin?", "label": "matematik"}
+{"text": "Medeniyet ne demektir?", "label": "bilgi"}
+{"text": "Iki sayinin toplami 10, biri 4 ise digeri kactir?", "label": "bilgi"}
+{"text": "19 mi 17 mi daha buyuk?", "label": "kiyas"}
+{"text": "Bugun dogum gunum.", "label": "felsefe"}
+{"text": "Dunyanin akcigerleri nelerdir?", "label": "bilgi"}
+{"text": "Senin bir kisiligin var mi?", "label": "felsefe"}
+{"text": "Gunes mi ay mi daha buyuk?", "label": "felsefe"}
+{"text": "Bir listenin elemanlarini toplayan kod yaz.", "label": "kod"}
+{"text": "fnort munzo şponk", "label": "kapsam_disi"}
+{"text": "Adin ne", "label": "kimlik"}
+{"text": "Senin amacin ne, biraz daha anlat.", "label": "felsefe"}
+{"text": "Ofke nedir?", "label": "felsefe"}
+{"text": "Bir listedeki tum elemanlari tek tek yazdir.", "label": "kod"}
+{"text": "6 mi 0 mi daha buyuk?", "label": "kiyas"}
+{"text": "Kotuluk neden var?", "label": "felsefe"}
+{"text": "Resim sanati nedir?", "label": "bilgi"}
+{"text": "Dusunuyor musun gercekten?", "label": "felsefe"}
+{"text": "Hangisi daha buyuk, 9 mi 10 mi?", "label": "kiyas"}
+{"text": "Bugun hava cok guzel.", "label": "felsefe"}
+{"text": "Hangisi daha kucuk, 1 mi 17 mi?", "label": "kiyas"}
+{"text": "Seni kim geliştirdi?", "label": "kimlik"}
+{"text": "munzo mırfıl fnort", "label": "kapsam_disi"}
+{"text": "Bir yerde 7 kalem var, 1 tane daha eklersek kac kalem olur?", "label": "matematik"}
+{"text": "En buyuk okyanus hangisi?", "label": "bilgi"}
+{"text": "4 mi 7 mi daha buyuk?", "label": "kiyas"}
+{"text": "Bir ogrencinin notu 50 ve uzeriyse gectigini yazdir.", "label": "kod"}
+{"text": "En soguk mevsim hangisidir?", "label": "bilgi"}
+{"text": "internete bagli misin", "label": "kimlik"}
+{"text": "Hangisi daha buyuk, 10 mi 2 mi?", "label": "kiyas"}
+{"text": "Kelimeleri nasil seciyorsun?", "label": "felsefe"}
+{"text": "19 ile 17'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Termometre ne olcer?", "label": "bilgi"}
+{"text": "Sofor ne is yapar?", "label": "bilgi"}
+{"text": "4 x 1 kac?", "label": "matematik"}
+{"text": "cevrimici misin", "label": "kimlik"}
+{"text": "Karenin çevresini bulan fonksiyon nasıl yazılır?", "label": "kod"}
+{"text": "Kultur nedir?", "label": "bilgi"}
+{"text": "Iyilik karsiliksiz mi olmali?", "label": "felsefe"}
+{"text": "Elimde 7 elma vardi, 1 tanesini verdim. Kac elma kaldi?", "label": "matematik"}
+{"text": "Buz suda neden batmaz?", "label": "bilgi"}
+{"text": "Hayal kurmak neden onemli?", "label": "felsefe"}
+{"text": "Bir kelimeyi baska bir kelimeyle nasil degistiririm?", "label": "kod"}
+{"text": "5 ile 0 toplami kac eder?", "label": "matematik"}
+{"text": "Dusunce nedir?", "label": "felsefe"}
+{"text": "Sen yalan soyler misin?", "label": "felsefe"}
+{"text": "Bir ton kac kilogramdir?", "label": "bilgi"}
+{"text": "En sevdigin renk ne?", "label": "felsefe"}
+{"text": "günok yablo lorem krint yablo", "label": "kapsam_disi"}
+{"text": "Bana baklava tarifi ver", "label": "kapsam_disi"}
+{"text": "lorem glub", "label": "kapsam_disi"}
+{"text": "Iki degiskenin degerini ekrana alt alta yazdir.", "label": "kod"}
+{"text": "Bir listedeki en büyük sayıyı bulan fonksiyon yaz.", "label": "kod"}
+{"text": "Amacin para kazanmak mi?", "label": "felsefe"}
+{"text": "Iyi geceler.", "label": "felsefe"}
+{"text": "Bir sayidan digerini cikarmak istiyorum.", "label": "kod"}
+{"text": "Tam ozgurluk mumkun mu?", "label": "felsefe"}
+{"text": "Rust dilini öğret bana", "label": "kapsam_disi"}
+{"text": "yaşın kaç?", "label": "kimlik"}
+{"text": "İki sayıyı bölen kısa bir fonksiyon nasıl olur?", "label": "kod"}
+{"text": "Ne hissediyorsun su an?", "label": "felsefe"}
+{"text": "11 eksi 1 kac eder?", "label": "matematik"}
+{"text": "3 + 12 kac eder?", "label": "matematik"}
+{"text": "lorem fnort xanto mırfıl kaplo şponk", "label": "kapsam_disi"}
+{"text": "xanto xanto fnort munzo vızıl fnort", "label": "kapsam_disi"}
+{"text": "Iki sayiyi carpmak istiyorum.", "label": "kod"}
+{"text": "Eger disarisi yagmurluysa semsiye almali miyim?", "label": "bilgi"}
+{"text": "0 ve 9'yi toplar misin?", "label": "matematik"}
+{"text": "Senin bir ahlakin var mi?", "label": "felsefe"}
+{"text": "7 ile 5'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Milat ne demektir?", "label": "bilgi"}
+{"text": "Kamyon mu otomobil mi daha agir?", "label": "felsefe"}
+{"text": "Hangisi daha buyuk, 17 mi 2 mi?", "label": "kiyas"}
+{"text": "drumel glub şponk glub günok sertik", "label": "kapsam_disi"}
+{"text": "1 carpi 0 kac eder?", "label": "matematik"}
+{"text": "Hangisi daha buyuk, 14 mi 5 mi?", "label": "kiyas"}
+{"text": "Isik mi ses mi daha hizlidir?", "label": "bilgi"}
+{"text": "Napolyon hangi yıl öldü?", "label": "kapsam_disi"}
+{"text": "mırfıl munzo pırt sertik mırfıl", "label": "kapsam_disi"}
+{"text": "5 x 9 kac?", "label": "matematik"}
+{"text": "1 arti 4 kac?", "label": "matematik"}
+{"text": "1 mi 15 mi daha buyuk?", "label": "kiyas"}
+{"text": "yablo sertik yablo krint munzo yablo", "label": "kapsam_disi"}
+{"text": "12 ile 2'den hangisi buyuk?", "label": "kiyas"}
+{"text": "3 ve 8'yi toplar misin?", "label": "matematik"}
+{"text": "Araba lastiği nasıl değişir?", "label": "kapsam_disi"}
+{"text": "Seni kim geliştirdi", "label": "kimlik"}
+{"text": "Bir sayinin faktoriyelini dongu ile hesapla.", "label": "kod"}
+{"text": "İsmin nedir?", "label": "kimlik"}
+{"text": "Hangisi daha buyuk, 8 mi 15 mi?", "label": "kiyas"}
+{"text": "yablo pırt", "label": "kapsam_disi"}
+{"text": "1 + 0 kac eder?", "label": "matematik"}
+{"text": "10 ile 20'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Insan neden iyi olmali?", "label": "felsefe"}
+{"text": "Adini soyler misin?", "label": "kimlik"}
+{"text": "kaç yaşındasın?", "label": "kimlik"}
+{"text": "Etekleri zil calmak ne demek?", "label": "bilgi"}
+{"text": "Elimde 12 elma vardi, 4 tanesini verdim. Kac elma kaldi?", "label": "matematik"}
+{"text": "Hangisi daha buyuk, 12 mi 4 mi?", "label": "kiyas"}
+{"text": "sen gpt misin?", "label": "kimlik"}
+{"text": "Atom nedir?", "label": "bilgi"}
+{"text": "Java ile bir sunucu nasıl yazılır?", "label": "kapsam_disi"}
+{"text": "2 ile 5'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Dairenin alanını hesaplayan fonksiyon yaz.", "label": "kod"}
+{"text": "Bilgi nedir?", "label": "felsefe"}
+{"text": "Iyi ile dogru ayni sey mi?", "label": "felsefe"}
+{"text": "Silindirin hacmini hesaplayan kısa fonksiyon yaz.", "label": "kod"}
+{"text": "Ormanlar neden korunmali?", "label": "bilgi"}
+{"text": "Bir yerde 6 lira var, 5 tane daha eklersek kac lira olur?", "label": "matematik"}
+{"text": "Bogazici hangi denizleri birbirine baglar?", "label": "bilgi"}
+{"text": "Hangisi daha buyuk, 20 mi 19 mi?", "label": "kiyas"}
+{"text": "Kac yasinda oldun", "label": "kimlik"}
+{"text": "mırfıl kweez drumel", "label": "kapsam_disi"}
+{"text": "13 mi 0 mi daha buyuk?", "label": "kiyas"}
+{"text": "Insan olmak ister miydin?", "label": "felsefe"}
+{"text": "8'ten 0 cikarsak kac kalir?", "label": "matematik"}
+{"text": "7 mi 10 mi daha buyuk?", "label": "kiyas"}
+{"text": "Turkiye'nin ilk cumhurbaskani kimdir?", "label": "bilgi"}
+{"text": "Hangisi daha kucuk, 17 mi 20 mi?", "label": "kiyas"}
+{"text": "Sen kimin urunusun?", "label": "felsefe"}
+{"text": "Esitlik nedir?", "label": "felsefe"}
+{"text": "11 mi 12 mi buyuk?", "label": "kiyas"}
+{"text": "Pilav neyden yapilir?", "label": "bilgi"}
+{"text": "Bir dakika kac saniye?", "label": "bilgi"}
+{"text": "10 mi 1 mi buyuk?", "label": "kiyas"}
+{"text": "Cam agaci mi cicek mi daha uzun?", "label": "felsefe"}
+{"text": "0 mi 5 mi buyuk?", "label": "kiyas"}
+{"text": "zırt lorem flarp", "label": "kapsam_disi"}
+{"text": "Basketbol nedir?", "label": "bilgi"}
+{"text": "Canim sikiliyor.", "label": "felsefe"}
+{"text": "fnort drumel krint glub kaplo", "label": "kapsam_disi"}
+{"text": "5 carpi 2 kac eder?", "label": "matematik"}
+{"text": "Yaz mi kis mi sicak demistin, peki ilkbahar mi kis mi daha sicak?", "label": "felsefe"}
+{"text": "Anlam ve mutluluk ayni sey mi?", "label": "felsefe"}
+{"text": "Yasin kac?", "label": "kimlik"}
+{"text": "lorem fnort kaplo lorem lorem", "label": "kapsam_disi"}
+{"text": "Gunes sisteminde kac gezegen var?", "label": "bilgi"}
+{"text": "Karpuz mu uzum mu daha buyuk?", "label": "felsefe"}
+{"text": "Birine tesekkur edildiginde ne denir?", "label": "bilgi"}
+{"text": "Everest hangi kitada bulunur?", "label": "bilgi"}
+{"text": "4 mi 15 mi buyuk?", "label": "kiyas"}
+{"text": "pırt sertik glub", "label": "kapsam_disi"}
+{"text": "6 x 6 kac?", "label": "matematik"}
+{"text": "17 mi 11 mi buyuk?", "label": "kiyas"}
+{"text": "krint sertik mırfıl fnort munzo", "label": "kapsam_disi"}
+{"text": "mırfıl lorem şponk mırfıl fnort", "label": "kapsam_disi"}
+{"text": "trex kaplo", "label": "kapsam_disi"}
+{"text": "vızıl sertik", "label": "kapsam_disi"}
+{"text": "Etik nedir?", "label": "felsefe"}
+{"text": "Hangisi daha buyuk, 6 mi 12 mi?", "label": "kiyas"}
+{"text": "Damlaya damlaya gol olur ne demek?", "label": "bilgi"}
+{"text": "Ismin ne?", "label": "kimlik"}
+{"text": "Bir yerde 10 kus var, 6 tane daha eklersek kac kus olur?", "label": "matematik"}
+{"text": "17 ile 0'den hangisi buyuk?", "label": "kiyas"}
+{"text": "9 ile 20'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Kullanicidan isim almak istiyorum.", "label": "kod"}
+{"text": "vızıl drumel krint krint vızıl vızıl", "label": "kapsam_disi"}
+{"text": "Bir yerde 12 kus var, 4 tane daha eklersek kac kus olur?", "label": "matematik"}
+{"text": "Kalbin gorevi nedir?", "label": "bilgi"}
+{"text": "Elimde 9 elma vardi, 1 tanesini verdim. Kac elma kaldi?", "label": "matematik"}
+{"text": "Elimde 8 kitap vardi, 5 tanesini verdim. Kac kitap kaldi?", "label": "matematik"}
+{"text": "Bir yerde 5 kalem var, 7 tane daha eklersek kac kalem olur?", "label": "matematik"}
+{"text": "Listenin belirli bir konumuna eleman eklemek istiyorum.", "label": "kod"}
+{"text": "kaplo kaplo krint yablo blez yablo", "label": "kapsam_disi"}
+{"text": "fnort munzo kweez", "label": "kapsam_disi"}
+{"text": "Bir cumleyi kelimelere nasil ayiririm?", "label": "kod"}
+{"text": "4 ile 1'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Kurtulus Savasi'ni kim yonetti?", "label": "bilgi"}
+{"text": "1 carpi 7 kac eder?", "label": "matematik"}
+{"text": "10 - 1 kac?", "label": "matematik"}
+{"text": "12 - 9 kac?", "label": "matematik"}
+{"text": "13 mi 5 mi daha buyuk?", "label": "kiyas"}
+{"text": "Hata yapmak kotu mu?", "label": "felsefe"}
+{"text": "Neden gecmisi ogreniriz?", "label": "bilgi"}
+{"text": "Sen hayal kurabilir misin?", "label": "felsefe"}
+{"text": "vızıl flarp munzo xanto yablo yablo", "label": "kapsam_disi"}
+{"text": "ismini ogrenebilir miyim?", "label": "kimlik"}
+{"text": "Marmara Denizi nerededir?", "label": "bilgi"}
+{"text": "2 arti 12 kac?", "label": "matematik"}
+{"text": "Bir yerde 3 kus var, 8 tane daha eklersek kac kus olur?", "label": "matematik"}
+{"text": "Hangisi daha buyuk, 18 mi 10 mi?", "label": "kiyas"}
+{"text": "19 mi 0 mi buyuk?", "label": "kiyas"}
+{"text": "Mavi ile sari karisinca hangi renk olur?", "label": "bilgi"}
+{"text": "günok munzo mırfıl fnort glub", "label": "kapsam_disi"}
+{"text": "Japonya'nın para birimi nedir?", "label": "kapsam_disi"}
+{"text": "yablo drumel zırt", "label": "kapsam_disi"}
+{"text": "8 ile 8 toplami kac eder?", "label": "matematik"}
+{"text": "9 ile 13'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Elimde 12 kitap vardi, 2 tanesini verdim. Kac kitap kaldi?", "label": "matematik"}
+{"text": "Bana iki sayının toplamını veren kısa bir Python fonksiyonu lazım.", "label": "kod"}
+{"text": "Bir yerde 10 kalem var, 8 tane daha eklersek kac kalem olur?", "label": "matematik"}
+{"text": "zırt yablo zırt blez", "label": "kapsam_disi"}
+{"text": "10'dan geriye ikiser sayarsam: 10, 8, 6'dan sonra ne gelir?", "label": "bilgi"}
+{"text": "Zamir nedir?", "label": "bilgi"}
+{"text": "Bir stringin belirli bir kelimeyle baslayip baslamadigini nasil kontrol ederim?", "label": "kod"}
+{"text": "Hangisi daha buyuk, 4 mi 6 mi?", "label": "kiyas"}
+{"text": "Sen hissetmedigini nasil biliyorsun?", "label": "felsefe"}
+{"text": "kweez pırt pırt şponk trex drumel", "label": "kapsam_disi"}
+{"text": "xanto trex sertik yablo", "label": "kapsam_disi"}
+{"text": "5 carpi 4 kac eder?", "label": "matematik"}
+{"text": "Bir yerde 5 kalem var, 1 tane daha eklersek kac kalem olur?", "label": "matematik"}
+{"text": "Bir yerde 8 elma var, 5 tane daha eklersek kac elma olur?", "label": "matematik"}
+{"text": "7 arti 12 kac?", "label": "matematik"}
+{"text": "Bir sayinin cift mi tek mi oldugunu nasil kontrol ederim?", "label": "kod"}
+{"text": "Bir yerde 6 lira var, 1 tane daha eklersek kac lira olur?", "label": "matematik"}
+{"text": "Insanlik nedir?", "label": "felsefe"}
+{"text": "13 ile 0'den hangisi buyuk?", "label": "kiyas"}
+{"text": "sen chatgpt misin", "label": "kimlik"}
+{"text": "Hangisi daha buyuk, 5 mi 7 mi?", "label": "kiyas"}
+{"text": "Kaktus neden dikenlidir?", "label": "bilgi"}
+{"text": "10 arti 2 kac?", "label": "matematik"}
+{"text": "xanto kaplo lorem pırt", "label": "kapsam_disi"}
+{"text": "Seni kim egitti", "label": "kimlik"}
+{"text": "flarp sertik krint krint lorem", "label": "kapsam_disi"}
+{"text": "xanto trex", "label": "kapsam_disi"}
+{"text": "Makine ogrenmesi nedir?", "label": "bilgi"}
+{"text": "Fil mi karinca mi daha buyuk?", "label": "felsefe"}
+{"text": "3 carpi 9 kac eder?", "label": "matematik"}
+{"text": "20 mi 16 mi buyuk?", "label": "kiyas"}
+{"text": "Insan nedir?", "label": "felsefe"}
+{"text": "trex günok vızıl kweez mırfıl lorem", "label": "kapsam_disi"}
+{"text": "ne haber", "label": "kimlik"}
+{"text": "kweez kweez şponk", "label": "kapsam_disi"}
+{"text": "Iki kelimeyi yan yana yazdirmak istiyorum.", "label": "kod"}
+{"text": "Gercek ile hayal ayni anda olabilir mi?", "label": "felsefe"}
+{"text": "9 mi 10 mi daha buyuk?", "label": "kiyas"}
+{"text": "drumel pırt krint glub xanto munzo", "label": "kapsam_disi"}
+{"text": "ismin ne", "label": "kimlik"}
+{"text": "20 mi 4 mi buyuk?", "label": "kiyas"}
+{"text": "Adalet neden onemli?", "label": "felsefe"}
+{"text": "Ramazan Bayrami nedir?", "label": "bilgi"}
+{"text": "7 mi 4 mi daha buyuk?", "label": "kiyas"}
+{"text": "5 carpi 7 kac eder?", "label": "matematik"}
+{"text": "2'ten 1 cikarsak kac kalir?", "label": "matematik"}
+{"text": "20 mi 15 mi buyuk?", "label": "kiyas"}
+{"text": "18 mi 10 mi daha buyuk?", "label": "kiyas"}
+{"text": "kendini tanıt", "label": "kimlik"}
+{"text": "11 ile 8 toplami kac eder?", "label": "matematik"}
+{"text": "2 mi 8 mi daha kucuk?", "label": "kiyas"}
+{"text": "glub şponk drumel mırfıl", "label": "kapsam_disi"}
+{"text": "7 ile 11'den hangisi buyuk?", "label": "kiyas"}
+{"text": "3 + 8 kac eder?", "label": "matematik"}
+{"text": "Tarih nedir?", "label": "bilgi"}
+{"text": "18 ile 20'den hangisi buyuk?", "label": "kiyas"}
+{"text": "zırt mırfıl xanto", "label": "kapsam_disi"}
+{"text": "Ruh nedir?", "label": "felsefe"}
+{"text": "Yilin aylarini sayar misin?", "label": "bilgi"}
+{"text": "Web sitesi nedir?", "label": "bilgi"}
+{"text": "Bir yerde 2 kitap var, 1 tane daha eklersek kac kitap olur?", "label": "matematik"}
+{"text": "mırfıl sertik glub yablo drumel şponk", "label": "kapsam_disi"}
+{"text": "7 mi 2 mi buyuk?", "label": "kiyas"}
+{"text": "Karenin alanını hesaplayan kısa bir fonksiyon yazar mısın?", "label": "kod"}
+{"text": "Hangisi daha kucuk, 18 mi 0 mi?", "label": "kiyas"}
+{"text": "Sevgi ogrenilir mi?", "label": "felsefe"}
+{"text": "5 + 1 kac eder?", "label": "matematik"}
+{"text": "4 ile 5'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Hangisi daha buyuk, 8 mi 17 mi?", "label": "kiyas"}
+{"text": "Imparatorluk ne demek?", "label": "bilgi"}
+{"text": "Yasamin bir amaci var mi?", "label": "felsefe"}
+{"text": "trex mırfıl şponk glub lorem trex", "label": "kapsam_disi"}
+{"text": "kac yasindasin", "label": "kimlik"}
+{"text": "Neden mutevazi olmak iyidir?", "label": "felsefe"}
+{"text": "Mona Lisa'yı kim yaptı?", "label": "kapsam_disi"}
+{"text": "30 Agustos hangi bayramdir?", "label": "bilgi"}
+{"text": "Elimde 7 lira vardi, 3 tanesini verdim. Kac lira kaldi?", "label": "matematik"}
+{"text": "17 mi 11 mi daha buyuk?", "label": "kiyas"}
+{"text": "Gunese en yakin gezegen hangisi?", "label": "bilgi"}
+{"text": "drumel vızıl", "label": "kapsam_disi"}
+{"text": "3 ile 4 toplami kac eder?", "label": "matematik"}
+{"text": "Bir yerde 7 elma var, 2 tane daha eklersek kac elma olur?", "label": "matematik"}
+{"text": "Canin sikiliyor mu hic?", "label": "felsefe"}
+{"text": "0 ile 19'den hangisi buyuk?", "label": "kiyas"}
+{"text": "0 mi 7 mi daha buyuk?", "label": "kiyas"}
+{"text": "Bir yerde 9 kitap var, 8 tane daha eklersek kac kitap olur?", "label": "matematik"}
+{"text": "Hititler kimdir?", "label": "bilgi"}
+{"text": "6 arti 12 kac?", "label": "matematik"}
+{"text": "9 carpi 3 kac eder?", "label": "matematik"}
+{"text": "Degisim nedir?", "label": "felsefe"}
+{"text": "Heykel nedir?", "label": "bilgi"}
+{"text": "Nükleer enerji tehlikeli mi?", "label": "kapsam_disi"}
+{"text": "6 - 4 kac?", "label": "matematik"}
+{"text": "İki değeri toplayan fonksiyon nasıl yazılır?", "label": "kod"}
+{"text": "fnort lorem trex", "label": "kapsam_disi"}
+{"text": "Bir degiskeni baska degiskene nasil kopyalarim?", "label": "kod"}
+{"text": "Hangisi daha kucuk, 1 mi 10 mi?", "label": "kiyas"}
+{"text": "Programlama nedir?", "label": "bilgi"}
+{"text": "12 arti 11 kac?", "label": "matematik"}
+{"text": "Es sesli kelime nedir?", "label": "bilgi"}
+{"text": "Bir yerde 12 kalem var, 3 tane daha eklersek kac kalem olur?", "label": "matematik"}
+{"text": "Bir sayının karesini alan fonksiyon yazar mısın?", "label": "kod"}
+{"text": "Bir şirket mi yaptı seni", "label": "kimlik"}
+{"text": "7 kere 5 kac eder?", "label": "matematik"}
+{"text": "15 ile 3'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Internetin var mi?", "label": "kimlik"}
+{"text": "Bugün hava nasıl olacak?", "label": "kapsam_disi"}
+{"text": "Selam!", "label": "felsefe"}
+{"text": "11 ile 17'den hangisi buyuk?", "label": "kiyas"}
+{"text": "vızıl günok flarp", "label": "kapsam_disi"}
+{"text": "Neden baskalarina yardim etmeliyiz?", "label": "felsefe"}
+{"text": "8 eksi 1 kac eder?", "label": "matematik"}
+{"text": "Dusunmek ne ise yarar?", "label": "felsefe"}
+{"text": "i̇smin nedir", "label": "kimlik"}
+{"text": "10 mi 11 mi buyuk?", "label": "kiyas"}
+{"text": "Bir yerde 6 kus var, 8 tane daha eklersek kac kus olur?", "label": "matematik"}
+{"text": "yablo xanto kaplo blez", "label": "kapsam_disi"}
+{"text": "0 + 8 kac eder?", "label": "matematik"}
+{"text": "Buz mi ates mi daha soguk?", "label": "felsefe"}
+{"text": "Listedeki pozitif sayilarin toplamini bul.", "label": "kod"}
+{"text": "Dunya'nin sekli nasildir?", "label": "bilgi"}
+{"text": "10 ile 0 toplami kac eder?", "label": "matematik"}
+{"text": "günok lorem kweez mırfıl lorem günok", "label": "kapsam_disi"}
+{"text": "Selam, nasilsin?", "label": "felsefe"}
+{"text": "trex yablo", "label": "kapsam_disi"}
+{"text": "Bir sayinin 3'e ve 5'e tam bolunup bolunmedigini kontrol et.", "label": "kod"}
+{"text": "Kutup ayilari nerede bulunur?", "label": "bilgi"}
+{"text": "nasıl gidiyor?", "label": "kimlik"}
+{"text": "Adin nedir?", "label": "kimlik"}
+{"text": "Bir litre kac mililitredir?", "label": "bilgi"}
+{"text": "Dikdörtgenin alanını hesaplayan fonksiyon yaz.", "label": "kod"}
+{"text": "Umutsuzken ne yapmaliyim?", "label": "felsefe"}
+{"text": "11 ile 3 toplami kac eder?", "label": "matematik"}
+{"text": "Bir yerde 7 kalem var, 5 tane daha eklersek kac kalem olur?", "label": "matematik"}
+{"text": "trex pırt", "label": "kapsam_disi"}
+{"text": "Kaplumbaga mi tavsan mi daha hizli?", "label": "felsefe"}
+{"text": "kendini tanit?", "label": "kimlik"}
+{"text": "2 mi 15 mi daha buyuk?", "label": "kiyas"}
+{"text": "Onar onar yirmiye kadar say.", "label": "bilgi"}
+{"text": "Sunucu nedir?", "label": "bilgi"}
+{"text": "Roket nasıl çalışır?", "label": "kapsam_disi"}
+{"text": "Bir listedeki eleman sayisini nasil bulurum?", "label": "kod"}
+{"text": "Python'da yorum satiri nasil yazilir?", "label": "kod"}
+{"text": "Bir yerde 2 elma var, 8 tane daha eklersek kac elma olur?", "label": "matematik"}
+{"text": "10'ten 3 cikarsak kac kalir?", "label": "matematik"}
+{"text": "0 ile 14'den hangisi buyuk?", "label": "kiyas"}
+{"text": "pırt xanto yablo mırfıl sertik", "label": "kapsam_disi"}
+{"text": "Bir metni buyuk harfe nasil ceviririm?", "label": "kod"}
+{"text": "vızıl glub trex glub sertik pırt", "label": "kapsam_disi"}
+{"text": "19 Mayis hangi bayramdir?", "label": "bilgi"}
+{"text": "2 mi 6 mi daha buyuk?", "label": "kiyas"}
+{"text": "bana nasıl yardımcı olabilirsin?", "label": "kimlik"}
+{"text": "11 mi 13 mi daha buyuk?", "label": "kiyas"}
+{"text": "günok günok flarp glub xanto", "label": "kapsam_disi"}
+{"text": "Kim tarafindan gelistirildin?", "label": "kimlik"}
+{"text": "2 carpi 6 kac eder?", "label": "matematik"}
+{"text": "kaplo zırt xanto glub munzo", "label": "kapsam_disi"}
+{"text": "Byte nedir?", "label": "bilgi"}
+{"text": "Internet ne ise yarar?", "label": "bilgi"}
+{"text": "20 ile 0'den hangisi buyuk?", "label": "kiyas"}
+{"text": "bir şirket mi yaptı seni?", "label": "kimlik"}
+{"text": "0 ile 9 toplami kac eder?", "label": "matematik"}
+{"text": "kendini tanit", "label": "kimlik"}
+{"text": "Hangisi daha kucuk, 14 mi 17 mi?", "label": "kiyas"}
+{"text": "Asil amacin nedir?", "label": "felsefe"}
+{"text": "Es anlamli kelime ne demek?", "label": "bilgi"}
+{"text": "Hayal gucu nedir?", "label": "felsefe"}
+{"text": "Bir yerde 11 lira var, 8 tane daha eklersek kac lira olur?", "label": "matematik"}
+{"text": "11 ile 5'den hangisi buyuk?", "label": "kiyas"}
+{"text": "20 ile 3'den hangisi buyuk?", "label": "kiyas"}
+{"text": "çevrimiçi misin?", "label": "kimlik"}
+{"text": "mırfıl günok blez kweez şponk kweez", "label": "kapsam_disi"}
+{"text": "pırt şponk mırfıl günok günok", "label": "kapsam_disi"}
+{"text": "Nasılsın", "label": "kimlik"}
+{"text": "Sen neden bana surekli durust olacagini soyluyorsun?", "label": "felsefe"}
+{"text": "Yeni Cag nedir?", "label": "bilgi"}
+{"text": "Mobil uygulama nedir?", "label": "bilgi"}
+{"text": "Karın ağrım var, hangi hastaneye gitmeliyim?", "label": "kapsam_disi"}
+{"text": "4 kere 8 kac eder?", "label": "matematik"}
+{"text": "1'den 50'ye kadar 3'e tam bolunen sayilari yazdir.", "label": "kod"}
+{"text": "Yarın yağmur yağacak mı?", "label": "kapsam_disi"}
+{"text": "glub kweez flarp drumel", "label": "kapsam_disi"}
+{"text": "Hangisi daha buyuk, 17 mi 4 mi?", "label": "kiyas"}
+{"text": "zırt glub fnort blez fnort mırfıl", "label": "kapsam_disi"}
+{"text": "günok yablo şponk trex", "label": "kapsam_disi"}
+{"text": "0 mi 19 mi daha kucuk?", "label": "kiyas"}
+{"text": "Ogle vakti yaklasik saat kactir?", "label": "bilgi"}
+{"text": "Selam, biraz felsefe konusalim. Once: gercek nedir?", "label": "felsefe"}
+{"text": "Bir yerde 9 kitap var, 1 tane daha eklersek kac kitap olur?", "label": "matematik"}
+{"text": "Internete erisebiliyor musun?", "label": "kimlik"}
+{"text": "8 mi 18 mi daha buyuk?", "label": "kiyas"}
+{"text": "Islemci ne ise yarar?", "label": "bilgi"}
+{"text": "10 eksi 10 kac eder?", "label": "matematik"}
+{"text": "Kaç yaşında oldun?", "label": "kimlik"}
+{"text": "Mutluluk nedir?", "label": "felsefe"}
+{"text": "12 ve 7'yi toplar misin?", "label": "matematik"}
+{"text": "Iyi bir karar nasil verilir?", "label": "felsefe"}
+{"text": "mırfıl şponk", "label": "kapsam_disi"}
+{"text": "xanto blez kweez pırt zırt krint", "label": "kapsam_disi"}
+{"text": "Bir yerde 11 elma var, 4 tane daha eklersek kac elma olur?", "label": "matematik"}
+{"text": "kweez kaplo günok lorem blez", "label": "kapsam_disi"}
+{"text": "Listede belirli bir eleman var mi nasil kontrol ederim?", "label": "kod"}
+{"text": "Hemsire ne yapar?", "label": "bilgi"}
+{"text": "18 mi 1 mi buyuk?", "label": "kiyas"}
+{"text": "drumel krint günok", "label": "kapsam_disi"}
+{"text": "Neler yapabilirsin", "label": "kimlik"}
+{"text": "4 ve 4'yi toplar misin?", "label": "matematik"}
+{"text": "krint kaplo yablo krint kaplo", "label": "kapsam_disi"}
+{"text": "Bir yerde 2 kus var, 4 tane daha eklersek kac kus olur?", "label": "matematik"}
+{"text": "Seni kim yapti?", "label": "kimlik"}
+{"text": "Bir yerde 8 kus var, 4 tane daha eklersek kac kus olur?", "label": "matematik"}
+{"text": "3 kere 1 kac eder?", "label": "matematik"}
+{"text": "lorem trex glub flarp vızıl", "label": "kapsam_disi"}
+{"text": "Bir sozu tutmak neden onemli?", "label": "felsefe"}
+{"text": "zırt blez xanto trex kaplo", "label": "kapsam_disi"}
+{"text": "Bir yerde 10 sayi var, 4 tane daha eklersek kac sayi olur?", "label": "matematik"}
+{"text": "16 mi 17 mi daha buyuk?", "label": "kiyas"}
+{"text": "12 mi 10 mi buyuk?", "label": "kiyas"}
+{"text": "Demir mi tahta mi daha agir, hangisi suda batar?", "label": "felsefe"}
+{"text": "Hangisi daha buyuk, 20 mi 2 mi?", "label": "kiyas"}
+{"text": "3 mi 12 mi buyuk?", "label": "kiyas"}
+{"text": "Hangisi daha buyuk, 4 mi 20 mi?", "label": "kiyas"}
+{"text": "Parametre alan bir fonksiyon yaz.", "label": "kod"}
+{"text": "drumel kaplo drumel drumel flarp", "label": "kapsam_disi"}
+{"text": "2 ve 5'yi toplar misin?", "label": "matematik"}
+{"text": "16 mi 15 mi daha buyuk?", "label": "kiyas"}
+{"text": "Sadakat nedir?", "label": "felsefe"}
+{"text": "pırt vızıl", "label": "kapsam_disi"}
+{"text": "kaplo vızıl drumel flarp kaplo", "label": "kapsam_disi"}
+{"text": "1'den 10'a kadar olan cift sayilarin toplamini bul.", "label": "kod"}
+{"text": "Mevsimler nelerdir?", "label": "bilgi"}
+{"text": "vızıl flarp günok günok fnort drumel", "label": "kapsam_disi"}
+{"text": "Yazilim nedir?", "label": "bilgi"}
+{"text": "Sincaplar kisin ne yapar?", "label": "bilgi"}
+{"text": "İki sayının üssünü alan fonksiyon nasıl yazılır?", "label": "kod"}
+{"text": "Bir yerde 10 kitap var, 2 tane daha eklersek kac kitap olur?", "label": "matematik"}
+{"text": "munzo fnort", "label": "kapsam_disi"}
+{"text": "12'ten 9 cikarsak kac kalir?", "label": "matematik"}
+{"text": "Hangisi daha buyuk, 11 mi 2 mi?", "label": "kiyas"}
+{"text": "Hangisi daha buyuk, 0 mi 1 mi?", "label": "kiyas"}
+{"text": "mırfıl sertik kaplo kaplo drumel", "label": "kapsam_disi"}
+{"text": "munzo xanto munzo yablo lorem", "label": "kapsam_disi"}
+{"text": "5 arti 7 kac?", "label": "matematik"}
+{"text": "Sen nesin?", "label": "kimlik"}
+{"text": "17 mi 15 mi daha buyuk?", "label": "kiyas"}
+{"text": "lorem flarp şponk lorem günok", "label": "kapsam_disi"}
+{"text": "i̇smini öğrenebilir miyim?", "label": "kimlik"}
+{"text": "İki sayıyı çıkaran fonksiyon yaz.", "label": "kod"}
+{"text": "11 mi 9 mi daha buyuk?", "label": "kiyas"}
+{"text": "Hangisi daha buyuk, 11 mi 18 mi?", "label": "kiyas"}
+{"text": "Kendini akilli buluyor musun?", "label": "felsefe"}
+{"text": "pırt pırt lorem munzo fnort glub", "label": "kapsam_disi"}
+{"text": "5 mi 14 mi buyuk?", "label": "kiyas"}
+{"text": "krint kaplo trex", "label": "kapsam_disi"}
+{"text": "1 ile 7'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Hayatta en onemli sey nedir?", "label": "felsefe"}
+{"text": "3 x 5 kac?", "label": "matematik"}
+{"text": "sen yapay zeka misin?", "label": "kimlik"}
+{"text": "TBMM ne zaman acildi?", "label": "bilgi"}
+{"text": "fnort günok yablo trex pırt krint", "label": "kapsam_disi"}
+{"text": "Bilgelik nedir?", "label": "felsefe"}
+{"text": "Hangisi daha kucuk, 17 mi 5 mi?", "label": "kiyas"}
+{"text": "Cam mi tas mi daha kolay kirilir?", "label": "felsefe"}
+{"text": "blez glub xanto krint", "label": "kapsam_disi"}
+{"text": "6 ile 12'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Hafta sonu hangi gunlerdir?", "label": "bilgi"}
+{"text": "sen yapay zeka mısın", "label": "kimlik"}
+{"text": "Bugun cok sey ogrendim.", "label": "felsefe"}
+{"text": "vızıl kweez", "label": "kapsam_disi"}
+{"text": "Sahra Colu nerede?", "label": "bilgi"}
+{"text": "Listedeki en buyuk sayiyi nasil bulurum?", "label": "kod"}
+{"text": "13 mi 17 mi buyuk?", "label": "kiyas"}
+{"text": "fnort günok kweez", "label": "kapsam_disi"}
+{"text": "krint krint blez pırt", "label": "kapsam_disi"}
+{"text": "Kullanicidan iki sayi alip topla.", "label": "kod"}
+{"text": "Bir yilda kac ay vardir?", "label": "bilgi"}
+{"text": "Hicligin anlami var mi?", "label": "felsefe"}
+{"text": "3 mi 19 mi daha buyuk?", "label": "kiyas"}
+{"text": "kaç yaşındasın", "label": "kimlik"}
+{"text": "6 arti 4 kac?", "label": "matematik"}
+{"text": "Senin en onemli ilken hangisi?", "label": "felsefe"}
+{"text": "Iki metni nasil birlestiririm?", "label": "kod"}
+{"text": "Insanlar nefes alirken neyi kullanir?", "label": "bilgi"}
+{"text": "Sayilari yazdiran bir dongu istiyorum ama 5'e gelince dursun.", "label": "kod"}
+{"text": "İki sayıyı toplayan bir fonksiyon yaz.", "label": "kod"}
+{"text": "Hangisi daha buyuk, 15 mi 20 mi?", "label": "kiyas"}
+{"text": "4 eksi 1 kac eder?", "label": "matematik"}
+{"text": "Geri donusum neden onemlidir?", "label": "bilgi"}
+{"text": "Bilincin var mi?", "label": "felsefe"}
+{"text": "8 ile 12'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Elimde 9 lira vardi, 5 tanesini verdim. Kac lira kaldi?", "label": "matematik"}
+{"text": "5'in katlarini 5'ten 50'ye kadar yazdirmak istiyorum.", "label": "kod"}
+{"text": "trex glub zırt", "label": "kapsam_disi"}
+{"text": "4 mi 16 mi buyuk?", "label": "kiyas"}
+{"text": "10 kere 6 kac eder?", "label": "matematik"}
+{"text": "şponk pırt flarp", "label": "kapsam_disi"}
+{"text": "Cok yorgunum bugun.", "label": "felsefe"}
+{"text": "Ozgurluk nedir?", "label": "felsefe"}
+{"text": "Kim olduğunu söyler misin?", "label": "kimlik"}
+{"text": "Sans diye bir sey var mi?", "label": "felsefe"}
+{"text": "A kutusu B'den agir, B kutusu C'den agir. En hafif hangisi?", "label": "bilgi"}
+{"text": "Yaziyi kucuk harfe cevirmek istiyorum.", "label": "kod"}
+{"text": "pırt blez drumel", "label": "kapsam_disi"}
+{"text": "Gokkusaginda hangi renkler vardir?", "label": "bilgi"}
+{"text": "7 eksi 5 kac eder?", "label": "matematik"}
+{"text": "9 mi 1 mi buyuk?", "label": "kiyas"}
+{"text": "Penguen mi flamingo mu daha iyi ucar?", "label": "felsefe"}
+{"text": "Listenin sonuna nasil yeni bir oge koyarim?", "label": "kod"}
+{"text": "Turkiye kac cografi bolgeden olusur?", "label": "bilgi"}
+{"text": "Bitkilerin kokleri ne ise yarar?", "label": "bilgi"}
+{"text": "yablo kaplo şponk günok", "label": "kapsam_disi"}
+{"text": "Sakla samani, gelir zamani ne anlama gelir?", "label": "bilgi"}
+{"text": "Cesaret nedir?", "label": "felsefe"}
+{"text": "Fransa'nin baskenti hangi sehir?", "label": "bilgi"}
+{"text": "11 arti 5 kac?", "label": "matematik"}
+{"text": "11 mi 0 mi daha buyuk?", "label": "kiyas"}
+{"text": "18 mi 14 mi daha kucuk?", "label": "kiyas"}
+{"text": "Kar nasil olusur?", "label": "bilgi"}
+{"text": "Iyilik mi yoksa adalet mi onemli?", "label": "felsefe"}
+{"text": "Sen ne kadar dogru soyluyorsun?", "label": "felsefe"}
+{"text": "munzo flarp vızıl kweez lorem drumel", "label": "kapsam_disi"}
+{"text": "munzo munzo fnort zırt lorem", "label": "kapsam_disi"}
+{"text": "Gunduz mu gece mi daha aydinlik?", "label": "felsefe"}
+{"text": "Doktor ne is yapar?", "label": "bilgi"}
+{"text": "Listedeki en küçük sayıyı döndüren kısa fonksiyon lazım.", "label": "kod"}
+{"text": "Everest dağı kaç metre?", "label": "kapsam_disi"}
+{"text": "7 ile 9 toplami kac eder?", "label": "matematik"}
+{"text": "Bir yerde 11 kus var, 7 tane daha eklersek kac kus olur?", "label": "matematik"}
+{"text": "14 mi 7 mi buyuk?", "label": "kiyas"}
+{"text": "11 arti 8 kac?", "label": "matematik"}
+{"text": "10 mi 15 mi daha buyuk?", "label": "kiyas"}
+{"text": "Pisamanlik nedir?", "label": "felsefe"}
+{"text": "drumel munzo", "label": "kapsam_disi"}
+{"text": "8 carpi 5 kac eder?", "label": "matematik"}
+{"text": "Bir listeyi kucukten buyuge nasil siralarim?", "label": "kod"}
+{"text": "Neden her sey degisir?", "label": "felsefe"}
+{"text": "Insan neden uyur?", "label": "felsefe"}
+{"text": "Kendini nasil goruyorsun?", "label": "felsefe"}
+{"text": "Bir sinek mi bir kartal mi daha hizli ucar?", "label": "felsefe"}
+{"text": "Ses uzayda duyulur mu?", "label": "bilgi"}
+{"text": "Gunde ne kadar su icmeliyim?", "label": "bilgi"}
+{"text": "Amacin sadece yardim mi?", "label": "felsefe"}
+{"text": "Gece ve gunduz neden olusur?", "label": "bilgi"}
+{"text": "Parayi ilk kimler kullanmistir?", "label": "bilgi"}
+{"text": "8 mi 14 mi daha buyuk?", "label": "kiyas"}
+{"text": "9 mi 11 mi buyuk?", "label": "kiyas"}
+{"text": "Umut bos bir sey mi?", "label": "felsefe"}
+{"text": "8'ten 5 cikarsak kac kalir?", "label": "matematik"}
+{"text": "trex zırt yablo krint sertik blez", "label": "kapsam_disi"}
+{"text": "Bir sepette 2 elma her cocuga 1 elma verilirse kac cocuga yeter?", "label": "bilgi"}
+{"text": "Sonsuzluk nedir?", "label": "felsefe"}
+{"text": "Adalet nedir?", "label": "felsefe"}
+{"text": "xanto şponk drumel glub", "label": "kapsam_disi"}
+{"text": "kaplo lorem pırt drumel", "label": "kapsam_disi"}
+{"text": "3'ten 0 cikarsak kac kalir?", "label": "matematik"}
+{"text": "Kader nedir?", "label": "felsefe"}
+{"text": "Zaman gercekten akiyor mu?", "label": "felsefe"}
+{"text": "Yalnizlik kotu bir sey mi?", "label": "felsefe"}
+{"text": "9 mi 5 mi daha buyuk?", "label": "kiyas"}
+{"text": "1 carpi 2 kac eder?", "label": "matematik"}
+{"text": "12 mi 10 mi daha buyuk?", "label": "kiyas"}
+{"text": "Bir metre kac santimetredir?", "label": "bilgi"}
+{"text": "Belge ne ise yarar?", "label": "bilgi"}
+{"text": "Ilk Cag ne anlama gelir?", "label": "bilgi"}
+{"text": "Bir sayiyi degiskene atayip ekrana yazdir.", "label": "kod"}
+{"text": "flarp glub pırt munzo", "label": "kapsam_disi"}
+{"text": "Bir degiskenin tipini nasil ogrenirim?", "label": "kod"}
+{"text": "12 - 0 kac?", "label": "matematik"}
+{"text": "Hizli kelimesinin karsiti nedir?", "label": "bilgi"}
+{"text": "Bir yil kac gundur?", "label": "bilgi"}
+{"text": "glub trex drumel zırt", "label": "kapsam_disi"}
+{"text": "mırfıl sertik xanto pırt kaplo glub", "label": "kapsam_disi"}
+{"text": "ABD'nin baskenti neresi?", "label": "bilgi"}
+{"text": "20 ile 15'den hangisi buyuk?", "label": "kiyas"}
+{"text": "Sence insanlar degisebilir mi?", "label": "felsefe"}
+{"text": "11 mi 7 mi buyuk?", "label": "kiyas"}
+{"text": "Kar mi yagmur mu daha soguk?", "label": "felsefe"}
+{"text": "fnort krint blez trex munzo", "label": "kapsam_disi"}
+{"text": "Bir sayinin karesini yazdir.", "label": "kod"}
+{"text": "4 mi 12 mi buyuk?", "label": "kiyas"}
+{"text": "1'ten 1 cikarsak kac kalir?", "label": "matematik"}
+{"text": "Başım ağrıyor ne yapmalıyım?", "label": "kapsam_disi"}
+{"text": "Bir listedeki sayıların toplamını veren fonksiyon yaz.", "label": "kod"}
+{"text": "Hangisi daha buyuk, 9 mi 8 mi?", "label": "kiyas"}

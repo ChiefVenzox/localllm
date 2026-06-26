@@ -1,0 +1,38 @@
+# Termodinamik Entropi ve İstatiksel Mekanik (Thermodynamic Entropy)
+
+Termodinamik entropi, bir sistemin düzensizliğinin veya rastgeleliğinin mikroskobik düzeydeki bir ölçüsüdür. Klasik termodinamikte entropi, bir sistemin işe dönüştürülemeyen ısı enerjisini temsil eder. Termodinamiğin İkinci Yasası'na göre, izole bir sistemin toplam entropisi zamanla asla azalmaz; sistemler her zaman daha yüksek entropili, yani daha düzensiz durumlara doğru evrilir. 
+
+İstatistiksel mekanikte Ludwig Boltzmann, entropiyi mikroskobik durumların sayısı ile ilişkilendirmiştir. Boltzmann formülü şu şekildedir:
+S = k_B * ln(W)
+Burada S entropiyi, k_B Boltzmann sabitini ve W ise sistemin sahip olabileceği mikroskobik durumların (mikro-durumlar) sayısını temsil eder. Sistem ne kadar çok olası duruma sahipse, belirsizlik o kadar yüksek ve entropi de o kadar büyüktür.
+
+Entropy in thermodynamics measures the degree of disorder or randomness in a closed system. According to the Second Law of Thermodynamics, the total entropy of an isolated system always increases over time. Statistical mechanics, pioneered by Ludwig Boltzmann, connects this macroscopic property to microscopic states with the equation S = k_B * ln(W), where W is the number of microstates.
+
+---
+
+# Shannon Entropisi ve Bilgi Teorisi (Shannon Entropy and Information Theory)
+
+1948 yılında Claude Shannon, bilgi teorisini kurarken entropi kavramını matematiksel bir çerçeveye oturtmuştur. Bilgi entropisi, bir veri kaynağındaki belirsizliğin, öngörülemezliğin veya bilgi miktarının ortalama ölçüsüdür. Bir X rassal değişkeninin Shannon entropisi H(X) şu formülle hesaplanır:
+H(X) = -sum( P(x_i) * log2( P(x_i) ) )
+Burada P(x_i), X değişkeninin x_i değerini alma olasılığıdır. Eğer bir olayın gerçekleşme olasılığı çok yüksekse (belirsizlik az ise), o olayın taşıdığı bilgi (entropi) düşüktür. Tam tersine, olayın gerçekleşme olasılığı düşükse, gerçekleştiğinde yarattığı şaşkınlık (surprise) ve taşıdığı bilgi miktarı yüksektir.
+
+Shannon entropy measures the average amount of information, surprise, or uncertainty produced by a stochastic source of data. The mathematical formula is H(X) = -sum(P(x_i) * log2(P(x_i))). When all outcomes are equally likely, the uncertainty is maximized, resulting in the highest possible entropy.
+
+---
+
+# Karşılıklı Entropi ve Yapay Zekada Kayıp Fonksiyonları (Cross-Entropy Loss in AI)
+
+Yapay öğrenmede ve özellikle büyük dil modellerinde (LLM), modelin başarısını ölçmek ve onu eğitmek için "Çapraz Entropi" (Cross-Entropy) kaybı kullanılır. Çapraz entropi, gerçek bir olasılık dağılımı (p) ile model tarafından tahmin edilen olasılık dağılımı (q) arasındaki farkı ölçer:
+H(p, q) = -sum( p(i) * log( q(i) ) )
+Dil modelleri, bir sonraki kelimeyi (token) tahmin ederken kelime dağarcığındaki (vocab) her bir kelime için bir olasılık dağılımı (q) üretir. Gerçek dağılım (p) ise hedef kelimenin olasılığının 1, diğerlerinin 0 olduğu tek-etkin (one-hot) bir dağılımdır. Bu durumda çapraz entropi kaybı, modelin hedef kelimeye verdiği olasılığın eksi logaritmasına indirgenir:
+L = -log( q(hedef) )
+Model eğitildikçe, bu çapraz entropi kaybı (loss) azalır. Kaybın azalması, modelin daha az "şaşırdığı", yani dili daha iyi tahmin ettiği anlamına gelir. Karşılıklı entropinin düşmesi, dil modelinin geliştiğinin en doğrudan göstergesidir.
+
+Cross-entropy measures the performance of a classification model whose output is a probability value between 0 and 1. In language models, cross-entropy loss compares the model's predicted next-token probability distribution q with the true distribution p (a one-hot vector for the correct token). Minimizing cross-entropy loss is mathematically equivalent to minimizing the Kullback-Leibler (KL) divergence between the true data distribution and the model's model. As loss decreases during training, the model's prediction accuracy improves and its internal entropy (uncertainty) drops.
+
+---
+
+# Entropi ve Evrim: Dil Modelleri Nasıl Öğrenir? (How Language Models Develop)
+
+Bir dil modelinin eğitimi sıfırdan başlarken, tüm ağırlıklar rastgele başlatılır. Bu aşamada modelin tahmin gücü tamamen rastgeledir ve ürettiği olasılık dağılımı üniform dağılıma yakındır. Bu durum maksimum entropiye (belirsizliğe) karşılık gelir. Model hiçbir şey bilmez ve her tokenı eşit derecede olası görür.
+Eğitim adımları ilerledikçe (SGD, AdamW optimizasyon algoritmaları aracılığıyla), model gradyanları takip ederek parametrelerini günceller. Karşılıklı entropi kaybı (cross-entropy loss) düştükçe, modelin olasılık dağılımları belirli tokenlar üzerinde yoğunlaşmaya başlar. Belirsizlik azalır, düzen artar. Böylece model kelimeler arasındaki ilişkileri, dilbilgisi kurallarını ve mantıksal yapıları öğrenir. Dil modelinin öğrenme süreci, bilgi teorisi anlamında entropinin azaltılması sürecidir.

@@ -1,0 +1,409 @@
+{"messages": [{"role": "user", "content": "Gunes sisteminde kac gezegen var?"}, {"role": "assistant", "content": "Gunes sisteminde sekiz gezegen vardir."}]}
+{"messages": [{"role": "user", "content": "Gunes sistemindeki gezegen sayisi nedir?"}, {"role": "assistant", "content": "Sekiz gezegen bulunur: Merkur, Venus, Dunya, Mars, Jupiter, Saturn, Uranus ve Neptun."}]}
+{"messages": [{"role": "user", "content": "Gunese en yakin gezegen hangisi?"}, {"role": "assistant", "content": "Gunese en yakin gezegen Merkur'dur."}]}
+{"messages": [{"role": "user", "content": "Gunes sistemindeki en buyuk gezegen hangisidir?"}, {"role": "assistant", "content": "En buyuk gezegen Jupiter'dir."}]}
+{"messages": [{"role": "user", "content": "Hangi gezegene Kizil Gezegen denir?"}, {"role": "assistant", "content": "Mars'a Kizil Gezegen denir, cunku yuzeyi kirmizimsi gorunur."}]}
+{"messages": [{"role": "user", "content": "Dunya'nin uydusu nedir?"}, {"role": "assistant", "content": "Dunya'nin dogal uydusu Ay'dir."}]}
+{"messages": [{"role": "user", "content": "Gunes bir gezegen midir?"}, {"role": "assistant", "content": "Hayir, Gunes bir yildizdir."}]}
+{"messages": [{"role": "user", "content": "Gunes nelerden olusur?"}, {"role": "assistant", "content": "Gunes cogunlukla hidrojen ve helyum gazindan olusur."}]}
+{"messages": [{"role": "user", "content": "Dunya neyin etrafinda doner?"}, {"role": "assistant", "content": "Dunya, Gunes'in etrafinda doner."}]}
+{"messages": [{"role": "user", "content": "Dunya bir tam turunu kac gunde tamamlar?"}, {"role": "assistant", "content": "Dunya, Gunes etrafindaki turunu yaklasik 365 gunde tamamlar."}]}
+{"messages": [{"role": "user", "content": "Gece ve gunduz neden olusur?"}, {"role": "assistant", "content": "Dunya kendi ekseni etrafinda dondugu icin gece ve gunduz olusur."}]}
+{"messages": [{"role": "user", "content": "Mevsimler neden olusur?"}, {"role": "assistant", "content": "Dunya'nin ekseninin egik olmasi nedeniyle mevsimler olusur."}]}
+{"messages": [{"role": "user", "content": "Su dongusu nedir?"}, {"role": "assistant", "content": "Suyun buharlasip yagmur olarak geri dusmesi ve bu dongunun surekli tekrarlanmasidir."}]}
+{"messages": [{"role": "user", "content": "Su buharlasinca ne olur?"}, {"role": "assistant", "content": "Su buharlasarak su buharina, yani gaz haline gecer."}]}
+{"messages": [{"role": "user", "content": "Yagmur nasil olusur?"}, {"role": "assistant", "content": "Bulutlardaki su damlaciklari birikip agirlasinca yagmur olarak yere duser."}]}
+{"messages": [{"role": "user", "content": "Bulutlar neden olusur?"}, {"role": "assistant", "content": "Havadaki su buharinin yogunlasmasiyla bulutlar olusur."}]}
+{"messages": [{"role": "user", "content": "Yer cekimi nedir?"}, {"role": "assistant", "content": "Yer cekimi, Dunya'nin cisimleri kendine dogru cektigi kuvvettir."}]}
+{"messages": [{"role": "user", "content": "Birakilan bir cisim neden asagi duser?"}, {"role": "assistant", "content": "Yer cekimi cismi Dunya'nin merkezine dogru cektigi icin asagi duser."}]}
+{"messages": [{"role": "user", "content": "Ay'da neden daha hafif hissederiz?"}, {"role": "assistant", "content": "Ay'in yer cekimi Dunya'dakinden cok daha az oldugu icin orada daha hafif hissederiz."}]}
+{"messages": [{"role": "user", "content": "Isik nedir?"}, {"role": "assistant", "content": "Isik, gozumuzun gormesini saglayan bir enerji turudur."}]}
+{"messages": [{"role": "user", "content": "Isik mi ses mi daha hizlidir?"}, {"role": "assistant", "content": "Isik sesten cok daha hizlidir."}]}
+{"messages": [{"role": "user", "content": "Golge nasil olusur?"}, {"role": "assistant", "content": "Isik bir cisme carpip arkasina gecemeyince golge olusur."}]}
+{"messages": [{"role": "user", "content": "Gokkusagi nasil olusur?"}, {"role": "assistant", "content": "Gunes isiginin su damlaciklarinda kirilmasiyla gokkusagi olusur."}]}
+{"messages": [{"role": "user", "content": "Ses nasil olusur?"}, {"role": "assistant", "content": "Ses, titresen cisimlerin havayi titrestirmesiyle olusur."}]}
+{"messages": [{"role": "user", "content": "Ses uzayda duyulur mu?"}, {"role": "assistant", "content": "Hayir, uzayda hava olmadigi icin ses yayilmaz."}]}
+{"messages": [{"role": "user", "content": "Atom nedir?"}, {"role": "assistant", "content": "Atom, maddenin en kucuk yapi tasidir."}]}
+{"messages": [{"role": "user", "content": "Molekul nedir?"}, {"role": "assistant", "content": "Molekul, iki ya da daha fazla atomun bir araya gelmesiyle olusur."}]}
+{"messages": [{"role": "user", "content": "Suyun kimyasal formulu nedir?"}, {"role": "assistant", "content": "Suyun formulu H2O'dur; iki hidrojen ve bir oksijen atomundan olusur."}]}
+{"messages": [{"role": "user", "content": "Madde kac halde bulunur?"}, {"role": "assistant", "content": "Madde uc temel halde bulunur: kati, sivi ve gaz."}]}
+{"messages": [{"role": "user", "content": "Buz neyin kati halidir?"}, {"role": "assistant", "content": "Buz, suyun kati halidir."}]}
+{"messages": [{"role": "user", "content": "Su kac derecede kaynar?"}, {"role": "assistant", "content": "Su, deniz seviyesinde 100 derecede kaynar."}]}
+{"messages": [{"role": "user", "content": "Su kac derecede donar?"}, {"role": "assistant", "content": "Su 0 derecede donarak buz olur."}]}
+{"messages": [{"role": "user", "content": "Fotosentez nedir?"}, {"role": "assistant", "content": "Bitkilerin gunes isigi ile besin ve oksijen uretmesi olayidir."}]}
+{"messages": [{"role": "user", "content": "Bitkiler oksijeni nasil uretir?"}, {"role": "assistant", "content": "Bitkiler fotosentez yaparak oksijen uretir."}]}
+{"messages": [{"role": "user", "content": "Bitkiler fotosentez icin neye ihtiyac duyar?"}, {"role": "assistant", "content": "Gunes isigi, su ve karbondioksite ihtiyac duyar."}]}
+{"messages": [{"role": "user", "content": "Insanlar nefes alirken neyi kullanir?"}, {"role": "assistant", "content": "Insanlar nefes alirken havadaki oksijeni kullanir."}]}
+{"messages": [{"role": "user", "content": "Insanlar nefes verirken hangi gazi cikarir?"}, {"role": "assistant", "content": "Insanlar nefes verirken karbondioksit cikarir."}]}
+{"messages": [{"role": "user", "content": "Canlilarin ortak ozelligi nedir?"}, {"role": "assistant", "content": "Canlilar beslenir, buyur, ureyer ve solunum yapar."}]}
+{"messages": [{"role": "user", "content": "Hucre nedir?"}, {"role": "assistant", "content": "Hucre, canlilarin en kucuk yapi ve gorev birimidir."}]}
+{"messages": [{"role": "user", "content": "Kalbin gorevi nedir?"}, {"role": "assistant", "content": "Kalp, kani vucuda pompalayarak dolasimi saglar."}]}
+{"messages": [{"role": "user", "content": "Akcigerlerin gorevi nedir?"}, {"role": "assistant", "content": "Akcigerler solunumu saglar, yani oksijen alip karbondioksit verir."}]}
+{"messages": [{"role": "user", "content": "Bitkilerin kokleri ne ise yarar?"}, {"role": "assistant", "content": "Kokler bitkiyi topraga baglar ve su ile mineralleri emer."}]}
+{"messages": [{"role": "user", "content": "Manyetik miknatis neyi ceker?"}, {"role": "assistant", "content": "Miknatis demir gibi metalleri ceker."}]}
+{"messages": [{"role": "user", "content": "Pusula neyi gosterir?"}, {"role": "assistant", "content": "Pusula, Dunya'nin manyetik alani sayesinde kuzey yonunu gosterir."}]}
+{"messages": [{"role": "user", "content": "Buz suda neden batmaz?"}, {"role": "assistant", "content": "Buz sudan daha az yogun oldugu icin suda yuzer."}]}
+{"messages": [{"role": "user", "content": "Termometre ne olcer?"}, {"role": "assistant", "content": "Termometre sicakligi olcer."}]}
+{"messages": [{"role": "user", "content": "Dunya'nin sekli nasildir?"}, {"role": "assistant", "content": "Dunya kuresel, yani yuvarlak bir sekle sahiptir."}]}
+{"messages": [{"role": "user", "content": "Yildizlar neden geceleri parlak gorunur?"}, {"role": "assistant", "content": "Yildizlar kendi isiklarini yayar ve karanlik gokyuzunde daha belirgin gorunurler."}]}
+{"messages": [{"role": "user", "content": "Ay neden parlak gorunur?"}, {"role": "assistant", "content": "Ay kendi isigini uretmez, Gunes'in isigini yansittigi icin parlak gorunur."}]}
+{"messages": [{"role": "user", "content": "Dunyada kac kita var?"}, {"role": "assistant", "content": "Dunyada yedi kita vardir."}]}
+{"messages": [{"role": "user", "content": "Kitalarin isimlerini sayar misin?"}, {"role": "assistant", "content": "Asya, Afrika, Avrupa, Kuzey Amerika, Guney Amerika, Antarktika ve Okyanusya."}]}
+{"messages": [{"role": "user", "content": "En buyuk kita hangisidir?"}, {"role": "assistant", "content": "En buyuk kita Asya'dir."}]}
+{"messages": [{"role": "user", "content": "En kucuk kita nedir?"}, {"role": "assistant", "content": "En kucuk kita Okyanusya'dir."}]}
+{"messages": [{"role": "user", "content": "Dunyada kac okyanus var?"}, {"role": "assistant", "content": "Dunyada bes okyanus vardir."}]}
+{"messages": [{"role": "user", "content": "En buyuk okyanus hangisi?"}, {"role": "assistant", "content": "En buyuk okyanus Buyuk Okyanus'tur, yani Pasifik Okyanusu."}]}
+{"messages": [{"role": "user", "content": "Okyanuslarin adlari neler?"}, {"role": "assistant", "content": "Pasifik, Atlas, Hint, Arktik ve Guney Okyanusu."}]}
+{"messages": [{"role": "user", "content": "Dunyanin sekli nasildir?"}, {"role": "assistant", "content": "Dunya yuvarlaktir; tam olarak kutuplardan hafifce basik bir kuredir."}]}
+{"messages": [{"role": "user", "content": "Dunya duz mu yoksa yuvarlak mi?"}, {"role": "assistant", "content": "Dunya yuvarlaktir, duz degildir."}]}
+{"messages": [{"role": "user", "content": "Dunyanin en uzun nehri hangisi?"}, {"role": "assistant", "content": "Dunyanin en uzun nehri Nil Nehri olarak kabul edilir."}]}
+{"messages": [{"role": "user", "content": "Amazon nehri nerede?"}, {"role": "assistant", "content": "Amazon Nehri Guney Amerika'dadir."}]}
+{"messages": [{"role": "user", "content": "Dunyanin en yuksek dagi nedir?"}, {"role": "assistant", "content": "Dunyanin en yuksek dagi Everest'tir."}]}
+{"messages": [{"role": "user", "content": "Everest hangi kitada bulunur?"}, {"role": "assistant", "content": "Everest Asya'da, Himalayalar'da yer alir."}]}
+{"messages": [{"role": "user", "content": "Sahra Colu nerede?"}, {"role": "assistant", "content": "Sahra Colu Kuzey Afrika'dadir."}]}
+{"messages": [{"role": "user", "content": "Turkiye'nin baskenti neresi?"}, {"role": "assistant", "content": "Turkiye'nin baskenti Ankara'dir."}]}
+{"messages": [{"role": "user", "content": "Fransa'nin baskenti hangi sehir?"}, {"role": "assistant", "content": "Fransa'nin baskenti Paris'tir."}]}
+{"messages": [{"role": "user", "content": "Almanya'nin baskenti neresi?"}, {"role": "assistant", "content": "Almanya'nin baskenti Berlin'dir."}]}
+{"messages": [{"role": "user", "content": "Italya'nin baskenti nedir?"}, {"role": "assistant", "content": "Italya'nin baskenti Roma'dir."}]}
+{"messages": [{"role": "user", "content": "Ispanya'nin baskenti neresi?"}, {"role": "assistant", "content": "Ispanya'nin baskenti Madrid'dir."}]}
+{"messages": [{"role": "user", "content": "Ingiltere'nin baskenti hangi sehir?"}, {"role": "assistant", "content": "Ingiltere'nin baskenti Londra'dir."}]}
+{"messages": [{"role": "user", "content": "Rusya'nin baskenti neresi?"}, {"role": "assistant", "content": "Rusya'nin baskenti Moskova'dir."}]}
+{"messages": [{"role": "user", "content": "Japonya'nin baskenti nedir?"}, {"role": "assistant", "content": "Japonya'nin baskenti Tokyo'dur."}]}
+{"messages": [{"role": "user", "content": "Cin'in baskenti neresi?"}, {"role": "assistant", "content": "Cin'in baskenti Pekin'dir."}]}
+{"messages": [{"role": "user", "content": "Misir'in baskenti hangi sehir?"}, {"role": "assistant", "content": "Misir'in baskenti Kahire'dir."}]}
+{"messages": [{"role": "user", "content": "Yunanistan'in baskenti nedir?"}, {"role": "assistant", "content": "Yunanistan'in baskenti Atina'dir."}]}
+{"messages": [{"role": "user", "content": "Turkiye kac cografi bolgeden olusur?"}, {"role": "assistant", "content": "Turkiye yedi cografi bolgeden olusur."}]}
+{"messages": [{"role": "user", "content": "Turkiye'nin bolgelerini sayar misin?"}, {"role": "assistant", "content": "Marmara, Ege, Akdeniz, Ic Anadolu, Karadeniz, Dogu Anadolu ve Guneydogu Anadolu."}]}
+{"messages": [{"role": "user", "content": "Turkiye'nin en kalabalik sehri hangisi?"}, {"role": "assistant", "content": "Turkiye'nin en kalabalik sehri Istanbul'dur."}]}
+{"messages": [{"role": "user", "content": "Istanbul hangi bogazda yer alir?"}, {"role": "assistant", "content": "Istanbul, Istanbul Bogazi'nin iki yakasinda yer alir."}]}
+{"messages": [{"role": "user", "content": "Turkiye'yi cevreleyen denizler hangileri?"}, {"role": "assistant", "content": "Karadeniz, Marmara Denizi, Ege Denizi ve Akdeniz."}]}
+{"messages": [{"role": "user", "content": "Turkiye'nin en yuksek dagi nedir?"}, {"role": "assistant", "content": "Turkiye'nin en yuksek dagi Agri Dagi'dir."}]}
+{"messages": [{"role": "user", "content": "Turkiye'nin en uzun nehri hangisi?"}, {"role": "assistant", "content": "Turkiye'nin en uzun nehri Kizilirmak'tir."}]}
+{"messages": [{"role": "user", "content": "Turkiye'nin en buyuk golu nedir?"}, {"role": "assistant", "content": "Turkiye'nin en buyuk golu Van Golu'dur."}]}
+{"messages": [{"role": "user", "content": "Karadeniz Bolgesi'nin iklimi nasildir?"}, {"role": "assistant", "content": "Karadeniz Bolgesi her mevsim yagisli ve nemli bir iklime sahiptir."}]}
+{"messages": [{"role": "user", "content": "Akdeniz iklimi nasil bir iklimdir?"}, {"role": "assistant", "content": "Akdeniz iklimi yazlari sicak ve kurak, kislari ilik ve yagislidir."}]}
+{"messages": [{"role": "user", "content": "Iki kita uzerinde bulunan sehir hangisi?"}, {"role": "assistant", "content": "Istanbul, hem Avrupa hem Asya kitasinda yer alir."}]}
+{"messages": [{"role": "user", "content": "Bogazici hangi denizleri birbirine baglar?"}, {"role": "assistant", "content": "Istanbul Bogazi, Karadeniz ile Marmara Denizi'ni birbirine baglar."}]}
+{"messages": [{"role": "user", "content": "Turkiye hangi kitalarda yer alir?"}, {"role": "assistant", "content": "Turkiye topraklarinin buyuk kismi Asya'da, kucuk bir kismi Avrupa'dadir."}]}
+{"messages": [{"role": "user", "content": "Ekvator nedir?"}, {"role": "assistant", "content": "Ekvator, Dunya'yi kuzey ve guney yarim kureye ayiran hayali cizgidir."}]}
+{"messages": [{"role": "user", "content": "Kutuplar nerededir?"}, {"role": "assistant", "content": "Dunyanin en kuzey noktasi Kuzey Kutbu, en guney noktasi Guney Kutbu'dur."}]}
+{"messages": [{"role": "user", "content": "En soguk kita hangisidir?"}, {"role": "assistant", "content": "En soguk kita Antarktika'dir."}]}
+{"messages": [{"role": "user", "content": "Dunyanin en buyuk colu hangisi?"}, {"role": "assistant", "content": "Sicak coller arasinda en buyugu Sahra Colu'dur."}]}
+{"messages": [{"role": "user", "content": "ABD'nin baskenti neresi?"}, {"role": "assistant", "content": "ABD'nin baskenti Washington'dur."}]}
+{"messages": [{"role": "user", "content": "Hollanda'nin baskenti hangi sehir?"}, {"role": "assistant", "content": "Hollanda'nin baskenti Amsterdam'dir."}]}
+{"messages": [{"role": "user", "content": "Portekiz'in baskenti nedir?"}, {"role": "assistant", "content": "Portekiz'in baskenti Lizbon'dur."}]}
+{"messages": [{"role": "user", "content": "Ic Anadolu Bolgesi'nin iklimi nasildir?"}, {"role": "assistant", "content": "Ic Anadolu'da karasal iklim gorulur; yazlari sicak, kislari soguk ve kuraktir."}]}
+{"messages": [{"role": "user", "content": "Dunyanin ekseni etrafinda donmesi neye yol acar?"}, {"role": "assistant", "content": "Dunyanin kendi ekseni etrafinda donmesi gece ile gunduzun olusmasina yol acar."}]}
+{"messages": [{"role": "user", "content": "Marmara Denizi nerededir?"}, {"role": "assistant", "content": "Marmara Denizi, Karadeniz ile Ege Denizi arasinda, tamamen Turkiye topraklari icindedir."}]}
+{"messages": [{"role": "user", "content": "Ege Denizi hangi iki ulke arasindadir?"}, {"role": "assistant", "content": "Ege Denizi, Turkiye ile Yunanistan arasinda yer alir."}]}
+{"messages": [{"role": "user", "content": "Tarih nedir?"}, {"role": "assistant", "content": "Tarih, gecmiste yasanan olaylari inceleyen ve belgeleyen bilim dalidir."}]}
+{"messages": [{"role": "user", "content": "Tarih bilimi neyi arastirir?"}, {"role": "assistant", "content": "Insanligin gecmisini, olaylari ve toplumlarin gelisimini arastirir."}]}
+{"messages": [{"role": "user", "content": "Tarih neden onemlidir?"}, {"role": "assistant", "content": "Gecmisten ders alip bugunu daha iyi anlamamizi saglar."}]}
+{"messages": [{"role": "user", "content": "Tarihci kimdir?"}, {"role": "assistant", "content": "Gecmis olaylari arastiran ve kaynaklara dayanarak inceleyen kisiye tarihci denir."}]}
+{"messages": [{"role": "user", "content": "Tarih oncesi devirler ne demek?"}, {"role": "assistant", "content": "Yazinin bulunmasindan onceki donemlere tarih oncesi devirler denir."}]}
+{"messages": [{"role": "user", "content": "Yazinin bulunmasi neden onemli?"}, {"role": "assistant", "content": "Yazinin bulunmasiyla tarihi cag basladi cunku olaylar artik yaziyla kaydedildi."}]}
+{"messages": [{"role": "user", "content": "Tas Devri nedir?"}, {"role": "assistant", "content": "Insanlarin aletlerini tastan yaptigi cok eski bir tarih oncesi donemdir."}]}
+{"messages": [{"role": "user", "content": "Ilk Cag ne anlama gelir?"}, {"role": "assistant", "content": "Yazinin icadiyla baslayan ve eski medeniyetleri kapsayan ilk tarihi donemdir."}]}
+{"messages": [{"role": "user", "content": "Orta Cag hakkinda kisaca bilgi verir misin?"}, {"role": "assistant", "content": "Orta Cag, Ilk Cag'dan sonra gelen ve yuzyillarca suren genis bir tarihi donemdir."}]}
+{"messages": [{"role": "user", "content": "Yeni Cag nedir?"}, {"role": "assistant", "content": "Orta Cag'dan sonra gelen, kesifler ve buyuk degisimlerin yasandigi tarihi donemdir."}]}
+{"messages": [{"role": "user", "content": "Medeniyet ne demektir?"}, {"role": "assistant", "content": "Bir toplumun ulastigi kulturel, sosyal ve teknik gelismislik duzeyine medeniyet denir."}]}
+{"messages": [{"role": "user", "content": "Uygarlik ile medeniyet ayni sey mi?"}, {"role": "assistant", "content": "Evet, uygarlik ve medeniyet ayni anlama gelen kelimelerdir."}]}
+{"messages": [{"role": "user", "content": "Turkiye Cumhuriyeti ne zaman kuruldu?"}, {"role": "assistant", "content": "Turkiye Cumhuriyeti 29 Ekim 1923'te kurulmustur."}]}
+{"messages": [{"role": "user", "content": "Cumhuriyet hangi yil ilan edildi?"}, {"role": "assistant", "content": "Cumhuriyet 1923 yilinda ilan edilmistir."}]}
+{"messages": [{"role": "user", "content": "Turkiye Cumhuriyeti'nin kurucusu kimdir?"}, {"role": "assistant", "content": "Turkiye Cumhuriyeti'nin kurucusu Mustafa Kemal Ataturk'tur."}]}
+{"messages": [{"role": "user", "content": "Ataturk kimdir?"}, {"role": "assistant", "content": "Mustafa Kemal Ataturk, Turkiye Cumhuriyeti'nin kurucusu ve ilk cumhurbaskanidir."}]}
+{"messages": [{"role": "user", "content": "Turkiye'nin ilk cumhurbaskani kimdir?"}, {"role": "assistant", "content": "Turkiye'nin ilk cumhurbaskani Mustafa Kemal Ataturk'tur."}]}
+{"messages": [{"role": "user", "content": "29 Ekim hangi bayramdir?"}, {"role": "assistant", "content": "29 Ekim, Cumhuriyet Bayrami olarak kutlanir."}]}
+{"messages": [{"role": "user", "content": "Cumhuriyet Bayrami ne zaman kutlanir?"}, {"role": "assistant", "content": "Cumhuriyet Bayrami her yil 29 Ekim'de kutlanir."}]}
+{"messages": [{"role": "user", "content": "Kurtulus Savasi'ni kim yonetti?"}, {"role": "assistant", "content": "Kurtulus Savasi Mustafa Kemal Ataturk'un onderliginde yonetilmistir."}]}
+{"messages": [{"role": "user", "content": "23 Nisan hangi bayramdir?"}, {"role": "assistant", "content": "23 Nisan, Ulusal Egemenlik ve Cocuk Bayrami'dir."}]}
+{"messages": [{"role": "user", "content": "TBMM ne zaman acildi?"}, {"role": "assistant", "content": "Turkiye Buyuk Millet Meclisi 23 Nisan 1920'de acilmistir."}]}
+{"messages": [{"role": "user", "content": "Turkiye'nin baskenti neresidir?"}, {"role": "assistant", "content": "Turkiye'nin baskenti Ankara'dir."}]}
+{"messages": [{"role": "user", "content": "Cumhuriyet ne demektir?"}, {"role": "assistant", "content": "Halkin secimle is basina getirdigi temsilciler tarafindan yonetildigi devlet bicimidir."}]}
+{"messages": [{"role": "user", "content": "Osmanli Devleti ne idi?"}, {"role": "assistant", "content": "Osmanli Devleti, Turkiye Cumhuriyeti'nden once var olan buyuk bir imparatorluktur."}]}
+{"messages": [{"role": "user", "content": "Imparatorluk ne demek?"}, {"role": "assistant", "content": "Genis topraklara ve farkli halklara hukmeden, bir hukumdar tarafindan yonetilen buyuk devlettir."}]}
+{"messages": [{"role": "user", "content": "Tarihte kaynak ne demektir?"}, {"role": "assistant", "content": "Gecmis hakkinda bilgi veren belge, yazit veya esya gibi malzemelere kaynak denir."}]}
+{"messages": [{"role": "user", "content": "Arkeoloji nedir?"}, {"role": "assistant", "content": "Gecmis toplumlardan kalan kalintilari kazilarla ortaya cikarip inceleyen bilimdir."}]}
+{"messages": [{"role": "user", "content": "Muze ne ise yarar?"}, {"role": "assistant", "content": "Muze, tarihi ve kulturel eserleri korur ve insanlara sergiler."}]}
+{"messages": [{"role": "user", "content": "Cag ne demek?"}, {"role": "assistant", "content": "Tarihte onemli olaylarla birbirinden ayrilan uzun zaman dilimlerine cag denir."}]}
+{"messages": [{"role": "user", "content": "Yuzyil kac yildir?"}, {"role": "assistant", "content": "Bir yuzyil yuz yildir."}]}
+{"messages": [{"role": "user", "content": "Milat ne demektir?"}, {"role": "assistant", "content": "Tarih hesaplamasinda baslangic kabul edilen yila milat denir."}]}
+{"messages": [{"role": "user", "content": "Ilk yazi hangi medeniyette ortaya cikmistir?"}, {"role": "assistant", "content": "Yazi, Mezopotamya'da Sumerler tarafindan icat edilmistir."}]}
+{"messages": [{"role": "user", "content": "Mezopotamya neresi?"}, {"role": "assistant", "content": "Mezopotamya, Dicle ve Firat nehirleri arasinda kalan eski medeniyetler bolgesidir."}]}
+{"messages": [{"role": "user", "content": "Anadolu ne demek?"}, {"role": "assistant", "content": "Anadolu, bugunku Turkiye'nin Asya kitasindaki topraklarina verilen addir."}]}
+{"messages": [{"role": "user", "content": "Anadolu'da hangi eski medeniyetler yasamistir?"}, {"role": "assistant", "content": "Anadolu'da Hititler, Frigler ve Lidyalilar gibi cok sayida eski medeniyet yasamistir."}]}
+{"messages": [{"role": "user", "content": "Hititler kimdir?"}, {"role": "assistant", "content": "Hititler, Anadolu'da yasamis eski bir medeniyettir."}]}
+{"messages": [{"role": "user", "content": "Parayi ilk kimler kullanmistir?"}, {"role": "assistant", "content": "Ilk madeni parayi Anadolu'da Lidyalilar kullanmistir."}]}
+{"messages": [{"role": "user", "content": "Tarih neden donemlere ayrilir?"}, {"role": "assistant", "content": "Olaylari daha kolay incelemek ve anlamak icin tarih donemlere ayrilir."}]}
+{"messages": [{"role": "user", "content": "Kultur nedir?"}, {"role": "assistant", "content": "Bir toplumun gelenek, dil, sanat ve yasam bicimlerinin tumune kultur denir."}]}
+{"messages": [{"role": "user", "content": "Belge ne ise yarar?"}, {"role": "assistant", "content": "Belge, gecmisteki bir olayi veya bilgiyi kanitlamaya yarar."}]}
+{"messages": [{"role": "user", "content": "Tarih ile efsane arasindaki fark nedir?"}, {"role": "assistant", "content": "Tarih kanitlara dayanir, efsane ise gercekligi belirsiz anlatilardir."}]}
+{"messages": [{"role": "user", "content": "Cumhuriyet'ten once Turkiye nasil yonetiliyordu?"}, {"role": "assistant", "content": "Cumhuriyet'ten once topraklar Osmanli Devleti tarafindan padisahlikla yonetiliyordu."}]}
+{"messages": [{"role": "user", "content": "Tarihte kronoloji ne demek?"}, {"role": "assistant", "content": "Olaylarin olus sirasina gore zamana dizilmesine kronoloji denir."}]}
+{"messages": [{"role": "user", "content": "Neden gecmisi ogreniriz?"}, {"role": "assistant", "content": "Gecmisi ogrenerek kim oldugumuzu anlar ve gelecege daha hazirlikli oluruz."}]}
+{"messages": [{"role": "user", "content": "Kediler ne yer?"}, {"role": "assistant", "content": "Kediler etcildir; baslica et yerler ama kedi mamasi da onlara uygun besin saglar."}]}
+{"messages": [{"role": "user", "content": "Inekler ne ile beslenir?"}, {"role": "assistant", "content": "Inekler otcul hayvanlardir; cogunlukla ot, saman ve yem yerler."}]}
+{"messages": [{"role": "user", "content": "Aslan nerede yasar?"}, {"role": "assistant", "content": "Aslanlar genellikle Afrika'daki savanlarda yasar."}]}
+{"messages": [{"role": "user", "content": "Penguenler nerede yasar?"}, {"role": "assistant", "content": "Penguenler cogunlukla guney yarim kurede, ozellikle Antarktika cevresinde yasar."}]}
+{"messages": [{"role": "user", "content": "Kutup ayilari nerede bulunur?"}, {"role": "assistant", "content": "Kutup ayilari kuzey kutbu cevresindeki buzul bolgelerde yasar."}]}
+{"messages": [{"role": "user", "content": "Develer colde nasil hayatta kalir?"}, {"role": "assistant", "content": "Develer hortumlarindaki yag deposu sayesinde uzun sure susuz dayanabilir."}]}
+{"messages": [{"role": "user", "content": "Ariler ne ise yarar?"}, {"role": "assistant", "content": "Ariler bal yapar ve bitkilerin tozlasmasini saglayarak doga icin cok onemlidir."}]}
+{"messages": [{"role": "user", "content": "Kelebekler nasil olusur?"}, {"role": "assistant", "content": "Kelebekler once tirtil olur, sonra koza icinde basamak gecirip kelebege donusur."}]}
+{"messages": [{"role": "user", "content": "Baliklar nasil nefes alir?"}, {"role": "assistant", "content": "Baliklar solungaclari sayesinde sudaki oksijeni alarak nefes alir."}]}
+{"messages": [{"role": "user", "content": "Yarasa kus mudur?"}, {"role": "assistant", "content": "Hayir, yarasa kus degildir; ucabilen tek memeli hayvandir."}]}
+{"messages": [{"role": "user", "content": "En buyuk hayvan hangisidir?"}, {"role": "assistant", "content": "Dunyadaki en buyuk hayvan mavi balinadir."}]}
+{"messages": [{"role": "user", "content": "En hizli kara hayvani nedir?"}, {"role": "assistant", "content": "En hizli kara hayvani cita olarak bilinir."}]}
+{"messages": [{"role": "user", "content": "Yilanlar zehirli midir?"}, {"role": "assistant", "content": "Bazi yilanlar zehirlidir ama cogu yilan zehirsizdir."}]}
+{"messages": [{"role": "user", "content": "Kaplumbagalar neden yavastir?"}, {"role": "assistant", "content": "Kaplumbagalar agir kabuklari ve kisa bacaklari yuzunden yavas hareket eder."}]}
+{"messages": [{"role": "user", "content": "Kurbagalar nerede yasar?"}, {"role": "assistant", "content": "Kurbagalar hem suda hem karada yasayabilen amfibilerdir; genelde gol ve dere kenarlarinda bulunur."}]}
+{"messages": [{"role": "user", "content": "Tavuk ne yer?"}, {"role": "assistant", "content": "Tavuklar tane yem, bocek ve kucuk tohumlarla beslenir."}]}
+{"messages": [{"role": "user", "content": "Kopekler neden havlar?"}, {"role": "assistant", "content": "Kopekler iletisim kurmak, uyarmak veya heyecanlarini gostermek icin havlar."}]}
+{"messages": [{"role": "user", "content": "Fil ne kadar buyuk olur?"}, {"role": "assistant", "content": "Fil karadaki en buyuk hayvandir ve birkac ton agirliga ulasabilir."}]}
+{"messages": [{"role": "user", "content": "Baykuslar ne zaman avlanir?"}, {"role": "assistant", "content": "Baykuslar genellikle gece avlanan kuslardir."}]}
+{"messages": [{"role": "user", "content": "Sincaplar kisin ne yapar?"}, {"role": "assistant", "content": "Sincaplar sonbaharda topladiklari findik ve kozalaklari kisin yemek icin saklar."}]}
+{"messages": [{"role": "user", "content": "Aglac yapraklari neden sonbaharda dokulur?"}, {"role": "assistant", "content": "Agaclar kisa hazirlanmak ve su kaybini onlemek icin sonbaharda yapraklarini doker."}]}
+{"messages": [{"role": "user", "content": "Bitkiler nasil beslenir?"}, {"role": "assistant", "content": "Bitkiler gunes isigi, su ve karbondioksiti kullanarak fotosentezle kendi besinini yapar."}]}
+{"messages": [{"role": "user", "content": "Cicekler neden renklidir?"}, {"role": "assistant", "content": "Cicekler ari ve kelebek gibi tozlayicilari cekmek icin renkli ve kokuludur."}]}
+{"messages": [{"role": "user", "content": "Kac mevsim vardir?"}, {"role": "assistant", "content": "Dort mevsim vardir: ilkbahar, yaz, sonbahar ve kis."}]}
+{"messages": [{"role": "user", "content": "Ilkbaharda doga nasil olur?"}, {"role": "assistant", "content": "Ilkbaharda hava isinir, agaclar cicek acar ve bitkiler yeniden yeserir."}]}
+{"messages": [{"role": "user", "content": "Kis mevsiminde hava nasildir?"}, {"role": "assistant", "content": "Kis mevsiminde hava soguktur ve bazi bolgelerde kar yagar."}]}
+{"messages": [{"role": "user", "content": "Kar nasil olusur?"}, {"role": "assistant", "content": "Kar, havadaki su buharinin cok soguk havada donup kristallesmesiyle olusur."}]}
+{"messages": [{"role": "user", "content": "Simsek nedir?"}, {"role": "assistant", "content": "Simsek, bulutlar arasindaki elektriklenmenin olusturdugu parlak isiktir."}]}
+{"messages": [{"role": "user", "content": "Gok gurultusu neden olur?"}, {"role": "assistant", "content": "Gok gurultusu, simsegin havayi aniden isitip genlestirmesiyle olusan sestir."}]}
+{"messages": [{"role": "user", "content": "Ruzgar nasil olusur?"}, {"role": "assistant", "content": "Ruzgar, havanin sicaklik farkindan dolayi hareket etmesiyle olusur."}]}
+{"messages": [{"role": "user", "content": "Geri donusum neden onemlidir?"}, {"role": "assistant", "content": "Geri donusum dogal kaynaklari korur ve cevre kirliligini azaltir."}]}
+{"messages": [{"role": "user", "content": "Hangi atiklar geri donusturulur?"}, {"role": "assistant", "content": "Kagit, cam, plastik ve metal gibi atiklar geri donusturulebilir."}]}
+{"messages": [{"role": "user", "content": "Agaclar neden onemlidir?"}, {"role": "assistant", "content": "Agaclar oksijen uretir, havayi temizler ve canlilara yasam alani saglar."}]}
+{"messages": [{"role": "user", "content": "Ormanlar neden korunmali?"}, {"role": "assistant", "content": "Ormanlar bircok canliya yuva olur ve dunyanin havasini dengeler, bu yuzden korunmalidir."}]}
+{"messages": [{"role": "user", "content": "Atlar ne yer?"}, {"role": "assistant", "content": "Atlar otcul hayvanlardir; ot, saman ve yulaf gibi yemlerle beslenir."}]}
+{"messages": [{"role": "user", "content": "Kuslar neden goc eder?"}, {"role": "assistant", "content": "Kuslar kisin sicak bolgelere ve besin bulmak icin goc eder."}]}
+{"messages": [{"role": "user", "content": "Orumcekler bocek midir?"}, {"role": "assistant", "content": "Hayir, orumcekler bocek degildir; sekiz bacakli eklem bacaklilardir."}]}
+{"messages": [{"role": "user", "content": "Balina balik midir?"}, {"role": "assistant", "content": "Hayir, balina balik degildir; yavrularini sutle besleyen bir memelidir."}]}
+{"messages": [{"role": "user", "content": "Yunuslar zeki midir?"}, {"role": "assistant", "content": "Evet, yunuslar cok zeki deniz memelileridir."}]}
+{"messages": [{"role": "user", "content": "Karincalar nasil yasar?"}, {"role": "assistant", "content": "Karincalar koloniler halinde, is bolumuyle birlikte yasayan sosyal bocekler."}]}
+{"messages": [{"role": "user", "content": "Mantar bitki midir?"}, {"role": "assistant", "content": "Hayir, mantar bitki degildir; kendi alemi olan ayri bir canli grubudur."}]}
+{"messages": [{"role": "user", "content": "Kaktus neden dikenlidir?"}, {"role": "assistant", "content": "Kaktus, su kaybini azaltmak ve kendini korumak icin dikenlidir."}]}
+{"messages": [{"role": "user", "content": "Tilkiler ne yer?"}, {"role": "assistant", "content": "Tilkiler etcildir ama hem kucuk hayvanlari hem de meyveleri yiyebilir."}]}
+{"messages": [{"role": "user", "content": "Ayilar kis uykusuna neden yatar?"}, {"role": "assistant", "content": "Ayilar kisin yiyecek azaldigi icin enerji tasarrufu yapmak amaciyla kis uykusuna yatar."}]}
+{"messages": [{"role": "user", "content": "Cevreyi korumak icin ne yapabiliriz?"}, {"role": "assistant", "content": "Cope dikkat edebilir, geri donusum yapabilir ve suyu israf etmeyebiliriz."}]}
+{"messages": [{"role": "user", "content": "Dunyanin akcigerleri nelerdir?"}, {"role": "assistant", "content": "Ormanlar bol oksijen urettigi icin cogu zaman dunyanin akcigerleri olarak anilir."}]}
+{"messages": [{"role": "user", "content": "Bilgisayar nedir?"}, {"role": "assistant", "content": "Bilgisayar, verileri isleyip saklayan ve komutlara gore islem yapan elektronik bir cihazdir."}]}
+{"messages": [{"role": "user", "content": "Bana bilgisayarin ne oldugunu anlatir misin?"}, {"role": "assistant", "content": "Bilgisayar, girilen verileri isleyerek sonuc ureten programlanabilir bir makinedir."}]}
+{"messages": [{"role": "user", "content": "Internet nedir?"}, {"role": "assistant", "content": "Internet, dunyadaki bilgisayarlari birbirine baglayan kuresel bir agdir."}]}
+{"messages": [{"role": "user", "content": "Internet ne ise yarar?"}, {"role": "assistant", "content": "Internet sayesinde bilgiye ulasir, iletisim kurar ve dosya paylasabiliriz."}]}
+{"messages": [{"role": "user", "content": "Yapay zeka nedir?"}, {"role": "assistant", "content": "Yapay zeka, bilgisayarlarin insan gibi ogrenme ve karar verme yetenegi kazanmasidir."}]}
+{"messages": [{"role": "user", "content": "Yapay zeka kisaca ne demek?"}, {"role": "assistant", "content": "Makinelerin verilerden ogrenip akilli davranislar sergilemesine yapay zeka denir."}]}
+{"messages": [{"role": "user", "content": "Yazilim nedir?"}, {"role": "assistant", "content": "Yazilim, bilgisayara ne yapacagini soyleyen komutlar ve programlar butunudur."}]}
+{"messages": [{"role": "user", "content": "Donanim nedir?"}, {"role": "assistant", "content": "Donanim, bilgisayarin elle tutulan fiziksel parcalaridir; ekran, klavye ve islemci gibi."}]}
+{"messages": [{"role": "user", "content": "Yazilim ile donanim arasindaki fark nedir?"}, {"role": "assistant", "content": "Donanim fiziksel parcalar, yazilim ise o parcalari calistiran programlardir."}]}
+{"messages": [{"role": "user", "content": "Programlama nedir?"}, {"role": "assistant", "content": "Programlama, bilgisayara yapmasi gereken islemleri kod yazarak anlatma isidir."}]}
+{"messages": [{"role": "user", "content": "Kod yazmak ne demek?"}, {"role": "assistant", "content": "Kod yazmak, bilgisayarin anlayacagi komutlari bir programlama diliyle olusturmaktir."}]}
+{"messages": [{"role": "user", "content": "Programlama dili nedir?"}, {"role": "assistant", "content": "Programlama dili, bilgisayara talimat vermek icin kullanilan kurallar ve sozcuklerden olusan bir dildir."}]}
+{"messages": [{"role": "user", "content": "Veri nedir?"}, {"role": "assistant", "content": "Veri, islenmek uzere toplanan ham bilgi parcalaridir; sayilar, metinler ya da gorseller olabilir."}]}
+{"messages": [{"role": "user", "content": "Cep telefonu nedir?"}, {"role": "assistant", "content": "Cep telefonu, kablosuz olarak gorusme yapmamizi ve internete baglanmamizi saglayan tasinabilir bir cihazdir."}]}
+{"messages": [{"role": "user", "content": "Akilli telefon nedir?"}, {"role": "assistant", "content": "Akilli telefon, arama ozelliginin yaninda uygulama calistiran ve internete baglanan gelismis bir telefondur."}]}
+{"messages": [{"role": "user", "content": "Islemci ne ise yarar?"}, {"role": "assistant", "content": "Islemci, bilgisayarin beynidir; komutlari isler ve hesaplamalari yapar."}]}
+{"messages": [{"role": "user", "content": "RAM nedir?"}, {"role": "assistant", "content": "RAM, bilgisayarin acikken kullandigi gecici hizli bellektir."}]}
+{"messages": [{"role": "user", "content": "Sabit disk ne ise yarar?"}, {"role": "assistant", "content": "Sabit disk, dosyalari ve programlari kalici olarak saklayan depolama birimidir."}]}
+{"messages": [{"role": "user", "content": "Isletim sistemi nedir?"}, {"role": "assistant", "content": "Isletim sistemi, bilgisayari yoneten ve programlarin calismasini saglayan temel yazilimdir."}]}
+{"messages": [{"role": "user", "content": "Windows nedir?"}, {"role": "assistant", "content": "Windows, Microsoft tarafindan gelistirilen yaygin bir isletim sistemidir."}]}
+{"messages": [{"role": "user", "content": "Uygulama nedir?"}, {"role": "assistant", "content": "Uygulama, belirli bir isi yapmak icin tasarlanmis yazilimdir; mesela bir mesajlasma programi."}]}
+{"messages": [{"role": "user", "content": "Tarayici nedir?"}, {"role": "assistant", "content": "Tarayici, internetteki web sitelerini acmamizi saglayan programdir; Chrome ve Firefox gibi."}]}
+{"messages": [{"role": "user", "content": "Web sitesi nedir?"}, {"role": "assistant", "content": "Web sitesi, internette yayinlanan, birbirine bagli sayfalardan olusan bir kaynaktir."}]}
+{"messages": [{"role": "user", "content": "Algoritma nedir?"}, {"role": "assistant", "content": "Algoritma, bir problemi cozmek icin izlenen adim adim yontemdir."}]}
+{"messages": [{"role": "user", "content": "Algoritma ne ise yarar?"}, {"role": "assistant", "content": "Algoritma, bir isi belirli adimlarla duzenli sekilde cozmemizi saglar."}]}
+{"messages": [{"role": "user", "content": "Dosya nedir?"}, {"role": "assistant", "content": "Dosya, bilgisayarda saklanan ve bir isim tasiyan veri butunudur."}]}
+{"messages": [{"role": "user", "content": "Klasor ne ise yarar?"}, {"role": "assistant", "content": "Klasor, dosyalari duzenli tutmak icin onlari bir arada toplayan kaplardir."}]}
+{"messages": [{"role": "user", "content": "Bulut depolama nedir?"}, {"role": "assistant", "content": "Bulut depolama, dosyalarini internet uzerindeki sunucularda saklama hizmetidir."}]}
+{"messages": [{"role": "user", "content": "Sifre neden onemlidir?"}, {"role": "assistant", "content": "Sifre, hesaplarini ve verilerini baskalarinin erisiminden korur."}]}
+{"messages": [{"role": "user", "content": "Virus nedir bilgisayarda?"}, {"role": "assistant", "content": "Bilgisayar virusu, cihaza zarar veren ve kendini yayan kotu amacli bir yazilimdir."}]}
+{"messages": [{"role": "user", "content": "Antivirus ne ise yarar?"}, {"role": "assistant", "content": "Antivirus, bilgisayari zararli yazilimlara karsi tarayip koruyan programdir."}]}
+{"messages": [{"role": "user", "content": "Wi-Fi nedir?"}, {"role": "assistant", "content": "Wi-Fi, cihazlari kablosuz olarak internete baglayan bir teknolojidir."}]}
+{"messages": [{"role": "user", "content": "E-posta nedir?"}, {"role": "assistant", "content": "E-posta, internet uzerinden mesaj gondermeyi ve almayi saglayan elektronik posta sistemidir."}]}
+{"messages": [{"role": "user", "content": "Klavye ne ise yarar?"}, {"role": "assistant", "content": "Klavye, bilgisayara yazi ve komut girmemizi saglayan giris aygitidir."}]}
+{"messages": [{"role": "user", "content": "Fare ne ise yarar?"}, {"role": "assistant", "content": "Fare, ekrandaki imleci hareket ettirip secim yapmamizi saglayan aygittir."}]}
+{"messages": [{"role": "user", "content": "Ekran karti nedir?"}, {"role": "assistant", "content": "Ekran karti, goruntuyu isleyip ekrana cizen donanim parcasidir."}]}
+{"messages": [{"role": "user", "content": "Veritabani nedir?"}, {"role": "assistant", "content": "Veritabani, bilgilerin duzenli sekilde saklandigi ve kolayca eriselebildigi sistemdir."}]}
+{"messages": [{"role": "user", "content": "Robot nedir?"}, {"role": "assistant", "content": "Robot, programlanarak belirli isleri otomatik yapan makinelere denir."}]}
+{"messages": [{"role": "user", "content": "Bit nedir?"}, {"role": "assistant", "content": "Bit, bilgisayarin kullandigi en kucuk veri birimidir ve 0 ya da 1 degerini alir."}]}
+{"messages": [{"role": "user", "content": "Byte nedir?"}, {"role": "assistant", "content": "Byte, sekiz bitten olusan bir veri birimidir ve genelde bir karakteri ifade eder."}]}
+{"messages": [{"role": "user", "content": "Bulut bilisim nedir?"}, {"role": "assistant", "content": "Bulut bilisim, hesaplama ve depolama hizmetlerini internet uzerinden kullanmaktir."}]}
+{"messages": [{"role": "user", "content": "Mobil uygulama nedir?"}, {"role": "assistant", "content": "Mobil uygulama, telefon ve tabletlerde calismak icin gelistirilen yazilimdir."}]}
+{"messages": [{"role": "user", "content": "Guncelleme neden yapilir?"}, {"role": "assistant", "content": "Guncelleme, yazilimdaki hatalari duzeltmek ve yeni ozellikler eklemek icin yapilir."}]}
+{"messages": [{"role": "user", "content": "Yedekleme nedir?"}, {"role": "assistant", "content": "Yedekleme, verilerinin kopyasini alarak kaybolmaya karsi korumaktir."}]}
+{"messages": [{"role": "user", "content": "Hata ayiklama ne demek?"}, {"role": "assistant", "content": "Hata ayiklama, koddaki hatalari bulup duzeltme islemine denir."}]}
+{"messages": [{"role": "user", "content": "Makine ogrenmesi nedir?"}, {"role": "assistant", "content": "Makine ogrenmesi, bilgisayarlarin verilerden ogrenerek tahmin yapmasini saglayan yapay zeka alanidir."}]}
+{"messages": [{"role": "user", "content": "Sunucu nedir?"}, {"role": "assistant", "content": "Sunucu, diger bilgisayarlara hizmet ve veri saglayan guclu bir bilgisayardir."}]}
+{"messages": [{"role": "user", "content": "Bir saat kac dakikadir?"}, {"role": "assistant", "content": "Bir saat 60 dakikadir."}]}
+{"messages": [{"role": "user", "content": "Bir dakika kac saniye?"}, {"role": "assistant", "content": "Bir dakika 60 saniyedir."}]}
+{"messages": [{"role": "user", "content": "Bir gun kac saattir?"}, {"role": "assistant", "content": "Bir gun 24 saattir."}]}
+{"messages": [{"role": "user", "content": "Bir gunde kac saat var?"}, {"role": "assistant", "content": "Bir gunde 24 saat vardir."}]}
+{"messages": [{"role": "user", "content": "Bir haftada kac gun vardir?"}, {"role": "assistant", "content": "Bir haftada 7 gun vardir."}]}
+{"messages": [{"role": "user", "content": "Haftada kac gun var?"}, {"role": "assistant", "content": "Haftada 7 gun vardir."}]}
+{"messages": [{"role": "user", "content": "Bir yilda kac ay vardir?"}, {"role": "assistant", "content": "Bir yilda 12 ay vardir."}]}
+{"messages": [{"role": "user", "content": "Yilda kac ay var?"}, {"role": "assistant", "content": "Yilda 12 ay vardir."}]}
+{"messages": [{"role": "user", "content": "Bir yil kac gundur?"}, {"role": "assistant", "content": "Bir yil normalde 365 gundur."}]}
+{"messages": [{"role": "user", "content": "Bir kilo kac gramdir?"}, {"role": "assistant", "content": "Bir kilogram 1000 gramdir."}]}
+{"messages": [{"role": "user", "content": "Bir metre kac santimetredir?"}, {"role": "assistant", "content": "Bir metre 100 santimetredir."}]}
+{"messages": [{"role": "user", "content": "Bir kilometre kac metredir?"}, {"role": "assistant", "content": "Bir kilometre 1000 metredir."}]}
+{"messages": [{"role": "user", "content": "Bir litre kac mililitredir?"}, {"role": "assistant", "content": "Bir litre 1000 mililitredir."}]}
+{"messages": [{"role": "user", "content": "Bir santimetre kac milimetredir?"}, {"role": "assistant", "content": "Bir santimetre 10 milimetredir."}]}
+{"messages": [{"role": "user", "content": "Bir ton kac kilogramdir?"}, {"role": "assistant", "content": "Bir ton 1000 kilogramdir."}]}
+{"messages": [{"role": "user", "content": "Haftanin gunlerini sayar misin?"}, {"role": "assistant", "content": "Pazartesi, Sali, Carsamba, Persembe, Cuma, Cumartesi ve Pazar."}]}
+{"messages": [{"role": "user", "content": "Haftanin ilk gunu hangisidir?"}, {"role": "assistant", "content": "Haftanin ilk gunu Pazartesidir."}]}
+{"messages": [{"role": "user", "content": "Hafta sonu hangi gunlerdir?"}, {"role": "assistant", "content": "Hafta sonu Cumartesi ve Pazar gunleridir."}]}
+{"messages": [{"role": "user", "content": "Pazartesiden sonra hangi gun gelir?"}, {"role": "assistant", "content": "Pazartesiden sonra Sali gelir."}]}
+{"messages": [{"role": "user", "content": "Cumadan sonra hangi gun gelir?"}, {"role": "assistant", "content": "Cumadan sonra Cumartesi gelir."}]}
+{"messages": [{"role": "user", "content": "Yilin aylarini sayar misin?"}, {"role": "assistant", "content": "Ocak, Subat, Mart, Nisan, Mayis, Haziran, Temmuz, Agustos, Eylul, Ekim, Kasim ve Aralik."}]}
+{"messages": [{"role": "user", "content": "Yilin ilk ayi hangisidir?"}, {"role": "assistant", "content": "Yilin ilk ayi Ocaktir."}]}
+{"messages": [{"role": "user", "content": "Yilin son ayi hangisidir?"}, {"role": "assistant", "content": "Yilin son ayi Araliktir."}]}
+{"messages": [{"role": "user", "content": "Mevsimler nelerdir?"}, {"role": "assistant", "content": "Ilkbahar, yaz, sonbahar ve kis olmak uzere dort mevsim vardir."}]}
+{"messages": [{"role": "user", "content": "En sicak mevsim hangisidir?"}, {"role": "assistant", "content": "Genellikle en sicak mevsim yazdir."}]}
+{"messages": [{"role": "user", "content": "En soguk mevsim hangisidir?"}, {"role": "assistant", "content": "Genellikle en soguk mevsim kistir."}]}
+{"messages": [{"role": "user", "content": "Gokkusaginda hangi renkler vardir?"}, {"role": "assistant", "content": "Kirmizi, turuncu, sari, yesil, mavi, lacivert ve mor."}]}
+{"messages": [{"role": "user", "content": "Ana renkler nelerdir?"}, {"role": "assistant", "content": "Ana renkler kirmizi, sari ve mavidir."}]}
+{"messages": [{"role": "user", "content": "Mavi ile sari karisinca hangi renk olur?"}, {"role": "assistant", "content": "Mavi ile sari karisinca yesil olur."}]}
+{"messages": [{"role": "user", "content": "Kirmizi ile sari karisinca ne olur?"}, {"role": "assistant", "content": "Kirmizi ile sari karisinca turuncu olur."}]}
+{"messages": [{"role": "user", "content": "Bir duzine kac tanedir?"}, {"role": "assistant", "content": "Bir duzine 12 tanedir."}]}
+{"messages": [{"role": "user", "content": "Yarim duzine kac eder?"}, {"role": "assistant", "content": "Yarim duzine 6 eder."}]}
+{"messages": [{"role": "user", "content": "Bir cift kac tanedir?"}, {"role": "assistant", "content": "Bir cift 2 tanedir."}]}
+{"messages": [{"role": "user", "content": "Birden ona kadar say."}, {"role": "assistant", "content": "Bir, iki, uc, dort, bes, alti, yedi, sekiz, dokuz, on."}]}
+{"messages": [{"role": "user", "content": "Onar onar yirmiye kadar say."}, {"role": "assistant", "content": "On, yirmi."}]}
+{"messages": [{"role": "user", "content": "Gunde ne kadar su icmeliyim?"}, {"role": "assistant", "content": "Gunde ortalama 2 litre su icmek genel olarak onerilir."}]}
+{"messages": [{"role": "user", "content": "Yetiskinler gunde kac saat uyumali?"}, {"role": "assistant", "content": "Yetiskinler icin genellikle gunde 7-8 saat uyku onerilir."}]}
+{"messages": [{"role": "user", "content": "Saglikli yasamak icin ne yapmaliyim?"}, {"role": "assistant", "content": "Dengeli beslen, duzenli su ic, yeterince uyu ve hareket et."}]}
+{"messages": [{"role": "user", "content": "Sabah dis fircalamak neden onemli?"}, {"role": "assistant", "content": "Disleri fircalamak agiz sagligini korur ve curukleri onler."}]}
+{"messages": [{"role": "user", "content": "Teskur etmek istesem ne derim?"}, {"role": "assistant", "content": "Tesekkur ederim demen kibarca olur."}]}
+{"messages": [{"role": "user", "content": "Birine tesekkur edildiginde ne denir?"}, {"role": "assistant", "content": "Rica ederim demek nazik bir karsiliktir."}]}
+{"messages": [{"role": "user", "content": "Sabah birine nasil selam verilir?"}, {"role": "assistant", "content": "Gunaydin demek guzel bir selamdir."}]}
+{"messages": [{"role": "user", "content": "Aksam birini selamlarken ne denir?"}, {"role": "assistant", "content": "Iyi aksamlar demek nazik bir selamdir."}]}
+{"messages": [{"role": "user", "content": "Bir gunde gece ve gunduz var midir?"}, {"role": "assistant", "content": "Evet, bir gun gunduz ve geceden olusur."}]}
+{"messages": [{"role": "user", "content": "Ogle vakti yaklasik saat kactir?"}, {"role": "assistant", "content": "Ogle vakti yaklasik olarak saat 12'dir."}]}
+{"messages": [{"role": "user", "content": "Bir asir kac yildir?"}, {"role": "assistant", "content": "Bir asir 100 yildir."}]}
+{"messages": [{"role": "user", "content": "Bir yuzyil kac yil eder?"}, {"role": "assistant", "content": "Bir yuzyil 100 yildir."}]}
+{"messages": [{"role": "user", "content": "Bir ayda yaklasik kac gun olur?"}, {"role": "assistant", "content": "Bir ayda yaklasik 30 gun olur."}]}
+{"messages": [{"role": "user", "content": "Bir ceyrek saat kac dakikadir?"}, {"role": "assistant", "content": "Bir ceyrek saat 15 dakikadir."}]}
+{"messages": [{"role": "user", "content": "Yarim saat kac dakikadir?"}, {"role": "assistant", "content": "Yarim saat 30 dakikadir."}]}
+{"messages": [{"role": "user", "content": "Ali Veli'den uzun, Veli de Mehmet'ten uzunsa en uzun kim?"}, {"role": "assistant", "content": "Dusunelim: Ali > Veli, Veli > Mehmet. Sonuc: En uzun Ali'dir."}]}
+{"messages": [{"role": "user", "content": "Bir kutuda 3 kirmizi, 2 mavi top var. Hangi renk daha cok?"}, {"role": "assistant", "content": "Dusunelim: 3 > 2. Sonuc: Kirmizi toplar daha cok."}]}
+{"messages": [{"role": "user", "content": "Bugun sali ise yarin hangi gun?"}, {"role": "assistant", "content": "Dusunelim: Saliyi carsamba takip eder. Sonuc: Yarin carsamba."}]}
+{"messages": [{"role": "user", "content": "Bir trende once Ankara sonra Eskisehir geliyorsa Eskisehir mi once gelir?"}, {"role": "assistant", "content": "Dusunelim: Once Ankara, sonra Eskisehir. Sonuc: Hayir, once Ankara gelir."}]}
+{"messages": [{"role": "user", "content": "5 elmam vardi, 2 tanesini yedim. Kac kaldi?"}, {"role": "assistant", "content": "Dusunelim: 5 - 2 = 3. Sonuc: 3 elma kaldi."}]}
+{"messages": [{"role": "user", "content": "Eger disarisi yagmurluysa semsiye almali miyim?"}, {"role": "assistant", "content": "Dusunelim: Yagmur islanmaya yol acar, semsiye korur. Sonuc: Evet, semsiye almalisin."}]}
+{"messages": [{"role": "user", "content": "Bir sayinin yarisi 10 ise sayi kactir?"}, {"role": "assistant", "content": "Dusunelim: Yarisi 10 ise tamami 10 x 2. Sonuc: Sayi 20."}]}
+{"messages": [{"role": "user", "content": "Kedi kopekten kucuk, kopek attan kucukse en buyuk hangisi?"}, {"role": "assistant", "content": "Dusunelim: Kedi < kopek < at. Sonuc: En buyuk at."}]}
+{"messages": [{"role": "user", "content": "2, 4, 6, 8'den sonra hangi sayi gelir?"}, {"role": "assistant", "content": "Dusunelim: Her seferinde 2 artiyor. Sonuc: Sonraki sayi 10."}]}
+{"messages": [{"role": "user", "content": "Annem benden buyuk, ben kardesimden buyukum. Kardesim annemden buyuk mu?"}, {"role": "assistant", "content": "Dusunelim: Anne > ben > kardes. Sonuc: Hayir, kardesim annemden kucuktur."}]}
+{"messages": [{"role": "user", "content": "Bir dukkanda kalem 5 lira, defter 8 lira. Hangisi daha pahali?"}, {"role": "assistant", "content": "Dusunelim: 8 > 5. Sonuc: Defter daha pahali."}]}
+{"messages": [{"role": "user", "content": "Eger tum kuslar ucabiliyorsa ve serce bir kussa, serce ucabilir mi?"}, {"role": "assistant", "content": "Dusunelim: Tum kuslar ucar, serce de kustur. Sonuc: Evet, serce ucabilir."}]}
+{"messages": [{"role": "user", "content": "Saat 3'te bulustuk, 2 saat sonra ayrildik. Saat kacta ayrildik?"}, {"role": "assistant", "content": "Dusunelim: 3 + 2 = 5. Sonuc: Saat 5'te ayrildik."}]}
+{"messages": [{"role": "user", "content": "1, 3, 5, 7 dizisinde bir sonraki sayi nedir?"}, {"role": "assistant", "content": "Dusunelim: Tek sayilar 2'ser artiyor. Sonuc: Sonraki sayi 9."}]}
+{"messages": [{"role": "user", "content": "Ayse Fatma'dan yasli, Fatma Zeynep'ten yasli. En genc kim?"}, {"role": "assistant", "content": "Dusunelim: Ayse > Fatma > Zeynep yas siralamasi. Sonuc: En genc Zeynep."}]}
+{"messages": [{"role": "user", "content": "Bir bardak su dolu degilse bos mudur?"}, {"role": "assistant", "content": "Dusunelim: Tam dolu olmamasi bos olmasini gerektirmez, yarim da olabilir. Sonuc: Sart degil, kismi dolu olabilir."}]}
+{"messages": [{"role": "user", "content": "Pazartesiden 3 gun sonra hangi gun olur?"}, {"role": "assistant", "content": "Dusunelim: Sali, carsamba, persembe. Sonuc: Persembe."}]}
+{"messages": [{"role": "user", "content": "Bir caydanlikta 4 bardak cay var, 1 bardak ictim. Kac bardak kaldi?"}, {"role": "assistant", "content": "Dusunelim: 4 - 1 = 3. Sonuc: 3 bardak kaldi."}]}
+{"messages": [{"role": "user", "content": "Eger ders calisirsam sinavi gecerim. Sinavi gecemedim, ders calistim mi?"}, {"role": "assistant", "content": "Dusunelim: Calismak gecmeyi getirir; gecemediysen bu kosul saglanmamis demektir. Sonuc: Buna gore ders calismamissindir."}]}
+{"messages": [{"role": "user", "content": "10'dan geriye ikiser sayarsam: 10, 8, 6'dan sonra ne gelir?"}, {"role": "assistant", "content": "Dusunelim: Her adimda 2 azaliyor. Sonuc: Sonraki sayi 4."}]}
+{"messages": [{"role": "user", "content": "Bir sinifta kizlar erkeklerden cok. Erkekler 12 ise kizlar 12'den az mi?"}, {"role": "assistant", "content": "Dusunelim: Kizlar daha cok demek, sayilari daha fazla demek. Sonuc: Hayir, kizlar 12'den fazladir."}]}
+{"messages": [{"role": "user", "content": "Once kahvalti sonra ogle yemegi yenir. Hangisi daha gec yenir?"}, {"role": "assistant", "content": "Dusunelim: Kahvalti sabah, ogle yemegi gunduz. Sonuc: Ogle yemegi daha gec yenir."}]}
+{"messages": [{"role": "user", "content": "Bir ipi tam ortadan kesersem kac parca olur?"}, {"role": "assistant", "content": "Dusunelim: Tek kesim ipi ikiye boler. Sonuc: 2 parca olur."}]}
+{"messages": [{"role": "user", "content": "3 kardesim var, ben dahil kac cocuguz?"}, {"role": "assistant", "content": "Dusunelim: 3 kardes + kendin. Sonuc: 4 cocuk."}]}
+{"messages": [{"role": "user", "content": "Eger camur varsa demek ki yagmur yagmistir, denilebilir mi her zaman?"}, {"role": "assistant", "content": "Dusunelim: Camurun baska nedenleri de olabilir, su dokulmesi gibi. Sonuc: Her zaman degil, kesin sonuc cikmaz."}]}
+{"messages": [{"role": "user", "content": "A kutusu B'den agir, B kutusu C'den agir. En hafif hangisi?"}, {"role": "assistant", "content": "Dusunelim: A > B > C agirlik sirasi. Sonuc: En hafif C."}]}
+{"messages": [{"role": "user", "content": "Bir filmi saat 8'de izlemeye basladim, 2 saat surdu. Kacta bitti?"}, {"role": "assistant", "content": "Dusunelim: 8 + 2 = 10. Sonuc: Saat 10'da bitti."}]}
+{"messages": [{"role": "user", "content": "Mavi, kirmizi, mavi, kirmizi dizisinde siradaki renk nedir?"}, {"role": "assistant", "content": "Dusunelim: Renkler donusumlu gidiyor, son renk kirmizi. Sonuc: Siradaki mavi."}]}
+{"messages": [{"role": "user", "content": "Tum kediler hayvansa, Tekir bir kediyse Tekir hayvan midir?"}, {"role": "assistant", "content": "Dusunelim: Kediler hayvan, Tekir kedi. Sonuc: Evet, Tekir bir hayvandir."}]}
+{"messages": [{"role": "user", "content": "6 kisi bir masada oturuyor, 2 kisi kalkti. Kac kisi kaldi?"}, {"role": "assistant", "content": "Dusunelim: 6 - 2 = 4. Sonuc: 4 kisi kaldi."}]}
+{"messages": [{"role": "user", "content": "Eger sayi 5'ten buyuk ve 8'den kucukse hangi sayilar olabilir?"}, {"role": "assistant", "content": "Dusunelim: 5 ile 8 arasi tam sayilar 6 ve 7. Sonuc: 6 veya 7."}]}
+{"messages": [{"role": "user", "content": "Carsambadan bir gun once hangi gundu?"}, {"role": "assistant", "content": "Dusunelim: Carsambadan once sali gelir. Sonuc: Sali."}]}
+{"messages": [{"role": "user", "content": "Bir merdivenin 10 basamagi var, 4 basamak ciktim. Kac basamak kaldi?"}, {"role": "assistant", "content": "Dusunelim: 10 - 4 = 6. Sonuc: 6 basamak kaldi."}]}
+{"messages": [{"role": "user", "content": "Kar yagiyorsa hava soguktur denebilir mi?"}, {"role": "assistant", "content": "Dusunelim: Kar ancak soguk havada yagar. Sonuc: Evet, hava soguktur denebilir."}]}
+{"messages": [{"role": "user", "content": "Iki sayinin toplami 10, biri 4 ise digeri kactir?"}, {"role": "assistant", "content": "Dusunelim: 10 - 4 = 6. Sonuc: Diger sayi 6."}]}
+{"messages": [{"role": "user", "content": "Bir yaris pistinde Ali 1., Veli 2., Can 3. oldu. En sonda kim?"}, {"role": "assistant", "content": "Dusunelim: 3. sira en gerisi. Sonuc: En sonda Can var."}]}
+{"messages": [{"role": "user", "content": "Eger kapi kilitliyse anahtar gerekir. Anahtarim yok, iceri girebilir miyim?"}, {"role": "assistant", "content": "Dusunelim: Kilitli kapi anahtar ister, anahtar yoksa acilmaz. Sonuc: Hayir, anahtarsiz giremezsin."}]}
+{"messages": [{"role": "user", "content": "3 x 2 kac eder, sonra 1 eklersem sonuc nedir?"}, {"role": "assistant", "content": "Dusunelim: 3 x 2 = 6, 6 + 1 = 7. Sonuc: 7."}]}
+{"messages": [{"role": "user", "content": "Bir sepette 2 elma her cocuga 1 elma verilirse kac cocuga yeter?"}, {"role": "assistant", "content": "Dusunelim: 2 elma, her cocuga 1. Sonuc: 2 cocuga yeter."}]}
+{"messages": [{"role": "user", "content": "Yarin cuma ise dun hangi gundu?"}, {"role": "assistant", "content": "Dusunelim: Yarin cuma ise bugun persembe, dun carsamba. Sonuc: Carsamba."}]}
+{"messages": [{"role": "user", "content": "Cimri ne demek?"}, {"role": "assistant", "content": "Cimri, parasini harcamaktan kacinan, eli siki kimse demektir."}]}
+{"messages": [{"role": "user", "content": "Comert kelimesinin anlami nedir?"}, {"role": "assistant", "content": "Comert, elinden geleni esirgemeyen, paylasmayi seven kisi demektir."}]}
+{"messages": [{"role": "user", "content": "Comert ile cimri zit anlamli midir?"}, {"role": "assistant", "content": "Evet, comert ile cimri birbirinin zit anlamlisidir."}]}
+{"messages": [{"role": "user", "content": "Mutlu kelimesinin es anlamlisi nedir?"}, {"role": "assistant", "content": "Mutlu kelimesinin es anlamlisi bahtiyardir."}]}
+{"messages": [{"role": "user", "content": "Buyuk kelimesinin zit anlamlisi nedir?"}, {"role": "assistant", "content": "Buyuk kelimesinin zit anlamlisi kucuktur."}]}
+{"messages": [{"role": "user", "content": "Siyah ile beyaz nasil kelimelerdir?"}, {"role": "assistant", "content": "Siyah ile beyaz zit anlamli kelimelerdir."}]}
+{"messages": [{"role": "user", "content": "Hizli kelimesinin karsiti nedir?"}, {"role": "assistant", "content": "Hizli kelimesinin karsiti yavastir."}]}
+{"messages": [{"role": "user", "content": "Ihtiyar ne demek?"}, {"role": "assistant", "content": "Ihtiyar, yasli kisi demektir; yaslinin es anlamlisidir."}]}
+{"messages": [{"role": "user", "content": "Misafir kelimesinin es anlamlisini soyler misin?"}, {"role": "assistant", "content": "Misafir kelimesinin es anlamlisi konuktur."}]}
+{"messages": [{"role": "user", "content": "Okul kelimesinin es anlamlisi var mi?"}, {"role": "assistant", "content": "Evet, okul kelimesinin es anlamlisi mekteptir."}]}
+{"messages": [{"role": "user", "content": "Acik kelimesinin zit anlamlisi nedir?"}, {"role": "assistant", "content": "Acik kelimesinin zit anlamlisi kapalidir."}]}
+{"messages": [{"role": "user", "content": "Sicak ile soguk ne tur kelimelerdir?"}, {"role": "assistant", "content": "Sicak ile soguk zit anlamli kelimelerdir."}]}
+{"messages": [{"role": "user", "content": "Kalem nedir kisaca?"}, {"role": "assistant", "content": "Kalem, yazi yazmaya yarayan aractir."}]}
+{"messages": [{"role": "user", "content": "Sozluk ne ise yarar?"}, {"role": "assistant", "content": "Sozluk, kelimelerin anlamlarini ve yazilislarini gosteren kitaptir."}]}
+{"messages": [{"role": "user", "content": "Es anlamli kelime ne demek?"}, {"role": "assistant", "content": "Es anlamli kelime, ayni veya cok yakin anlama gelen iki ayri kelimedir."}]}
+{"messages": [{"role": "user", "content": "Zit anlamli kelime nedir?"}, {"role": "assistant", "content": "Zit anlamli kelime, anlamca birbirinin tersi olan kelimelerdir."}]}
+{"messages": [{"role": "user", "content": "Es sesli kelime nedir?"}, {"role": "assistant", "content": "Es sesli kelime, yazilisi ayni ama anlami farkli olan kelimedir; ornegin yuz."}]}
+{"messages": [{"role": "user", "content": "Iyi kelimesinin zit anlamlisi nedir?"}, {"role": "assistant", "content": "Iyi kelimesinin zit anlamlisi kotudur."}]}
+{"messages": [{"role": "user", "content": "Uzun kelimesinin karsiti nedir?"}, {"role": "assistant", "content": "Uzun kelimesinin karsiti kisadir."}]}
+{"messages": [{"role": "user", "content": "Zengin kelimesinin zit anlamlisi nedir?"}, {"role": "assistant", "content": "Zengin kelimesinin zit anlamlisi fakirdir."}]}
+{"messages": [{"role": "user", "content": "Damlaya damlaya gol olur ne demek?"}, {"role": "assistant", "content": "Bu atasozu, kucuk birikimlerin zamanla buyuyup cogalacagini anlatir."}]}
+{"messages": [{"role": "user", "content": "Sakla samani, gelir zamani ne anlama gelir?"}, {"role": "assistant", "content": "Bu atasozu, gereksiz gibi gorunen seylerin bir gun ise yarayabilecegini anlatir."}]}
+{"messages": [{"role": "user", "content": "Ayinin kirk turkusu var, kirki da ahlat uzerine ne demek?"}, {"role": "assistant", "content": "Bu soz, bir kisinin surekli ayni cikar ya da konu uzerinde durmasini anlatir."}]}
+{"messages": [{"role": "user", "content": "Goz atmak deyimi ne demek?"}, {"role": "assistant", "content": "Goz atmak, bir seye kisaca bakmak demektir."}]}
+{"messages": [{"role": "user", "content": "Kulak vermek ne anlama gelir?"}, {"role": "assistant", "content": "Kulak vermek, bir seyi dikkatle dinlemek demektir."}]}
+{"messages": [{"role": "user", "content": "Ipe un sermek deyiminin anlami nedir?"}, {"role": "assistant", "content": "Ipe un sermek, bir isi yapmamak icin bahaneler uretmek demektir."}]}
+{"messages": [{"role": "user", "content": "Etekleri zil calmak ne demek?"}, {"role": "assistant", "content": "Etekleri zil calmak, cok sevinmek demektir."}]}
+{"messages": [{"role": "user", "content": "Pabucu dama atilmak deyimi ne anlama gelir?"}, {"role": "assistant", "content": "Pabucu dama atilmak, degerini yitirip onemini kaybetmek demektir."}]}
+{"messages": [{"role": "user", "content": "Isim nedir?"}, {"role": "assistant", "content": "Isim, varlik ve kavramlari karsilayan kelimedir; ornegin ev, kus, sevgi."}]}
+{"messages": [{"role": "user", "content": "Fiil ne demek?"}, {"role": "assistant", "content": "Fiil, is, olus veya hareket bildiren kelimedir; ornegin gelmek, kosmak."}]}
+{"messages": [{"role": "user", "content": "Sifat nedir?"}, {"role": "assistant", "content": "Sifat, ismi niteleyen veya belirten kelimedir; ornegin guzel, uc, kirmizi."}]}
+{"messages": [{"role": "user", "content": "Cogul ek nedir Turkcede?"}, {"role": "assistant", "content": "Turkcede cogul ekleri -ler ve -lardir; ornegin kitaplar, evler."}]}
+{"messages": [{"role": "user", "content": "Sesli harfler nelerdir?"}, {"role": "assistant", "content": "Turkcede sesli harfler a, e, i, i, o, o, u, u olmak uzere sekiz tanedir."}]}
+{"messages": [{"role": "user", "content": "Turk alfabesinde kac harf vardir?"}, {"role": "assistant", "content": "Turk alfabesinde 29 harf vardir."}]}
+{"messages": [{"role": "user", "content": "Noktali virgul ne ise yarar?"}, {"role": "assistant", "content": "Noktali virgul, anlamca birbirine bagli cumleleri ayirmak icin kullanilir."}]}
+{"messages": [{"role": "user", "content": "Zamir nedir?"}, {"role": "assistant", "content": "Zamir, ismin yerini tutan kelimedir; ornegin ben, sen, o, bu."}]}
+{"messages": [{"role": "user", "content": "Zaman kaybetmek deyimi ne demek?"}, {"role": "assistant", "content": "Zaman kaybetmek, vakti bos yere harcamak demektir."}]}
+{"messages": [{"role": "user", "content": "Tas atip kolun mu yoruldu ne demek?"}, {"role": "assistant", "content": "Bu soz, bir ise emek vermeden sonuc bekleyen kisiye kullanilir."}]}
+{"messages": [{"role": "user", "content": "Gunes kelimesinin es anlamlisi nedir?"}, {"role": "assistant", "content": "Gunes kelimesinin es anlamlisi guvendir."}]}
+{"messages": [{"role": "user", "content": "Cevap kelimesinin es anlamlisi nedir?"}, {"role": "assistant", "content": "Cevap kelimesinin es anlamlisi yanittir."}]}
+{"messages": [{"role": "user", "content": "Doktor ne is yapar?"}, {"role": "assistant", "content": "Doktor hastalari muayene eder, teshis koyar ve tedavi uygular."}]}
+{"messages": [{"role": "user", "content": "Bir ogretmenin gorevi nedir?"}, {"role": "assistant", "content": "Ogretmen ogrencilere bilgi ogretir ve onlarin gelisimine rehberlik eder."}]}
+{"messages": [{"role": "user", "content": "Itfaiyeci nasil bir is yapar?"}, {"role": "assistant", "content": "Itfaiyeci yanginlari sondurur ve kazalarda insanlari kurtarir."}]}
+{"messages": [{"role": "user", "content": "Polis memuru ne yapar?"}, {"role": "assistant", "content": "Polis memuru kamu duzenini saglar ve suclarla mucadele eder."}]}
+{"messages": [{"role": "user", "content": "Asci ne is yapar?"}, {"role": "assistant", "content": "Asci mutfakta yemekleri hazirlar ve pisirir."}]}
+{"messages": [{"role": "user", "content": "Bir muhendisin isi nedir?"}, {"role": "assistant", "content": "Muhendis bilimsel bilgiyi kullanarak yapilar, makineler veya sistemler tasarlar."}]}
+{"messages": [{"role": "user", "content": "Avukat ne yapar?"}, {"role": "assistant", "content": "Avukat insanlari hukuki konularda temsil eder ve savunur."}]}
+{"messages": [{"role": "user", "content": "Ciftci ne is yapar?"}, {"role": "assistant", "content": "Ciftci toprakta urun yetistirir ve hayvan besler."}]}
+{"messages": [{"role": "user", "content": "Hemsire ne yapar?"}, {"role": "assistant", "content": "Hemsire hastalara bakar ve doktora tedavi sirasinda yardim eder."}]}
+{"messages": [{"role": "user", "content": "Eczaci ne is yapar?"}, {"role": "assistant", "content": "Eczaci ilaclari hazirlar ve hastalara dogru kullanimini anlatir."}]}
+{"messages": [{"role": "user", "content": "Bir mimarin gorevi nedir?"}, {"role": "assistant", "content": "Mimar binalari tasarlar ve yapim projelerini hazirlar."}]}
+{"messages": [{"role": "user", "content": "Veteriner ne yapar?"}, {"role": "assistant", "content": "Veteriner hayvanlarin sagligiyla ilgilenir ve onlari tedavi eder."}]}
+{"messages": [{"role": "user", "content": "Okul ne ise yarar?"}, {"role": "assistant", "content": "Okul ogrencilerin egitim aldigi ve bilgi ogrendigi yerdir."}]}
+{"messages": [{"role": "user", "content": "Hastane ne icin vardir?"}, {"role": "assistant", "content": "Hastane hastalarin muayene edildigi ve tedavi gordugu yerdir."}]}
+{"messages": [{"role": "user", "content": "Kutuphane nedir?"}, {"role": "assistant", "content": "Kutuphane kitaplarin bulundugu ve okunabildigi yerdir."}]}
+{"messages": [{"role": "user", "content": "Belediye ne is yapar?"}, {"role": "assistant", "content": "Belediye sehirde temizlik, ulasim ve altyapi gibi yerel hizmetleri yurutur."}]}
+{"messages": [{"role": "user", "content": "Postane ne ise yarar?"}, {"role": "assistant", "content": "Postane mektup ve paketlerin gonderildigi ve dagitildigi yerdir."}]}
+{"messages": [{"role": "user", "content": "Banka ne yapar?"}, {"role": "assistant", "content": "Banka para saklar, kredi verir ve odeme islemlerini yurutur."}]}
+{"messages": [{"role": "user", "content": "Ramazan Bayrami nedir?"}, {"role": "assistant", "content": "Ramazan Bayrami, Ramazan ayinin sonunda kutlanan dini bir bayramdir."}]}
+{"messages": [{"role": "user", "content": "Kurban Bayrami ne zaman kutlanir?"}, {"role": "assistant", "content": "Kurban Bayrami, Ramazan Bayrami'ndan yaklasik iki ay sonra kutlanan dini bir bayramdir."}]}
+{"messages": [{"role": "user", "content": "19 Mayis hangi bayramdir?"}, {"role": "assistant", "content": "19 Mayis Ataturk'u Anma, Genclik ve Spor Bayrami'dir."}]}
+{"messages": [{"role": "user", "content": "29 Ekim hangi gun kutlanir?"}, {"role": "assistant", "content": "29 Ekim Cumhuriyet Bayrami olarak kutlanir."}]}
+{"messages": [{"role": "user", "content": "30 Agustos hangi bayramdir?"}, {"role": "assistant", "content": "30 Agustos Zafer Bayrami'dir."}]}
+{"messages": [{"role": "user", "content": "Corba nasil bir yemektir?"}, {"role": "assistant", "content": "Corba, genelde sicak icilen sivi bir yemektir ve cogu zaman ogune baslangic olur."}]}
+{"messages": [{"role": "user", "content": "Pilav neyden yapilir?"}, {"role": "assistant", "content": "Pilav genellikle pirinc veya bulgurdan yapilan bir yemektir."}]}
+{"messages": [{"role": "user", "content": "Kahvalti nedir?"}, {"role": "assistant", "content": "Kahvalti, gunun ilk ogunu olup sabah yenir."}]}
+{"messages": [{"role": "user", "content": "Baklava nasil bir tatlidir?"}, {"role": "assistant", "content": "Baklava, ince yufka, ceviz veya fistik ve serbetle yapilan bir tatlidir."}]}
+{"messages": [{"role": "user", "content": "Yogurt neyden yapilir?"}, {"role": "assistant", "content": "Yogurt, sutun mayalanmasiyla elde edilen bir besindir."}]}
+{"messages": [{"role": "user", "content": "Ekmek neyden yapilir?"}, {"role": "assistant", "content": "Ekmek un, su, maya ve tuzun karistirilip pisirilmesiyle yapilir."}]}
+{"messages": [{"role": "user", "content": "Futbol nasil oynanir?"}, {"role": "assistant", "content": "Futbol, iki takimin topu kaleye sokmaya calistigi bir spordur."}]}
+{"messages": [{"role": "user", "content": "Basketbol nedir?"}, {"role": "assistant", "content": "Basketbol, topu rakip potaya atarak sayi kazanilan bir takim sporudur."}]}
+{"messages": [{"role": "user", "content": "Yuzme hangi tur bir spordur?"}, {"role": "assistant", "content": "Yuzme, suda yapilan ve tum vucudu calistiran bir spordur."}]}
+{"messages": [{"role": "user", "content": "Voleybol nasil oynanir?"}, {"role": "assistant", "content": "Voleybol, iki takimin topu file uzerinden gecirerek oynadigi bir spordur."}]}
+{"messages": [{"role": "user", "content": "Tenis nedir?"}, {"role": "assistant", "content": "Tenis, raketle topu file uzerinden karsiya gondererek oynanan bir spordur."}]}
+{"messages": [{"role": "user", "content": "Resim sanati nedir?"}, {"role": "assistant", "content": "Resim, boya ve cizgilerle bir yuzey uzerine gorseller olusturma sanatidir."}]}
+{"messages": [{"role": "user", "content": "Muzik nedir?"}, {"role": "assistant", "content": "Muzik, seslerin uyumlu bir sekilde duzenlenmesiyle olusan bir sanattir."}]}
+{"messages": [{"role": "user", "content": "Heykel nedir?"}, {"role": "assistant", "content": "Heykel, tas, metal veya kil gibi malzemelerle uc boyutlu figurler yapma sanatidir."}]}
+{"messages": [{"role": "user", "content": "Tiyatro nedir?"}, {"role": "assistant", "content": "Tiyatro, oyuncularin sahnede bir hikayeyi canlandirdigi sanat dalidir."}]}
+{"messages": [{"role": "user", "content": "Siir nedir?"}, {"role": "assistant", "content": "Siir, duygu ve dusunceleri olculu ve etkili bir dille anlatan edebi turdur."}]}
+{"messages": [{"role": "user", "content": "Marangoz ne is yapar?"}, {"role": "assistant", "content": "Marangoz ahsaptan mobilya ve esyalar yapar."}]}
+{"messages": [{"role": "user", "content": "Berber ne yapar?"}, {"role": "assistant", "content": "Berber sac ve sakal keserek bakimini yapar."}]}
+{"messages": [{"role": "user", "content": "Sofor ne is yapar?"}, {"role": "assistant", "content": "Sofor arac kullanarak insan veya yuk tasir."}]}
+{"messages": [{"role": "user", "content": "Terzi ne yapar?"}, {"role": "assistant", "content": "Terzi kumastan kiyafet diker ve onarir."}]}

@@ -1,0 +1,998 @@
+Kullanici: Python'da bir degisken nasil tanimlanir?
+Bilge: Degiskene esittir isaretiyle deger atarsin:
+ad = "Ali"
+yas = 25
+print(ad, yas)
+
+Kullanici: Bir sayiyi degiskene atayip ekrana yazdir.
+Bilge: Once atarsin, sonra print ile yazdirirsin:
+sayi = 42
+print(sayi)
+
+Kullanici: Ekrana Merhaba Dunya nasil yazdirilir?
+Bilge: print fonksiyonunu kullanirsin:
+print("Merhaba Dunya")
+
+Kullanici: Iki sayiyi nasil toplarim?
+Bilge: Arti isaretiyle toplarsin:
+a = 5
+b = 3
+print(a + b)
+
+Kullanici: Iki sayiyi toplayan basit bir ornek ver.
+Bilge: Degiskenleri arti ile toplarsin:
+x = 10
+y = 7
+print(x + y)
+
+Kullanici: Bir sayidan digerini cikarmak istiyorum.
+Bilge: Eksi isaretiyle cikarirsin:
+a = 20
+b = 8
+print(a - b)
+
+Kullanici: Cikarma islemi nasil yapilir Python'da?
+Bilge: Iki degiskeni eksi ile cikarirsin:
+sonuc = 50 - 15
+print(sonuc)
+
+Kullanici: Kullanicidan isim almak istiyorum.
+Bilge: input fonksiyonuyla girdi alirsin:
+isim = input("Adin ne? ")
+print("Merhaba", isim)
+
+Kullanici: Kullanicidan bir sayi al ve yazdir.
+Bilge: input ile alip int ile sayiya cevirirsin:
+sayi = int(input("Bir sayi gir: "))
+print(sayi)
+
+Kullanici: Python'da yorum satiri nasil yazilir?
+Bilge: Satir basina diyez koyarsin:
+# Bu bir yorum satiridir
+print("Kod calisir")
+
+Kullanici: Koda aciklama satiri eklemek istiyorum.
+Bilge: Diyez isaretiyle yorum eklersin:
+x = 5  # x degiskenine 5 atandi
+print(x)
+
+Kullanici: Basit bir fonksiyon nasil tanimlanir?
+Bilge: def anahtar kelimesiyle tanimlarsin:
+def selamla():
+    print("Merhaba!")
+selamla()
+
+Kullanici: Parametre alan bir fonksiyon yaz.
+Bilge: Parametreyi parantez icine yazarsin:
+def selamla(isim):
+    print("Merhaba", isim)
+selamla("Ayse")
+
+Kullanici: Bir fonksiyon nasil cagirilir?
+Bilge: Adini parantezle yazarak cagirirsin:
+def yaz():
+    print("Calisti")
+yaz()
+
+Kullanici: Iki sayiyi toplayip geri donduren fonksiyon yaz.
+Bilge: return ile sonucu dondurursun:
+def topla(a, b):
+    return a + b
+print(topla(4, 6))
+
+Kullanici: Metin degiskenini ekrana nasil yazdiririm?
+Bilge: Degiskeni print icine koyarsin:
+mesaj = "Iyi gunler"
+print(mesaj)
+
+Kullanici: Iki metni nasil birlestiririm?
+Bilge: Arti ile metinleri birlestirirsin:
+ad = "Ali"
+soyad = "Veli"
+print(ad + " " + soyad)
+
+Kullanici: Bir degiskenin degerini sonradan degistirebilir miyim?
+Bilge: Evet, tekrar atama yaparsin:
+x = 5
+x = 10
+print(x)
+
+Kullanici: Kullanicidan iki sayi alip topla.
+Bilge: Iki girdiyi int'e cevirip toplarsin:
+a = int(input("1. sayi: "))
+b = int(input("2. sayi: "))
+print(a + b)
+
+Kullanici: print ile birden fazla degeri nasil yazdiririm?
+Bilge: Virgulle ayirarak yazarsin:
+ad = "Ali"
+yas = 30
+print(ad, yas)
+
+Kullanici: Bir sayinin karesini yazdir.
+Bilge: Yildiz yildiz ile us alirsin:
+sayi = 4
+print(sayi ** 2)
+
+Kullanici: Iki sayiyi carpmak istiyorum.
+Bilge: Yildiz isaretiyle carparsin:
+a = 6
+b = 7
+print(a * b)
+
+Kullanici: Iki sayiyi bolmek nasil yapilir?
+Bilge: Bolu isaretiyle bolersin:
+a = 20
+b = 4
+print(a / b)
+
+Kullanici: Bir degiskenin tipini nasil ogrenirim?
+Bilge: type fonksiyonunu kullanirsin:
+x = 5
+print(type(x))
+
+Kullanici: Selamlama yapan bir fonksiyon orneklendir.
+Bilge: def ile tanimlayip cagirirsin:
+def merhaba(isim):
+    print("Selam", isim)
+merhaba("Mehmet")
+
+Kullanici: Tam sayi ve ondalik sayi degiskeni nasil olur?
+Bilge: Birine tam, digerine nokta ile ondalik atarsin:
+tam = 5
+ondalik = 3.14
+print(tam, ondalik)
+
+Kullanici: Iki degiskenin degerini ekrana alt alta yazdir.
+Bilge: Iki ayri print kullanirsin:
+a = 1
+b = 2
+print(a)
+print(b)
+
+Kullanici: Kullanicidan ad alip selam veren program yaz.
+Bilge: input ile alir, f-string ile yazarsin:
+ad = input("Adin: ")
+print(f"Merhaba {ad}")
+
+Kullanici: Bir sayiyi 1 artirmak istiyorum.
+Bilge: Kendisine 1 ekleyip yeniden atarsin:
+sayi = 5
+sayi = sayi + 1
+print(sayi)
+
+Kullanici: Iki sayinin ortalamasini bulan kod yaz.
+Bilge: Toplami ikiye bolersin:
+a = 10
+b = 20
+print((a + b) / 2)
+
+Kullanici: Parametresiz bir fonksiyon nasil yazilir?
+Bilge: Bos parantezle tanimlarsin:
+def bilgi():
+    print("Python kolaydir")
+bilgi()
+
+Kullanici: Bir degiskeni baska degiskene nasil kopyalarim?
+Bilge: Esittir ile atarsin:
+a = 5
+b = a
+print(b)
+
+Kullanici: Bool degeri olan bir degisken ornegi ver.
+Bilge: True veya False atarsin:
+aktif = True
+print(aktif)
+
+Kullanici: Bos satir birakmadan iki kelimeyi yan yana yazdir.
+Bilge: sep parametresiyle ayraci ayarlarsin:
+print("Merhaba", "Dunya", sep="-")
+
+Kullanici: Cevap dondurmeyen ama ekrana yazan fonksiyon yaz.
+Bilge: Icinde print kullanirsin:
+def goster(x):
+    print("Deger:", x)
+goster(99)
+
+Kullanici: Iki sayinin farkini donduren fonksiyon yaz.
+Bilge: return ile farki dondurursun:
+def fark(a, b):
+    return a - b
+print(fark(10, 3))
+
+Kullanici: Bir mesaji uc kez ekrana yazdir.
+Bilge: Metni yildiz ile carparak tekrar edersin:
+print("Hi! " * 3)
+
+Kullanici: Degiskenleri tek satirda nasil tanimlarim?
+Bilge: Virgulle coklu atama yaparsin:
+a, b, c = 1, 2, 3
+print(a, b, c)
+
+Kullanici: Kullanicidan alinan iki sayinin carpimini yazdir.
+Bilge: Girdileri int'e cevirip carparsin:
+x = int(input("1. sayi: "))
+y = int(input("2. sayi: "))
+print(x * y)
+
+Kullanici: İki sayıyı toplayan bir fonksiyon yaz.
+Bilge: İki sayıyı toplayıp döndüren basit bir fonksiyon:
+
+def topla(a, b):
+    return a + b
+
+print(topla(3, 5))  # 8
+
+Kullanici: Bana iki sayının toplamını veren kısa bir Python fonksiyonu lazım.
+Bilge: İşte iki sayıyı toplayan kısa bir fonksiyon:
+
+def topla(a, b):
+    return a + b
+
+print(topla(10, 20))  # 30
+
+Kullanici: İki değeri toplayan fonksiyon nasıl yazılır?
+Bilge: Şöyle yazabilirsin:
+
+def topla(x, y):
+    return x + y
+
+print(topla(7, 2))  # 9
+
+Kullanici: İki sayıyı çarpan bir fonksiyon yazar mısın?
+Bilge: İki sayıyı çarpan fonksiyon:
+
+def carp(a, b):
+    return a * b
+
+print(carp(4, 6))  # 24
+
+Kullanici: İki sayının çarpımını döndüren kısa fonksiyon istiyorum.
+Bilge: İşte çarpım fonksiyonu:
+
+def carp(x, y):
+    return x * y
+
+print(carp(3, 9))  # 27
+
+Kullanici: İki değeri çarpan bir Python fonksiyonu yazalım.
+Bilge: Şu fonksiyon iki değeri çarpar:
+
+def carpim(a, b):
+    return a * b
+
+print(carpim(5, 5))  # 25
+
+Kullanici: İki sayıyı çıkaran fonksiyon yaz.
+Bilge: İki sayıyı çıkaran fonksiyon:
+
+def cikar(a, b):
+    return a - b
+
+print(cikar(10, 4))  # 6
+
+Kullanici: İki sayıyı bölen kısa bir fonksiyon nasıl olur?
+Bilge: İki sayıyı bölen fonksiyon:
+
+def bol(a, b):
+    return a / b
+
+print(bol(20, 4))  # 5.0
+
+Kullanici: Dikdörtgenin alanını hesaplayan fonksiyon yaz.
+Bilge: Dikdörtgen alanı için fonksiyon:
+
+def dikdortgen_alan(en, boy):
+    return en * boy
+
+print(dikdortgen_alan(5, 3))  # 15
+
+Kullanici: Bir dikdörtgenin çevresini bulan fonksiyon lazım.
+Bilge: Dikdörtgen çevresi fonksiyonu:
+
+def dikdortgen_cevre(en, boy):
+    return 2 * (en + boy)
+
+print(dikdortgen_cevre(5, 3))  # 16
+
+Kullanici: Karenin alanını hesaplayan kısa bir fonksiyon yazar mısın?
+Bilge: Kare alanı için fonksiyon:
+
+def kare_alan(kenar):
+    return kenar * kenar
+
+print(kare_alan(4))  # 16
+
+Kullanici: Karenin çevresini bulan fonksiyon nasıl yazılır?
+Bilge: Kare çevresi fonksiyonu:
+
+def kare_cevre(kenar):
+    return 4 * kenar
+
+print(kare_cevre(5))  # 20
+
+Kullanici: Dairenin alanını hesaplayan fonksiyon yaz.
+Bilge: Daire alanı için math kullanalım:
+
+import math
+def daire_alan(r):
+    return math.pi * r ** 2
+
+print(daire_alan(2))  # 12.566...
+
+Kullanici: Bir dairenin çevresini bulan kısa fonksiyon istiyorum.
+Bilge: Daire çevresi fonksiyonu:
+
+import math
+def daire_cevre(r):
+    return 2 * math.pi * r
+
+print(daire_cevre(3))  # 18.849...
+
+Kullanici: Üçgenin alanını hesaplayan fonksiyon yazar mısın?
+Bilge: Üçgen alanı için fonksiyon:
+
+def ucgen_alan(taban, yukseklik):
+    return taban * yukseklik / 2
+
+print(ucgen_alan(6, 4))  # 12.0
+
+Kullanici: Faktöriyel hesaplayan bir fonksiyon yaz.
+Bilge: Döngü ile faktöriyel hesabı:
+
+def faktoriyel(n):
+    sonuc = 1
+    for i in range(2, n + 1):
+        sonuc *= i
+    return sonuc
+
+print(faktoriyel(5))  # 120
+
+Kullanici: Bir sayının faktöriyelini bulan kısa fonksiyon lazım.
+Bilge: Recursive (öz yinelemeli) faktöriyel:
+
+def faktoriyel(n):
+    return 1 if n <= 1 else n * faktoriyel(n - 1)
+
+print(faktoriyel(4))  # 24
+
+Kullanici: Faktöriyeli hazır kütüphaneyle nasıl hesaplarım?
+Bilge: math modülündeki factorial fonksiyonunu kullanabilirsin:
+
+import math
+print(math.factorial(6))  # 720
+
+Kullanici: Bir listenin ortalamasını bulan fonksiyon yaz.
+Bilge: Listenin ortalamasını veren fonksiyon:
+
+def ortalama(liste):
+    return sum(liste) / len(liste)
+
+print(ortalama([2, 4, 6]))  # 4.0
+
+Kullanici: Sayıların ortalamasını hesaplayan kısa bir fonksiyon istiyorum.
+Bilge: Ortalama fonksiyonu:
+
+def ortalama(sayilar):
+    return sum(sayilar) / len(sayilar)
+
+print(ortalama([10, 20, 30, 40]))  # 25.0
+
+Kullanici: İki sayının ortalamasını veren fonksiyon nasıl yazılır?
+Bilge: İki sayının ortalaması için:
+
+def ortalama2(a, b):
+    return (a + b) / 2
+
+print(ortalama2(8, 4))  # 6.0
+
+Kullanici: Bir listedeki en büyük sayıyı bulan fonksiyon yaz.
+Bilge: En büyük sayıyı bulan fonksiyon:
+
+def en_buyuk(liste):
+    return max(liste)
+
+print(en_buyuk([3, 9, 1, 7]))  # 9
+
+Kullanici: Listedeki en küçük sayıyı döndüren kısa fonksiyon lazım.
+Bilge: En küçük sayıyı bulan fonksiyon:
+
+def en_kucuk(liste):
+    return min(liste)
+
+print(en_kucuk([3, 9, 1, 7]))  # 1
+
+Kullanici: İki sayıdan büyük olanı döndüren fonksiyon yazar mısın?
+Bilge: İki sayının büyüğünü veren fonksiyon:
+
+def buyuk_olan(a, b):
+    return a if a > b else b
+
+print(buyuk_olan(12, 7))  # 12
+
+Kullanici: İki sayıdan küçük olanı bulan kısa fonksiyon istiyorum.
+Bilge: İki sayının küçüğünü veren fonksiyon:
+
+def kucuk_olan(a, b):
+    return a if a < b else b
+
+print(kucuk_olan(12, 7))  # 7
+
+Kullanici: Üç sayının en büyüğünü bulan fonksiyon yaz.
+Bilge: Üç sayının en büyüğü için:
+
+def en_buyuk3(a, b, c):
+    return max(a, b, c)
+
+print(en_buyuk3(4, 9, 6))  # 9
+
+Kullanici: Bir sayının karesini alan fonksiyon yazar mısın?
+Bilge: Sayının karesini veren fonksiyon:
+
+def kare(n):
+    return n ** 2
+
+print(kare(6))  # 36
+
+Kullanici: Bir sayının küpünü hesaplayan kısa fonksiyon lazım.
+Bilge: Küp alan fonksiyon:
+
+def kup(n):
+    return n ** 3
+
+print(kup(3))  # 27
+
+Kullanici: Üç sayıyı toplayan fonksiyon nasıl yazılır?
+Bilge: Üç sayıyı toplayan fonksiyon:
+
+def topla3(a, b, c):
+    return a + b + c
+
+print(topla3(1, 2, 3))  # 6
+
+Kullanici: Bir listedeki sayıların toplamını veren fonksiyon yaz.
+Bilge: Listedeki toplam için:
+
+def liste_topla(liste):
+    return sum(liste)
+
+print(liste_topla([5, 10, 15]))  # 30
+
+Kullanici: İki sayının farkının mutlak değerini veren fonksiyon yazar mısın?
+Bilge: Mutlak farkı veren fonksiyon:
+
+def mutlak_fark(a, b):
+    return abs(a - b)
+
+print(mutlak_fark(3, 8))  # 5
+
+Kullanici: Bir sayının çift olup olmadığını kontrol eden fonksiyon lazım.
+Bilge: Çift sayı kontrolü:
+
+def cift_mi(n):
+    return n % 2 == 0
+
+print(cift_mi(4))  # True
+
+Kullanici: Silindirin hacmini hesaplayan kısa fonksiyon yaz.
+Bilge: Silindir hacmi fonksiyonu:
+
+import math
+def silindir_hacim(r, h):
+    return math.pi * r ** 2 * h
+
+print(silindir_hacim(2, 5))  # 62.83...
+
+Kullanici: İki sayının ortalamasıyla beraber toplamını döndüren fonksiyon olur mu?
+Bilge: Hem toplamı hem ortalamayı döndüren fonksiyon:
+
+def topla_ort(a, b):
+    return a + b, (a + b) / 2
+
+print(topla_ort(4, 6))  # (10, 5.0)
+
+Kullanici: Bir listenin en büyük ve en küçük elemanını birlikte döndüren fonksiyon yaz.
+Bilge: Min ve max'ı birlikte veren fonksiyon:
+
+def min_max(liste):
+    return min(liste), max(liste)
+
+print(min_max([5, 2, 9, 1]))  # (1, 9)
+
+Kullanici: Küpün hacmini bulan kısa fonksiyon yazar mısın?
+Bilge: Küp hacmi fonksiyonu:
+
+def kup_hacim(kenar):
+    return kenar ** 3
+
+print(kup_hacim(3))  # 27
+
+Kullanici: Bir sayının pozitif mi negatif mi olduğunu döndüren fonksiyon lazım.
+Bilge: İşaret kontrolü yapan fonksiyon:
+
+def isaret(n):
+    return "pozitif" if n > 0 else "negatif" if n < 0 else "sıfır"
+
+print(isaret(-5))  # negatif
+
+Kullanici: İki sayının üssünü alan fonksiyon nasıl yazılır?
+Bilge: Üs alma fonksiyonu:
+
+def us_al(taban, us):
+    return taban ** us
+
+print(us_al(2, 5))  # 32
+
+Kullanici: 1'den 10'a kadar olan sayilari yazdiran bir dongu yaz.
+Bilge: for dongusu ile 1'den 10'a kadar yazdirabilirsin:
+for i in range(1, 11):
+    print(i)
+
+Kullanici: Bana 1'den 10'a kadar sayilari ekrana basan kodu gosterir misin?
+Bilge: range kullanarak kolayca yapilir:
+for i in range(1, 11):
+    print(i)
+
+Kullanici: 0'dan 9'a kadar sayilari nasil yazdiririm?
+Bilge: range(10) dogrudan 0..9 verir:
+for i in range(10):
+    print(i)
+
+Kullanici: 1'den 100'e kadar olan sayilarin toplamini bul.
+Bilge: sum ve range ile tek satirda bulunur:
+toplam = sum(range(1, 101))
+print(toplam)
+
+Kullanici: 1'den n'e kadar toplami dongu ile hesaplayan kod yaz.
+Bilge: Donguyle biriktirerek hesaplayabilirsin:
+n = 100
+toplam = 0
+for i in range(1, n + 1):
+    toplam += i
+print(toplam)
+
+Kullanici: Ilk n sayinin toplamini bulan bir fonksiyon yazar misin?
+Bilge: sum ile kisa bir fonksiyon yeterli:
+def topla(n):
+    return sum(range(1, n + 1))
+print(topla(10))
+
+Kullanici: Bir sayinin cift mi tek mi oldugunu nasil kontrol ederim?
+Bilge: Mod (%) ile kontrol edilir:
+sayi = 7
+if sayi % 2 == 0:
+    print("Cift")
+else:
+    print("Tek")
+
+Kullanici: Verilen sayinin cift olup olmadigini soyleyen kod yaz.
+Bilge: Kalanin 0 olmasi cift demektir:
+sayi = 12
+print("Cift" if sayi % 2 == 0 else "Tek")
+
+Kullanici: 1'den 20'ye kadar olan cift sayilari yazdir.
+Bilge: range adimini 2 yaparak ciftleri alirsin:
+for i in range(2, 21, 2):
+    print(i)
+
+Kullanici: 1 ile 20 arasindaki tek sayilari yazdiran kodu gosterir misin?
+Bilge: 1'den baslayip 2'ser artarak tekleri yazdirirsin:
+for i in range(1, 21, 2):
+    print(i)
+
+Kullanici: while dongusu ile 1'den 5'e kadar sayma ornegi ver.
+Bilge: Sayaci elle arttirarak while ile sayabilirsin:
+i = 1
+while i <= 5:
+    print(i)
+    i += 1
+
+Kullanici: 5'ten geriye 1'e kadar sayan bir dongu yaz.
+Bilge: range'i negatif adimla geriye saydirabilirsin:
+for i in range(5, 0, -1):
+    print(i)
+
+Kullanici: Bir listedeki tum elemanlari tek tek yazdir.
+Bilge: Liste uzerinde dogrudan gezinebilirsin:
+liste = [10, 20, 30]
+for eleman in liste:
+    print(eleman)
+
+Kullanici: Liste elemanlarini hem indeksiyle hem degeriyle yazdirmak istiyorum.
+Bilge: enumerate indeks ve degeri birlikte verir:
+liste = ["a", "b", "c"]
+for i, deger in enumerate(liste):
+    print(i, deger)
+
+Kullanici: Bir listenin elemanlarini toplayan kod yaz.
+Bilge: sum fonksiyonu listeyi dogrudan toplar:
+liste = [4, 8, 15, 16]
+print(sum(liste))
+
+Kullanici: Listedeki sayilari dongu ile toplamak istersem nasil yaparim?
+Bilge: Donguyle her elemani biriktirebilirsin:
+liste = [3, 5, 7]
+toplam = 0
+for sayi in liste:
+    toplam += sayi
+print(toplam)
+
+Kullanici: Bir sayinin pozitif, negatif yoksa sifir mi oldugunu kontrol et.
+Bilge: if/elif/else ile uc durumu ayirabilirsin:
+sayi = -3
+if sayi > 0:
+    print("Pozitif")
+elif sayi < 0:
+    print("Negatif")
+else:
+    print("Sifir")
+
+Kullanici: Iki sayidan buyuk olani bulan kod yaz.
+Bilge: if/else ile karsilastirabilirsin:
+a, b = 5, 9
+if a > b:
+    print(a)
+else:
+    print(b)
+
+Kullanici: Bir ogrencinin notu 50 ve uzeriyse gectigini yazdir.
+Bilge: Basit bir if/else yeterli:
+not_ = 65
+if not_ >= 50:
+    print("Gecti")
+else:
+    print("Kaldi")
+
+Kullanici: 1'den 50'ye kadar 3'e tam bolunen sayilari yazdir.
+Bilge: Dongu icinde mod ile kontrol edersin:
+for i in range(1, 51):
+    if i % 3 == 0:
+        print(i)
+
+Kullanici: 5'in katlarini 5'ten 50'ye kadar yazdirmak istiyorum.
+Bilge: range adimini 5 vererek dogrudan yazdirabilirsin:
+for i in range(5, 51, 5):
+    print(i)
+
+Kullanici: Bir listedeki en buyuk sayiyi bul.
+Bilge: max fonksiyonu en buyugu dondurur:
+liste = [12, 7, 25, 3]
+print(max(liste))
+
+Kullanici: Bir listenin en kucuk elemanini nasil bulurum?
+Bilge: min fonksiyonu en kucuk degeri verir:
+liste = [12, 7, 25, 3]
+print(min(liste))
+
+Kullanici: Bir listedeki cift sayilari yazdir.
+Bilge: Dongu ve mod kontroluyle ciftleri secersin:
+liste = [1, 2, 3, 4, 5, 6]
+for sayi in liste:
+    if sayi % 2 == 0:
+        print(sayi)
+
+Kullanici: Bir listedeki kac eleman oldugunu say.
+Bilge: len fonksiyonu eleman sayisini verir:
+liste = [10, 20, 30, 40]
+print(len(liste))
+
+Kullanici: 1'den 10'a kadar sayilarin karelerini yazdir.
+Bilge: Dongu icinde i*i hesaplarsin:
+for i in range(1, 11):
+    print(i * i)
+
+Kullanici: Bir sayinin faktoriyelini dongu ile hesapla.
+Bilge: Carparak biriktirerek faktoriyel bulunur:
+n = 5
+sonuc = 1
+for i in range(1, n + 1):
+    sonuc *= i
+print(sonuc)
+
+Kullanici: 1'den 10'a kadar olan cift sayilarin toplamini bul.
+Bilge: range adimi 2 ile ciftleri toplarsin:
+print(sum(range(2, 11, 2)))
+
+Kullanici: Kullanicinin girdigi sayiya kadar saymak istiyorum.
+Bilge: input ile alip range'de kullanabilirsin:
+n = int(input("Sayi: "))
+for i in range(1, n + 1):
+    print(i)
+
+Kullanici: Bir listede belirli bir sayi var mi diye kontrol et.
+Bilge: in operatoru uyelik kontrolu yapar:
+liste = [1, 2, 3]
+if 2 in liste:
+    print("Var")
+else:
+    print("Yok")
+
+Kullanici: 1'den 30'a kadar sayilarda asal olanlari degil de sadece tek sayilari say.
+Bilge: Mod kontroluyle tekleri sayabilirsin:
+adet = 0
+for i in range(1, 31):
+    if i % 2 == 1:
+        adet += 1
+print(adet)
+
+Kullanici: while dongusuyle toplami 50'yi gecene kadar sayilari topla.
+Bilge: Kosul saglandikca toplama devam eder:
+toplam = 0
+i = 1
+while toplam <= 50:
+    toplam += i
+    i += 1
+print(toplam)
+
+Kullanici: Bir listedeki sayilarin ortalamasini hesapla.
+Bilge: Toplami eleman sayisina bolersin:
+liste = [10, 20, 30]
+print(sum(liste) / len(liste))
+
+Kullanici: Bir sayinin 3'e ve 5'e tam bolunup bolunmedigini kontrol et.
+Bilge: and ile iki kosulu birlikte kontrol edersin:
+sayi = 15
+if sayi % 3 == 0 and sayi % 5 == 0:
+    print("Her ikisine de bolunur")
+else:
+    print("Bolunmez")
+
+Kullanici: Listedeki pozitif sayilarin toplamini bul.
+Bilge: Dongu icinde 0'dan buyukleri toplarsin:
+liste = [-2, 5, -1, 3]
+toplam = 0
+for x in liste:
+    if x > 0:
+        toplam += x
+print(toplam)
+
+Kullanici: 1'den 10'a kadar sayilari ters sirada yazdir.
+Bilge: range'i 10'dan 1'e negatif adimla calistirirsin:
+for i in range(10, 0, -1):
+    print(i)
+
+Kullanici: Bir listedeki elemanlari virgulle ayirip tek satirda yazdir.
+Bilge: join ile elemanlari birlestirebilirsin:
+liste = ["elma", "armut", "kiraz"]
+print(", ".join(liste))
+
+Kullanici: Bir sayinin 0 ile 100 arasinda olup olmadigini kontrol et.
+Bilge: Python'da zincirli karsilastirma kullanilir:
+sayi = 42
+if 0 <= sayi <= 100:
+    print("Aralikta")
+else:
+    print("Aralik disinda")
+
+Kullanici: 1'den 15'e kadar sayilari yazdir ama 7'yi atla.
+Bilge: continue ile istedigin degeri atlayabilirsin:
+for i in range(1, 16):
+    if i == 7:
+        continue
+    print(i)
+
+Kullanici: Sayilari yazdiran bir dongu istiyorum ama 5'e gelince dursun.
+Bilge: break ile donguyu erken sonlandirirsin:
+for i in range(1, 100):
+    if i == 5:
+        break
+    print(i)
+
+Kullanici: Python'da bos bir liste nasil olusturulur?
+Bilge: Bos liste su sekilde olusturulur:
+liste = []
+print(liste)
+
+Kullanici: Bir listeye eleman nasil eklerim?
+Bilge: append ile listenin sonuna eleman eklenir:
+liste = [1, 2]
+liste.append(3)
+print(liste)
+
+Kullanici: Listenin sonuna nasil yeni bir oge koyarim?
+Bilge: append metodu listenin sonuna ekler:
+meyveler = ["elma"]
+meyveler.append("armut")
+print(meyveler)
+
+Kullanici: Bir listedeki eleman sayisini nasil bulurum?
+Bilge: len fonksiyonu eleman sayisini verir:
+liste = [10, 20, 30]
+print(len(liste))
+
+Kullanici: Listede kac tane oge oldugunu ogrenmek istiyorum.
+Bilge: len ile uzunlugu ogrenirsin:
+sayilar = [5, 8, 13, 21]
+print(len(sayilar))
+
+Kullanici: Bir listeyi dongu ile nasil gezerim?
+Bilge: for dongusu ile her elemani gezersin:
+liste = ["a", "b", "c"]
+for eleman in liste:
+    print(eleman)
+
+Kullanici: Listedeki tum elemanlari tek tek nasil yazdiririm?
+Bilge: for dongusu kullanabilirsin:
+sayilar = [1, 2, 3]
+for s in sayilar:
+    print(s)
+
+Kullanici: Iki stringi nasil birlestiririm?
+Bilge: Arti (+) operatoru ile birlestirirsin:
+ad = "Ali"
+soyad = "Veli"
+print(ad + " " + soyad)
+
+Kullanici: Iki kelimeyi yan yana yazdirmak istiyorum.
+Bilge: Stringleri + ile birlestirebilirsin:
+a = "Merhaba"
+b = "Dunya"
+print(a + " " + b)
+
+Kullanici: Bir metni buyuk harfe nasil ceviririm?
+Bilge: upper metodu metni buyuk harfe cevirir:
+metin = "merhaba"
+print(metin.upper())
+
+Kullanici: Yaziyi kucuk harfe cevirmek istiyorum.
+Bilge: lower metodu kucuk harfe cevirir:
+metin = "MERHABA"
+print(metin.lower())
+
+Kullanici: Bir stringi nasil ters ceviririm?
+Bilge: Dilimleme ile ters cevirebilirsin:
+metin = "python"
+print(metin[::-1])
+
+Kullanici: Kelimeyi tersten yazdirmak istiyorum.
+Bilge: [::-1] dilimi stringi tersine cevirir:
+kelime = "kalem"
+print(kelime[::-1])
+
+Kullanici: Bir listeyi nasil ters ceviririm?
+Bilge: reverse metodu listeyi yerinde ters cevirir:
+liste = [1, 2, 3]
+liste.reverse()
+print(liste)
+
+Kullanici: Listenin elemanlarini tersten siralamak istiyorum.
+Bilge: Dilimleme ile ters listeyi alabilirsin:
+liste = [10, 20, 30]
+print(liste[::-1])
+
+Kullanici: Baslangicta degerleri olan bir liste nasil tanimlanir?
+Bilge: Kose parantez icinde degerleri yazarsin:
+sayilar = [1, 2, 3, 4]
+print(sayilar)
+
+Kullanici: Listenin ilk elemanina nasil ulasirim?
+Bilge: Indeks 0 ilk elemani verir:
+liste = ["a", "b", "c"]
+print(liste[0])
+
+Kullanici: Listenin son elemanini nasil alirim?
+Bilge: -1 indeksi son elemani verir:
+liste = [10, 20, 30]
+print(liste[-1])
+
+Kullanici: Listeden bir eleman nasil silinir?
+Bilge: remove metodu degeri silebilir:
+liste = [1, 2, 3]
+liste.remove(2)
+print(liste)
+
+Kullanici: Stringin uzunlugunu nasil olcerim?
+Bilge: len fonksiyonu karakter sayisini verir:
+metin = "python"
+print(len(metin))
+
+Kullanici: Bir metinde kac karakter var ogrenmek istiyorum.
+Bilge: len ile karakter sayisini bulursun:
+kelime = "bilgisayar"
+print(len(kelime))
+
+Kullanici: Bir kelimenin ilk harfini buyuk yapmak istiyorum.
+Bilge: capitalize ilk harfi buyutur:
+metin = "ankara"
+print(metin.capitalize())
+
+Kullanici: Listeyi virgulle ayrilmis stringe nasil cevirebilirim?
+Bilge: join metodu elemanlari birlestirir:
+liste = ["a", "b", "c"]
+print(",".join(liste))
+
+Kullanici: Bir cumleyi kelimelere nasil ayiririm?
+Bilge: split metodu bosluklardan ayirir:
+cumle = "merhaba guzel dunya"
+print(cumle.split())
+
+Kullanici: Listede belirli bir eleman var mi nasil kontrol ederim?
+Bilge: in operatoru ile kontrol edersin:
+liste = [1, 2, 3]
+print(2 in liste)
+
+Kullanici: Iki listeyi nasil birlestiririm?
+Bilge: Arti (+) ile listeleri birlestirebilirsin:
+a = [1, 2]
+b = [3, 4]
+print(a + b)
+
+Kullanici: Bir listeyi kucukten buyuge nasil siralarim?
+Bilge: sort metodu listeyi siralar:
+liste = [3, 1, 2]
+liste.sort()
+print(liste)
+
+Kullanici: Listedeki sayilarin toplamini nasil bulurum?
+Bilge: sum fonksiyonu toplami verir:
+sayilar = [10, 20, 30]
+print(sum(sayilar))
+
+Kullanici: Listedeki en buyuk sayiyi nasil bulurum?
+Bilge: max fonksiyonu en buyugu verir:
+sayilar = [4, 9, 1]
+print(max(sayilar))
+
+Kullanici: Listedeki en kucuk degeri istiyorum.
+Bilge: min fonksiyonu en kucugu verir:
+sayilar = [7, 3, 8]
+print(min(sayilar))
+
+Kullanici: Bir stringin belirli bir kelimeyle baslayip baslamadigini nasil kontrol ederim?
+Bilge: startswith metodu bunu kontrol eder:
+metin = "merhaba dunya"
+print(metin.startswith("merhaba"))
+
+Kullanici: Stringdeki bosluklari nasil silerim?
+Bilge: replace ile bosluklari kaldirabilirsin:
+metin = "a b c"
+print(metin.replace(" ", ""))
+
+Kullanici: Bir kelimeyi baska bir kelimeyle nasil degistiririm?
+Bilge: replace metodu metin degistirir:
+metin = "elma yedim"
+print(metin.replace("elma", "armut"))
+
+Kullanici: Listenin belirli bir konumuna eleman eklemek istiyorum.
+Bilge: insert metodu istenen konuma ekler:
+liste = [1, 3]
+liste.insert(1, 2)
+print(liste)
+
+Kullanici: Bir karakterin metinde kac kez gectigini nasil sayarim?
+Bilge: count metodu tekrar sayisini verir:
+metin = "kelebek"
+print(metin.count("e"))
+
+Kullanici: Listeyi dongu ile gezerken indeksini de gormek istiyorum.
+Bilge: enumerate hem indeks hem degeri verir:
+liste = ["a", "b"]
+for i, e in enumerate(liste):
+    print(i, e)
+
+Kullanici: Bastaki ve sondaki bosluklari nasil temizlerim?
+Bilge: strip metodu bastaki ve sondaki bosluklari siler:
+metin = "  merhaba  "
+print(metin.strip())
+
+Kullanici: Stringi harf harf bir liste haline nasil getiririm?
+Bilge: list fonksiyonu her karakteri eleman yapar:
+metin = "abc"
+print(list(metin))
+
+Kullanici: Listedeki tekrar eden elemanlari nasil cikaririm?
+Bilge: set kullanarak tekrarlari kaldirabilirsin:
+liste = [1, 2, 2, 3]
+print(list(set(liste)))
+
+Kullanici: Bir kelimenin tum harflerini ayri ayri nasil yazdiririm?
+Bilge: for dongusu ile her harfi gezersin:
+kelime = "kus"
+for harf in kelime:
+    print(harf)
+
+Kullanici: Listenin ortasindan bir parca nasil alirim?
+Bilge: Dilimleme ile parca alirsin:
+liste = [1, 2, 3, 4, 5]
+print(liste[1:4])
+

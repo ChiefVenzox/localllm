@@ -1,0 +1,700 @@
+{"messages": [{"role": "user", "content": "5 ile 1'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 5, 1'ten buyuktur. Sonuc: 5 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "1 mi 15 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 15, 1'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "4 mi 15 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 15, 4'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "4 mi 16 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 4'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "0 mi 5 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 5, 0'ten buyuktur. Sonuc: 5 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "16 mi 17 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 16'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 9 mi 19 mi?"}, {"role": "assistant", "content": "Dusunelim: 9, 19'ten kucuktur. Sonuc: 9 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "18 ile 9'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 9'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "9 mi 2 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 9, 2'ten buyuktur. Sonuc: 9 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 5 mi 3 mi?"}, {"role": "assistant", "content": "Dusunelim: 5, 3'ten buyuktur. Sonuc: 5 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "6 mi 17 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 6'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "13 mi 3 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 13, 3'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "17 ile 14'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 14'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "7 mi 13 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 13, 7'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "18 mi 20 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 20'ten kucuktur. Sonuc: 18 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "5 mi 3 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 5, 3'ten buyuktur. Sonuc: 5 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "9 mi 13 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 13, 9'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 18 mi 17 mi?"}, {"role": "assistant", "content": "Dusunelim: 18, 17'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 5 mi 13 mi?"}, {"role": "assistant", "content": "Dusunelim: 13, 5'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "9 ile 13'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 13, 9'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 18 mi 0 mi?"}, {"role": "assistant", "content": "Dusunelim: 0, 18'ten kucuktur. Sonuc: 0 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "4 mi 12 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 12, 4'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "10 mi 6 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 10, 6'ten buyuktur. Sonuc: 10 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "9 mi 12 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 9, 12'ten kucuktur. Sonuc: 9 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 16 mi 3 mi?"}, {"role": "assistant", "content": "Dusunelim: 16, 3'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "15 ile 11'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 15, 11'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "16 mi 2 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 2'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 2 mi 18 mi?"}, {"role": "assistant", "content": "Dusunelim: 18, 2'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "20 ile 10'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 10'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "16 ile 5'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 5'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "20 mi 5 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 5'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "20 ile 1'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 1'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "18 ile 2'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 2'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "0 ile 2'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 2, 0'ten buyuktur. Sonuc: 2 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "20 mi 6 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 6'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "3 ile 2'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 3, 2'ten buyuktur. Sonuc: 3 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "9 ile 20'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 9'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "16 mi 6 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 6, 16'ten kucuktur. Sonuc: 6 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "4 mi 3 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 4, 3'ten buyuktur. Sonuc: 4 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "6 ile 4'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 6, 4'ten buyuktur. Sonuc: 6 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "12 mi 19 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 12'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "0 mi 19 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 0, 19'ten kucuktur. Sonuc: 0 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 18 mi 1 mi?"}, {"role": "assistant", "content": "Dusunelim: 18, 1'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "0 mi 20 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 0'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 2 mi 11 mi?"}, {"role": "assistant", "content": "Dusunelim: 11, 2'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "2 ile 0'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 2, 0'ten buyuktur. Sonuc: 2 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "14 mi 6 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 6'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "17 mi 16 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 16'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "8 ile 12'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 12, 8'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "4 ile 1'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 4, 1'ten buyuktur. Sonuc: 4 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 12 mi 1 mi?"}, {"role": "assistant", "content": "Dusunelim: 1, 12'ten kucuktur. Sonuc: 1 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "14 mi 15 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 15, 14'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "19 mi 6 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 6, 19'ten kucuktur. Sonuc: 6 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 11 mi 2 mi?"}, {"role": "assistant", "content": "Dusunelim: 11, 2'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 17 mi 12 mi?"}, {"role": "assistant", "content": "Dusunelim: 17, 12'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 6 mi 12 mi?"}, {"role": "assistant", "content": "Dusunelim: 12, 6'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "11 mi 14 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 11'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "1 mi 14 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 1'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "8 mi 10 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 10, 8'ten buyuktur. Sonuc: 10 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "10 mi 8 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 10, 8'ten buyuktur. Sonuc: 10 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "15 ile 19'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 15'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "3 mi 13 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 13, 3'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "1 ile 0'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 1, 0'ten buyuktur. Sonuc: 1 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "16 mi 8 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 8'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 16 mi 17 mi?"}, {"role": "assistant", "content": "Dusunelim: 17, 16'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 1 mi 2 mi?"}, {"role": "assistant", "content": "Dusunelim: 2, 1'ten buyuktur. Sonuc: 2 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "0 mi 7 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 7, 0'ten buyuktur. Sonuc: 7 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "6 mi 16 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 6'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 14 mi 1 mi?"}, {"role": "assistant", "content": "Dusunelim: 14, 1'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "12 ile 1'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 12, 1'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 2 mi 15 mi?"}, {"role": "assistant", "content": "Dusunelim: 2, 15'ten kucuktur. Sonuc: 2 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "15 mi 6 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 15, 6'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "13 ile 0'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 13, 0'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "1 ile 16'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 1'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "5 mi 4 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 5, 4'ten buyuktur. Sonuc: 5 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 13 mi 11 mi?"}, {"role": "assistant", "content": "Dusunelim: 13, 11'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 18 mi 7 mi?"}, {"role": "assistant", "content": "Dusunelim: 18, 7'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 10 mi 2 mi?"}, {"role": "assistant", "content": "Dusunelim: 10, 2'ten buyuktur. Sonuc: 10 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "1 mi 15 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 15, 1'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "6 mi 18 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 6'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "18 ile 13'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 13'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "14 mi 0 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 0'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "12 mi 10 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 12, 10'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "16 mi 8 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 8'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "0 ile 17'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 0'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 10 mi 1 mi?"}, {"role": "assistant", "content": "Dusunelim: 1, 10'ten kucuktur. Sonuc: 1 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "1 mi 20 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 1'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "14 mi 7 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 7'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 5 mi 0 mi?"}, {"role": "assistant", "content": "Dusunelim: 5, 0'ten buyuktur. Sonuc: 5 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "10 mi 2 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 2, 10'ten kucuktur. Sonuc: 2 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 2 mi 7 mi?"}, {"role": "assistant", "content": "Dusunelim: 7, 2'ten buyuktur. Sonuc: 7 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 17 mi 0 mi?"}, {"role": "assistant", "content": "Dusunelim: 17, 0'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "20 mi 2 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 2, 20'ten kucuktur. Sonuc: 2 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "19 mi 0 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 0, 19'ten kucuktur. Sonuc: 0 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 2 mi 7 mi?"}, {"role": "assistant", "content": "Dusunelim: 2, 7'ten kucuktur. Sonuc: 2 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "18 mi 1 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 1'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 18 mi 12 mi?"}, {"role": "assistant", "content": "Dusunelim: 18, 12'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 3 mi 16 mi?"}, {"role": "assistant", "content": "Dusunelim: 16, 3'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "2 mi 6 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 6, 2'ten buyuktur. Sonuc: 6 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "0 mi 13 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 13, 0'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 0 mi 1 mi?"}, {"role": "assistant", "content": "Dusunelim: 1, 0'ten buyuktur. Sonuc: 1 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 6 mi 11 mi?"}, {"role": "assistant", "content": "Dusunelim: 11, 6'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "8 ile 20'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 8'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 10 mi 16 mi?"}, {"role": "assistant", "content": "Dusunelim: 16, 10'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "2 mi 15 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 15, 2'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 10 mi 8 mi?"}, {"role": "assistant", "content": "Dusunelim: 10, 8'ten buyuktur. Sonuc: 10 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "12 mi 7 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 12, 7'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "3 mi 0 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 3, 0'ten buyuktur. Sonuc: 3 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "1 mi 9 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 9, 1'ten buyuktur. Sonuc: 9 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 17 mi 10 mi?"}, {"role": "assistant", "content": "Dusunelim: 10, 17'ten kucuktur. Sonuc: 10 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "4 mi 3 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 3, 4'ten kucuktur. Sonuc: 3 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "16 mi 14 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 16'ten kucuktur. Sonuc: 14 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 11 mi 7 mi?"}, {"role": "assistant", "content": "Dusunelim: 11, 7'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "17 mi 15 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 15'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "11 ile 5'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 11, 5'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "4 mi 10 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 4, 10'ten kucuktur. Sonuc: 4 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 11 mi 13 mi?"}, {"role": "assistant", "content": "Dusunelim: 11, 13'ten kucuktur. Sonuc: 11 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "9 mi 5 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 5, 9'ten kucuktur. Sonuc: 5 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "20 mi 5 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 5, 20'ten kucuktur. Sonuc: 5 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "14 mi 5 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 5, 14'ten kucuktur. Sonuc: 5 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "4 mi 0 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 4, 0'ten buyuktur. Sonuc: 4 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "11 mi 6 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 11, 6'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "3 mi 9 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 9, 3'ten buyuktur. Sonuc: 9 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "1 mi 4 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 1, 4'ten kucuktur. Sonuc: 1 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "12 mi 9 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 12, 9'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "8 mi 11 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 11, 8'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "2 mi 12 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 12, 2'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 0 mi 7 mi?"}, {"role": "assistant", "content": "Dusunelim: 7, 0'ten buyuktur. Sonuc: 7 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 6 mi 9 mi?"}, {"role": "assistant", "content": "Dusunelim: 9, 6'ten buyuktur. Sonuc: 9 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 7 mi 11 mi?"}, {"role": "assistant", "content": "Dusunelim: 11, 7'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "5 mi 14 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 5'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "9 mi 18 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 9'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 19 mi 15 mi?"}, {"role": "assistant", "content": "Dusunelim: 19, 15'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 9 mi 8 mi?"}, {"role": "assistant", "content": "Dusunelim: 9, 8'ten buyuktur. Sonuc: 9 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 1 mi 13 mi?"}, {"role": "assistant", "content": "Dusunelim: 13, 1'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "4 mi 19 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 4'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "19 mi 12 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 12, 19'ten kucuktur. Sonuc: 12 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 17 mi 20 mi?"}, {"role": "assistant", "content": "Dusunelim: 20, 17'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 20 mi 0 mi?"}, {"role": "assistant", "content": "Dusunelim: 20, 0'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 11 mi 7 mi?"}, {"role": "assistant", "content": "Dusunelim: 7, 11'ten kucuktur. Sonuc: 7 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "13 ile 1'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 13, 1'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "16 ile 14'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 14'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "16 mi 1 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 1'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "20 mi 11 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 11'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 14 mi 8 mi?"}, {"role": "assistant", "content": "Dusunelim: 14, 8'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 14 mi 16 mi?"}, {"role": "assistant", "content": "Dusunelim: 14, 16'ten kucuktur. Sonuc: 14 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "11 mi 0 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 11, 0'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "7 ile 11'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 11, 7'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "2 mi 16 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 2'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 20 mi 11 mi?"}, {"role": "assistant", "content": "Dusunelim: 20, 11'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "20 ile 0'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 0'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "20 mi 11 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 11, 20'ten kucuktur. Sonuc: 11 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "0 ile 4'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 4, 0'ten buyuktur. Sonuc: 4 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "11 mi 9 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 11, 9'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 9 mi 17 mi?"}, {"role": "assistant", "content": "Dusunelim: 9, 17'ten kucuktur. Sonuc: 9 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 8 mi 16 mi?"}, {"role": "assistant", "content": "Dusunelim: 16, 8'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "4 ile 5'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 5, 4'ten buyuktur. Sonuc: 5 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "16 mi 15 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 15'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "10 mi 5 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 10, 5'ten buyuktur. Sonuc: 10 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "0 ile 14'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 0'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 13 mi 8 mi?"}, {"role": "assistant", "content": "Dusunelim: 13, 8'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 4 mi 18 mi?"}, {"role": "assistant", "content": "Dusunelim: 18, 4'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "3 mi 6 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 6, 3'ten buyuktur. Sonuc: 6 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "0 mi 19 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 0'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 15 mi 18 mi?"}, {"role": "assistant", "content": "Dusunelim: 15, 18'ten kucuktur. Sonuc: 15 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "15 mi 18 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 15'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "17 ile 5'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 5'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "3 mi 19 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 3'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "8 mi 6 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 8, 6'ten buyuktur. Sonuc: 8 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 19 mi 2 mi?"}, {"role": "assistant", "content": "Dusunelim: 19, 2'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 7 mi 17 mi?"}, {"role": "assistant", "content": "Dusunelim: 17, 7'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 2 mi 12 mi?"}, {"role": "assistant", "content": "Dusunelim: 12, 2'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "9 ile 16'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 9'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 5 mi 6 mi?"}, {"role": "assistant", "content": "Dusunelim: 5, 6'ten kucuktur. Sonuc: 5 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "17 mi 9 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 9'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 9 mi 20 mi?"}, {"role": "assistant", "content": "Dusunelim: 20, 9'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 4 mi 7 mi?"}, {"role": "assistant", "content": "Dusunelim: 7, 4'ten buyuktur. Sonuc: 7 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "13 mi 0 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 13, 0'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "3 ile 10'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 10, 3'ten buyuktur. Sonuc: 10 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 14 mi 5 mi?"}, {"role": "assistant", "content": "Dusunelim: 14, 5'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 0 mi 9 mi?"}, {"role": "assistant", "content": "Dusunelim: 9, 0'ten buyuktur. Sonuc: 9 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 18 mi 6 mi?"}, {"role": "assistant", "content": "Dusunelim: 6, 18'ten kucuktur. Sonuc: 6 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "7 ile 5'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 7, 5'ten buyuktur. Sonuc: 7 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 13 mi 7 mi?"}, {"role": "assistant", "content": "Dusunelim: 13, 7'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "2 mi 17 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 2'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "11 mi 13 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 13, 11'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "13 mi 18 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 13'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 2 mi 6 mi?"}, {"role": "assistant", "content": "Dusunelim: 6, 2'ten buyuktur. Sonuc: 6 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "19 mi 20 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 19'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "17 mi 19 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 17'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 18 mi 6 mi?"}, {"role": "assistant", "content": "Dusunelim: 18, 6'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "6 mi 19 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 6'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "10 mi 11 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 11, 10'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "13 ile 4'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 13, 4'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "8 mi 2 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 8, 2'ten buyuktur. Sonuc: 8 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "7 mi 10 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 10, 7'ten buyuktur. Sonuc: 10 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "12 mi 5 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 12, 5'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "14 ile 19'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 14'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "2 mi 9 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 9, 2'ten buyuktur. Sonuc: 9 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "16 mi 12 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 12'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 19 mi 16 mi?"}, {"role": "assistant", "content": "Dusunelim: 19, 16'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "9 mi 7 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 9, 7'ten buyuktur. Sonuc: 9 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "5 mi 16 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 5'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 16 mi 6 mi?"}, {"role": "assistant", "content": "Dusunelim: 16, 6'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "17 ile 20'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 17'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "10 mi 20 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 10'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "16 ile 10'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 10'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 1 mi 17 mi?"}, {"role": "assistant", "content": "Dusunelim: 17, 1'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "7 mi 14 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 7'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 3 mi 12 mi?"}, {"role": "assistant", "content": "Dusunelim: 12, 3'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "4 mi 14 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 4'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "3 mi 18 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 3'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "12 mi 5 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 12, 5'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 12 mi 20 mi?"}, {"role": "assistant", "content": "Dusunelim: 20, 12'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 6 mi 4 mi?"}, {"role": "assistant", "content": "Dusunelim: 6, 4'ten buyuktur. Sonuc: 6 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "17 ile 3'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 3'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 4 mi 5 mi?"}, {"role": "assistant", "content": "Dusunelim: 5, 4'ten buyuktur. Sonuc: 5 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "0 mi 11 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 11, 0'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "16 mi 7 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 7'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "2 mi 8 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 8, 2'ten buyuktur. Sonuc: 8 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 18 mi 14 mi?"}, {"role": "assistant", "content": "Dusunelim: 18, 14'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "7 ile 8'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 8, 7'ten buyuktur. Sonuc: 8 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 9 mi 14 mi?"}, {"role": "assistant", "content": "Dusunelim: 14, 9'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 14 mi 0 mi?"}, {"role": "assistant", "content": "Dusunelim: 14, 0'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 4 mi 20 mi?"}, {"role": "assistant", "content": "Dusunelim: 20, 4'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 16 mi 10 mi?"}, {"role": "assistant", "content": "Dusunelim: 16, 10'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "10 mi 18 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 10'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 18 mi 10 mi?"}, {"role": "assistant", "content": "Dusunelim: 18, 10'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "4 mi 8 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 8, 4'ten buyuktur. Sonuc: 8 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 8 mi 2 mi?"}, {"role": "assistant", "content": "Dusunelim: 8, 2'ten buyuktur. Sonuc: 8 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 10 mi 19 mi?"}, {"role": "assistant", "content": "Dusunelim: 10, 19'ten kucuktur. Sonuc: 10 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "1 mi 11 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 11, 1'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "6 ile 11'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 11, 6'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "2 mi 0 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 2, 0'ten buyuktur. Sonuc: 2 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "10 mi 0 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 10, 0'ten buyuktur. Sonuc: 10 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "16 mi 1 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 1'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "19 ile 3'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 3'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "3 mi 2 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 3, 2'ten buyuktur. Sonuc: 3 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "7 mi 4 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 7, 4'ten buyuktur. Sonuc: 7 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "8 mi 20 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 8'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "17 mi 3 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 3'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "15 mi 17 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 15'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 10 mi 3 mi?"}, {"role": "assistant", "content": "Dusunelim: 10, 3'ten buyuktur. Sonuc: 10 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "3 ile 5'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 5, 3'ten buyuktur. Sonuc: 5 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "19 ile 9'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 9'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "20 mi 7 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 7'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "12 mi 15 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 15, 12'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "3 ile 11'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 11, 3'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 6 mi 1 mi?"}, {"role": "assistant", "content": "Dusunelim: 6, 1'ten buyuktur. Sonuc: 6 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "12 mi 11 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 11, 12'ten kucuktur. Sonuc: 11 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "15 mi 20 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 15'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "11 mi 0 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 0, 11'ten kucuktur. Sonuc: 0 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "5 mi 10 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 10, 5'ten buyuktur. Sonuc: 10 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "3 ile 1'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 3, 1'ten buyuktur. Sonuc: 3 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "15 ile 1'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 15, 1'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 8 mi 18 mi?"}, {"role": "assistant", "content": "Dusunelim: 18, 8'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 8 mi 17 mi?"}, {"role": "assistant", "content": "Dusunelim: 17, 8'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 7 mi 3 mi?"}, {"role": "assistant", "content": "Dusunelim: 3, 7'ten kucuktur. Sonuc: 3 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "15 mi 13 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 15, 13'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 18 mi 16 mi?"}, {"role": "assistant", "content": "Dusunelim: 18, 16'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "16 ile 11'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 11'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "4 mi 8 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 8, 4'ten buyuktur. Sonuc: 8 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 2 mi 1 mi?"}, {"role": "assistant", "content": "Dusunelim: 2, 1'ten buyuktur. Sonuc: 2 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 11 mi 12 mi?"}, {"role": "assistant", "content": "Dusunelim: 12, 11'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "19 mi 15 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 15'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 15 mi 20 mi?"}, {"role": "assistant", "content": "Dusunelim: 20, 15'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "9 ile 4'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 9, 4'ten buyuktur. Sonuc: 9 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "0 ile 18'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 0'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "2 mi 20 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 2'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 17 mi 6 mi?"}, {"role": "assistant", "content": "Dusunelim: 17, 6'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "13 ile 16'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 13'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "7 mi 0 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 7, 0'ten buyuktur. Sonuc: 7 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "5 mi 6 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 6, 5'ten buyuktur. Sonuc: 6 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "2 mi 9 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 2, 9'ten kucuktur. Sonuc: 2 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "14 mi 8 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 8'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 17 mi 19 mi?"}, {"role": "assistant", "content": "Dusunelim: 17, 19'ten kucuktur. Sonuc: 17 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 7 mi 1 mi?"}, {"role": "assistant", "content": "Dusunelim: 7, 1'ten buyuktur. Sonuc: 7 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "10 mi 4 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 10, 4'ten buyuktur. Sonuc: 10 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "1 ile 7'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 7, 1'ten buyuktur. Sonuc: 7 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 17 mi 16 mi?"}, {"role": "assistant", "content": "Dusunelim: 17, 16'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "10 mi 18 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 10'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "17 mi 11 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 11'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "6 mi 8 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 8, 6'ten buyuktur. Sonuc: 8 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "17 mi 13 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 13'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "3 mi 20 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 3'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "19 ile 10'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 10'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "13 mi 19 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 13'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 6 mi 17 mi?"}, {"role": "assistant", "content": "Dusunelim: 6, 17'ten kucuktur. Sonuc: 6 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 17 mi 2 mi?"}, {"role": "assistant", "content": "Dusunelim: 17, 2'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "2 mi 1 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 2, 1'ten buyuktur. Sonuc: 2 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "9 ile 17'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 9'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "3 ile 6'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 6, 3'ten buyuktur. Sonuc: 6 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 3 mi 17 mi?"}, {"role": "assistant", "content": "Dusunelim: 3, 17'ten kucuktur. Sonuc: 3 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "9 mi 7 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 9, 7'ten buyuktur. Sonuc: 9 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "9 mi 14 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 9'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "19 mi 10 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 10'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 15 mi 9 mi?"}, {"role": "assistant", "content": "Dusunelim: 9, 15'ten kucuktur. Sonuc: 9 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "20 mi 8 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 8'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "3 mi 17 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 3'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 9 mi 4 mi?"}, {"role": "assistant", "content": "Dusunelim: 4, 9'ten kucuktur. Sonuc: 4 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 14 mi 6 mi?"}, {"role": "assistant", "content": "Dusunelim: 14, 6'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 12 mi 19 mi?"}, {"role": "assistant", "content": "Dusunelim: 19, 12'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "6 ile 12'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 12, 6'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "19 mi 6 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 6'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "8 mi 14 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 8'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "6 mi 18 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 6'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "11 mi 19 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 11'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "1 ile 17'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 1'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "11 mi 9 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 11, 9'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "18 mi 0 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 0'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "2 mi 5 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 5, 2'ten buyuktur. Sonuc: 5 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 15 mi 5 mi?"}, {"role": "assistant", "content": "Dusunelim: 15, 5'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "6 mi 10 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 10, 6'ten buyuktur. Sonuc: 10 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "13 mi 17 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 13'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 13 mi 19 mi?"}, {"role": "assistant", "content": "Dusunelim: 13, 19'ten kucuktur. Sonuc: 13 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "3 mi 12 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 3, 12'ten kucuktur. Sonuc: 3 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 14 mi 10 mi?"}, {"role": "assistant", "content": "Dusunelim: 14, 10'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 9 mi 6 mi?"}, {"role": "assistant", "content": "Dusunelim: 6, 9'ten kucuktur. Sonuc: 6 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "9 ile 19'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 9'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 17 mi 20 mi?"}, {"role": "assistant", "content": "Dusunelim: 17, 20'ten kucuktur. Sonuc: 17 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "7 mi 12 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 12, 7'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "13 ile 14'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 13'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "6 mi 16 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 6'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "5 mi 15 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 15, 5'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "18 mi 1 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 1, 18'ten kucuktur. Sonuc: 1 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "0 ile 20'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 0'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "19 ile 18'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 18'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 17 mi 18 mi?"}, {"role": "assistant", "content": "Dusunelim: 17, 18'ten kucuktur. Sonuc: 17 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "4 mi 20 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 4'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 9 mi 5 mi?"}, {"role": "assistant", "content": "Dusunelim: 9, 5'ten buyuktur. Sonuc: 9 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 0 mi 8 mi?"}, {"role": "assistant", "content": "Dusunelim: 8, 0'ten buyuktur. Sonuc: 8 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "13 ile 12'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 13, 12'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 6 mi 12 mi?"}, {"role": "assistant", "content": "Dusunelim: 6, 12'ten kucuktur. Sonuc: 6 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "20 mi 4 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 4'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 19 mi 12 mi?"}, {"role": "assistant", "content": "Dusunelim: 19, 12'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "1 ile 6'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 6, 1'ten buyuktur. Sonuc: 6 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 12 mi 14 mi?"}, {"role": "assistant", "content": "Dusunelim: 14, 12'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "9 ile 18'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 9'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "12 mi 18 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 12'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "0 mi 9 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 0, 9'ten kucuktur. Sonuc: 0 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "17 mi 18 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 17'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "1 mi 2 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 2, 1'ten buyuktur. Sonuc: 2 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 9 mi 15 mi?"}, {"role": "assistant", "content": "Dusunelim: 15, 9'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "18 mi 10 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 10'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 17 mi 8 mi?"}, {"role": "assistant", "content": "Dusunelim: 17, 8'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "9 mi 8 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 9, 8'ten buyuktur. Sonuc: 9 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "20 mi 15 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 15'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "9 mi 6 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 9, 6'ten buyuktur. Sonuc: 9 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 5 mi 7 mi?"}, {"role": "assistant", "content": "Dusunelim: 7, 5'ten buyuktur. Sonuc: 7 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "18 mi 5 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 5'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 12 mi 17 mi?"}, {"role": "assistant", "content": "Dusunelim: 17, 12'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "8 mi 1 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 8, 1'ten buyuktur. Sonuc: 8 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "18 ile 3'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 3'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "6 mi 0 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 6, 0'ten buyuktur. Sonuc: 6 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "20 ile 19'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 19'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "0 mi 16 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 0, 16'ten kucuktur. Sonuc: 0 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "18 mi 3 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 3'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "20 ile 3'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 3'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 12 mi 2 mi?"}, {"role": "assistant", "content": "Dusunelim: 2, 12'ten kucuktur. Sonuc: 2 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "11 mi 8 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 11, 8'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "2 mi 0 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 0, 2'ten kucuktur. Sonuc: 0 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "10 mi 15 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 15, 10'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 12 mi 6 mi?"}, {"role": "assistant", "content": "Dusunelim: 12, 6'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 9 mi 17 mi?"}, {"role": "assistant", "content": "Dusunelim: 17, 9'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "20 ile 15'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 15'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "16 ile 9'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 9'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 3 mi 15 mi?"}, {"role": "assistant", "content": "Dusunelim: 15, 3'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "13 ile 2'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 13, 2'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "15 mi 9 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 15, 9'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "13 ile 7'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 13, 7'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "18 mi 20 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 18'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "12 mi 16 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 12'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 1 mi 19 mi?"}, {"role": "assistant", "content": "Dusunelim: 19, 1'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 0 mi 15 mi?"}, {"role": "assistant", "content": "Dusunelim: 15, 0'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "2 mi 15 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 15, 2'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "14 mi 3 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 3'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "5 ile 10'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 10, 5'ten buyuktur. Sonuc: 10 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "1 mi 3 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 3, 1'ten buyuktur. Sonuc: 3 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "9 mi 1 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 9, 1'ten buyuktur. Sonuc: 9 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "1 ile 11'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 11, 1'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "14 mi 20 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 14'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "17 mi 14 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 17'ten kucuktur. Sonuc: 14 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "2 ile 9'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 9, 2'ten buyuktur. Sonuc: 9 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 19 mi 16 mi?"}, {"role": "assistant", "content": "Dusunelim: 16, 19'ten kucuktur. Sonuc: 16 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "5 mi 6 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 6, 5'ten buyuktur. Sonuc: 6 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "14 ile 2'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 2'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "11 mi 12 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 12, 11'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "10 mi 4 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 4, 10'ten kucuktur. Sonuc: 4 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "12 mi 9 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 12, 9'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "16 mi 8 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 8, 16'ten kucuktur. Sonuc: 8 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 15 mi 19 mi?"}, {"role": "assistant", "content": "Dusunelim: 19, 15'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "18 mi 5 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 5'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "10 mi 17 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 10'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 15 mi 7 mi?"}, {"role": "assistant", "content": "Dusunelim: 15, 7'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 6 mi 14 mi?"}, {"role": "assistant", "content": "Dusunelim: 14, 6'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "7 mi 19 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 7'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "2 mi 14 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 2'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 3 mi 10 mi?"}, {"role": "assistant", "content": "Dusunelim: 10, 3'ten buyuktur. Sonuc: 10 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 14 mi 13 mi?"}, {"role": "assistant", "content": "Dusunelim: 14, 13'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "13 mi 19 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 13'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "16 ile 12'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 12'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 14 mi 15 mi?"}, {"role": "assistant", "content": "Dusunelim: 15, 14'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "11 mi 15 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 11, 15'ten kucuktur. Sonuc: 11 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 16 mi 19 mi?"}, {"role": "assistant", "content": "Dusunelim: 16, 19'ten kucuktur. Sonuc: 16 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "17 mi 9 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 9'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "6 ile 8'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 8, 6'ten buyuktur. Sonuc: 8 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "19 mi 15 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 15, 19'ten kucuktur. Sonuc: 15 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "4 ile 15'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 15, 4'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "18 mi 19 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 18'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "9 mi 3 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 9, 3'ten buyuktur. Sonuc: 9 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "10 mi 16 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 10'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "0 mi 9 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 9, 0'ten buyuktur. Sonuc: 9 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "17 mi 11 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 11'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "20 mi 13 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 13'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "6 ile 3'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 6, 3'ten buyuktur. Sonuc: 6 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "20 ile 18'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 18'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 17 mi 4 mi?"}, {"role": "assistant", "content": "Dusunelim: 17, 4'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "19 ile 14'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 14'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "2 mi 8 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 2, 8'ten kucuktur. Sonuc: 2 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "19 mi 17 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 17'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 16 mi 13 mi?"}, {"role": "assistant", "content": "Dusunelim: 16, 13'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "4 mi 10 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 10, 4'ten buyuktur. Sonuc: 10 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "4 mi 20 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 4, 20'ten kucuktur. Sonuc: 4 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "7 mi 2 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 7, 2'ten buyuktur. Sonuc: 7 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 4 mi 13 mi?"}, {"role": "assistant", "content": "Dusunelim: 13, 4'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "11 mi 1 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 11, 1'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 8 mi 0 mi?"}, {"role": "assistant", "content": "Dusunelim: 8, 0'ten buyuktur. Sonuc: 8 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "18 mi 16 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 18'ten kucuktur. Sonuc: 16 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "14 mi 16 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 14'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "9 mi 0 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 9, 0'ten buyuktur. Sonuc: 9 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "1 mi 7 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 7, 1'ten buyuktur. Sonuc: 7 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 20 mi 8 mi?"}, {"role": "assistant", "content": "Dusunelim: 20, 8'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "13 mi 5 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 13, 5'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "17 mi 13 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 13'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 4 mi 11 mi?"}, {"role": "assistant", "content": "Dusunelim: 11, 4'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 19 mi 6 mi?"}, {"role": "assistant", "content": "Dusunelim: 19, 6'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "15 ile 13'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 15, 13'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "15 mi 19 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 15, 19'ten kucuktur. Sonuc: 15 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "3 ile 14'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 3'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "9 mi 5 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 9, 5'ten buyuktur. Sonuc: 9 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 11 mi 6 mi?"}, {"role": "assistant", "content": "Dusunelim: 11, 6'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 10 mi 14 mi?"}, {"role": "assistant", "content": "Dusunelim: 14, 10'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "0 mi 13 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 13, 0'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "10 ile 17'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 10'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "12 mi 8 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 8, 12'ten kucuktur. Sonuc: 8 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "7 mi 2 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 7, 2'ten buyuktur. Sonuc: 7 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 6 mi 17 mi?"}, {"role": "assistant", "content": "Dusunelim: 17, 6'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "10 ile 20'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 10'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "1 ile 12'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 12, 1'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "0 mi 3 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 3, 0'ten buyuktur. Sonuc: 3 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "16 mi 19 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 16'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 15 mi 8 mi?"}, {"role": "assistant", "content": "Dusunelim: 15, 8'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 13 mi 2 mi?"}, {"role": "assistant", "content": "Dusunelim: 13, 2'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 11 mi 5 mi?"}, {"role": "assistant", "content": "Dusunelim: 11, 5'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "9 mi 11 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 11, 9'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 9 mi 19 mi?"}, {"role": "assistant", "content": "Dusunelim: 19, 9'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "4 ile 3'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 4, 3'ten buyuktur. Sonuc: 4 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 7 mi 5 mi?"}, {"role": "assistant", "content": "Dusunelim: 7, 5'ten buyuktur. Sonuc: 7 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 0 mi 16 mi?"}, {"role": "assistant", "content": "Dusunelim: 16, 0'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "16 mi 6 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 6'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 8 mi 15 mi?"}, {"role": "assistant", "content": "Dusunelim: 15, 8'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 1 mi 18 mi?"}, {"role": "assistant", "content": "Dusunelim: 18, 1'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "9 mi 12 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 12, 9'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "18 mi 14 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 18'ten kucuktur. Sonuc: 14 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 8 mi 7 mi?"}, {"role": "assistant", "content": "Dusunelim: 8, 7'ten buyuktur. Sonuc: 8 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "14 mi 7 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 7'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "11 ile 17'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 11'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "2 mi 7 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 7, 2'ten buyuktur. Sonuc: 7 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "15 mi 0 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 0, 15'ten kucuktur. Sonuc: 0 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "14 mi 16 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 14'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "10 mi 1 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 10, 1'ten buyuktur. Sonuc: 10 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "6 mi 4 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 4, 6'ten kucuktur. Sonuc: 4 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 17 mi 5 mi?"}, {"role": "assistant", "content": "Dusunelim: 5, 17'ten kucuktur. Sonuc: 5 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 6 mi 7 mi?"}, {"role": "assistant", "content": "Dusunelim: 7, 6'ten buyuktur. Sonuc: 7 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 17 mi 5 mi?"}, {"role": "assistant", "content": "Dusunelim: 17, 5'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "0 mi 15 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 0, 15'ten kucuktur. Sonuc: 0 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 17 mi 14 mi?"}, {"role": "assistant", "content": "Dusunelim: 17, 14'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 1 mi 17 mi?"}, {"role": "assistant", "content": "Dusunelim: 1, 17'ten kucuktur. Sonuc: 1 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "9 mi 10 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 10, 9'ten buyuktur. Sonuc: 10 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 19 mi 9 mi?"}, {"role": "assistant", "content": "Dusunelim: 19, 9'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 14 mi 17 mi?"}, {"role": "assistant", "content": "Dusunelim: 14, 17'ten kucuktur. Sonuc: 14 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "8 ile 3'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 8, 3'ten buyuktur. Sonuc: 8 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "14 mi 5 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 5'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 14 mi 3 mi?"}, {"role": "assistant", "content": "Dusunelim: 3, 14'ten kucuktur. Sonuc: 3 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "15 mi 14 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 15'ten kucuktur. Sonuc: 14 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 15 mi 16 mi?"}, {"role": "assistant", "content": "Dusunelim: 16, 15'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "17 mi 19 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 17'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 0 mi 12 mi?"}, {"role": "assistant", "content": "Dusunelim: 12, 0'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "12 mi 18 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 12, 18'ten kucuktur. Sonuc: 12 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 4 mi 5 mi?"}, {"role": "assistant", "content": "Dusunelim: 4, 5'ten kucuktur. Sonuc: 4 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "12 mi 14 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 12'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "11 mi 8 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 11, 8'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "11 ile 19'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 11'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "1 mi 19 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 1'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "12 ile 20'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 12'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "16 ile 18'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 16'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "1 mi 11 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 1, 11'ten kucuktur. Sonuc: 1 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 1 mi 13 mi?"}, {"role": "assistant", "content": "Dusunelim: 1, 13'ten kucuktur. Sonuc: 1 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "14 mi 12 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 12'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "3 mi 14 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 3'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "1 mi 18 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 1'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 18 mi 19 mi?"}, {"role": "assistant", "content": "Dusunelim: 19, 18'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "7 mi 6 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 7, 6'ten buyuktur. Sonuc: 7 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "12 mi 7 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 12, 7'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "16 mi 4 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 4, 16'ten kucuktur. Sonuc: 4 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "1 mi 9 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 9, 1'ten buyuktur. Sonuc: 9 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 7 mi 20 mi?"}, {"role": "assistant", "content": "Dusunelim: 20, 7'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "11 mi 3 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 11, 3'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "2 ile 5'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 5, 2'ten buyuktur. Sonuc: 5 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "20 mi 4 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 4'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "18 mi 17 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 17'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "4 mi 11 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 11, 4'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "7 ile 3'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 7, 3'ten buyuktur. Sonuc: 7 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "15 mi 11 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 15, 11'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "1 ile 20'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 1'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 12 mi 11 mi?"}, {"role": "assistant", "content": "Dusunelim: 12, 11'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "13 mi 6 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 13, 6'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "6 mi 0 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 6, 0'ten buyuktur. Sonuc: 6 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 19 mi 11 mi?"}, {"role": "assistant", "content": "Dusunelim: 19, 11'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "7 mi 13 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 13, 7'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 16 mi 7 mi?"}, {"role": "assistant", "content": "Dusunelim: 16, 7'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 11 mi 8 mi?"}, {"role": "assistant", "content": "Dusunelim: 8, 11'ten kucuktur. Sonuc: 8 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "11 ile 18'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 11'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "10 mi 19 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 10'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "15 mi 3 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 15, 3'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "8 ile 6'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 8, 6'ten buyuktur. Sonuc: 8 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "12 mi 16 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 12'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "4 mi 17 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 4'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 2 mi 19 mi?"}, {"role": "assistant", "content": "Dusunelim: 2, 19'ten kucuktur. Sonuc: 2 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "0 mi 5 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 5, 0'ten buyuktur. Sonuc: 5 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "15 mi 18 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 15'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "5 mi 8 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 8, 5'ten buyuktur. Sonuc: 8 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "12 ile 2'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 12, 2'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "8 mi 13 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 13, 8'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "12 mi 10 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 12, 10'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "2 ile 3'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 3, 2'ten buyuktur. Sonuc: 3 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "17 mi 10 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 10'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "8 ile 11'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 11, 8'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 16 mi 4 mi?"}, {"role": "assistant", "content": "Dusunelim: 16, 4'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "5 mi 4 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 5, 4'ten buyuktur. Sonuc: 5 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 5 mi 15 mi?"}, {"role": "assistant", "content": "Dusunelim: 15, 5'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "11 mi 7 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 11, 7'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "18 mi 12 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 12'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "17 mi 7 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 7'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "12 mi 6 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 12, 6'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 4 mi 10 mi?"}, {"role": "assistant", "content": "Dusunelim: 10, 4'ten buyuktur. Sonuc: 10 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "0 mi 6 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 6, 0'ten buyuktur. Sonuc: 6 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "10 ile 1'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 10, 1'ten buyuktur. Sonuc: 10 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "14 mi 19 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 14'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 14 mi 18 mi?"}, {"role": "assistant", "content": "Dusunelim: 18, 14'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "14 mi 17 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 14'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "17 mi 1 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 1'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 7 mi 14 mi?"}, {"role": "assistant", "content": "Dusunelim: 7, 14'ten kucuktur. Sonuc: 7 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "13 ile 18'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 13'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 1 mi 12 mi?"}, {"role": "assistant", "content": "Dusunelim: 1, 12'ten kucuktur. Sonuc: 1 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "13 mi 14 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 13'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "13 mi 10 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 13, 10'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "3 mi 12 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 12, 3'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "13 mi 8 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 13, 8'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "3 mi 16 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 3'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 16 mi 11 mi?"}, {"role": "assistant", "content": "Dusunelim: 11, 16'ten kucuktur. Sonuc: 11 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 9 mi 12 mi?"}, {"role": "assistant", "content": "Dusunelim: 12, 9'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "15 mi 0 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 15, 0'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "6 ile 5'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 6, 5'ten buyuktur. Sonuc: 6 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 4 mi 0 mi?"}, {"role": "assistant", "content": "Dusunelim: 4, 0'ten buyuktur. Sonuc: 4 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "20 mi 16 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 16'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "14 mi 9 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 9'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "11 mi 17 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 11, 17'ten kucuktur. Sonuc: 11 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "18 ile 16'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 16'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "1 ile 5'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 5, 1'ten buyuktur. Sonuc: 5 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "11 mi 20 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 11'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "15 mi 8 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 15, 8'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "17 ile 18'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 17'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "15 ile 3'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 15, 3'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "19 mi 12 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 12'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "12 mi 15 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 15, 12'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "8 ile 16'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 8'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "4 mi 7 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 7, 4'ten buyuktur. Sonuc: 7 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "18 mi 15 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 15'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "10 ile 7'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 10, 7'ten buyuktur. Sonuc: 10 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 7 mi 4 mi?"}, {"role": "assistant", "content": "Dusunelim: 7, 4'ten buyuktur. Sonuc: 7 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 20 mi 13 mi?"}, {"role": "assistant", "content": "Dusunelim: 20, 13'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "0 mi 3 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 3, 0'ten buyuktur. Sonuc: 3 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 15 mi 14 mi?"}, {"role": "assistant", "content": "Dusunelim: 15, 14'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "13 ile 6'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 13, 6'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 0 mi 4 mi?"}, {"role": "assistant", "content": "Dusunelim: 4, 0'ten buyuktur. Sonuc: 4 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "16 mi 9 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 9'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "12 mi 17 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 12'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 1 mi 2 mi?"}, {"role": "assistant", "content": "Dusunelim: 1, 2'ten kucuktur. Sonuc: 1 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "12 mi 0 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 12, 0'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "18 mi 4 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 4, 18'ten kucuktur. Sonuc: 4 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 11 mi 18 mi?"}, {"role": "assistant", "content": "Dusunelim: 18, 11'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "7 mi 17 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 7, 17'ten kucuktur. Sonuc: 7 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "14 mi 2 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 2'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "14 mi 13 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 13'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "1 mi 14 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 1, 14'ten kucuktur. Sonuc: 1 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "16 mi 0 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 0'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "20 ile 2'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 2'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "12 mi 13 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 13, 12'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "8 mi 12 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 12, 8'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "5 ile 19'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 5'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "3 mi 0 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 3, 0'ten buyuktur. Sonuc: 3 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 12 mi 4 mi?"}, {"role": "assistant", "content": "Dusunelim: 12, 4'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 16 mi 20 mi?"}, {"role": "assistant", "content": "Dusunelim: 20, 16'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "16 mi 0 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 0'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 15 mi 10 mi?"}, {"role": "assistant", "content": "Dusunelim: 15, 10'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "17 ile 0'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 0'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "3 mi 4 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 4, 3'ten buyuktur. Sonuc: 4 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "14 ile 4'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 4'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 9 mi 6 mi?"}, {"role": "assistant", "content": "Dusunelim: 9, 6'ten buyuktur. Sonuc: 9 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "10 ile 9'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 10, 9'ten buyuktur. Sonuc: 10 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 14 mi 8 mi?"}, {"role": "assistant", "content": "Dusunelim: 8, 14'ten kucuktur. Sonuc: 8 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "11 mi 20 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 11'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "2 mi 5 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 2, 5'ten kucuktur. Sonuc: 2 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "3 mi 15 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 15, 3'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "9 ile 11'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 11, 9'ten buyuktur. Sonuc: 11 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "19 mi 4 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 4'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "6 ile 2'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 6, 2'ten buyuktur. Sonuc: 6 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "11 ile 16'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 11'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "20 ile 7'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 7'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 8 mi 6 mi?"}, {"role": "assistant", "content": "Dusunelim: 6, 8'ten kucuktur. Sonuc: 6 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 12 mi 8 mi?"}, {"role": "assistant", "content": "Dusunelim: 12, 8'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "2 mi 20 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 2'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "8 ile 15'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 15, 8'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "18 mi 7 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 7'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "4 mi 16 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 4'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "6 mi 2 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 6, 2'ten buyuktur. Sonuc: 6 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 9 mi 10 mi?"}, {"role": "assistant", "content": "Dusunelim: 10, 9'ten buyuktur. Sonuc: 10 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "16 ile 4'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 4'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "18 mi 9 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 9, 18'ten kucuktur. Sonuc: 9 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "16 mi 20 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 16'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "3 ile 13'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 13, 3'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "18 mi 13 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 13'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "18 mi 11 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 11, 18'ten kucuktur. Sonuc: 11 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "0 mi 12 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 0, 12'ten kucuktur. Sonuc: 0 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "7 ile 1'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 7, 1'ten buyuktur. Sonuc: 7 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "17 ile 6'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 6'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 20 mi 2 mi?"}, {"role": "assistant", "content": "Dusunelim: 20, 2'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "11 mi 13 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 13, 11'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 7 mi 14 mi?"}, {"role": "assistant", "content": "Dusunelim: 14, 7'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "15 mi 2 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 2, 15'ten kucuktur. Sonuc: 2 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "4 ile 2'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 4, 2'ten buyuktur. Sonuc: 4 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "0 ile 19'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 0'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "2 mi 10 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 10, 2'ten buyuktur. Sonuc: 10 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 3 mi 7 mi?"}, {"role": "assistant", "content": "Dusunelim: 7, 3'ten buyuktur. Sonuc: 7 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "1 mi 0 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 0, 1'ten kucuktur. Sonuc: 0 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "2 mi 19 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 2'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "19 mi 0 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 0'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "15 mi 2 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 15, 2'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 13 mi 15 mi?"}, {"role": "assistant", "content": "Dusunelim: 15, 13'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "5 mi 9 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 9, 5'ten buyuktur. Sonuc: 9 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "20 ile 17'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 17'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "5 ile 18'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 5'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "5 ile 16'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 16, 5'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 2 mi 16 mi?"}, {"role": "assistant", "content": "Dusunelim: 16, 2'ten buyuktur. Sonuc: 16 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "17 ile 4'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 4'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "10 mi 3 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 10, 3'ten buyuktur. Sonuc: 10 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "0 ile 8'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 8, 0'ten buyuktur. Sonuc: 8 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 3 mi 19 mi?"}, {"role": "assistant", "content": "Dusunelim: 19, 3'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "4 mi 19 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 4'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 6 mi 5 mi?"}, {"role": "assistant", "content": "Dusunelim: 6, 5'ten buyuktur. Sonuc: 6 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 14 mi 13 mi?"}, {"role": "assistant", "content": "Dusunelim: 13, 14'ten kucuktur. Sonuc: 13 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "8 ile 1'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 8, 1'ten buyuktur. Sonuc: 8 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 4 mi 6 mi?"}, {"role": "assistant", "content": "Dusunelim: 6, 4'ten buyuktur. Sonuc: 6 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "14 mi 4 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 4'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "19 mi 7 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 7'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "20 mi 9 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 9, 20'ten kucuktur. Sonuc: 9 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 13 mi 10 mi?"}, {"role": "assistant", "content": "Dusunelim: 13, 10'ten buyuktur. Sonuc: 13 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "2 mi 12 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 2, 12'ten kucuktur. Sonuc: 2 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "13 mi 20 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 13'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "9 mi 1 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 9, 1'ten buyuktur. Sonuc: 9 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "12 mi 4 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 12, 4'ten buyuktur. Sonuc: 12 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "2 ile 14'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 2'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "15 mi 4 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 15, 4'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "19 mi 3 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 3'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "15 ile 6'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 15, 6'ten buyuktur. Sonuc: 15 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 3 mi 18 mi?"}, {"role": "assistant", "content": "Dusunelim: 3, 18'ten kucuktur. Sonuc: 3 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 6 mi 20 mi?"}, {"role": "assistant", "content": "Dusunelim: 6, 20'ten kucuktur. Sonuc: 6 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "7 mi 18 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 7'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "5 mi 8 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 8, 5'ten buyuktur. Sonuc: 8 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 13 mi 17 mi?"}, {"role": "assistant", "content": "Dusunelim: 17, 13'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "19 ile 17'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 17'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "18 mi 2 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 2, 18'ten kucuktur. Sonuc: 2 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha buyuk, 20 mi 19 mi?"}, {"role": "assistant", "content": "Dusunelim: 20, 19'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 8 mi 10 mi?"}, {"role": "assistant", "content": "Dusunelim: 8, 10'ten kucuktur. Sonuc: 8 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "17 ile 2'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 17, 2'ten buyuktur. Sonuc: 17 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "7 ile 9'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 9, 7'ten buyuktur. Sonuc: 9 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "1 mi 3 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 3, 1'ten buyuktur. Sonuc: 3 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 10 mi 6 mi?"}, {"role": "assistant", "content": "Dusunelim: 6, 10'ten kucuktur. Sonuc: 6 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "8 mi 18 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 8'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "18 mi 0 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 18, 0'ten buyuktur. Sonuc: 18 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "3 mi 9 mi daha kucuk?"}, {"role": "assistant", "content": "Dusunelim: 3, 9'ten kucuktur. Sonuc: 3 daha kucuktur."}]}
+{"messages": [{"role": "user", "content": "18 ile 20'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 18'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "10 ile 6'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 10, 6'ten buyuktur. Sonuc: 10 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "20 mi 12 mi daha buyuk?"}, {"role": "assistant", "content": "Dusunelim: 20, 12'ten buyuktur. Sonuc: 20 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "19 ile 5'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 19, 5'ten buyuktur. Sonuc: 19 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "2 ile 8'den hangisi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 8, 2'ten buyuktur. Sonuc: 8 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "6 mi 14 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 14, 6'ten buyuktur. Sonuc: 14 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "2 mi 3 mi buyuk?"}, {"role": "assistant", "content": "Dusunelim: 3, 2'ten buyuktur. Sonuc: 3 daha buyuktur."}]}
+{"messages": [{"role": "user", "content": "Hangisi daha kucuk, 1 mi 10 mi?"}, {"role": "assistant", "content": "Dusunelim: 1, 10'ten kucuktur. Sonuc: 1 daha kucuktur."}]}

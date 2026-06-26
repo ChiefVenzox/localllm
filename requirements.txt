@@ -1,0 +1,28 @@
+# ==========================================================================
+#  yerelLLM - bagimliliklar
+# --------------------------------------------------------------------------
+#  ONEMLI: torch'u kendi CUDA surumune gore kurman gerekir.
+#  GTX 1660 Ti (Turing, SM 7.5) icin CUDA derlemesi (cu126 dogrulandi):
+#
+#    pip install torch --index-url https://download.pytorch.org/whl/cu126
+#
+#  (Ayni wheel hem GPU hem CPU calistirir; ayri "CPU torch" gerekmez.)
+#
+#  Once yukaridaki torch komutunu calistir, SONRA:
+#    pip install -r requirements.txt
+# ==========================================================================
+
+torch>=2.1.0            # not: yukaridaki CUDA komutuyla kur
+numpy>=1.24
+tokenizers>=0.15        # KENDI BPE'mizi egitmek icin (hazir model degil)
+tqdm>=4.66
+
+# --- Web sohbet arayuzu ---
+fastapi>=0.110
+uvicorn[standard]>=0.27
+
+# --- Opsiyonel (varsa kullanilir, yoksa otomatik fallback) ---
+# 8-bit AdamW optimizer (VRAM tasarrufu). Windows'ta artik calisir.
+bitsandbytes>=0.43 ; platform_system != "Darwin"
+# HuggingFace dataset'lerinden veri cekmek istersen (LLM degil, sadece veri):
+# datasets>=2.18

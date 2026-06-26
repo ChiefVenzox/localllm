@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# egitim ciktilari ve veri (checkpoints ve binary veri buyuk oldugu icin yok)
+checkpoints/
+data/bin/
+data/chat_bin/
+*.bin
