@@ -15,15 +15,12 @@ makineler ayni modelin gradyanlarini senkronize eder.
 
 ## Her cihazda bir kez kurulum
 
-```bash
-git clone https://github.com/ChiefVenzox/localllm.git
-cd localllm
-python -m venv .venv
-```
-
 Windows:
 
 ```powershell
+git clone https://github.com/ChiefVenzox/localllm.git
+cd localllm
+py -3 -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install torch --index-url https://download.pytorch.org/whl/cu126
 pip install -r requirements.txt
@@ -32,6 +29,9 @@ pip install -r requirements.txt
 MacBook:
 
 ```bash
+git clone https://github.com/ChiefVenzox/localllm.git
+cd localllm
+python3 -m venv .venv
 source .venv/bin/activate
 pip install torch
 pip install -r requirements.txt
@@ -47,6 +47,29 @@ python -m data.prepare_data --mode pretrain --input data/raw --out data/bin
 
 Kendi buyuk verin repo disindaysa `data/bin/train.bin`, `data/bin/val.bin` ve
 `data/bin/meta.json` dosyalarini tum cihazlara ayni sekilde kopyala.
+Egitim baslarken her rank bu dosyalarin meta bilgisini ve boyutlarini
+karsilastirir; bir cihazda eski tokenizer/veri kaldiysa baslamadan hata verir.
+
+## Ayni makinede tek komut duman testi
+
+LAN'a cikmadan once iki surecli DDP'yi ayni bilgisayarda dogrula:
+
+```bash
+python -m data.prepare_data --mode pretrain --input data/raw --out data/bin
+bash scripts/local_ddp_smoke.sh
+```
+
+Tokenizer'i bastan uretmek istiyorsan veri hazirlamadan once
+`python -m tokenizer.train_tokenizer --input data/raw --vocab-size 4096`
+calistirabilirsin.
+
+macOS gibi `python` komutu olmayan sistemlerde:
+
+```bash
+PYTHON_BIN=python3 bash scripts/local_ddp_smoke.sh
+```
+
+Basarili kosu `checkpoints/ddp_smoke/ckpt.pt` ve `ckpt_last.pt` uretir.
 
 ## 3 cihazlik ornek
 
@@ -80,7 +103,7 @@ MacBook tarafinda MPS denemek istersen `DEVICE=mps` yapabilirsin. PyTorch
 surumune gore DDP+MPS destek durumu degisebilir; hata alirsan `DEVICE=cpu`
 ile devam et.
 
-## Ayni makinede hizli duman testi
+## Ayni makinede elle duman testi
 
 Iki sureci tek makinede denemek icin iki terminal ac.
 

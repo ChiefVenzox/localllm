@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+.DS_Store
 
 # egitim ciktilari ve veri (checkpoints ve binary veri buyuk oldugu icin yok)
 checkpoints/

@@ -16,6 +16,7 @@ torch>=2.1.0            # not: yukaridaki CUDA komutuyla kur
 numpy>=1.24
 tokenizers>=0.15        # KENDI BPE'mizi egitmek icin (hazir model degil)
 tqdm>=4.66
+importlib_metadata>=8 ; python_version < "3.10"  # torch.distributed.run / py3.9
 
 # --- Web sohbet arayuzu ---
 fastapi>=0.110

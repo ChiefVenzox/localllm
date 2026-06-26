@@ -153,6 +153,8 @@ python -m server.app --ckpt checkpoints/ckpt.pt
    python train.py --preset small-100m --data data/bin
    ```
    Yarıda kesersen devam et: `python train.py --resume checkpoints/ckpt_last.pt --data data/bin`
+   Birden fazla bilgisayarı aynı LAN eğitimine katmak için:
+   `docs/distributed-training.md`.
 5. **Sohbet için ince ayar (SFT, opsiyonel ama önerilir):** Modelin "asistan"
    gibi davranması için sohbet verisiyle eğitim sürdür:
    ```bash

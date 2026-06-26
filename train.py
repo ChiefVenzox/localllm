@@ -37,12 +37,67 @@ def build_cfg_from_dict(d: dict) -> GPTConfig:
     return GPTConfig(**{k: v for k, v in d.items() if k in valid})
 
 
-def load_meta(data_dir: str) -> dict:
-    p = os.path.join(data_dir, "meta.json")
-    if not os.path.exists(p):
-        raise SystemExit(f"meta.json yok: {p}\nOnce: python -m data.prepare_data")
-    with open(p, "r", encoding="utf-8") as f:
-        return json.load(f)
+def build_data_signature(data_dir: str) -> dict:
+    """Dagitik egitimde tum makinelerin ayni veri hazirligini gordugunu dogrular."""
+    names = ("meta.json", "train.bin", "val.bin")
+    paths = {name: os.path.join(data_dir, name) for name in names}
+    missing = [name for name, path in paths.items() if not os.path.exists(path)]
+    if missing:
+        return {
+            "ok": False,
+            "error": f"Eksik veri dosyasi: {', '.join(missing)} ({os.path.abspath(data_dir)})",
+        }
+
+    try:
+        with open(paths["meta.json"], "r", encoding="utf-8") as f:
+            meta = json.load(f)
+    except Exception as e:
+        return {
+            "ok": False,
+            "error": f"meta.json okunamadi: {e} ({os.path.abspath(paths['meta.json'])})",
+        }
+
+    return {
+        "ok": True,
+        "meta": meta,
+        "files": {
+            "train.bin": os.path.getsize(paths["train.bin"]),
+            "val.bin": os.path.getsize(paths["val.bin"]),
+        },
+    }
+
+
+def checked_data_signature(data_dir: str, dist_info: dict) -> tuple[dict, dict]:
+    local_sig = build_data_signature(data_dir)
+    signatures = [local_sig]
+    if dist_info["enabled"]:
+        signatures = [None] * dist_info["world_size"]
+        dist.all_gather_object(signatures, local_sig)
+
+    errors = []
+    for rank, sig in enumerate(signatures):
+        if not sig or not sig.get("ok"):
+            errors.append(f"rank {rank}: {sig.get('error', 'bilinmeyen veri hatasi') if sig else 'imza yok'}")
+
+    if not errors:
+        ref = signatures[0]
+        for rank, sig in enumerate(signatures[1:], start=1):
+            if sig["meta"] != ref["meta"] or sig["files"] != ref["files"]:
+                errors.append(
+                    f"rank {rank}: data/bin imzasi rank 0 ile uyusmuyor "
+                    f"(rank0={ref['files']}, rank{rank}={sig['files']})"
+                )
+
+    if errors:
+        if dist_info["rank"] == 0:
+            print("[data] Dagitik veri on kontrolu basarisiz:")
+            for err in errors:
+                print(f"  - {err}")
+        if dist_info["enabled"]:
+            dist.destroy_process_group()
+        raise SystemExit("Tum rank'lerde ayni meta.json/train.bin/val.bin hazir olmali.")
+
+    return local_sig["meta"], local_sig["files"]
 
 
 def default_device() -> str:
@@ -153,8 +208,10 @@ def main():
     torch.backends.cuda.matmul.allow_tf32 = True
     torch.backends.cudnn.allow_tf32 = True
 
-    meta = load_meta(args.data)
+    meta, data_files = checked_data_signature(args.data, dist_info)
     np_dtype = np.dtype(meta["dtype"])
+    log(f"[data] train.bin={data_files['train.bin']:,} bayt | "
+        f"val.bin={data_files['val.bin']:,} bayt | dtype={np_dtype.name}")
 
     # --- config ---
     start_step = 0
