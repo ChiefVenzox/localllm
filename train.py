@@ -20,9 +20,12 @@ import os
 import time
 from contextlib import nullcontext
 from dataclasses import asdict, fields
+from datetime import timedelta
 
 import numpy as np
 import torch
+import torch.distributed as dist
+from torch.nn.parallel import DistributedDataParallel as DDP
 
 from config import GPTConfig, get_config
 from model import GPT
@@ -40,6 +43,70 @@ def load_meta(data_dir: str) -> dict:
         raise SystemExit(f"meta.json yok: {p}\nOnce: python -m data.prepare_data")
     with open(p, "r", encoding="utf-8") as f:
         return json.load(f)
+
+
+def default_device() -> str:
+    if torch.cuda.is_available():
+        return "cuda"
+    if getattr(torch.backends, "mps", None) and torch.backends.mps.is_available():
+        return "mps"
+    return "cpu"
+
+
+def device_type_of(device: str) -> str:
+    if device.startswith("cuda"):
+        return "cuda"
+    if device.startswith("mps"):
+        return "mps"
+    return "cpu"
+
+
+def env_int(name: str, default: int) -> int:
+    try:
+        return int(os.environ.get(name, default))
+    except ValueError:
+        return default
+
+
+def setup_distributed(requested_device: str, requested_backend: str, timeout_minutes: int) -> tuple[dict, str]:
+    world_size = env_int("WORLD_SIZE", 1)
+    rank = env_int("RANK", 0)
+    local_rank = env_int("LOCAL_RANK", 0)
+    enabled = world_size > 1
+
+    device = default_device() if requested_device == "auto" else requested_device
+    device_type = device_type_of(device)
+
+    if enabled:
+        if not dist.is_available():
+            raise SystemExit("torch.distributed kullanilamiyor; PyTorch kurulumunu kontrol et.")
+        if device_type == "cuda":
+            if not torch.cuda.is_available():
+                raise SystemExit("--device cuda secildi ama CUDA gorunmuyor.")
+            cuda_index = local_rank % max(1, torch.cuda.device_count())
+            torch.cuda.set_device(cuda_index)
+            device = f"cuda:{cuda_index}"
+            device_type = "cuda"
+
+        # Cross-platform LAN icin varsayilan gloo. Homojen Linux/CUDA kumesinde
+        # istersen --dist-backend nccl ile daha hizli backend secebilirsin.
+        backend = "gloo" if requested_backend == "auto" else requested_backend
+        dist.init_process_group(backend=backend, timeout=timedelta(minutes=timeout_minutes))
+    else:
+        backend = "none"
+
+    return {
+        "enabled": enabled,
+        "rank": rank,
+        "local_rank": local_rank,
+        "world_size": world_size,
+        "backend": backend,
+    }, device
+
+
+def unwrap_model(model):
+    raw = model.module if hasattr(model, "module") else model
+    return raw._orig_mod if hasattr(raw, "_orig_mod") else raw
 
 
 def get_lr(step, cfg: GPTConfig):
@@ -62,17 +129,27 @@ def main():
                     help="Devam ederken en-iyi-val sayacini sifirla. SFT gibi FARKLI "
                          "bir veri setine gecerken SART: yoksa eski (dusuk) best_val "
                          "yuzunden yeni ckpt.pt hic kaydedilmez.")
-    ap.add_argument("--device", default="cuda" if torch.cuda.is_available() else "cpu")
     ap.add_argument("--max-steps", type=int, default=None)
     ap.add_argument("--lr-decay-steps", type=int, default=None)
     ap.add_argument("--batch-size", type=int, default=None)
     ap.add_argument("--grad-accum", type=int, default=None)
     ap.add_argument("--compile", action="store_true", help="torch.compile (Linux'ta hizli)")
     ap.add_argument("--seed", type=int, default=1337)
+    ap.add_argument("--device", default="auto", help="auto, cuda, cuda:0, mps veya cpu")
+    ap.add_argument("--dist-backend", default="auto", choices=("auto", "gloo", "nccl"))
+    ap.add_argument("--dist-timeout-minutes", type=int, default=60)
     args = ap.parse_args()
 
-    torch.manual_seed(args.seed)
-    np.random.seed(args.seed)
+    dist_info, device = setup_distributed(args.device, args.dist_backend, args.dist_timeout_minutes)
+    is_main = dist_info["rank"] == 0
+    world_size = dist_info["world_size"]
+
+    def log(msg: str):
+        if is_main:
+            print(msg)
+
+    torch.manual_seed(args.seed + dist_info["rank"])
+    np.random.seed(args.seed + dist_info["rank"])
     torch.backends.cuda.matmul.allow_tf32 = True
     torch.backends.cudnn.allow_tf32 = True
 
@@ -89,8 +166,8 @@ def main():
         best_val = ckpt.get("best_val", float("inf"))
         if args.reset_best:
             best_val = float("inf")
-            print("[train] best_val sifirlandi (yeni veri seti icin temiz ckpt.pt).")
-        print(f"[train] devam ediliyor: {args.resume} (step={start_step})")
+            log("[train] best_val sifirlandi (yeni veri seti icin temiz ckpt.pt).")
+        log(f"[train] devam ediliyor: {args.resume} (step={start_step})")
     else:
         cfg = get_config(args.preset)
         ckpt = None
@@ -110,8 +187,10 @@ def main():
         cfg.grad_accum_steps = args.grad_accum
 
     os.makedirs(cfg.out_dir, exist_ok=True)
-    device = args.device
-    device_type = "cuda" if "cuda" in device else "cpu"
+    device_type = device_type_of(device)
+    if dist_info["enabled"]:
+        log(f"[dist] backend={dist_info['backend']} world_size={world_size} "
+            f"(rank 0 checkpoint/log yazar)")
 
     # --- precision ---
     if device_type == "cuda":
@@ -123,13 +202,18 @@ def main():
         ptdtype = torch.bfloat16 if bf16_ok else torch.float16
         ctx = torch.autocast(device_type="cuda", dtype=ptdtype)
         use_scaler = (ptdtype == torch.float16)
-        print(f"[train] GPU: {torch.cuda.get_device_name(0)} | "
-              f"autocast={ptdtype} | scaler={use_scaler}")
+        log(f"[train] GPU: {torch.cuda.get_device_name()} | "
+            f"autocast={ptdtype} | scaler={use_scaler}")
+    elif device_type == "mps":
+        ptdtype = torch.float32
+        ctx = nullcontext()
+        use_scaler = False
+        log("[train] Apple MPS kullaniliyor; mixed precision kapali.")
     else:
         ptdtype = torch.float32
         ctx = nullcontext()
         use_scaler = False
-        print("[train] UYARI: CUDA yok, CPU'da egitim cok yavastir (sadece test).")
+        log("[train] UYARI: CUDA/MPS yok, CPU'da egitim cok yavastir (sadece test).")
 
     # torch.amp.GradScaler takma adi 2.3.0+ ile geldi; eski surumlerde fallback
     _GradScaler = getattr(torch.amp, "GradScaler", None) or torch.cuda.amp.GradScaler
@@ -158,19 +242,26 @@ def main():
     if ckpt is not None:
         model.load_state_dict(ckpt["model"])
     n = model.num_params()
-    print(f"[train] model parametreleri: {n/1e6:.1f}M  "
-          f"(preset={args.preset}, vocab={cfg.vocab_size}, ctx={cfg.block_size})")
+    log(f"[train] model parametreleri: {n/1e6:.1f}M  "
+        f"(preset={args.preset}, vocab={cfg.vocab_size}, ctx={cfg.block_size})")
 
     optimizer = model.configure_optimizers(cfg, device_type)
     if ckpt is not None and "optimizer" in ckpt:
         try:
             optimizer.load_state_dict(ckpt["optimizer"])
         except Exception as e:
-            print(f"[train] optimizer durumu yuklenemedi ({e}); sifirdan.")
+            log(f"[train] optimizer durumu yuklenemedi ({e}); sifirdan.")
 
     if args.compile:
-        print("[train] torch.compile ediliyor (ilk adim yavas olabilir)...")
+        log("[train] torch.compile ediliyor (ilk adim yavas olabilir)...")
         model = torch.compile(model)
+
+    if dist_info["enabled"]:
+        ddp_kwargs = {}
+        if device_type == "cuda":
+            cuda_index = torch.cuda.current_device()
+            ddp_kwargs = {"device_ids": [cuda_index], "output_device": cuda_index}
+        model = DDP(model, **ddp_kwargs)
 
     @torch.no_grad()
     def estimate_loss():
@@ -183,18 +274,24 @@ def main():
                 with ctx:
                     _, loss, _ = model(x, y)
                 losses[k] = loss.item()
-            out[split] = losses.mean().item()
+            mean_loss = losses.mean().item()
+            if dist_info["enabled"]:
+                reduce_device = device if dist_info["backend"] == "nccl" else "cpu"
+                loss_t = torch.tensor(mean_loss, dtype=torch.float64, device=reduce_device)
+                dist.all_reduce(loss_t, op=dist.ReduceOp.SUM)
+                mean_loss = (loss_t / world_size).item()
+            out[split] = mean_loss
         model.train()
         return out
 
     # --- egitim dongusu ---
     model.train()
-    tokens_per_step = cfg.batch_size * cfg.block_size * cfg.grad_accum_steps
+    tokens_per_step = cfg.batch_size * cfg.block_size * cfg.grad_accum_steps * world_size
     t0 = time.time()
     running = None
 
-    print(f"[train] efektif batch = {cfg.batch_size} x {cfg.grad_accum_steps} "
-          f"= {cfg.batch_size * cfg.grad_accum_steps} | {tokens_per_step:,} token/adim")
+    log(f"[train] efektif batch = {cfg.batch_size} x {cfg.grad_accum_steps} x {world_size} "
+        f"= {cfg.batch_size * cfg.grad_accum_steps * world_size} | {tokens_per_step:,} token/adim")
 
     for step in range(start_step, cfg.max_steps):
         lr = get_lr(step, cfg)
@@ -203,11 +300,14 @@ def main():
 
         optimizer.zero_grad(set_to_none=True)
         for micro in range(cfg.grad_accum_steps):
-            x, y = get_batch("train")
-            with ctx:
-                _, loss, _ = model(x, y)
-                loss = loss / cfg.grad_accum_steps
-            scaler.scale(loss).backward()
+            sync_gradients = micro == cfg.grad_accum_steps - 1
+            sync_ctx = model.no_sync() if dist_info["enabled"] and not sync_gradients else nullcontext()
+            with sync_ctx:
+                x, y = get_batch("train")
+                with ctx:
+                    _, loss, _ = model(x, y)
+                    loss = loss / cfg.grad_accum_steps
+                scaler.scale(loss).backward()
 
         if cfg.grad_clip > 0:
             scaler.unscale_(optimizer)
@@ -218,7 +318,7 @@ def main():
         lossf = loss.item() * cfg.grad_accum_steps
         running = lossf if running is None else 0.9 * running + 0.1 * lossf
 
-        if step % cfg.log_interval == 0:
+        if is_main and step % cfg.log_interval == 0:
             dt = time.time() - t0
             t0 = time.time()
             tps = tokens_per_step * cfg.log_interval / dt if step > start_step else 0
@@ -228,27 +328,32 @@ def main():
 
         if step > start_step and step % cfg.eval_interval == 0:
             ev = estimate_loss()
-            print(f"  >> eval | train {ev['train']:.3f} | val {ev['val']:.3f}")
-            if ev["val"] < best_val:
+            log(f"  >> eval | train {ev['train']:.3f} | val {ev['val']:.3f}")
+            if is_main and ev["val"] < best_val:
                 best_val = ev["val"]
                 save_ckpt(model, optimizer, cfg, step, best_val, cfg.out_dir, "ckpt.pt")
-                print(f"  >> en iyi val ({best_val:.3f}) kaydedildi -> {cfg.out_dir}/ckpt.pt")
+                log(f"  >> en iyi val ({best_val:.3f}) kaydedildi -> {cfg.out_dir}/ckpt.pt")
 
-        if step > start_step and step % cfg.save_interval == 0:
+        if is_main and step > start_step and step % cfg.save_interval == 0:
             save_ckpt(model, optimizer, cfg, step, best_val, cfg.out_dir, "ckpt_last.pt")
 
     # son kayit
-    save_ckpt(model, optimizer, cfg, cfg.max_steps, best_val, cfg.out_dir, "ckpt_last.pt")
-    # eval hic calismadiysa (kisa kosu) ckpt.pt olusmamis olabilir -> garanti et
-    final_ckpt = os.path.join(cfg.out_dir, "ckpt.pt")
-    if not os.path.exists(final_ckpt):
-        save_ckpt(model, optimizer, cfg, cfg.max_steps, best_val, cfg.out_dir, "ckpt.pt")
-        print("[train] ckpt.pt yoktu, son model ckpt.pt olarak da kaydedildi.")
-    print(f"[train] bitti. checkpoint'ler: {cfg.out_dir}/")
+    if is_main:
+        save_ckpt(model, optimizer, cfg, cfg.max_steps, best_val, cfg.out_dir, "ckpt_last.pt")
+        # eval hic calismadiysa (kisa kosu) ckpt.pt olusmamis olabilir -> garanti et
+        final_ckpt = os.path.join(cfg.out_dir, "ckpt.pt")
+        if not os.path.exists(final_ckpt):
+            save_ckpt(model, optimizer, cfg, cfg.max_steps, best_val, cfg.out_dir, "ckpt.pt")
+            log("[train] ckpt.pt yoktu, son model ckpt.pt olarak da kaydedildi.")
+        log(f"[train] bitti. checkpoint'ler: {cfg.out_dir}/")
+
+    if dist_info["enabled"]:
+        dist.barrier()
+        dist.destroy_process_group()
 
 
 def save_ckpt(model, optimizer, cfg, step, best_val, out_dir, name):
-    raw = model._orig_mod if hasattr(model, "_orig_mod") else model  # torch.compile sarmali
+    raw = unwrap_model(model)  # DDP / torch.compile sarmali
     torch.save({
         "model": raw.state_dict(),
         "optimizer": optimizer.state_dict(),
