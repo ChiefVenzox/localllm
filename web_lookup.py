@@ -24,6 +24,11 @@ _STRIP = re.compile(
     r"\b(nedir|ne demek(tir)?|nedir ki|kimdir|ne ise yarar|hakk[iı]nda"
     r"( bilgi)?( verir misin| ver)?|anlat([iı]r m[iı]s[iı]n)?|a[cç][iı]kla(r m[iı]s[iı]n)?|"
     r"k[iı]saca|bana)\b", re.I)
+_CAPITAL_RE = re.compile(
+    r"^\s*(?P<subject>.+?)\s*(?:['’`´]?[nm]?[ıiuü]n)?\s+ba[şs]kenti\s+"
+    r"(?:neresi|nedir|ne|nerededir)?\s*[?.!]*\s*$",
+    re.I,
+)
 
 
 def _get_json(url, timeout=10):
@@ -57,6 +62,70 @@ def _summary(title, lang="tr"):
     return extract, url
 
 
+def _wikidata_item(title: str, lang="tr") -> str | None:
+    url = (
+        f"https://{lang}.wikipedia.org/w/api.php?action=query&prop=pageprops"
+        f"&titles={urllib.parse.quote(title)}&format=json"
+    )
+    data = _get_json(url)
+    pages = data.get("query", {}).get("pages", {})
+    for page in pages.values():
+        item = page.get("pageprops", {}).get("wikibase_item")
+        if item:
+            return item
+    return None
+
+
+def _wikidata_label(qid: str, lang="tr") -> str | None:
+    data = _get_json(f"https://www.wikidata.org/wiki/Special:EntityData/{urllib.parse.quote(qid)}.json")
+    entity = data.get("entities", {}).get(qid, {})
+    labels = entity.get("labels", {})
+    label = labels.get(lang) or labels.get("en")
+    return label.get("value") if label else None
+
+
+def _wikidata_capital(qid: str, lang="tr") -> str | None:
+    data = _get_json(f"https://www.wikidata.org/wiki/Special:EntityData/{urllib.parse.quote(qid)}.json")
+    entity = data.get("entities", {}).get(qid, {})
+    claims = entity.get("claims", {})
+    capital_claims = claims.get("P36") or []
+    for claim in capital_claims:
+        value = (
+            claim.get("mainsnak", {})
+            .get("datavalue", {})
+            .get("value", {})
+        )
+        capital_id = value.get("id") if isinstance(value, dict) else None
+        if capital_id:
+            return _wikidata_label(capital_id, lang)
+    return None
+
+
+def _capital_lookup(question: str, lang="tr") -> dict | None:
+    normalized = question.replace("’", "'").replace("`", "'").replace("´", "'")
+    match = _CAPITAL_RE.match(normalized)
+    if not match:
+        return None
+    subject = match.group("subject").strip(" ,?.!")
+    if len(subject) < 2:
+        return None
+    title = _search_title(subject, lang)
+    if not title:
+        return None
+    item = _wikidata_item(title, lang)
+    if not item:
+        return None
+    capital = _wikidata_capital(item, lang)
+    if not capital:
+        return None
+    _, url = _summary(title, lang)
+    return {
+        "title": title,
+        "summary": f"{title} icin Wikidata'da kayitli baskent: {capital}.",
+        "url": url,
+    }
+
+
 def _shorten(text, max_chars=400):
     if len(text) <= max_chars:
         return text
@@ -67,6 +136,9 @@ def _shorten(text, max_chars=400):
 
 def lookup(question, lang="tr", max_chars=400):
     """Soruyu Wikipedia'da arar. Bulursa {title, summary, url}, yoksa None."""
+    capital = _capital_lookup(question, lang)
+    if capital:
+        return capital
     query = clean_query(question)
     if len(query) < 2:
         return None

@@ -17,6 +17,7 @@ Tasarim GTX 1660 Ti (6 GB) gibi dusuk-VRAM kartlar gozetilerek yapildi.
 """
 from __future__ import annotations
 import math
+import sys
 from typing import Optional
 
 import torch
@@ -151,6 +152,25 @@ class SwiGLU(nn.Module):
         return self.drop(self.w_down(F.silu(self.w_gate(x)) * self.w_up(x)))
 
 
+class NeuralAdapter(nn.Module):
+    """Final hidden state icin sifir-etkili residual bottleneck adapter."""
+    def __init__(self, n_embd: int, bottleneck: int = 64, dropout: float = 0.0,
+                 scale: float = 1.0, rms_eps: float = 1e-5):
+        super().__init__()
+        bottleneck = max(1, int(bottleneck))
+        self.norm = RMSNorm(n_embd, rms_eps)
+        self.down = nn.Linear(n_embd, bottleneck, bias=False)
+        self.up = nn.Linear(bottleneck, n_embd, bias=False)
+        self.drop = nn.Dropout(dropout)
+        self.scale = float(scale)
+        nn.init.normal_(self.down.weight, mean=0.0, std=0.02)
+        nn.init.zeros_(self.up.weight)
+
+    def forward(self, x):
+        delta = self.up(F.silu(self.down(self.norm(x))))
+        return x + self.drop(delta) * self.scale
+
+
 # ---------------------------------------------------------------------------
 #  Transformer blogu (pre-norm)
 # ---------------------------------------------------------------------------
@@ -184,6 +204,13 @@ class GPT(nn.Module):
         self.drop = nn.Dropout(cfg.dropout)
         self.blocks = nn.ModuleList([Block(cfg) for _ in range(cfg.n_layer)])
         self.norm_f = RMSNorm(cfg.n_embd, cfg.rms_eps)
+        self.adapter = NeuralAdapter(
+            cfg.n_embd,
+            cfg.adapter_dim,
+            cfg.adapter_dropout,
+            cfg.adapter_scale,
+            cfg.rms_eps,
+        ) if cfg.adapter_enabled else None
         self.lm_head = nn.Linear(cfg.n_embd, cfg.vocab_size, bias=False)
 
         if cfg.tie_embeddings:
@@ -196,6 +223,8 @@ class GPT(nn.Module):
 
         self.gradient_checkpointing = cfg.gradient_checkpointing
         self.apply(self._init_weights)
+        if self.adapter is not None:
+            nn.init.zeros_(self.adapter.up.weight)
         # residual projeksiyonlarini derinlige gore olcekle (GPT-2 init)
         for name, p in self.named_parameters():
             if name.endswith("wo.weight") or name.endswith("w_down.weight"):
@@ -208,6 +237,37 @@ class GPT(nn.Module):
                 nn.init.zeros_(module.bias)
         elif isinstance(module, nn.Embedding):
             nn.init.normal_(module.weight, mean=0.0, std=0.02)
+
+    def attach_adapter(self, bottleneck: int | None = None,
+                       dropout: float | None = None,
+                       scale: float | None = None):
+        """Egitilmis base modele sonradan kucuk adapter tak."""
+        if self.adapter is not None:
+            return self.adapter
+        bottleneck = int(bottleneck or self.cfg.adapter_dim or 64)
+        dropout = self.cfg.adapter_dropout if dropout is None else float(dropout)
+        scale = self.cfg.adapter_scale if scale is None else float(scale)
+        ref = next(self.parameters())
+        self.adapter = NeuralAdapter(
+            self.cfg.n_embd,
+            bottleneck,
+            dropout,
+            scale,
+            self.cfg.rms_eps,
+        ).to(device=ref.device, dtype=ref.dtype)
+        self.cfg.adapter_enabled = True
+        self.cfg.adapter_dim = bottleneck
+        self.cfg.adapter_dropout = dropout
+        self.cfg.adapter_scale = scale
+        return self.adapter
+
+    def freeze_base_model(self, train_adapter: bool = True):
+        """Base LLM'i dondur; sadece adapter trainable kalsin."""
+        for p in self.parameters():
+            p.requires_grad = False
+        if self.adapter is not None:
+            for p in self.adapter.parameters():
+                p.requires_grad = train_adapter
 
     def num_params(self, non_embedding: bool = False) -> int:
         n = sum(p.numel() for p in self.parameters())
@@ -253,6 +313,8 @@ class GPT(nn.Module):
                 new_past.append(npkv)
 
         x = self.norm_f(x)
+        if self.adapter is not None:
+            x = self.adapter(x)
 
         if targets is not None:
             logits = self.lm_head(x)
@@ -290,7 +352,10 @@ class GPT(nn.Module):
                 return opt
             except Exception as e:
                 print(f"[optim] 8-bit optimizer yuklenemedi ({e}); torch AdamW'ye geciliyor")
-        use_fused = device_type == "cuda"
+        # Windows + bazi PyTorch CUDA surumlerinde fused AdamW, GradScaler ile
+        # "grad_scale/found_inf" assertion'ina dusebiliyor. Linux CUDA'da hizli
+        # yolu koru, Windows'ta klasik AdamW daha guvenilir.
+        use_fused = device_type == "cuda" and sys.platform != "win32"
         opt = torch.optim.AdamW(groups, lr=cfg.learning_rate,
                                 betas=(cfg.beta1, cfg.beta2), fused=use_fused)
         return opt

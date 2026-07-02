@@ -42,6 +42,10 @@ class GPTConfig:
     dropout: float = 0.0           # kucuk verilerde 0.1 deneyebilirsin
     rms_eps: float = 1e-5
     tie_embeddings: bool = True    # giris embedding ile cikis (lm_head) agirligini paylas
+    adapter_enabled: bool = False   # final hidden state uzerinde kucuk neural adapter
+    adapter_dim: int = 64           # bottleneck boyutu; 32/64/128 iyi baslangic
+    adapter_dropout: float = 0.0
+    adapter_scale: float = 1.0
 
     # ---- Egitim (6 GB dostu varsayilanlar) ----
     batch_size: int = 8            # GPU'ya ayni anda giren ornek sayisi
@@ -80,6 +84,8 @@ class GPTConfig:
         total = embed + L * per_layer
         if not self.tie_embeddings:
             total += v * d
+        if self.adapter_enabled:
+            total += 2 * d * self.adapter_dim + d
         return total
 
     def _ffn_hidden(self) -> int:

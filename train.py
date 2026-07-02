@@ -17,6 +17,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import sys
 import time
 from contextlib import nullcontext
 from dataclasses import asdict, fields
@@ -180,6 +181,20 @@ def main():
     ap.add_argument("--data", default="data/bin")
     ap.add_argument("--out", default=None, help="checkpoint klasoru (vars: config.out_dir)")
     ap.add_argument("--resume", default=None, help="devam edilecek ckpt yolu")
+    ap.add_argument("--adapter", action="store_true",
+                    help="base modeli dondurup sadece kucuk neural adapter egit")
+    ap.add_argument("--adapter-dim", type=int, default=64,
+                    help="adapter bottleneck boyutu")
+    ap.add_argument("--adapter-dropout", type=float, default=0.0)
+    ap.add_argument("--adapter-scale", type=float, default=1.0)
+    ap.add_argument("--adapter-out", default=None,
+                    help="adapter checkpoint klasoru (vars: cfg.out_dir)")
+    ap.add_argument("--adapter-resume", default=None,
+                    help="devam edilecek adapter.pt yolu")
+    ap.add_argument("--adapter-continue-step", action="store_true",
+                    help="adapter-resume icindeki step sayacindan devam et; varsayilan sadece agirliklari yukler")
+    ap.add_argument("--adapter-lr", type=float, default=None,
+                    help="adapter egitim learning-rate (vars: 1e-3)")
     ap.add_argument("--reset-best", action="store_true",
                     help="Devam ederken en-iyi-val sayacini sifirla. SFT gibi FARKLI "
                          "bir veri setine gecerken SART: yoksa eski (dusuk) best_val "
@@ -216,11 +231,20 @@ def main():
     # --- config ---
     start_step = 0
     best_val = float("inf")
+    if args.adapter and not args.resume:
+        raise SystemExit("--adapter icin --resume checkpoints/ckpt.pt gerekli.")
     if args.resume:
         ckpt = torch.load(args.resume, map_location="cpu", weights_only=False)
         cfg = build_cfg_from_dict(ckpt["config"])
-        start_step = ckpt.get("step", 0)
-        best_val = ckpt.get("best_val", float("inf"))
+        start_step = 0 if args.adapter else ckpt.get("step", 0)
+        best_val = float("inf") if args.adapter else ckpt.get("best_val", float("inf"))
+        if args.adapter:
+            cfg.adapter_enabled = True
+            cfg.adapter_dim = max(1, args.adapter_dim)
+            cfg.adapter_dropout = max(0.0, args.adapter_dropout)
+            cfg.adapter_scale = args.adapter_scale
+            cfg.learning_rate = args.adapter_lr or 1e-3
+            cfg.weight_decay = 0.0
         if args.reset_best:
             best_val = float("inf")
             log("[train] best_val sifirlandi (yeni veri seti icin temiz ckpt.pt).")
@@ -233,15 +257,19 @@ def main():
     cfg.vocab_size = meta["vocab_size"]
     if args.out:
         cfg.out_dir = args.out
-    if args.max_steps:
+    if args.adapter and args.adapter_out:
+        cfg.out_dir = args.adapter_out
+    if args.max_steps is not None:
         cfg.max_steps = args.max_steps
-        cfg.lr_decay_steps = args.max_steps   # decay'i kosu uzunluguyla esle
-    if args.lr_decay_steps:
+        cfg.lr_decay_steps = max(1, args.max_steps)   # decay'i kosu uzunluguyla esle
+    if args.lr_decay_steps is not None:
         cfg.lr_decay_steps = args.lr_decay_steps
     if args.batch_size:
         cfg.batch_size = args.batch_size
     if args.grad_accum:
         cfg.grad_accum_steps = args.grad_accum
+    if args.adapter:
+        cfg.warmup_steps = min(cfg.warmup_steps, max(1, cfg.max_steps // 10))
 
     os.makedirs(cfg.out_dir, exist_ok=True)
     device_type = device_type_of(device)
@@ -258,7 +286,10 @@ def main():
         bf16_ok = torch.cuda.is_bf16_supported() and major >= 8
         ptdtype = torch.bfloat16 if bf16_ok else torch.float16
         ctx = torch.autocast(device_type="cuda", dtype=ptdtype)
-        use_scaler = (ptdtype == torch.float16)
+        # Windows + torch 2.12 CUDA'da fused AdamW ile GradScaler bazen
+        # "Expected grad_scale and found_inf to be None" hatasina dusuyor.
+        # Autocast hizini koruyup scaler'i kapatmak kisa SFT kosularini stabil tutar.
+        use_scaler = (ptdtype == torch.float16) and sys.platform != "win32"
         log(f"[train] GPU: {torch.cuda.get_device_name()} | "
             f"autocast={ptdtype} | scaler={use_scaler}")
     elif device_type == "mps":
@@ -277,13 +308,30 @@ def main():
     scaler = _GradScaler(enabled=use_scaler)
 
     # --- veri yukleyici (memmap) ---
+    val_fallback_logged = False
+
     def get_batch(split):
+        nonlocal val_fallback_logged
         # her cagrida memmap'i yeniden ac (bellek sizintisini onler)
         fp = os.path.join(args.data, f"{split}.bin")
         data = np.memmap(fp, dtype=np_dtype, mode="r")
         max_start = len(data) - cfg.block_size - 1
         if max_start < 1:
-            raise SystemExit(f"{split}.bin cok kucuk (block_size={cfg.block_size}).")
+            if split == "val":
+                train_fp = os.path.join(args.data, "train.bin")
+                train_data = np.memmap(train_fp, dtype=np_dtype, mode="r")
+                train_max_start = len(train_data) - cfg.block_size - 1
+                if train_max_start >= 1:
+                    if not val_fallback_logged:
+                        log(f"[data] val.bin cok kucuk; eval icin train.bin kullaniliyor "
+                            f"(block_size={cfg.block_size}).")
+                        val_fallback_logged = True
+                    data = train_data
+                    max_start = train_max_start
+                else:
+                    raise SystemExit(f"{split}.bin ve train.bin cok kucuk (block_size={cfg.block_size}).")
+            if max_start < 1:
+                raise SystemExit(f"{split}.bin cok kucuk (block_size={cfg.block_size}).")
         ix = torch.randint(max_start, (cfg.batch_size,))
         x = torch.stack([torch.from_numpy(data[i:i + cfg.block_size].astype(np.int64)) for i in ix])
         y = torch.stack([torch.from_numpy(data[i + 1:i + 1 + cfg.block_size].astype(np.int64)) for i in ix])
@@ -297,13 +345,38 @@ def main():
     # --- model ---
     model = GPT(cfg).to(device)
     if ckpt is not None:
-        model.load_state_dict(ckpt["model"])
+        incompatible = model.load_state_dict(ckpt["model"], strict=not args.adapter)
+        if args.adapter:
+            missing = [key for key in incompatible.missing_keys if key.startswith("adapter.")]
+            unexpected = [key for key in incompatible.unexpected_keys if key.startswith("adapter.")]
+            if missing:
+                log(f"[adapter] yeni adapter baslatildi ({len(missing)} tensor).")
+            if unexpected:
+                log(f"[adapter] base checkpoint icinde beklenmeyen adapter tensorleri: {len(unexpected)}")
+    if args.adapter_resume:
+        adapter_ckpt = torch.load(args.adapter_resume, map_location=device, weights_only=False)
+        state = adapter_ckpt.get("adapter") or adapter_ckpt.get("adapter_state_dict")
+        if state is None:
+            raise SystemExit(f"adapter state bulunamadi: {args.adapter_resume}")
+        model.adapter.load_state_dict(state)
+        loaded_step = adapter_ckpt.get("step", 0)
+        if args.adapter_continue_step:
+            start_step = loaded_step
+            best_val = adapter_ckpt.get("best_val", best_val)
+        log(f"[adapter] agirlik yuklendi: {args.adapter_resume} "
+            f"(ckpt_step={loaded_step}, run_start={start_step})")
+    if args.adapter:
+        model.freeze_base_model(train_adapter=True)
     n = model.num_params()
+    trainable_n = sum(p.numel() for p in model.parameters() if p.requires_grad)
     log(f"[train] model parametreleri: {n/1e6:.1f}M  "
         f"(preset={args.preset}, vocab={cfg.vocab_size}, ctx={cfg.block_size})")
+    if args.adapter:
+        log(f"[adapter] trainable parametre: {trainable_n:,} "
+            f"(dim={cfg.adapter_dim}, lr={cfg.learning_rate:g})")
 
     optimizer = model.configure_optimizers(cfg, device_type)
-    if ckpt is not None and "optimizer" in ckpt:
+    if ckpt is not None and "optimizer" in ckpt and not args.adapter:
         try:
             optimizer.load_state_dict(ckpt["optimizer"])
         except Exception as e:
@@ -346,6 +419,7 @@ def main():
     tokens_per_step = cfg.batch_size * cfg.block_size * cfg.grad_accum_steps * world_size
     t0 = time.time()
     running = None
+    saved_best_adapter = False
 
     log(f"[train] efektif batch = {cfg.batch_size} x {cfg.grad_accum_steps} x {world_size} "
         f"= {cfg.batch_size * cfg.grad_accum_steps * world_size} | {tokens_per_step:,} token/adim")
@@ -388,21 +462,37 @@ def main():
             log(f"  >> eval | train {ev['train']:.3f} | val {ev['val']:.3f}")
             if is_main and ev["val"] < best_val:
                 best_val = ev["val"]
-                save_ckpt(model, optimizer, cfg, step, best_val, cfg.out_dir, "ckpt.pt")
-                log(f"  >> en iyi val ({best_val:.3f}) kaydedildi -> {cfg.out_dir}/ckpt.pt")
+                if args.adapter:
+                    save_adapter(model, optimizer, cfg, step, best_val, cfg.out_dir, "adapter.pt", args.resume)
+                    saved_best_adapter = True
+                    log(f"  >> en iyi val ({best_val:.3f}) kaydedildi -> {cfg.out_dir}/adapter.pt")
+                else:
+                    save_ckpt(model, optimizer, cfg, step, best_val, cfg.out_dir, "ckpt.pt")
+                    log(f"  >> en iyi val ({best_val:.3f}) kaydedildi -> {cfg.out_dir}/ckpt.pt")
 
         if is_main and step > start_step and step % cfg.save_interval == 0:
-            save_ckpt(model, optimizer, cfg, step, best_val, cfg.out_dir, "ckpt_last.pt")
+            if args.adapter:
+                save_adapter(model, optimizer, cfg, step, best_val, cfg.out_dir, "adapter_last.pt", args.resume)
+            else:
+                save_ckpt(model, optimizer, cfg, step, best_val, cfg.out_dir, "ckpt_last.pt")
 
     # son kayit
     if is_main:
-        save_ckpt(model, optimizer, cfg, cfg.max_steps, best_val, cfg.out_dir, "ckpt_last.pt")
-        # eval hic calismadiysa (kisa kosu) ckpt.pt olusmamis olabilir -> garanti et
-        final_ckpt = os.path.join(cfg.out_dir, "ckpt.pt")
-        if not os.path.exists(final_ckpt):
-            save_ckpt(model, optimizer, cfg, cfg.max_steps, best_val, cfg.out_dir, "ckpt.pt")
-            log("[train] ckpt.pt yoktu, son model ckpt.pt olarak da kaydedildi.")
-        log(f"[train] bitti. checkpoint'ler: {cfg.out_dir}/")
+        if args.adapter:
+            save_adapter(model, optimizer, cfg, cfg.max_steps, best_val, cfg.out_dir, "adapter_last.pt", args.resume)
+            final_adapter = os.path.join(cfg.out_dir, "adapter.pt")
+            if not saved_best_adapter:
+                save_adapter(model, optimizer, cfg, cfg.max_steps, best_val, cfg.out_dir, "adapter.pt", args.resume)
+                log("[adapter] final adapter adapter.pt olarak kaydedildi.")
+            log(f"[adapter] bitti. adapter checkpoint'leri: {cfg.out_dir}/")
+        else:
+            save_ckpt(model, optimizer, cfg, cfg.max_steps, best_val, cfg.out_dir, "ckpt_last.pt")
+            # eval hic calismadiysa (kisa kosu) ckpt.pt olusmamis olabilir -> garanti et
+            final_ckpt = os.path.join(cfg.out_dir, "ckpt.pt")
+            if not os.path.exists(final_ckpt):
+                save_ckpt(model, optimizer, cfg, cfg.max_steps, best_val, cfg.out_dir, "ckpt.pt")
+                log("[train] ckpt.pt yoktu, son model ckpt.pt olarak da kaydedildi.")
+            log(f"[train] bitti. checkpoint'ler: {cfg.out_dir}/")
 
     if dist_info["enabled"]:
         dist.barrier()
@@ -417,6 +507,28 @@ def save_ckpt(model, optimizer, cfg, step, best_val, out_dir, name):
         "config": asdict(cfg),
         "step": step,
         "best_val": best_val,
+    }, os.path.join(out_dir, name))
+
+
+def save_adapter(model, optimizer, cfg, step, best_val, out_dir, name, base_ckpt):
+    raw = unwrap_model(model)  # DDP / torch.compile sarmali
+    if raw.adapter is None:
+        raise RuntimeError("adapter yok; save_adapter cagrilamaz")
+    torch.save({
+        "adapter": raw.adapter.state_dict(),
+        "optimizer": optimizer.state_dict(),
+        "adapter_config": {
+            "adapter_dim": cfg.adapter_dim,
+            "adapter_dropout": cfg.adapter_dropout,
+            "adapter_scale": cfg.adapter_scale,
+            "n_embd": cfg.n_embd,
+            "vocab_size": cfg.vocab_size,
+            "block_size": cfg.block_size,
+        },
+        "base_checkpoint": base_ckpt,
+        "step": step,
+        "best_val": best_val,
+        "note": "base LLM donduruldu; sadece neural adapter egitildi",
     }, os.path.join(out_dir, name))
 
 

@@ -18,19 +18,28 @@ yazılmış bir decoder-only Transformer'ı (GPT tarzı) **sıfırdan eğitir** 
 Bu proje üzerine **Bilge** adlı bir Türkçe sohbet asistanı kuruldu: yerel,
 sıfırdan eğitilmiş, ~57M parametreli (`bilge-60m` preset, 1660 Ti'da eğitilebilir)
 bir model. Bilge **ezber-tabanlıdır** — verdiğin örnekleri öğrenir; bilmediğini
-uyduramaz. Bu yüzden iki güçlü yeteneği vardır:
+uyduramaz. Bu yüzden üç güçlü yeteneği vardır:
 
-**1) Konuştukça öğrenir (online learning).** Web arayüzünde her cevabın altında
-**👍 Bunu öğret** ve **✏️ Düzelt & öğret** düğmeleri var. Yanlış bir cevabı
-düzeltip öğretirsin, Bilge o an birkaç gradyan adımıyla öğrenir
-(`online_learn.py`). Temel veriden *rehearsal* yapıldığı için yeni bir şey
-öğretmek eski bilgiyi bozmaz. "Öğrenileni kaydet" ile kalıcı yaparsın.
+**1) Konuştukça öğrenir (online learning).** Web arayüzünde **Eğitime al**
+düğmesi doğru cevabı yazman için eğitim formunu açar; mevcut asistan cevabı
+otomatik eğitilmez. **Düzelt** ile cevabı değiştirip ancak sen onaylarsan
+öğretirsin. Sunucu çok kısa, "bilmiyorum" veya kod isteğinde gerçek kod
+içermeyen cevapları reddeder. Öğrenme `online_learn.py` ile birkaç gradyan
+adımı yapar; "Öğrenileni kaydet" seçilirse checkpoint'e kalıcı yazılır.
 
 **2) Web'den kendi kendine eğitilir.** `web_sources.json`'a izin verdiğin siteleri
 yazarsın; Bilge bunları gezip (robots.txt'e saygılı, hız/boyut sınırlı, sadece
 stdlib) ana metni çıkarır, otomatik Soru-Cevap üretir ve yerelde kendini eğitir
 (`web_learn.py`, `/api/web/study`, arayüzde **🌐 Web'den öğren**). Otomatik/zamanlı
 da çalışabilir (`enabled: true`, `interval_minutes`).
+
+**3) Worker cevabı ayrı test edilir.** Üretim kontrolünde cevap kaynağı
+`Otomatik worker/server`, `Server modeli` veya `Worker modeli` seçilebilir.
+Worker'da eğitilen adapter'ın sohbet cevabına yansıması için kaynak
+`Otomatik worker/server` veya `Worker modeli` olmalıdır. Varsayılan worker
+eğitimi eski `checkpoints/adapter.pt` üzerine devam etmez; temiz adapter
+başlatır. Eski adapter'dan devam etmek istersen API payload'ında
+`adapter_resume` açıkça gönder.
 
 ### Eğitim verisi üreteçleri (`data/`)
 Bilge'nin bilgisi, kod ile üretilen veri setlerinden gelir:
@@ -50,8 +59,48 @@ python generate.py --chat --ckpt checkpoints/ckpt.pt
 # Hızlı toplu deneme:
 python chat_demo.py --default-system
 # Web arayüzü (öğret + web öğrenme dahil):
-python -m server.app --ckpt checkpoints/ckpt.pt   # -> http://127.0.0.1:8000
+python -m server.app --ckpt checkpoints/ckpt.pt   # -> http://127.0.0.1:8000 veya http://SUNUCU_IP:8000
 ```
+
+### Yerel cihaz ağı: Mac/Windows/Linux kendi donanımıyla katılsın
+
+Merkezi sunucu FastAPI üzerinden tek panel/API olarak çalışır. Ana arayüz
+`http://SUNUCU_IP:8000/`, cihaz paneli de aynı sunucuda `/cluster` yolundadır.
+Sunucu başka bilgisayarların GPU'sunu doğrudan kullanmaz; sadece cihaz kaydı,
+heartbeat, dosya senkronu, yapılandırılmış eğitim kuyruğu ve LAN eğitim komut
+planını yönetir.
+
+Ana makinede:
+
+```bash
+export YERELLM_API_TOKEN="uzun-rastgele-token"
+python -m server.app --host 0.0.0.0 --port 8000 --api-token "$YERELLM_API_TOKEN"
+# -> http://SUNUCU_IP:8000/
+# -> http://SUNUCU_IP:8000/cluster
+```
+
+Not: `8081` bu kurulumda Filebrowser/veri paylaşımı içindir; worker
+`--server` adresi olarak her zaman FastAPI portunu (`8000`) kullanmalıdır.
+
+Her yerel bilgisayarda:
+
+```bash
+python scripts/setup_worker.py --server http://SUNUCU_IP:8000 --name macbook-pro --token "$YERELLM_API_TOKEN"
+```
+
+Bu komut `.yerellm_worker.env` dosyasını yazar ve worker'ı eğitim/senkron işleri
+açık şekilde başlatır. Sonraki çalıştırmalarda aynı klasörde sadece şunu yazman
+yeterli:
+
+```bash
+python scripts/setup_worker.py
+```
+
+Panelde cihazları seçip patch senkronu, yapılandırılmış chat eğitimi veya DDP
+komut planı oluşturabilirsin. Her cihaz işi kendi yerel Python süreciyle yapar:
+Mac kendi `mps`/CPU'sunu, Windows kendi CUDA/CPU'sunu, Linux kendi CUDA/CPU'sunu
+kullanır. Setup script yapılandırılmış eğitim ve senkron işlerini açık başlatır;
+rastgele shell komutu çalıştırmaz. Detay: `docs/local-node-registry.md`.
 
 ### Dürüst sınırlar
 - ~57M ezber modeli: öğretilen aralıkta matematik (örn. 12+8) ve öğretilen
@@ -85,6 +134,33 @@ python -m server.app --ckpt checkpoints/ckpt.pt   # -> http://127.0.0.1:8000
 GTX 1660 Ti (Turing, SM 7.5) için CUDA derlemeli PyTorch. Ayrı CUDA Toolkit
 **gerekmez** — wheel CUDA runtime'ı içinde taşır; sadece güncel NVIDIA sürücüsü yeter.
 
+### Sistem gereksinimi ve hızlı kontrol
+
+Önce makineyi kontrol et:
+
+```bash
+make doctor
+# veya
+python scripts/system_check.py --mode all
+```
+
+Özet gereksinim:
+
+| Kullanım | Minimum | Önerilen |
+|---|---:|---:|
+| API / sohbet | 8 GB RAM, 10 GB disk | 16 GB RAM, 20 GB disk |
+| Docker CPU image | 20 GB boş disk | 40 GB+ |
+| Docker GPU image | NVIDIA driver + Container Toolkit | 60 GB+ boş disk |
+| Adapter eğitimi | 4 GB VRAM | 6 GB+ VRAM |
+| 200M veri hazırlama/eğitim | 16 GB RAM | 32 GB RAM |
+
+Gerekli dosyalar:
+
+- `tokenizer/tokenizer.json`
+- `checkpoints/ckpt.pt`
+- opsiyonel: `checkpoints/adapter.pt` (sadece mevcut adapter'ı kullanmak istiyorsan)
+- 200M eğitim için: `data/chat_200m_plus_bin/{meta.json,train.bin,val.bin}`
+
 ```bash
 pip install torch --index-url https://download.pytorch.org/whl/cu126
 pip install -r requirements.txt
@@ -105,6 +181,33 @@ Bir preset'in 6 GB'a sığıp sığmadığını ölç (gerçek GPU'da):
 python scripts/vram_probe.py --preset small-100m
 # 1660 Ti'da olculen: zirve ~4.3 GB allocated / ~5.4 GB reserved -> SIGIYOR
 ```
+
+## Docker / FastAPI paketleme
+
+Yeni Docker kurulumu kodu image içinde, büyük veri ve checkpoint'leri volume
+olarak tutar. Böylece `data/chat_200m`, `data/chat_200m_plus_bin` ve
+`checkpoints/*.pt` build context'e girip image'i şişirmez.
+
+```bash
+# CPU/API
+docker compose up -d --build api
+
+# GPU/API (NVIDIA Container Toolkit gerekir)
+docker compose --profile gpu up -d --build api-gpu
+
+# Sistem kontrolu
+make docker-doctor
+
+# Worker container
+docker compose --profile worker up -d worker
+
+# Komut kısayolları
+make docker-up
+make docker-up-gpu
+make docker-worker
+```
+
+Detaylı kullanım ve eğitim komutları: `docs/docker.md`.
 
 ---
 
@@ -130,7 +233,7 @@ python generate.py --chat --ckpt checkpoints/ckpt.pt
 
 # 6) Web arayüzünü aç
 python -m server.app --ckpt checkpoints/ckpt.pt
-#   -> tarayıcı: http://127.0.0.1:8000
+#   -> tarayıcı: http://127.0.0.1:8000 veya http://SUNUCU_IP:8000
 ```
 
 ---

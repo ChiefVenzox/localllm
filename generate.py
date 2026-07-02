@@ -10,6 +10,7 @@ Kullanim:
 """
 from __future__ import annotations
 import argparse
+import os
 import sys
 from dataclasses import fields
 from typing import Iterator, List, Dict
@@ -28,13 +29,41 @@ def _cfg_from_dict(d: dict) -> GPTConfig:
     return GPTConfig(**{k: v for k, v in d.items() if k in valid})
 
 
-def load_model(ckpt_path: str, device: str):
+def _resolve_adapter_path(ckpt_path: str, adapter_path: str | None):
+    if adapter_path is None or str(adapter_path).strip().lower() == "auto":
+        candidate = os.path.join(os.path.dirname(os.path.abspath(ckpt_path)), "adapter.pt")
+        return candidate if os.path.exists(candidate) else None
+    value = str(adapter_path).strip()
+    if not value or value.lower() in {"off", "none", "false", "0"}:
+        return None
+    return value
+
+
+def load_adapter(model: GPT, adapter_path: str, device: str):
+    adapter_ckpt = torch.load(adapter_path, map_location=device, weights_only=False)
+    meta = adapter_ckpt.get("adapter_config") or adapter_ckpt.get("config") or {}
+    bottleneck = int(meta.get("adapter_dim") or adapter_ckpt.get("adapter_dim") or model.cfg.adapter_dim or 64)
+    dropout = float(meta.get("adapter_dropout") or model.cfg.adapter_dropout or 0.0)
+    scale = float(meta.get("adapter_scale") or model.cfg.adapter_scale or 1.0)
+    model.attach_adapter(bottleneck=bottleneck, dropout=dropout, scale=scale)
+    state = adapter_ckpt.get("adapter") or adapter_ckpt.get("adapter_state_dict")
+    if state is None:
+        raise ValueError(f"adapter state bulunamadi: {adapter_path}")
+    model.adapter.load_state_dict(state)
+    model.adapter_path = adapter_path
+    return adapter_ckpt
+
+
+def load_model(ckpt_path: str, device: str, adapter_path: str | None = "auto"):
     ckpt = torch.load(ckpt_path, map_location=device, weights_only=False)
     cfg = _cfg_from_dict(ckpt["config"])
     cfg.gradient_checkpointing = False  # uretimde gerek yok
     cfg.dropout = 0.0
     model = GPT(cfg).to(device)
     model.load_state_dict(ckpt["model"])
+    resolved_adapter = _resolve_adapter_path(ckpt_path, adapter_path)
+    if resolved_adapter and os.path.exists(resolved_adapter):
+        load_adapter(model, resolved_adapter, device)
     model.eval()
     return model, cfg
 
@@ -92,6 +121,7 @@ def main():
 
     ap = argparse.ArgumentParser()
     ap.add_argument("--ckpt", default="checkpoints/ckpt.pt")
+    ap.add_argument("--adapter", default="auto", help="adapter.pt yolu, auto veya off")
     ap.add_argument("--tokenizer", default="tokenizer/tokenizer.json")
     ap.add_argument("--device", default="cuda" if torch.cuda.is_available() else "cpu")
     ap.add_argument("--prompt", default=None)
@@ -103,7 +133,7 @@ def main():
     args = ap.parse_args()
 
     tok = load_tokenizer(args.tokenizer)
-    model, cfg = load_model(args.ckpt, args.device)
+    model, cfg = load_model(args.ckpt, args.device, adapter_path=args.adapter)
     print(f"[generate] model yuklendi ({model.num_params()/1e6:.0f}M, "
           f"ctx={cfg.block_size}, device={args.device})")
     gen_kw = dict(max_new_tokens=args.max_new_tokens, temperature=args.temperature,
@@ -120,18 +150,25 @@ def main():
             if user.lower() in ("cik", "exit", "quit"):
                 break
             history.append({"role": "user", "content": user})
-            quick = quick_intents.quick_reply(user)
+            quick = None
+            if hasattr(quick_intents, "contextual_reply"):
+                quick = quick_intents.contextual_reply(history)
+            if quick is None:
+                quick = quick_intents.quick_reply(user)
             if quick:
                 print(f"AI: {quick}\n")
                 history.append({"role": "assistant", "content": quick})
                 continue
-            print("AI: ", end="", flush=True)
             pieces = []
             for piece in chat_stream(model, tok, history, args.device, **gen_kw):
-                print(piece, end="", flush=True)
                 pieces.append(piece)
-            print("\n")
-            history.append({"role": "assistant", "content": "".join(pieces)})
+            answer = "".join(pieces)
+            if hasattr(quick_intents, "clean_model_reply"):
+                cleaned, replaced = quick_intents.clean_model_reply(user, answer)
+                if replaced:
+                    answer = cleaned
+            print(f"AI: {answer}\n")
+            history.append({"role": "assistant", "content": answer})
     else:
         prompt = args.prompt or "Bir varmis bir yokmus,"
         print(prompt, end="", flush=True)

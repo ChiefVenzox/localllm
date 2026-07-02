@@ -53,7 +53,8 @@ def main():
     bf16 = torch.cuda.is_bf16_supported() and torch.cuda.get_device_capability()[0] >= 8
     ptdtype = torch.bfloat16 if bf16 else torch.float16
     _GradScaler = getattr(torch.amp, "GradScaler", None) or torch.cuda.amp.GradScaler
-    scaler = _GradScaler(enabled=(ptdtype == torch.float16))
+    # Windows + bazi PyTorch CUDA surumlerinde fused AdamW + GradScaler uyumsuz.
+    scaler = _GradScaler(enabled=(ptdtype == torch.float16 and sys.platform != "win32"))
 
     x = torch.randint(0, cfg.vocab_size, (cfg.batch_size, cfg.block_size), device=dev)
     y = torch.randint(0, cfg.vocab_size, (cfg.batch_size, cfg.block_size), device=dev)

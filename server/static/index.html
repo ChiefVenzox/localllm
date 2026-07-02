@@ -1,381 +1,2192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Bilge · yerelLLM</title>
 <style>
   :root {
-    --bg:#0f1117; --panel:#171a23; --user:#2563eb; --ai:#222634;
-    --text:#e6e8ee; --muted:#8b91a3; --border:#272b38; --accent:#4ade80; --learn:#f59e0b;
+    --bg:#f5f7fb;
+    --surface:#ffffff;
+    --surface-soft:#f8fafc;
+    --line:#dbe1ea;
+    --line-strong:#c6ceda;
+    --text:#172033;
+    --muted:#667085;
+    --muted-2:#8a94a6;
+    --blue:#2563eb;
+    --blue-soft:#eaf1ff;
+    --green:#16803c;
+    --green-soft:#e8f7ee;
+    --amber:#b46b08;
+    --amber-soft:#fff4df;
+    --red:#c7372f;
+    --red-soft:#fff0ef;
+    --shadow:0 18px 50px rgba(32,44,68,.08);
+    --radius:8px;
   }
   * { box-sizing:border-box; }
-  body { margin:0; font-family:-apple-system,Segoe UI,Roboto,sans-serif;
-         background:var(--bg); color:var(--text); height:100vh; display:flex; flex-direction:column; }
-  header { padding:12px 18px; border-bottom:1px solid var(--border);
-           display:flex; align-items:center; gap:10px; }
-  header h1 { font-size:16px; margin:0; font-weight:600; }
-  .dot { width:9px; height:9px; border-radius:50%; background:#666; }
-  .dot.on { background:var(--accent); box-shadow:0 0 8px var(--accent); }
-  #status { font-size:12px; color:var(--muted); }
-  .learnpill { font-size:11px; color:var(--learn); border:1px solid var(--learn);
-               border-radius:20px; padding:2px 9px; margin-left:auto; }
-  #chat { flex:1; overflow-y:auto; padding:20px; display:flex; flex-direction:column; gap:14px; }
-  .msg { max-width:760px; padding:11px 15px; border-radius:14px; line-height:1.5;
-         white-space:pre-wrap; word-wrap:break-word; }
-  .msg.user { background:var(--user); align-self:flex-end; border-bottom-right-radius:4px; }
-  .msg.ai { background:var(--ai); align-self:flex-start; border-bottom-left-radius:4px;
-            border:1px solid var(--border); }
-  .role { font-size:11px; color:var(--muted); margin:0 6px 3px; }
-  .row { display:flex; flex-direction:column; }
-  .row.user { align-items:flex-end; }
-  .actions { display:flex; gap:8px; margin:5px 6px 0; }
-  .act { font-size:11px; color:var(--muted); background:transparent; border:1px solid var(--border);
-         border-radius:8px; padding:3px 9px; cursor:pointer; }
-  .act:hover { color:var(--text); border-color:var(--learn); }
-  .act.learned { color:var(--learn); border-color:var(--learn); cursor:default; }
-  .teachbox { display:flex; flex-direction:column; gap:6px; margin:6px 6px 0; max-width:760px; }
-  .teachbox textarea { background:var(--panel); color:var(--text); border:1px solid var(--learn);
-         border-radius:10px; padding:9px 12px; font:inherit; font-size:13px; min-height:64px; resize:vertical; }
-  .teachbox .tbtns { display:flex; gap:8px; }
-  footer { padding:14px 18px; border-top:1px solid var(--border); }
-  .inputbar { display:flex; gap:10px; max-width:820px; margin:0 auto; }
-  textarea#input { flex:1; resize:none; background:var(--panel); color:var(--text);
-             border:1px solid var(--border); border-radius:12px; padding:11px 14px;
-             font-size:14px; font-family:inherit; max-height:140px; }
-  textarea#input:focus { outline:none; border-color:var(--user); }
-  button.primary { background:var(--user); color:#fff; border:none; border-radius:12px;
-           padding:0 20px; font-size:14px; font-weight:600; cursor:pointer; }
-  button.primary:disabled { opacity:.5; cursor:not-allowed; }
-  .controls { max-width:820px; margin:8px auto 0; display:flex; gap:16px;
-              font-size:12px; color:var(--muted); align-items:center; flex-wrap:wrap; }
-  .controls label { display:flex; gap:6px; align-items:center; }
-  input[type=range] { width:90px; }
-  .mini { padding:4px 12px; font-size:12px; background:#333; color:var(--text);
-          border:none; border-radius:8px; cursor:pointer; }
-  .blink::after { content:"▍"; animation:b 1s steps(2) infinite; color:var(--accent); }
-  @keyframes b { 50%{opacity:0;} }
-  #toast { position:fixed; left:50%; transform:translateX(-50%); bottom:90px;
-           background:var(--learn); color:#1a1206; font-size:13px; font-weight:600;
-           padding:8px 16px; border-radius:10px; opacity:0; transition:opacity .25s;
-           pointer-events:none; }
-  #toast.show { opacity:1; }
+  html, body { height:100%; }
+  body {
+    margin:0;
+    min-height:100vh;
+    overflow:hidden;
+    background:var(--bg);
+    color:var(--text);
+    font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    letter-spacing:0;
+  }
+  button, input, textarea, select { font:inherit; }
+  button { cursor:pointer; }
+  .app-shell {
+    height:100vh;
+    min-height:0;
+    display:grid;
+    grid-template-columns:216px 292px minmax(440px, 1fr) 360px;
+    grid-template-rows:minmax(0, 1fr) 104px;
+    gap:0;
+  }
+  .sidebar,
+  .thread-list,
+  .workspace,
+  .ops-panel,
+  .device-dock {
+    background:var(--surface);
+    border-color:var(--line);
+  }
+  .sidebar {
+    grid-row:1 / 3;
+    border-right:1px solid var(--line);
+    display:flex;
+    flex-direction:column;
+    padding:18px 14px;
+    min-width:0;
+  }
+  .brand {
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding:8px 8px 20px;
+  }
+  .brand-mark {
+    width:42px;
+    height:42px;
+    display:grid;
+    place-items:center;
+    color:var(--blue);
+    border:2px solid var(--blue);
+    border-radius:8px;
+    font-weight:850;
+    background:#fff;
+  }
+  .brand strong { display:block; font-size:22px; line-height:1.05; }
+  .brand span { display:block; margin-top:3px; color:var(--muted); font-size:14px; }
+  .nav {
+    display:grid;
+    gap:7px;
+    padding-top:6px;
+  }
+  .nav button,
+  .side-link {
+    min-height:48px;
+    display:flex;
+    align-items:center;
+    gap:12px;
+    width:100%;
+    color:var(--text);
+    text-decoration:none;
+    border:1px solid transparent;
+    background:transparent;
+    border-radius:var(--radius);
+    padding:0 12px;
+    font-weight:760;
+    text-align:left;
+  }
+  .nav button:hover,
+  .side-link:hover { background:var(--surface-soft); border-color:var(--line); }
+  .nav button.active {
+    color:#fff;
+    background:var(--blue);
+    border-color:var(--blue);
+    box-shadow:0 10px 22px rgba(37,99,235,.22);
+  }
+  .nav svg,
+  .side-link svg,
+  .icon-btn svg,
+  .btn svg { width:19px; height:19px; flex:0 0 auto; }
+  .sidebar-bottom {
+    margin-top:auto;
+    display:grid;
+    gap:6px;
+    padding-top:16px;
+    border-top:1px solid var(--line);
+  }
+  .model-chip {
+    display:grid;
+    gap:4px;
+    padding:12px 10px 0;
+    color:var(--muted);
+    font-size:13px;
+  }
+  .status-line { display:flex; align-items:center; gap:8px; color:var(--text); font-weight:760; }
+  .dot { width:9px; height:9px; border-radius:50%; background:var(--muted-2); }
+  .dot.on { background:var(--green); box-shadow:0 0 0 4px var(--green-soft); }
+  .dot.warn { background:var(--amber); box-shadow:0 0 0 4px var(--amber-soft); }
+  .dot.bad { background:var(--red); box-shadow:0 0 0 4px var(--red-soft); }
+  .thread-list {
+    border-right:1px solid var(--line);
+    padding:24px 16px;
+    overflow:auto;
+  }
+  .pane-title {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    margin-bottom:16px;
+  }
+  .pane-title h2 { margin:0; font-size:20px; }
+  .icon-btn {
+    width:36px;
+    height:36px;
+    display:grid;
+    place-items:center;
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    background:#fff;
+    color:var(--text);
+  }
+  .icon-btn:hover { border-color:var(--blue); color:var(--blue); }
+  .search {
+    display:flex;
+    align-items:center;
+    gap:9px;
+    min-height:42px;
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:0 11px;
+    background:#fff;
+    color:var(--muted);
+  }
+  .search input {
+    width:100%;
+    border:0;
+    outline:0;
+    color:var(--text);
+    background:transparent;
+    font-size:14px;
+  }
+  .thread-group { margin-top:22px; }
+  .thread-group h3 {
+    margin:0 0 9px;
+    color:var(--muted);
+    font-size:12px;
+    text-transform:uppercase;
+    letter-spacing:0;
+  }
+  .thread {
+    border:1px solid transparent;
+    border-radius:var(--radius);
+    padding:12px;
+    display:grid;
+    grid-template-columns:1fr auto;
+    gap:5px 10px;
+    color:var(--text);
+    background:transparent;
+  }
+  .thread[data-view-jump] { cursor:pointer; }
+  .thread[data-view-jump]:hover { border-color:var(--blue); background:var(--surface-soft); }
+  .thread.active { background:var(--blue-soft); border-color:#cfe0ff; }
+  .thread strong { font-size:14px; }
+  .thread time { color:var(--muted); font-size:12px; }
+  .thread span {
+    grid-column:1 / 3;
+    color:var(--muted);
+    font-size:13px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+  }
+  .workspace {
+    position:relative;
+    min-width:0;
+    display:flex;
+    flex-direction:column;
+    overflow:hidden;
+  }
+  .view {
+    display:none;
+    min-height:0;
+    flex:1;
+    flex-direction:column;
+  }
+  .view.active { display:flex; }
+  .workspace-head {
+    min-height:74px;
+    border-bottom:1px solid var(--line);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:16px;
+    padding:0 24px;
+    background:rgba(255,255,255,.92);
+  }
+  .workspace-head h1 { margin:0; font-size:21px; line-height:1.2; }
+  .workspace-head p { margin:5px 0 0; color:var(--muted); font-size:13px; }
+  .head-actions { display:flex; align-items:center; gap:8px; flex-wrap:wrap; justify-content:flex-end; }
+  .messages {
+    flex:1;
+    overflow:auto;
+    padding:28px 28px 18px;
+    background:
+      linear-gradient(180deg, rgba(248,250,252,.78), rgba(255,255,255,0) 160px),
+      #fff;
+  }
+  .system-note {
+    width:min(680px, 100%);
+    margin:0 auto 26px;
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    background:var(--surface-soft);
+    color:var(--muted);
+    font-size:13px;
+    padding:12px 14px;
+    text-align:center;
+  }
+  .message-row {
+    display:flex;
+    gap:12px;
+    align-items:flex-start;
+    width:min(760px, 100%);
+    margin:0 auto 20px;
+  }
+  .message-row.user { flex-direction:row-reverse; }
+  .avatar {
+    width:34px;
+    height:34px;
+    border-radius:var(--radius);
+    display:grid;
+    place-items:center;
+    font-weight:850;
+    color:var(--blue);
+    background:#fff;
+    border:1px solid #cfe0ff;
+    flex:0 0 auto;
+  }
+  .message-row.user .avatar { color:#fff; background:var(--blue); border-color:var(--blue); }
+  .bubble-wrap { min-width:0; max-width:680px; }
+  .role-meta {
+    display:flex;
+    align-items:center;
+    gap:8px;
+    margin:0 0 6px;
+    color:var(--muted);
+    font-size:12px;
+  }
+  .message-row.user .role-meta { justify-content:flex-end; }
+  .bubble {
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:15px 16px;
+    background:#fff;
+    line-height:1.58;
+    white-space:pre-wrap;
+    overflow-wrap:anywhere;
+    box-shadow:0 8px 24px rgba(31,41,55,.05);
+  }
+  .message-row.user .bubble {
+    color:#10254f;
+    background:#eef5ff;
+    border-color:#d7e6ff;
+  }
+  .bubble.blink::after { content:""; display:inline-block; width:7px; height:18px; margin-left:3px; background:var(--blue); vertical-align:-3px; animation:blink 1s steps(2) infinite; }
+  @keyframes blink { 50% { opacity:0; } }
+  .message-actions {
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-top:9px;
+  }
+  .teachbox {
+    display:grid;
+    gap:8px;
+    margin-top:10px;
+  }
+  .teachbox textarea {
+    min-height:92px;
+    resize:vertical;
+    border:1px solid var(--amber);
+    border-radius:var(--radius);
+    padding:10px 12px;
+    color:var(--text);
+  }
+  .suggestions {
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    padding:0 28px 14px;
+    justify-content:center;
+  }
+  .guide-layout {
+    display:grid;
+    grid-template-columns:minmax(250px, .92fr) minmax(250px, 1.08fr);
+    gap:12px;
+    align-items:start;
+  }
+  .guide-hero {
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    background:#fff;
+    padding:18px;
+    box-shadow:0 8px 24px rgba(31,41,55,.04);
+  }
+  .guide-hero h2 { margin:0; font-size:22px; }
+  .guide-hero p { margin:8px 0 0; color:var(--muted); line-height:1.55; }
+  .flow-stats {
+    display:grid;
+    grid-template-columns:1fr;
+    gap:8px;
+    margin-top:16px;
+  }
+  .flow-stat {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+  }
+  .flow-stat {
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:10px;
+    background:var(--surface-soft);
+  }
+  .flow-stat span { display:block; color:var(--muted); font-size:12px; }
+  .flow-stat strong { display:block; font-size:16px; text-align:right; overflow-wrap:anywhere; }
+  .stepper {
+    display:grid;
+    gap:10px;
+    margin-top:16px;
+  }
+  .step-card {
+    display:grid;
+    grid-template-columns:34px 1fr;
+    gap:10px;
+    align-items:center;
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    background:#fff;
+    padding:12px;
+  }
+  .step-card.active {
+    border-color:#b8ccff;
+    background:#f4f8ff;
+    box-shadow:0 10px 28px rgba(37,99,235,.10);
+  }
+  .step-card.done { border-color:#c9ead3; background:#fbfffc; }
+  .step-card.wait { background:var(--surface-soft); }
+  .step-number {
+    width:34px;
+    height:34px;
+    display:grid;
+    place-items:center;
+    border-radius:var(--radius);
+    background:var(--surface-soft);
+    border:1px solid var(--line);
+    color:var(--muted);
+    font-weight:850;
+  }
+  .step-card.active .step-number { color:#fff; background:var(--blue); border-color:var(--blue); }
+  .step-card.done .step-number { color:var(--green); background:var(--green-soft); border-color:#bee7ca; }
+  .step-copy { min-width:0; }
+  .step-copy strong { display:block; font-size:14px; }
+  .step-copy span {
+    display:block;
+    margin-top:3px;
+    color:var(--muted);
+    font-size:12px;
+    line-height:1.35;
+  }
+  .step-state {
+    grid-column:2;
+    text-align:left;
+  }
+  .next-card {
+    border:1px solid #b8ccff;
+    border-radius:var(--radius);
+    background:linear-gradient(180deg,#f7faff,#fff);
+    padding:18px;
+    box-shadow:0 12px 34px rgba(37,99,235,.10);
+  }
+  .next-card h2 { margin:0; font-size:22px; }
+  .next-card p { color:var(--muted); line-height:1.58; }
+  .next-actions {
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    margin-top:14px;
+  }
+  .task-list {
+    display:grid;
+    gap:10px;
+    margin-top:16px;
+  }
+  .task {
+    display:grid;
+    grid-template-columns:26px 1fr;
+    gap:10px;
+    align-items:start;
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:11px;
+    background:#fff;
+  }
+  .task-icon {
+    width:24px;
+    height:24px;
+    display:grid;
+    place-items:center;
+    border-radius:999px;
+    border:1px solid var(--line);
+    color:var(--muted);
+    font-size:12px;
+    font-weight:850;
+  }
+  .task.done .task-icon {
+    color:var(--green);
+    border-color:#bee7ca;
+    background:var(--green-soft);
+  }
+  .task strong { display:block; font-size:13px; }
+  .task span { display:block; margin-top:3px; color:var(--muted); font-size:12px; line-height:1.4; }
+  .ops-next {
+    border:1px solid #b8ccff;
+    border-radius:var(--radius);
+    background:#f7faff;
+    padding:12px;
+    margin-top:12px;
+  }
+  .ops-next strong { display:block; font-size:14px; }
+  .ops-next p { margin:6px 0 10px; color:var(--muted); font-size:12px; line-height:1.45; }
+  .composer {
+    border-top:1px solid var(--line);
+    padding:14px 16px 18px;
+    background:#fff;
+  }
+  .composer-box {
+    width:min(860px, 100%);
+    margin:0 auto;
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    background:#fff;
+    box-shadow:0 10px 24px rgba(31,41,55,.06);
+  }
+  .composer textarea {
+    display:block;
+    width:100%;
+    min-height:58px;
+    max-height:150px;
+    resize:none;
+    border:0;
+    outline:0;
+    color:var(--text);
+    padding:15px 16px 8px;
+    line-height:1.45;
+  }
+  .composer-actions {
+    min-height:48px;
+    border-top:1px solid var(--line);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    padding:8px;
+  }
+  .composer-tools { display:flex; gap:4px; align-items:center; color:var(--muted); }
+  .hint { color:var(--muted); font-size:12px; }
+  .btn {
+    min-height:38px;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    background:#fff;
+    color:var(--text);
+    padding:0 13px;
+    font-size:13px;
+    font-weight:780;
+    text-decoration:none;
+  }
+  .btn:hover { border-color:var(--blue); color:var(--blue); }
+  .btn.primary {
+    color:#fff;
+    background:var(--blue);
+    border-color:var(--blue);
+  }
+  .btn.primary:hover { color:#fff; filter:brightness(.96); }
+  .btn.success {
+    color:var(--green);
+    border-color:#b9e6c8;
+    background:var(--green-soft);
+  }
+  .btn.warning {
+    color:var(--amber);
+    border-color:#f2d49a;
+    background:var(--amber-soft);
+  }
+  .btn.danger {
+    color:var(--red);
+    border-color:#f2bbb6;
+    background:var(--red-soft);
+  }
+  .btn:disabled,
+  .icon-btn:disabled {
+    opacity:.55;
+    cursor:not-allowed;
+  }
+  .content-scroll {
+    overflow:auto;
+    padding:24px;
+  }
+  .section-grid {
+    display:grid;
+    grid-template-columns:repeat(2, minmax(0, 1fr));
+    gap:16px;
+  }
+  .panel {
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    background:#fff;
+    padding:18px;
+    box-shadow:0 8px 24px rgba(31,41,55,.04);
+  }
+  .panel h2,
+  .panel h3 { margin:0; }
+  .panel h2 { font-size:20px; }
+  .panel h3 { font-size:16px; }
+  .panel p { color:var(--muted); line-height:1.58; }
+  .form-grid {
+    display:grid;
+    grid-template-columns:repeat(2, minmax(0, 1fr));
+    gap:12px;
+  }
+  .field {
+    display:grid;
+    gap:7px;
+    color:var(--muted);
+    font-size:12px;
+    font-weight:780;
+  }
+  .field.full { grid-column:1 / -1; }
+  .field input,
+  .field textarea,
+  .field select {
+    min-height:40px;
+    width:100%;
+    color:var(--text);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    background:#fff;
+    padding:9px 10px;
+    outline:0;
+    font-size:14px;
+  }
+  .field textarea { min-height:104px; resize:vertical; line-height:1.45; }
+  .field input:focus,
+  .field textarea:focus,
+  .field select:focus,
+  .composer-box:focus-within { border-color:var(--blue); box-shadow:0 0 0 3px var(--blue-soft); }
+  .metric-row,
+  .kv-row {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:14px;
+    color:var(--muted);
+    font-size:13px;
+    padding:6px 0;
+    border-bottom:1px solid var(--line);
+  }
+  .metric-row:last-child,
+  .kv-row:last-child { border-bottom:0; }
+  .metric-row strong,
+  .kv-row strong {
+    min-width:0;
+    color:var(--text);
+    font-weight:760;
+    text-align:right;
+    overflow-wrap:anywhere;
+  }
+  .progress {
+    width:126px;
+    height:7px;
+    border-radius:999px;
+    overflow:hidden;
+    background:#e6eaf0;
+  }
+  .progress span { display:block; height:100%; background:var(--green); }
+  .ops-panel {
+    border-left:1px solid var(--line);
+    padding:20px 18px;
+    overflow:auto;
+  }
+  .ops-title {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:12px;
+    padding-bottom:10px;
+    border-bottom:1px solid var(--line);
+  }
+  .ops-title h2 { margin:0; font-size:18px; }
+  .ops-section {
+    padding:12px 0;
+    border-bottom:1px solid var(--line);
+  }
+  .ops-section h3 {
+    margin:0 0 8px;
+    font-size:14px;
+  }
+  .ops-section p { margin:8px 0 10px; }
+  .badge {
+    display:inline-flex;
+    align-items:center;
+    gap:7px;
+    min-height:28px;
+    padding:0 10px;
+    border-radius:var(--radius);
+    border:1px solid var(--line);
+    color:var(--muted);
+    background:#fff;
+    font-size:12px;
+    font-weight:760;
+    white-space:nowrap;
+  }
+  .badge.good { color:var(--green); border-color:#bee7ca; background:var(--green-soft); }
+  .badge.warn { color:var(--amber); border-color:#f2d49a; background:var(--amber-soft); }
+  .badge.bad { color:var(--red); border-color:#f2bbb6; background:var(--red-soft); }
+  .slider-row {
+    display:grid;
+    grid-template-columns:1fr auto;
+    gap:8px 12px;
+    align-items:center;
+    color:var(--muted);
+    font-size:13px;
+    margin:8px 0;
+  }
+  .slider-row input { grid-column:1 / -1; width:100%; accent-color:var(--blue); }
+  .device-dock {
+    grid-column:2 / 5;
+    border-top:1px solid var(--line);
+    padding:14px 18px;
+    display:grid;
+    grid-template-columns:150px repeat(3, minmax(0, 1fr)) auto;
+    gap:12px;
+    align-items:center;
+  }
+  .dock-title h2 { margin:0; font-size:16px; }
+  .dock-title span { color:var(--muted); font-size:12px; }
+  .device-card {
+    min-width:0;
+    min-height:74px;
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:11px 12px;
+    background:#fff;
+    display:grid;
+    gap:5px;
+  }
+  .device-card.placeholder {
+    border-style:dashed;
+    background:var(--surface-soft);
+    color:var(--muted);
+  }
+  .device-top {
+    display:flex;
+    justify-content:space-between;
+    gap:10px;
+    align-items:center;
+  }
+  .device-name {
+    min-width:0;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    font-weight:820;
+    font-size:13px;
+  }
+  .device-meta {
+    display:flex;
+    justify-content:space-between;
+    gap:10px;
+    color:var(--muted);
+    font-size:12px;
+  }
+  .nodes-grid {
+    display:grid;
+    grid-template-columns:repeat(3, minmax(0, 1fr));
+    gap:14px;
+  }
+  .node-card {
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    background:#fff;
+    padding:16px;
+    display:grid;
+    gap:12px;
+  }
+  .node-head {
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:12px;
+  }
+  .node-head h3 { margin:0; font-size:16px; }
+  .node-head p { margin:4px 0 0; font-size:12px; color:var(--muted); }
+  .node-select {
+    display:flex;
+    align-items:center;
+    gap:8px;
+    color:var(--text);
+    font-size:13px;
+    font-weight:780;
+  }
+  .node-select input { width:16px; height:16px; accent-color:var(--blue); }
+  .table {
+    width:100%;
+    border-collapse:collapse;
+    font-size:13px;
+  }
+  .table th,
+  .table td {
+    text-align:left;
+    padding:10px 8px;
+    border-bottom:1px solid var(--line);
+    vertical-align:top;
+  }
+  .table th { color:var(--muted); font-size:12px; font-weight:820; }
+  .table code,
+  code.command {
+    display:block;
+    overflow:auto;
+    max-width:100%;
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    background:#111827;
+    color:#e9f7ef;
+    padding:10px;
+    line-height:1.5;
+    font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-size:12px;
+  }
+  .empty {
+    border:1px dashed var(--line-strong);
+    border-radius:var(--radius);
+    background:var(--surface-soft);
+    color:var(--muted);
+    padding:18px;
+  }
+  #toast {
+    position:fixed;
+    left:50%;
+    bottom:24px;
+    transform:translateX(-50%);
+    z-index:20;
+    min-height:42px;
+    display:flex;
+    align-items:center;
+    border:1px solid #bee7ca;
+    border-radius:var(--radius);
+    background:var(--green-soft);
+    color:var(--green);
+    box-shadow:var(--shadow);
+    padding:0 16px;
+    font-size:14px;
+    font-weight:780;
+    opacity:0;
+    pointer-events:none;
+    transition:opacity .18s ease, transform .18s ease;
+  }
+  #toast.show { opacity:1; transform:translate(-50%, -6px); }
+  #toast.bad { color:var(--red); background:var(--red-soft); border-color:#f2bbb6; }
+  @media (max-width:1280px) {
+    .app-shell { grid-template-columns:204px minmax(420px, 1fr) 340px; }
+    .thread-list { display:none; }
+    .device-dock { grid-column:2 / 4; grid-template-columns:130px repeat(3, minmax(0, 1fr)); }
+    .dock-action { display:none; }
+  }
+  @media (max-width:980px) {
+    html, body { height:auto; overflow:auto; }
+    .app-shell { display:block; }
+    .sidebar { position:static; border-right:0; border-bottom:1px solid var(--line); }
+    .nav { grid-template-columns:repeat(5, minmax(0, 1fr)); }
+    .nav button { justify-content:center; min-height:44px; }
+    .nav span.label { display:none; }
+    .sidebar-bottom { display:none; }
+    .ops-panel { border-left:0; border-top:1px solid var(--line); }
+    .device-dock { grid-template-columns:1fr; }
+    .workspace { min-height:720px; }
+    .section-grid, .form-grid, .nodes-grid, .guide-layout, .flow-stats { grid-template-columns:1fr; }
+    .step-card { grid-template-columns:34px 1fr; }
+    .step-state { grid-column:2; text-align:left; }
+  }
 </style>
 </head>
 <body>
-  <header>
-    <span class="dot" id="dot"></span>
-    <h1>Bilge</h1>
-    <span id="status">baglaniyor…</span>
-    <span class="learnpill" id="learnpill">öğrenme: açık</span>
-  </header>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">B</div>
+        <div>
+          <strong>Bilge</strong>
+          <span>yerelLLM</span>
+        </div>
+      </div>
 
-  <div id="chat"></div>
+      <nav class="nav" aria-label="Ana gezinme">
+        <button class="active" data-view="guide" type="button" title="Rehber">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+          <span class="label">Rehber</span>
+        </button>
+        <button data-view="chat" type="button" title="Sohbet">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a8 8 0 0 1-8 8H7l-4 3v-6a8 8 0 1 1 18-5Z"/></svg>
+          <span class="label">Sohbet</span>
+        </button>
+        <button data-view="training" type="button" title="Eğitim">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m22 9-10-5L2 9l10 5 10-5Z"/><path d="M6 11.5v5L12 20l6-3.5v-5"/></svg>
+          <span class="label">Eğitim</span>
+        </button>
+        <button data-view="devices" type="button" title="Cihazlar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg>
+          <span class="label">Cihazlar</span>
+        </button>
+        <button data-view="sync" type="button" title="Senkron">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 0 0-15-6.7L3 8"/><path d="M3 3v5h5"/><path d="M3 12a9 9 0 0 0 15 6.7l3-2.7"/><path d="M21 21v-5h-5"/></svg>
+          <span class="label">Senkron</span>
+        </button>
+      </nav>
 
-  <footer>
-    <div class="inputbar">
-      <textarea id="input" rows="1" placeholder="Bilge'ye bir mesaj yaz… (Enter = gonder, Shift+Enter = yeni satir)"></textarea>
-      <button id="send" class="primary">Gonder</button>
-    </div>
-    <div class="controls">
-      <label>sicaklik <input type="range" id="temp" min="0" max="1.5" step="0.05" value="0.3"><span id="tempv">0.30</span></label>
-      <label>max token <input type="range" id="maxtok" min="32" max="512" step="32" value="160"><span id="maxtokv">160</span></label>
-      <button id="save" class="mini" title="Online ogrenmeyle guncellenen modeli diske yaz">Öğrenileni kaydet</button>
-      <button id="weblearn" class="mini" title="web_sources.json'daki siteleri gezip ogren">🌐 Web'den öğren</button>
-      <button id="clear" class="mini">Temizle</button>
-      <span id="webstat" style="font-size:11px;color:var(--muted);"></span>
-    </div>
-  </footer>
+      <div class="sidebar-bottom">
+        <a class="side-link" href="/cluster">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5v14"/></svg>
+          /cluster cihaz paneli
+        </a>
+        <button class="side-link" id="clearChat" type="button">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18"/><path d="M8 6V4h8v2"/><path d="m19 6-1 14H6L5 6"/></svg>
+          Sohbeti temizle
+        </button>
+        <div class="model-chip">
+          <div class="status-line"><span class="dot" id="sideDot"></span><span id="sideStatus">Bağlanıyor</span></div>
+          <span id="sideVersion">yerel sunucu</span>
+        </div>
+      </div>
+    </aside>
+
+    <aside class="thread-list" aria-label="Kısa yollar">
+      <div class="pane-title">
+        <h2>Kısa yollar</h2>
+        <button class="icon-btn" id="newChat" type="button" title="Yeni sohbet">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+        </button>
+      </div>
+      <label class="search">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        <input type="search" placeholder="Ara işlem...">
+      </label>
+      <div class="thread-group">
+        <h3>Ana akış</h3>
+        <div class="thread active" data-view-jump="guide">
+          <strong>Adım adım rehber</strong>
+          <time>1</time>
+          <span>Sistemi sırayla hazırla ve izle.</span>
+        </div>
+        <div class="thread" data-view-jump="devices">
+          <strong>Cihazları bağla</strong>
+          <time>2</time>
+          <span>Worker komutu, seçim ve kaynaklar.</span>
+        </div>
+      </div>
+      <div class="thread-group">
+        <h3>İşlemler</h3>
+        <div class="thread" data-view-jump="sync">
+          <strong>Senkronize et</strong>
+          <time>3</time>
+          <span>Patch kapsamı ve komut sonuçları.</span>
+        </div>
+        <div class="thread" data-view-jump="training">
+          <strong>Öğret / eğit</strong>
+          <time>4</time>
+          <span>Anlık öğretme ve worker eğitimi.</span>
+        </div>
+        <div class="thread" data-view-jump="chat">
+          <strong>Sohbette test et</strong>
+          <time>5</time>
+          <span>Sonucu dene, düzelt ve kaydet.</span>
+        </div>
+      </div>
+    </aside>
+
+    <main class="workspace">
+      <section class="view active" id="view-guide" aria-label="Rehber">
+        <header class="workspace-head">
+          <div>
+            <h1>Adım adım çalışma rehberi</h1>
+            <p>Önce sistemi hazırla, sonra cihazları bağla, senkronize et, öğret ve sonucu sohbetten test et.</p>
+          </div>
+          <div class="head-actions">
+            <span class="badge" id="guideStatusBadge"><span class="dot"></span> Durum yükleniyor</span>
+            <button class="btn primary" id="guidePrimaryAction" data-flow-action="next" type="button">Sıradaki adıma git</button>
+          </div>
+        </header>
+        <div class="content-scroll">
+          <div class="guide-layout">
+            <section>
+              <div class="guide-hero">
+                <h2>Bugün yapılacak akış</h2>
+                <p>Panel artık görevleri işlem sırasına göre gösterir. Her adımın sağındaki durum etiketi neyin hazır, neyin beklemede olduğunu söyler.</p>
+                <div class="flow-stats">
+                  <div class="flow-stat"><span>Model</span><strong id="flowModelStat">-</strong></div>
+                  <div class="flow-stat"><span>Cihaz</span><strong id="flowDeviceStat">-</strong></div>
+                  <div class="flow-stat"><span>Senkron</span><strong id="flowSyncStat">-</strong></div>
+                </div>
+              </div>
+              <div class="stepper" id="flowStepper"></div>
+            </section>
+
+            <section>
+              <div class="next-card">
+                <h2 id="nextStepTitle">Sıradaki iş hazırlanıyor</h2>
+                <p id="nextStepBody">Sunucu ve cihaz durumu yüklenince burada net aksiyon görünecek.</p>
+                <div class="next-actions">
+                  <button class="btn primary" id="nextStepAction" data-flow-action="next" type="button">Devam et</button>
+                  <button class="btn" data-flow-action="chat" type="button">Sohbete geç</button>
+                </div>
+              </div>
+              <div class="task-list" id="flowTasks"></div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="view" id="view-chat" aria-label="Sohbet">
+        <header class="workspace-head">
+          <div>
+            <h1>Yerel sohbet çalışma alanı</h1>
+            <p>Chat akışı ortada, öğretme ve çalışma ayarları sağ operasyon panelinde.</p>
+          </div>
+          <div class="head-actions">
+            <span class="badge" id="healthBadge"><span class="dot"></span> Bağlanıyor</span>
+            <button class="icon-btn" id="saveTop" type="button" title="Modeli kaydet">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2Z"/><path d="M17 21v-8H7v8M7 3v5h8"/></svg>
+            </button>
+          </div>
+        </header>
+        <div class="messages" id="chat">
+          <div class="system-note">Bilge yerel model sunucusuna bağlı olduğunda cevaplar token token akar. Yanlış cevapları sohbetten veya Eğitim sekmesinden öğretebilirsin.</div>
+        </div>
+        <div class="suggestions">
+          <button class="btn" data-prompt="Yerel LLM mimarimiz nasıl çalışıyor?" type="button">Yerel mimari</button>
+          <button class="btn" data-prompt="3 cihazı nasıl senkron tutacağız?" type="button">3 cihaz senkron</button>
+          <button class="btn" data-prompt="Web öğrenme kaynaklarını nasıl güvenli ayarlarız?" type="button">Web öğrenme</button>
+        </div>
+        <footer class="composer">
+          <div class="composer-box">
+            <textarea id="input" rows="1" placeholder="Bilge'ye bir mesaj yaz... Enter gönderir, Shift+Enter yeni satır açar."></textarea>
+            <div class="composer-actions">
+              <div class="composer-tools">
+                <button class="icon-btn" type="button" title="Dosya ekleme bu sürümde pasif" disabled>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m21.4 11.6-8.5 8.5a6 6 0 0 1-8.5-8.5l9.2-9.2a4 4 0 0 1 5.7 5.7l-9.2 9.2a2 2 0 1 1-2.8-2.8l8.5-8.5"/></svg>
+                </button>
+                <button class="icon-btn" type="button" title="Kod bağlamı">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg>
+                </button>
+              </div>
+              <div style="display:flex;align-items:center;gap:12px;">
+                <span class="hint">Enter ile gönder</span>
+                <button id="send" class="btn primary" type="button">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
+                  Gönder
+                </button>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </section>
+
+      <section class="view" id="view-training" aria-label="Eğitim">
+        <header class="workspace-head">
+          <div>
+            <h1>Eğitim merkezi</h1>
+            <p>Anlık öğretme, worker üstünde sohbet eğitimi ve web öğrenme ayrı kontrollerde.</p>
+          </div>
+          <button class="btn primary" id="saveTraining" type="button">Öğrenileni kaydet</button>
+        </header>
+        <div class="content-scroll">
+          <div class="section-grid">
+            <section class="panel">
+              <h2>Anlık öğret</h2>
+              <p>Sunucudaki canlı modele tek soru-cevap örneğini hemen uygular. Hızlı düzeltmeler için kullan.</p>
+              <div class="form-grid">
+                <label class="field full">Kullanıcı sorusu
+                  <textarea id="teachUser" placeholder="Örnek: Bilge kimsin?"></textarea>
+                </label>
+                <label class="field full">Doğru asistan cevabı
+                  <textarea id="teachAssistant" placeholder="Doğru ve kısa cevabı yaz."></textarea>
+                </label>
+                <label class="field">Adım
+                  <input id="teachSteps" type="number" min="1" max="64" value="6">
+                </label>
+                <label class="field">Kaydet
+                  <select id="teachSave">
+                    <option value="false">Sonra kaydet</option>
+                    <option value="true">Checkpoint'e yaz</option>
+                  </select>
+                </label>
+              </div>
+              <div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap;">
+                <button class="btn warning" id="teachNow" type="button">Öğret</button>
+                <button class="btn" id="fillLastAnswer" type="button">Son cevabı forma al</button>
+              </div>
+            </section>
+
+            <section class="panel">
+              <h2>Worker sohbet eğitimi</h2>
+              <p>Seçili cihazlara temiz adapter eğitimi yollar. Eski adapter otomatik devam ettirilmez; sonuçları sohbet kaynağı Worker/Otomatik seçiliyken test et.</p>
+              <div class="form-grid">
+                <label class="field full">Eğitim sorusu
+                  <textarea id="remoteTrainUser" placeholder="Cihazlarda fine-tune edilecek kullanıcı mesajı."></textarea>
+                </label>
+                <label class="field full">Eğitim cevabı
+                  <textarea id="remoteTrainAssistant" placeholder="Cihazlarda öğrenilecek asistan cevabı."></textarea>
+                </label>
+                <label class="field">Maksimum adım
+                  <input id="remoteMaxSteps" type="number" min="1" max="5000" value="80">
+                </label>
+                <label class="field">Preset
+                  <input id="remotePreset" value="tiny-30m">
+                </label>
+                <label class="field">Veri seti
+                  <select id="remoteDataset">
+                    <option value="sample">Tek örnek</option>
+                    <option value="data/chat_100k_bin">100k smoke veri</option>
+                    <option value="data/chat_200m_plus_bin">200M + 100k ana veri</option>
+                  </select>
+                </label>
+                <label class="field">Batch
+                  <input id="remoteBatchSize" type="number" min="1" max="64" value="4">
+                </label>
+                <label class="field">Grad accum
+                  <input id="remoteGradAccum" type="number" min="1" max="128" value="4">
+                </label>
+              </div>
+              <div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap;">
+                <button class="btn primary" id="queueRemoteTrain" type="button">Seçili cihazlarda eğit</button>
+                <button class="btn" data-view-jump="devices" type="button">Cihaz seç</button>
+              </div>
+            </section>
+
+            <section class="panel">
+              <h2>Web öğrenme</h2>
+              <p>İzinli kaynakları gezer, S/C üretir ve canlı modele aktarır. Küçük model için ham doküman okuma kapalı kalmalı.</p>
+              <div class="metric-row"><span>Durum</span><strong id="webState">Yükleniyor</strong></div>
+              <div class="metric-row"><span>Otomatik çalışma</span><strong id="webAuto">-</strong></div>
+              <div class="metric-row"><span>Son çalışma</span><strong id="webLast">-</strong></div>
+              <div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap;">
+                <button class="btn primary" id="weblearn" type="button">Şimdi tara</button>
+              </div>
+            </section>
+
+            <section class="panel">
+              <h2>Eğitim kuyruğu</h2>
+              <p>Son worker işleri ve senkron sonuçları burada görünür.</p>
+              <div id="trainingCommands" class="empty">Henüz komut verisi yok.</div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="view" id="view-devices" aria-label="Cihazlar">
+        <header class="workspace-head">
+          <div>
+            <h1>Cihaz ağı</h1>
+            <p>Mac, Windows ve Linux worker'ları; durum, kaynak ve eğitim seçimi tek yerde.</p>
+          </div>
+          <div class="head-actions">
+            <button class="btn" id="refreshDevices" type="button">Yenile</button>
+            <button class="btn primary" id="syncSelectedTop" type="button">Seçili cihazları senkronize et</button>
+          </div>
+        </header>
+        <div class="content-scroll">
+          <section class="panel" style="margin-bottom:16px;">
+            <h2>Worker komutu</h2>
+            <p>Her cihazda kendi <code>localllm</code> klasöründe çalıştır. Komut ayar dosyasını yazar ve worker'ı eğitim/senkron işleri açık şekilde başlatır.</p>
+            <code class="command" id="registerCmd">python scripts/setup_worker.py --server http://PANEL_IP:PORT --name my-node --token API_TOKEN</code>
+          </section>
+
+          <div class="nodes-grid" id="nodes"></div>
+
+          <section class="panel" style="margin-top:16px;">
+            <h2>LAN eğitim oturumu planla</h2>
+            <p>Seçili cihazlar için rank ve komut üretir. Bu komut planı otomatik çalıştırmaz; elle DDP başlatmak için kullanılır.</p>
+            <div class="form-grid">
+              <label class="field">Başlık <input id="title" value="Karma yerel eğitim"></label>
+              <label class="field">Preset <input id="preset" value="small-100m"></label>
+              <label class="field">Data path <input id="dataPath" value="data/chat_200m_plus_bin"></label>
+              <label class="field">Master IP <input id="masterAddr" value=""></label>
+              <label class="field">Master port <input id="masterPort" value="29500"></label>
+            </div>
+            <div style="margin-top:14px;">
+              <button class="btn primary" id="createSession" type="button">Komut planı oluştur</button>
+            </div>
+          </section>
+
+          <section id="sessions" style="margin-top:16px;"></section>
+        </div>
+      </section>
+
+      <section class="view" id="view-sync" aria-label="Senkron">
+        <header class="workspace-head">
+          <div>
+            <h1>3 cihaz senkron</h1>
+            <p>Sunucudaki izinli localllm dosyalarını worker'lara patch olarak dağıtır.</p>
+          </div>
+          <button class="btn primary" id="syncNow" type="button">Şimdi senkronize et</button>
+        </header>
+        <div class="content-scroll">
+          <div class="section-grid">
+            <section class="panel">
+              <h2>Senkron özeti</h2>
+              <div class="metric-row"><span>Hedef</span><strong>3 cihaz</strong></div>
+              <div class="metric-row"><span>Kayıtlı</span><strong id="syncRegistered">-</strong></div>
+              <div class="metric-row"><span>Çevrimiçi</span><strong id="syncOnline">-</strong></div>
+              <div class="metric-row"><span>İşe hazır</span><strong id="syncReady">-</strong></div>
+              <div class="metric-row"><span>Bekleyen iş</span><strong id="syncPending">-</strong></div>
+            </section>
+            <section class="panel">
+              <h2>Patch kapsamı</h2>
+              <p>Worker sadece bu izinli dosyaları indirir. Checkpoint ve büyük veri dosyaları bu hızlı patch kapsamına alınmadı.</p>
+              <div id="patchFiles" class="empty">Patch manifesti yükleniyor.</div>
+            </section>
+          </div>
+          <section class="panel" style="margin-top:16px;">
+            <h2>Son komutlar</h2>
+            <div id="syncCommands" class="empty">Henüz senkron komutu yok.</div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <aside class="ops-panel">
+      <div class="ops-title">
+        <h2>Operasyon Paneli</h2>
+        <button class="icon-btn" id="refreshAll" type="button" title="Yenile">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 0 0-15-6.7L3 8"/><path d="M3 3v5h5"/><path d="M3 12a9 9 0 0 0 15 6.7L21 16"/><path d="M21 21v-5h-5"/></svg>
+        </button>
+      </div>
+
+      <div class="ops-next">
+        <span class="badge" id="opsNextBadge"><span class="dot"></span> Rehber</span>
+        <strong id="opsNextTitle">Sıradaki iş yükleniyor</strong>
+        <p id="opsNextBody">Durumlar alındığında burada tek aksiyon görünecek.</p>
+        <button class="btn primary" id="opsNextAction" data-flow-action="next" type="button">Devam et</button>
+      </div>
+
+      <section class="ops-section">
+        <h3>1. Model durumu</h3>
+        <div class="metric-row"><span>Durum</span><strong id="modelReady">Bağlanıyor</strong></div>
+        <div class="metric-row"><span>Model</span><strong id="modelParams">-</strong></div>
+        <div class="metric-row"><span>Device</span><strong id="modelDevice">-</strong></div>
+        <div class="metric-row"><span>Adapter</span><strong id="modelAdapter">-</strong></div>
+      </section>
+
+      <section class="ops-section">
+        <h3>2. Üretim kontrolleri</h3>
+        <label class="field full">Cevap kaynağı
+          <select id="chatBackend">
+            <option value="auto">Otomatik worker/server</option>
+            <option value="local">Server modeli</option>
+            <option value="worker">Worker modeli</option>
+          </select>
+        </label>
+        <label class="slider-row">Sıcaklık <strong id="tempv">0.30</strong>
+          <input type="range" id="temp" min="0" max="1.5" step="0.05" value="0.3">
+        </label>
+        <label class="slider-row">Maks. token <strong id="maxtokv">160</strong>
+          <input type="range" id="maxtok" min="32" max="512" step="32" value="160">
+        </label>
+      </section>
+
+      <section class="ops-section">
+        <h3>3. Öğret</h3>
+        <p class="hint">Son cevabı doğrudan öğret veya Eğitim sekmesinde düzenle.</p>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;">
+          <button class="btn warning" id="save" type="button">Öğrenileni kaydet</button>
+          <button class="btn" data-view-jump="training" type="button">Eğitim formu</button>
+        </div>
+      </section>
+
+      <section class="ops-section">
+        <h3>4. Web öğrenme</h3>
+        <div class="metric-row"><span>Durum</span><strong id="webStateSide">-</strong></div>
+        <div class="metric-row"><span>Kaynak</span><strong id="webSources">-</strong></div>
+        <button class="btn primary" id="weblearnSide" type="button">Şimdi tara</button>
+      </section>
+
+      <section class="ops-section">
+        <h3>5. 3 cihaz senkron</h3>
+        <div class="metric-row"><span>Hazır cihaz</span><strong id="syncReadySide">-</strong></div>
+        <div class="metric-row"><span>Son senkron</span><strong id="syncLastSide">-</strong></div>
+        <button class="btn primary" id="syncSide" type="button">Şimdi senkronize et</button>
+      </section>
+    </aside>
+
+    <section class="device-dock" aria-label="Cihaz özeti">
+      <div class="dock-title">
+        <h2>3 cihaz</h2>
+        <span id="dockSummary">Küme durumu</span>
+      </div>
+      <div id="dockDevices" style="display:contents;"></div>
+      <button class="btn dock-action" data-view-jump="devices" type="button">Detayları aç</button>
+    </section>
+  </div>
 
   <div id="toast"></div>
 
 <script>
-const chat = document.getElementById('chat');
-const input = document.getElementById('input');
-const sendBtn = document.getElementById('send');
-const temp = document.getElementById('temp');
-const maxtok = document.getElementById('maxtok');
-let history = [];
-let busy = false;
-
-temp.oninput = () => document.getElementById('tempv').textContent = (+temp.value).toFixed(2);
-maxtok.oninput = () => document.getElementById('maxtokv').textContent = maxtok.value;
-input.addEventListener('input', () => {
-  input.style.height = 'auto'; input.style.height = Math.min(input.scrollHeight, 140) + 'px';
-});
-input.addEventListener('keydown', e => {
-  if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); send(); }
-});
-sendBtn.onclick = send;
-document.getElementById('clear').onclick = () => { history = []; chat.innerHTML = ''; };
-document.getElementById('save').onclick = saveModel;
-
-function toast(msg, ok = true) {
-  const t = document.getElementById('toast');
-  t.textContent = msg;
-  t.style.background = ok ? 'var(--learn)' : '#ef4444';
-  t.classList.add('show');
-  setTimeout(() => t.classList.remove('show'), 2600);
-}
-
-async function health() {
-  try {
-    const r = await fetch('/api/health'); const j = await r.json();
-    const dot = document.getElementById('dot'); const st = document.getElementById('status');
-    if (j.ready) { dot.classList.add('on'); st.textContent = `hazir · ${Math.round(j.params_m)}M · ${j.device}`; }
-    else { st.textContent = 'model yuklenmedi (once egit)'; }
-  } catch { document.getElementById('status').textContent = 'sunucuya ulasilamadi'; }
-}
-health();
-
-// --- web'den ogrenme kontrolu ---
-const webBtn = document.getElementById('weblearn');
-async function webStatus() {
-  try {
-    const j = await (await fetch('/api/web/status')).json();
-    const s = document.getElementById('webstat');
-    if (j.running) { s.textContent = '🌐 öğreniyor…'; }
-    else {
-      let t = j.enabled ? 'oto: açık' : 'oto: kapalı';
-      if (j.last_run) t += ` · son: ${j.last_run.qa_taught || 0} S/C / ${j.last_run.pages || 0} sayfa`;
-      s.textContent = t;
-    }
-  } catch {}
-}
-webStatus(); setInterval(webStatus, 15000);
-webBtn.onclick = async () => {
-  webBtn.disabled = true; const o = webBtn.textContent; webBtn.textContent = 'başlatılıyor…';
-  try {
-    const j = await (await fetch('/api/web/study', { method: 'POST' })).json();
-    if (j.ok) {
-      toast('web öğrenme başladı 🌐');
-      for (let i = 0; i < 80; i++) {
-        await new Promise(r => setTimeout(r, 3000));
-        const st = await (await fetch('/api/web/status')).json();
-        webStatus();
-        if (!st.running && st.last_run) { toast(`web öğrenildi: ${st.last_run.qa_taught} S/C · ${st.last_run.pages} sayfa`); break; }
-      }
-    } else { toast('başlamadı: ' + (j.error || '?'), false); }
-  } catch (e) { toast('bağlantı hatası', false); }
-  webBtn.disabled = false; webBtn.textContent = o;
+const els = {
+  chat: document.getElementById('chat'),
+  input: document.getElementById('input'),
+  send: document.getElementById('send'),
+  temp: document.getElementById('temp'),
+  maxtok: document.getElementById('maxtok'),
+  nodes: document.getElementById('nodes'),
+  sessions: document.getElementById('sessions'),
+  dockDevices: document.getElementById('dockDevices'),
+  toast: document.getElementById('toast'),
 };
 
-// --- konusmali duzeltme: dogal sohbette "yanlis, tekrar dusun" -> ogren ---
-let lastUserQ = null;       // Bilge'nin normal yanitladigi son soru
-let awaitingFix = false;    // kullanicidan dogru cevabi bekliyoruz
+const state = {
+  history: [],
+  busy: false,
+  health: null,
+  web: null,
+  syncSummary: null,
+  nodes: [],
+  sessions: [],
+  commands: [],
+  selected: new Set(),
+  selectedInitialized: false,
+  lastUserQuestion: null,
+  lastAssistantAnswer: '',
+  awaitingFix: false,
+};
+
 const CORRECTION_RE = /(yanl[ıi]ş|hatal[ıi]|olmad[ıi]|yan[ıi]l[ıi]yor|öyle de[ğg]il|bu de[ğg]il|tekrar (düşün|dene|bak)|dikkatli|düzelt|eksik|do[ğg]ru de[ğg]il)/i;
 const ANSWER_RE = /(?:do[ğg]rusu|do[ğg]ru cevap|asl[ıi]nda|cevab[ıi]|cevap|olmal[ıi])[:\s]+(.+)$/i;
-function isCorrection(t) { return CORRECTION_RE.test(t); }
-// Cevap cope mi dondu? ("b a" gibi tek harfler, asiri tekrar, bos)
-function looksDegenerate(t) {
-  const s = (t || '').trim();
-  if (s.length < 2) return true;
-  const words = s.split(/\s+/).filter(Boolean);
-  if (!words.length) return true;
-  const oneChar = words.filter(w => w.replace(/[^0-9a-zçğıöşü]/gi, '').length <= 1).length;
-  if (words.length >= 2 && oneChar / words.length > 0.6) return true;
-  const uniq = new Set(words.map(w => w.toLowerCase()));
-  if (words.length >= 6 && uniq.size <= 2) return true;
-  return false;
-}
-function extractFix(t) {
-  const m = t.match(ANSWER_RE);
-  return (m && m[1] && m[1].trim().length > 1) ? m[1].trim() : null;
-}
-function bilgeSay(text) { const { msg } = addAI(); msg.textContent = text; }
-async function learnFix(question, answer) {
-  const { msg } = addAI(); msg.classList.add('blink'); msg.textContent = 'öğreniyorum…';
-  try {
-    const j = await (await fetch('/api/teach', {
-      method: 'POST', headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ user: question, assistant: answer, steps: 8, save: false }),
-    })).json();
-    msg.classList.remove('blink');
-    if (j.ok) {
-      msg.textContent = 'Teşekkürler, öğrendim! 🙏 Bundan sonra doğrusunu söyleyeceğim:\n' + answer;
-      history.push({ role: 'user', content: question });
-      history.push({ role: 'assistant', content: answer });
-      toast(`öğrenildi ✓ (loss ${j.loss_before} → ${j.loss_after})`);
-    } else { msg.textContent = 'Öğrenemedim: ' + (j.error || '?'); }
-  } catch (e) { msg.classList.remove('blink'); msg.textContent = 'Bağlantı hatası.'; }
+
+function escapeHtml(value) {
+  return String(value ?? '').replace(/[&<>"']/g, ch => ({
+    '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#039;'
+  }[ch]));
 }
 
-function addUser(text) {
-  const row = document.createElement('div'); row.className = 'row user';
-  const r = document.createElement('div'); r.className = 'role'; r.textContent = 'Sen';
-  const m = document.createElement('div'); m.className = 'msg user'; m.textContent = text;
-  row.appendChild(r); row.appendChild(m); chat.appendChild(row);
-  chat.scrollTop = chat.scrollHeight;
-  return row;
+function toast(message, ok = true) {
+  els.toast.textContent = message;
+  els.toast.classList.toggle('bad', !ok);
+  els.toast.classList.add('show');
+  clearTimeout(toast.timer);
+  toast.timer = setTimeout(() => els.toast.classList.remove('show'), 2600);
 }
 
-// Tsetlin hakemi: kullanici mesajinin niyetini OKUNABILIR rozetle goster
-async function showIntent(row, text) {
-  try {
-    const j = await (await fetch('/api/intent', {
-      method: 'POST', headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ text }),
-    })).json();
-    if (!j.ok) return;
-    const b = document.createElement('div');
-    b.style.cssText = 'font-size:10px;color:var(--muted);margin:2px 6px 0;align-self:flex-end;cursor:help;';
-    b.textContent = '🏷️ ' + j.label + (j.in_scope ? '' : ' · kapsam dışı olabilir ⚠️');
-    if (j.rule) b.title = 'Tsetlin kuralı: EĞER ' + j.rule;
-    row.appendChild(b);
-  } catch {}
+function apiHeaders(headers = {}) {
+  const token = localStorage.getItem('yerellm_api_token') || '';
+  return token ? { ...headers, 'X-YerelLM-Token': token } : headers;
 }
 
-function addAI() {
-  const row = document.createElement('div'); row.className = 'row ai';
-  const r = document.createElement('div'); r.className = 'role'; r.textContent = 'Bilge';
-  const m = document.createElement('div'); m.className = 'msg ai'; m.textContent = '';
-  row.appendChild(r); row.appendChild(m); chat.appendChild(row);
-  chat.scrollTop = chat.scrollHeight;
-  return { row, msg: m };
+async function apiFetch(url, options = {}) {
+  const request = { ...options, headers: apiHeaders(options.headers || {}) };
+  const response = await fetch(url, request);
+  if (response.status !== 401) return response;
+  const token = prompt('API token gerekli');
+  if (!token) return response;
+  localStorage.setItem('yerellm_api_token', token.trim());
+  return fetch(url, { ...options, headers: apiHeaders(options.headers || {}) });
 }
 
-function addTeachControls(row, userText, msgEl) {
-  const bar = document.createElement('div'); bar.className = 'actions';
-  const bThumb = document.createElement('button'); bThumb.className = 'act'; bThumb.textContent = '👍 Bunu öğret';
-  const bEdit = document.createElement('button'); bEdit.className = 'act'; bEdit.textContent = '✏️ Düzelt & öğret';
-  bar.appendChild(bThumb); bar.appendChild(bEdit);
-  row.appendChild(bar);
-
-  bThumb.onclick = async () => {
-    bThumb.disabled = true; bThumb.textContent = 'öğreniyor…';
-    await teach(userText, msgEl.textContent, bar, bThumb);
-  };
-  bEdit.onclick = () => {
-    if (row.querySelector('.teachbox')) return;
-    const box = document.createElement('div'); box.className = 'teachbox';
-    const ta = document.createElement('textarea'); ta.value = msgEl.textContent;
-    const btns = document.createElement('div'); btns.className = 'tbtns';
-    const ok = document.createElement('button'); ok.className = 'act'; ok.textContent = 'Kaydet & öğret';
-    const cancel = document.createElement('button'); cancel.className = 'act'; cancel.textContent = 'Vazgeç';
-    btns.appendChild(ok); btns.appendChild(cancel); box.appendChild(ta); box.appendChild(btns);
-    row.appendChild(box); ta.focus();
-    cancel.onclick = () => box.remove();
-    ok.onclick = async () => {
-      const corrected = ta.value.trim(); if (!corrected) return;
-      msgEl.textContent = corrected;
-      box.remove();
-      await teach(userText, corrected, bar, bThumb);
-    };
-  };
+function setBusy(value) {
+  state.busy = value;
+  els.send.disabled = value;
 }
 
-async function teach(userText, assistantText, bar, btn) {
-  try {
-    const r = await fetch('/api/teach', {
-      method: 'POST', headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ user: userText, assistant: assistantText, steps: 6, save: false }),
-    });
-    const j = await r.json();
-    if (j.ok) {
-      toast(`öğrenildi ✓  (loss ${j.loss_before} → ${j.loss_after})`);
-      bar.querySelectorAll('.act').forEach(b => { b.disabled = true; });
-      if (btn) { btn.classList.add('learned'); btn.textContent = '✓ öğrenildi'; }
-    } else {
-      toast('öğrenilemedi: ' + (j.error || '?'), false);
-      if (btn) { btn.disabled = false; btn.textContent = '👍 Bunu öğret'; }
-    }
-  } catch (e) {
-    toast('bağlantı hatası', false);
-    if (btn) { btn.disabled = false; btn.textContent = '👍 Bunu öğret'; }
+function humanBytes(value) {
+  if (!value) return '-';
+  const units = ['B','KB','MB','GB','TB'];
+  let n = Number(value), i = 0;
+  while (n >= 1024 && i < units.length - 1) { n /= 1024; i++; }
+  return `${n.toFixed(i ? 1 : 0)} ${units[i]}`;
+}
+
+function fmtTime(ts) {
+  if (!ts) return '-';
+  const d = new Date(Number(ts) * 1000);
+  return d.toLocaleString('tr-TR', { hour:'2-digit', minute:'2-digit', day:'2-digit', month:'2-digit' });
+}
+
+function statusBadge(status) {
+  const good = ['online', 'done', 'Hazır', 'Tamam', 'Cevap var'];
+  const warn = ['running', 'queued', 'Bekliyor', 'Eksik', 'Çalışıyor'];
+  const cls = good.includes(status) ? 'good' : warn.includes(status) ? 'warn' : 'bad';
+  return `<span class="badge ${cls}"><span class="dot ${cls === 'good' ? 'on' : cls === 'warn' ? 'warn' : 'bad'}"></span>${escapeHtml(status || '-')}</span>`;
+}
+
+function nodeGpu(node) {
+  const torch = node.resources?.torch || {};
+  if (torch.gpus && torch.gpus.length) {
+    return torch.gpus.map(g => `${g.name} (${humanBytes(g.total_vram_bytes)})`).join(', ');
+  }
+  if (torch.mps) return 'Apple MPS';
+  return 'CPU';
+}
+
+function nodeDevice(node) {
+  return node.capabilities?.preferred_device || 'auto';
+}
+
+function syncCapable(node) {
+  return Boolean(node.capabilities?.allow_training_jobs || node.capabilities?.allow_remote_commands);
+}
+
+function setText(id, value) {
+  const el = document.getElementById(id);
+  if (el) el.textContent = value;
+}
+
+function getFlowSteps() {
+  const modelReady = Boolean(state.health?.ready);
+  const registered = state.nodes.length;
+  const online = state.nodes.filter(node => node.status === 'online').length;
+  const readyNodes = state.nodes.filter(node => node.status === 'online' && syncCapable(node)).length;
+  const pending = Number(state.syncSummary?.pending_commands || 0);
+  const lastSync = state.syncSummary?.last_sync;
+  const hasChatTrain = state.commands.some(cmd => cmd.type === 'chat_train' && cmd.status === 'done');
+  const hasAnswer = Boolean(state.lastAssistantAnswer);
+
+  return [
+    {
+      key:'model',
+      title:'Modeli hazırla',
+      detail:modelReady ? `${Math.round(state.health.params_m || 0)}M model ${state.health.device || 'device'} üzerinde çalışıyor.` : 'Checkpoint ve sunucu hazır değil; önce modeli yükle.',
+      status:modelReady ? 'done' : 'active',
+      label:modelReady ? 'Hazır' : 'Bekliyor',
+      action:modelReady ? 'chat' : 'refresh',
+    },
+    {
+      key:'devices',
+      title:'3 cihazı bağla',
+      detail:`${registered} kayıtlı, ${online} online, ${readyNodes}/3 senkron izni açık.`,
+      status:readyNodes >= 3 ? 'done' : modelReady ? 'active' : 'wait',
+      label:readyNodes >= 3 ? 'Tamam' : readyNodes ? 'Eksik' : 'Bekliyor',
+      action:'devices',
+    },
+    {
+      key:'sync',
+      title:'Dosyaları senkronize et',
+      detail:pending ? `${pending} senkron/eğitim işi kuyrukta veya çalışıyor.` : lastSync ? `Son senkron: ${fmtTime(lastSync.finished_at || lastSync.updated_at)}.` : 'Worker izinleri açılınca patch dosyalarını cihazlara dağıt.',
+      status:pending ? 'active' : lastSync ? 'done' : readyNodes ? 'active' : 'wait',
+      label:pending ? 'Çalışıyor' : lastSync ? 'Tamam' : 'Bekliyor',
+      action:readyNodes ? 'sync' : 'devices',
+    },
+    {
+      key:'training',
+      title:'Öğret veya eğit',
+      detail:hasChatTrain ? 'Worker eğitim işi tamamlandı; sonucu sohbetten test et.' : 'Anlık öğretme veya seçili worker üzerinde sohbet eğitimi başlat.',
+      status:hasChatTrain ? 'done' : modelReady ? 'active' : 'wait',
+      label:hasChatTrain ? 'Tamam' : 'Hazır',
+      action:'training',
+    },
+    {
+      key:'test',
+      title:'Sohbette test et ve kaydet',
+      detail:hasAnswer ? 'Son cevap alındı; doğruysa öğretip checkpoint olarak kaydedebilirsin.' : 'Bilge’ye test sorusu sor, cevabı değerlendir ve gerekirse öğret.',
+      status:hasAnswer ? 'done' : modelReady ? 'active' : 'wait',
+      label:hasAnswer ? 'Cevap var' : 'Hazır',
+      action:'chat',
+    },
+  ];
+}
+
+function getNextFlowStep() {
+  const steps = getFlowSteps();
+  return steps.find(step => step.status === 'active' && !['training', 'test'].includes(step.key))
+    || steps.find(step => step.status === 'active')
+    || steps[steps.length - 1];
+}
+
+function renderFlow() {
+  const stepper = document.getElementById('flowStepper');
+  if (!stepper) return;
+  const steps = getFlowSteps();
+  const next = getNextFlowStep();
+  const doneCount = steps.filter(step => step.status === 'done').length;
+  const readyNodes = state.nodes.filter(node => node.status === 'online' && syncCapable(node)).length;
+
+  setText('flowModelStat', state.health?.ready ? 'Hazır' : 'Bekliyor');
+  setText('flowDeviceStat', `${readyNodes}/3 hazır`);
+  setText('flowSyncStat', state.syncSummary?.pending_commands ? 'Kuyrukta' : state.syncSummary?.last_sync ? 'Yapıldı' : 'Bekliyor');
+
+  stepper.innerHTML = steps.map((step, index) => `
+    <article class="step-card ${step.status}">
+      <div class="step-number">${step.status === 'done' ? '✓' : index + 1}</div>
+      <div class="step-copy">
+        <strong>${escapeHtml(step.title)}</strong>
+        <span>${escapeHtml(step.detail)}</span>
+      </div>
+      <div class="step-state">${statusBadge(step.label)}</div>
+    </article>
+  `).join('');
+
+  const actionText = next.action === 'devices' ? 'Cihazları aç'
+    : next.action === 'sync' ? 'Senkronu aç'
+    : next.action === 'training' ? 'Eğitime geç'
+    : next.action === 'chat' ? 'Sohbette test et'
+    : 'Yenile';
+  setText('nextStepTitle', next.title);
+  setText('nextStepBody', next.detail);
+  setText('nextStepAction', actionText);
+  setText('guidePrimaryAction', `${doneCount}/5 tamam · devam et`);
+  setText('opsNextTitle', next.title);
+  setText('opsNextBody', next.detail);
+  setText('opsNextAction', actionText);
+
+  const badgeHtml = `<span class="dot ${doneCount >= 5 ? 'on' : next.status === 'wait' ? 'warn' : 'on'}"></span>${doneCount}/5 adım tamam`;
+  for (const id of ['guideStatusBadge', 'opsNextBadge']) {
+    const badge = document.getElementById(id);
+    if (!badge) continue;
+    badge.className = `badge ${doneCount >= 5 ? 'good' : 'warn'}`;
+    badge.innerHTML = badgeHtml;
+  }
+
+  const tasks = [
+    { done: Boolean(state.health?.ready), title:'Sunucu yanıt veriyor', text: state.health?.ready ? 'Model hazır ve API çalışıyor.' : 'Health kontrolü bekleniyor.' },
+    { done: readyNodes >= 1, title:'En az bir worker hazır', text: readyNodes ? `${readyNodes} cihaz komut alabilir.` : 'Worker komutunu diğer cihazda çalıştır.' },
+    { done: Boolean(state.syncSummary?.last_sync), title:'Patch senkronu görüldü', text: state.syncSummary?.last_sync ? 'Son senkron kaydı var.' : 'Senkron butonu ile patch kuyruğu oluştur.' },
+    { done: Boolean(state.commands.find(cmd => cmd.status === 'done')), title:'İş sonucu takip edildi', text: state.commands.length ? 'Komut listesi güncelleniyor.' : 'İşler burada zaman çizelgesi gibi izlenecek.' },
+    { done: Boolean(state.lastAssistantAnswer), title:'Sohbet testi yapıldı', text: state.lastAssistantAnswer ? 'Son cevap değerlendirilebilir.' : 'Sohbete geçip test sorusu sor.' },
+  ];
+  const taskList = document.getElementById('flowTasks');
+  if (taskList) {
+    taskList.innerHTML = tasks.map(task => `
+      <div class="task ${task.done ? 'done' : ''}">
+        <div class="task-icon">${task.done ? '✓' : '·'}</div>
+        <div><strong>${escapeHtml(task.title)}</strong><span>${escapeHtml(task.text)}</span></div>
+      </div>
+    `).join('');
   }
 }
 
-async function saveModel() {
-  const b = document.getElementById('save');
-  b.disabled = true; const old = b.textContent; b.textContent = 'kaydediliyor…';
+function runFlowAction(action) {
+  if (action === 'next') action = getNextFlowStep().action;
+  if (['guide', 'chat', 'training', 'devices', 'sync'].includes(action)) {
+    setView(action);
+    return;
+  }
+  if (action === 'refresh') {
+    loadAll();
+    toast('Durum yenileniyor');
+    return;
+  }
+  if (action === 'queue-sync') queueSync();
+}
+
+function setView(view) {
+  document.querySelectorAll('.nav button').forEach(btn => btn.classList.toggle('active', btn.dataset.view === view));
+  document.querySelectorAll('.thread[data-view-jump]').forEach(item => item.classList.toggle('active', item.dataset.viewJump === view));
+  document.querySelectorAll('.view').forEach(panel => panel.classList.toggle('active', panel.id === `view-${view}`));
+  if (view === 'devices') loadDevices();
+  if (view === 'sync') loadSync();
+  if (view === 'training') renderCommandLists();
+  const url = new URL(location.href);
+  url.searchParams.set('view', view);
+  history.replaceState(null, '', url);
+}
+
+document.querySelectorAll('.nav button[data-view]').forEach(btn => {
+  btn.addEventListener('click', () => setView(btn.dataset.view));
+});
+document.querySelectorAll('[data-view-jump]').forEach(btn => {
+  btn.addEventListener('click', () => setView(btn.dataset.viewJump));
+});
+document.querySelectorAll('[data-prompt]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    els.input.value = btn.dataset.prompt;
+    resizeInput();
+    els.input.focus();
+  });
+});
+document.addEventListener('click', event => {
+  const target = event.target.closest('[data-flow-action]');
+  if (!target) return;
+  runFlowAction(target.dataset.flowAction);
+});
+
+function resizeInput() {
+  els.input.style.height = 'auto';
+  els.input.style.height = Math.min(els.input.scrollHeight, 150) + 'px';
+}
+
+els.input.addEventListener('input', resizeInput);
+els.input.addEventListener('keydown', event => {
+  if (event.key === 'Enter' && !event.shiftKey) {
+    event.preventDefault();
+    send();
+  }
+});
+els.send.addEventListener('click', send);
+els.temp.addEventListener('input', () => document.getElementById('tempv').textContent = Number(els.temp.value).toFixed(2));
+els.maxtok.addEventListener('input', () => document.getElementById('maxtokv').textContent = els.maxtok.value);
+
+document.getElementById('clearChat').addEventListener('click', clearChat);
+document.getElementById('newChat').addEventListener('click', clearChat);
+document.getElementById('refreshAll').addEventListener('click', loadAll);
+document.getElementById('refreshDevices').addEventListener('click', loadDevices);
+document.getElementById('save').addEventListener('click', saveModel);
+document.getElementById('saveTop').addEventListener('click', saveModel);
+document.getElementById('saveTraining').addEventListener('click', saveModel);
+document.getElementById('weblearn').addEventListener('click', startWebLearn);
+document.getElementById('weblearnSide').addEventListener('click', startWebLearn);
+document.getElementById('teachNow').addEventListener('click', teachFromForm);
+document.getElementById('fillLastAnswer').addEventListener('click', fillLastAnswer);
+document.getElementById('queueRemoteTrain').addEventListener('click', queueRemoteTrain);
+document.getElementById('remoteDataset').addEventListener('change', applyRemoteDatasetPreset);
+document.getElementById('createSession').addEventListener('click', createSession);
+document.getElementById('syncNow').addEventListener('click', queueSync);
+document.getElementById('syncSide').addEventListener('click', queueSync);
+document.getElementById('syncSelectedTop').addEventListener('click', queueSync);
+
+function clearChat() {
+  state.history = [];
+  state.lastUserQuestion = null;
+  state.lastAssistantAnswer = '';
+  state.awaitingFix = false;
+  els.chat.innerHTML = '<div class="system-note">Yeni sohbet hazır. Cevap kaynağı otomatik modda worker varsa worker, yoksa server modeli olur.</div>';
+  renderFlow();
+  toast('Sohbet temizlendi');
+}
+
+function addMessage(role, text) {
+  const row = document.createElement('div');
+  row.className = `message-row ${role}`;
+  const avatar = document.createElement('div');
+  avatar.className = 'avatar';
+  avatar.textContent = role === 'user' ? 'S' : 'B';
+  const wrap = document.createElement('div');
+  wrap.className = 'bubble-wrap';
+  const meta = document.createElement('div');
+  meta.className = 'role-meta';
+  meta.textContent = role === 'user' ? 'Sen' : 'Bilge';
+  const bubble = document.createElement('div');
+  bubble.className = 'bubble';
+  bubble.textContent = text || '';
+  wrap.appendChild(meta);
+  wrap.appendChild(bubble);
+  row.appendChild(avatar);
+  row.appendChild(wrap);
+  els.chat.appendChild(row);
+  els.chat.scrollTop = els.chat.scrollHeight;
+  return { row, meta, bubble, wrap };
+}
+
+async function showIntent(meta, text) {
   try {
-    const r = await fetch('/api/save', { method: 'POST' });
-    const j = await r.json();
-    toast(j.ok ? 'model kaydedildi ✓' : ('kaydedilemedi: ' + (j.error || '?')), j.ok);
-  } catch { toast('kaydedilemedi', false); }
-  b.disabled = false; b.textContent = old;
+    const res = await apiFetch('/api/intent', {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({ text }),
+    });
+    const data = await res.json();
+    if (!data.ok) return;
+    const label = document.createElement('span');
+    label.textContent = `${data.label}${data.in_scope ? '' : ' · kapsam dışı olabilir'}`;
+    label.title = data.rule ? `Tsetlin kuralı: EĞER ${data.rule}` : '';
+    meta.appendChild(label);
+  } catch {}
+}
+
+function addTeachControls(wrap, userText, bubble) {
+  const bar = document.createElement('div');
+  bar.className = 'message-actions';
+  const learn = document.createElement('button');
+  learn.className = 'btn warning';
+  learn.type = 'button';
+  learn.textContent = 'Eğitime al';
+  const edit = document.createElement('button');
+  edit.className = 'btn';
+  edit.type = 'button';
+  edit.textContent = 'Düzelt';
+  bar.appendChild(learn);
+  bar.appendChild(edit);
+  wrap.appendChild(bar);
+
+  learn.addEventListener('click', () => {
+    document.getElementById('teachUser').value = userText;
+    document.getElementById('teachAssistant').value = '';
+    setView('training');
+    toast('Doğru cevabı yazmadan eğitim başlatmıyorum.', false);
+  });
+
+  edit.addEventListener('click', () => {
+    if (wrap.querySelector('.teachbox')) return;
+    const box = document.createElement('div');
+    box.className = 'teachbox';
+    box.innerHTML = `
+      <textarea>${escapeHtml(bubble.textContent)}</textarea>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;">
+        <button class="btn warning" type="button">Öğret</button>
+        <button class="btn" type="button">Vazgeç</button>
+      </div>
+    `;
+    wrap.appendChild(box);
+	    const textarea = box.querySelector('textarea');
+	    const ok = box.querySelector('button');
+	    const cancel = box.querySelectorAll('button')[1];
+	    const original = bubble.textContent.trim();
+	    textarea.focus();
+	    cancel.addEventListener('click', () => box.remove());
+	    ok.addEventListener('click', async () => {
+	      const corrected = textarea.value.trim();
+	      if (!corrected) return;
+	      if (corrected === original) {
+	        toast('Öğretmek için cevabı gerçekten düzeltmelisin.', false);
+	        return;
+	      }
+	      const saved = await teachPair(userText, corrected, { save:false, steps:6 });
+	      if (saved) {
+	        bubble.textContent = corrected;
+	        box.remove();
+	      }
+	    });
+	  });
+	}
+
+async function teachPair(user, assistant, options = {}) {
+  try {
+    const res = await apiFetch('/api/teach', {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({
+        user,
+        assistant,
+        steps:Number(options.steps || 6),
+        save:Boolean(options.save),
+      }),
+    });
+    const data = await res.json();
+    if (!data.ok) {
+      toast('Öğrenilemedi: ' + (data.error || '?'), false);
+      return false;
+    }
+    toast(`Öğrenildi: loss ${data.loss_before} -> ${data.loss_after}`);
+    return true;
+  } catch {
+    toast('Öğretme sırasında bağlantı hatası', false);
+    return false;
+  }
+}
+
+async function teachFromForm() {
+  const user = document.getElementById('teachUser').value.trim();
+  const assistant = document.getElementById('teachAssistant').value.trim();
+  if (!user || !assistant) {
+    toast('Soru ve doğru cevap gerekli', false);
+    return;
+  }
+  await teachPair(user, assistant, {
+    steps:Number(document.getElementById('teachSteps').value || 6),
+    save:document.getElementById('teachSave').value === 'true',
+  });
+}
+
+function fillLastAnswer() {
+  if (!state.lastUserQuestion || !state.lastAssistantAnswer) {
+    toast('Forma alınacak son cevap yok', false);
+    return;
+  }
+  document.getElementById('teachUser').value = state.lastUserQuestion;
+  document.getElementById('teachAssistant').value = state.lastAssistantAnswer;
+  setView('training');
+}
+
+function isCorrection(text) {
+  return CORRECTION_RE.test(text);
+}
+
+function extractFix(text) {
+  const match = text.match(ANSWER_RE);
+  return match && match[1] && match[1].trim().length > 1 ? match[1].trim() : null;
+}
+
+function looksDegenerate(text) {
+  const value = (text || '').trim();
+  if (value.length < 2) return true;
+  const words = value.split(/\s+/).filter(Boolean);
+  if (!words.length) return true;
+  const oneChar = words.filter(word => word.replace(/[^0-9a-zçğıöşü]/gi, '').length <= 1).length;
+  if (words.length >= 2 && oneChar / words.length > 0.6) return true;
+  const unique = new Set(words.map(word => word.toLowerCase()));
+  return words.length >= 6 && unique.size <= 2;
+}
+
+async function learnFix(question, answer) {
+  const { bubble } = addMessage('assistant', 'Öğreniyorum...');
+  bubble.classList.add('blink');
+  const ok = await teachPair(question, answer, { steps:8, save:false });
+  bubble.classList.remove('blink');
+  bubble.textContent = ok ? `Öğrendim. Bundan sonra doğru cevap:\n${answer}` : 'Öğrenme tamamlanamadı.';
+  if (ok) {
+    state.history.push({ role:'user', content:question }, { role:'assistant', content:answer });
+  }
 }
 
 async function send() {
-  if (busy) return;
-  const text = input.value.trim();
+  if (state.busy) return;
+  const text = els.input.value.trim();
   if (!text) return;
-  input.value = ''; input.style.height = 'auto';
+  els.input.value = '';
+  resizeInput();
 
-  // 1) Dogru cevabi bekliyorduk -> bu mesaj duzeltmedir, ogren
-  if (awaitingFix && lastUserQ) {
-    awaitingFix = false; addUser(text);
-    busy = true; sendBtn.disabled = true;
-    await learnFix(lastUserQ, text);
-    busy = false; sendBtn.disabled = false; input.focus(); return;
-  }
-  // 2) Itiraz/duzeltme ("yanlis, tekrar dusun" vb.)
-  if (isCorrection(text) && lastUserQ) {
-    addUser(text);
+	  if (state.awaitingFix && state.lastUserQuestion) {
+	    state.awaitingFix = false;
+	    addMessage('user', text);
+	    addMessage('assistant', 'Otomatik eğitim kapalı. Kalıcı öğretmek istersen Eğitim bölümündeki doğru cevap formunu kullan.');
+	    els.input.focus();
+	    return;
+	  }
+
+  if (isCorrection(text) && state.lastUserQuestion) {
+    addMessage('user', text);
     const fix = extractFix(text);
-    if (fix) {
-      busy = true; sendBtn.disabled = true;
-      await learnFix(lastUserQ, fix);
-      busy = false; sendBtn.disabled = false;
-    } else {
-      bilgeSay('Özür dilerim, dikkatlice tekrar düşüneyim. 🤔 Doğru cevabı yazar mısın? Onu öğrenip bir daha aynı hatayı yapmayayım.');
-      awaitingFix = true;
-    }
-    input.focus(); return;
+	    if (fix) {
+	      document.getElementById('teachUser').value = state.lastUserQuestion;
+	      document.getElementById('teachAssistant').value = fix;
+	      state.lastAssistantAnswer = fix;
+	      addMessage('assistant', 'Düzeltmeyi aldım ama otomatik eğitmedim. Kalıcı olsun istiyorsan Eğitim bölümünde Öğret düğmesine bas.');
+	    } else {
+	      addMessage('assistant', 'Haklısın, önceki cevap uygun değildi. Bunu otomatik eğitmeden işaretledim; doğru cevabı Eğitim bölümünde yazabilirsin.');
+	    }
+	    els.input.focus();
+	    return;
   }
 
-  // 3) Normal sohbet
-  const uRow = addUser(text);
-  showIntent(uRow, text);            // Tsetlin niyet rozeti (arka planda)
-  history.push({ role: 'user', content: text });
+  const userMsg = addMessage('user', text);
+  showIntent(userMsg.meta, text);
+  state.history.push({ role:'user', content:text });
 
-  busy = true; sendBtn.disabled = true;
-  const { row, msg: aiEl } = addAI(); aiEl.classList.add('blink');
+  setBusy(true);
+  const ai = addMessage('assistant', '');
+  ai.bubble.classList.add('blink');
   let full = '';
 
   try {
-    const resp = await fetch('/api/chat', {
-      method: 'POST', headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        messages: history,
-        temperature: +temp.value,
-        max_new_tokens: +maxtok.value,
+    const response = await apiFetch('/api/chat', {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({
+        messages:state.history,
+        temperature:Number(els.temp.value),
+        max_new_tokens:Number(els.maxtok.value),
+        backend:document.getElementById('chatBackend').value,
+        quick_mode:'model_first',
       }),
     });
-    const reader = resp.body.getReader();
-    const dec = new TextDecoder();
-    let buf = '';
+    if (!response.ok) {
+      const err = await response.json().catch(() => ({}));
+      throw new Error(err.detail || err.error || `HTTP ${response.status}`);
+    }
+    const reader = response.body.getReader();
+    const decoder = new TextDecoder();
+    let buffer = '';
     while (true) {
       const { done, value } = await reader.read();
       if (done) break;
-      buf += dec.decode(value, { stream: true });
-      const parts = buf.split('\n\n');
-      buf = parts.pop();
+      buffer += decoder.decode(value, { stream:true });
+      const parts = buffer.split('\n\n');
+      buffer = parts.pop();
       for (const part of parts) {
         const line = part.trim();
         if (!line.startsWith('data:')) continue;
         const data = JSON.parse(line.slice(5).trim());
-        if (data.error) { full += '\n[hata: ' + data.error + ']'; }
-        else if (data.token) { full += data.token; }
-        aiEl.textContent = full;
-        chat.scrollTop = chat.scrollHeight;
+        if (data.error) full += '\n[hata: ' + data.error + ']';
+        if (data.token) full += data.token;
+        ai.bubble.textContent = full;
+        els.chat.scrollTop = els.chat.scrollHeight;
       }
     }
-  } catch (e) {
-    full += '\n[baglanti hatasi: ' + e + ']'; aiEl.textContent = full;
+  } catch (error) {
+    full += '\n[bağlantı hatası: ' + error + ']';
+    ai.bubble.textContent = full;
   }
 
-  aiEl.classList.remove('blink');
-  if (looksDegenerate(full)) {
-    // Bilmiyor: cop yerine durust cevap + ogretmeye hazirla
-    aiEl.textContent = 'Bunu tam bilmiyorum 🤔 İstersen doğru cevabı yaz, hemen öğreneyim — bir daha sorduğunda bileyim.';
-    lastUserQ = text; awaitingFix = true;
-  } else {
-    history.push({ role: 'assistant', content: full });
-    addTeachControls(row, text, aiEl); lastUserQ = text;
+	  ai.bubble.classList.remove('blink');
+	  if (looksDegenerate(full)) {
+	    ai.bubble.textContent = 'Cevap bozuldu; otomatik eğitmiyorum. Aynı soruyu worker modeliyle veya daha düşük sıcaklıkla tekrar dene.';
+	    state.lastUserQuestion = text;
+	    state.awaitingFix = false;
+	  } else {
+    state.history.push({ role:'assistant', content:full });
+    state.lastUserQuestion = text;
+    state.lastAssistantAnswer = full;
+    addTeachControls(ai.wrap, text, ai.bubble);
   }
-  busy = false; sendBtn.disabled = false; input.focus();
+  renderFlow();
+  setBusy(false);
+  els.input.focus();
 }
+
+async function loadHealth() {
+  const sideDot = document.getElementById('sideDot');
+  const sideStatus = document.getElementById('sideStatus');
+  const badge = document.getElementById('healthBadge');
+  try {
+    const data = await (await apiFetch('/api/health')).json();
+    state.health = data;
+    sideDot.className = 'dot ' + (data.ready ? 'on' : 'warn');
+    sideStatus.textContent = data.ready ? 'Model hazır' : 'Model yüklenmedi';
+    document.getElementById('sideVersion').textContent = data.device || 'server';
+    document.getElementById('modelReady').textContent = data.ready ? 'Çalışıyor' : 'Checkpoint yok';
+    document.getElementById('modelParams').textContent = data.params_m ? `${Math.round(data.params_m)}M` : '-';
+    document.getElementById('modelDevice').textContent = data.device || '-';
+    document.getElementById('modelAdapter').textContent = data.adapter || '-';
+    badge.className = 'badge ' + (data.ready ? 'good' : 'warn');
+    badge.innerHTML = `<span class="dot ${data.ready ? 'on' : 'warn'}"></span>${data.ready ? 'Model hazır' : 'Model bekliyor'}`;
+  } catch {
+    state.health = null;
+    sideDot.className = 'dot bad';
+    sideStatus.textContent = 'Sunucu yok';
+    document.getElementById('modelReady').textContent = 'Ulaşılamadı';
+    badge.className = 'badge bad';
+    badge.innerHTML = '<span class="dot bad"></span>Sunucu yok';
+  }
+  renderFlow();
+}
+
+async function loadWebStatus() {
+  try {
+    const data = await (await apiFetch('/api/web/status')).json();
+    state.web = data;
+    const last = data.last_run ? `${data.last_run.qa_taught || 0} S/C · ${data.last_run.pages || 0} sayfa` : '-';
+    document.getElementById('webState').textContent = data.running ? 'Çalışıyor' : 'Beklemede';
+    document.getElementById('webAuto').textContent = data.enabled ? `Açık · ${data.interval_minutes} dk` : 'Kapalı';
+    document.getElementById('webLast').textContent = last;
+    document.getElementById('webStateSide').textContent = data.running ? 'Çalışıyor' : 'Beklemede';
+    document.getElementById('webSources').textContent = `${(data.sources || []).length} kaynak`;
+  } catch {
+    state.web = null;
+    document.getElementById('webState').textContent = 'Ulaşılamadı';
+    document.getElementById('webStateSide').textContent = 'Ulaşılamadı';
+  }
+  renderFlow();
+}
+
+async function startWebLearn() {
+  const buttons = [document.getElementById('weblearn'), document.getElementById('weblearnSide')];
+  buttons.forEach(btn => btn.disabled = true);
+  try {
+    const data = await (await apiFetch('/api/web/study', { method:'POST' })).json();
+    toast(data.ok ? 'Web öğrenme başlatıldı' : ('Başlamadı: ' + (data.error || '?')), data.ok);
+    await loadWebStatus();
+  } catch {
+    toast('Web öğrenme bağlantı hatası', false);
+  }
+  buttons.forEach(btn => btn.disabled = false);
+}
+
+async function saveModel() {
+  try {
+    const data = await (await apiFetch('/api/save', { method:'POST' })).json();
+    toast(data.ok ? 'Model checkpoint olarak kaydedildi' : ('Kaydedilemedi: ' + (data.error || '?')), data.ok);
+  } catch {
+    toast('Kaydetme bağlantı hatası', false);
+  }
+}
+
+async function loadDevices() {
+  try {
+    const data = await (await apiFetch('/api/nodes')).json();
+    state.nodes = data.nodes || [];
+    if (!state.selectedInitialized) {
+      state.nodes.filter(node => node.status === 'online').forEach(node => state.selected.add(node.node_id));
+      state.selectedInitialized = true;
+    }
+    renderNodes();
+    renderDock();
+    renderFlow();
+  } catch {
+    els.nodes.innerHTML = '<div class="empty">Cihaz listesi alınamadı.</div>';
+    renderFlow();
+  }
+  await loadSessions();
+}
+
+function renderNodes() {
+  if (!state.nodes.length) {
+    els.nodes.innerHTML = '<div class="empty">Henüz kayıtlı cihaz yok. Worker komutunu diğer cihazlarda çalıştır.</div>';
+    document.getElementById('dockSummary').textContent = 'Cihaz yok';
+    return;
+  }
+  els.nodes.innerHTML = state.nodes.map(node => `
+    <article class="node-card">
+      <div class="node-head">
+        <div>
+          <h3>${escapeHtml(node.name)}</h3>
+          <p>${escapeHtml(node.hostname || '')}</p>
+        </div>
+        ${statusBadge(node.status)}
+      </div>
+      <div>
+        <div class="kv-row"><span>Platform</span><strong>${escapeHtml(node.platform || '-')} · ${escapeHtml(node.arch || '-')}</strong></div>
+        <div class="kv-row"><span>Device</span><strong>${escapeHtml(nodeDevice(node))}</strong></div>
+        <div class="kv-row"><span>CPU</span><strong>${escapeHtml(node.resources?.cpu_count || '-')} çekirdek</strong></div>
+        <div class="kv-row"><span>RAM</span><strong>${humanBytes(node.resources?.ram_bytes)}</strong></div>
+        <div class="kv-row"><span>GPU</span><strong>${escapeHtml(nodeGpu(node))}</strong></div>
+        <div class="kv-row"><span>Sinyal</span><strong>${escapeHtml(node.last_seen_age_sec)} sn önce</strong></div>
+        <div class="kv-row"><span>Senkron</span><strong>${syncCapable(node) ? 'İzinli' : 'İzin bekliyor'}</strong></div>
+      </div>
+      <label class="node-select">
+        <input type="checkbox" data-node="${escapeHtml(node.node_id)}" ${state.selected.has(node.node_id) ? 'checked' : ''}>
+        İşlerde kullan
+      </label>
+    </article>
+  `).join('');
+  document.querySelectorAll('[data-node]').forEach(input => {
+    input.addEventListener('change', () => {
+      if (input.checked) state.selected.add(input.dataset.node);
+      else state.selected.delete(input.dataset.node);
+    });
+  });
+}
+
+function renderDock() {
+  const online = state.nodes.filter(node => node.status === 'online').length;
+  document.getElementById('dockSummary').textContent = `${state.nodes.length} kayıtlı · ${online} online`;
+  const slots = state.nodes.slice(0, 3);
+  while (slots.length < 3) slots.push(null);
+  els.dockDevices.innerHTML = slots.map((node, index) => {
+    if (!node) {
+      return `<article class="device-card placeholder"><div class="device-name">Cihaz ${index + 1}</div><div class="device-meta"><span>Bekleniyor</span><span>Worker yok</span></div></article>`;
+    }
+    const syncText = syncCapable(node) ? 'Senkron hazır' : 'İzin bekliyor';
+    return `
+      <article class="device-card">
+        <div class="device-top">
+          <div class="device-name">${escapeHtml(node.name)}</div>
+          ${statusBadge(node.status)}
+        </div>
+        <div class="device-meta"><span>${escapeHtml(nodeDevice(node))}</span><span>${syncText}</span></div>
+        <div class="device-meta"><span>${escapeHtml(node.hostname || node.platform || '-')}</span><span>${escapeHtml(node.last_seen_age_sec)} sn</span></div>
+      </article>
+    `;
+  }).join('');
+}
+
+async function loadSessions() {
+  try {
+    const data = await (await apiFetch('/api/train-sessions')).json();
+    state.sessions = data.sessions || [];
+    renderSessions();
+  } catch {}
+}
+
+function renderSessions() {
+  if (!state.sessions.length) {
+    els.sessions.innerHTML = '<section class="panel"><h2>Oturum planları</h2><div class="empty">Henüz LAN eğitim oturumu yok.</div></section>';
+    return;
+  }
+  els.sessions.innerHTML = `
+    <section class="panel">
+      <h2>Oturum planları</h2>
+      ${state.sessions.map(session => `
+        <div style="padding:14px 0;border-bottom:1px solid var(--line);">
+          <h3>${escapeHtml(session.title)}</h3>
+          <p>${escapeHtml(session.preset)} · ${escapeHtml(session.data_path)} · master ${escapeHtml(session.master_addr)}:${escapeHtml(session.master_port)}</p>
+          ${session.nodes.map(node => `
+            <div style="margin-top:10px;">
+              <strong>rank ${escapeHtml(node.node_rank)} · ${escapeHtml(node.name || node.node_id)}</strong>
+              <code class="command">${escapeHtml(node.command)}</code>
+            </div>
+          `).join('')}
+        </div>
+      `).join('')}
+    </section>
+  `;
+}
+
+async function createSession() {
+  const payload = {
+    title: document.getElementById('title').value,
+    preset: document.getElementById('preset').value,
+    data_path: document.getElementById('dataPath').value,
+    master_addr: document.getElementById('masterAddr').value || location.hostname,
+    master_port: Number(document.getElementById('masterPort').value || 29500),
+    node_ids: [...state.selected],
+  };
+  try {
+    const data = await (await apiFetch('/api/train-sessions', {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify(payload),
+    })).json();
+    toast(data.ok ? 'Komut planı oluşturuldu' : (data.error || 'Oluşturulamadı'), data.ok);
+    await loadSessions();
+  } catch {
+    toast('Oturum bağlantı hatası', false);
+  }
+}
+
+function applyRemoteDatasetPreset() {
+  const dataset = document.getElementById('remoteDataset').value;
+  const steps = document.getElementById('remoteMaxSteps');
+  const batch = document.getElementById('remoteBatchSize');
+  const accum = document.getElementById('remoteGradAccum');
+  if (dataset === 'sample') {
+    steps.value = 80;
+  } else if (dataset === 'data/chat_100k_bin') {
+    steps.value = 600;
+  } else {
+    steps.value = 1500;
+  }
+  batch.value = 4;
+  accum.value = 4;
+}
+
+async function queueRemoteTrain() {
+  const user = document.getElementById('remoteTrainUser').value.trim();
+  const assistant = document.getElementById('remoteTrainAssistant').value.trim();
+  const dataset = document.getElementById('remoteDataset').value;
+  const usePrepared = dataset && dataset !== 'sample';
+  if (!usePrepared && (!user || !assistant)) {
+    toast('Remote eğitim için soru ve cevap gerekli', false);
+    return;
+  }
+  const payload = {
+    node_ids:[...state.selected],
+    max_steps:Number(document.getElementById('remoteMaxSteps').value || 80),
+    preset:document.getElementById('remotePreset').value || 'tiny-30m',
+    batch_size:Number(document.getElementById('remoteBatchSize').value || 4),
+    grad_accum:Number(document.getElementById('remoteGradAccum').value || 4),
+    adapter:true,
+  };
+  if (usePrepared) {
+    payload.training_source = 'prepared';
+    payload.prepared_data = dataset;
+  } else {
+    payload.user = user;
+    payload.assistant = assistant;
+  }
+  try {
+    const data = await (await apiFetch('/api/chat-train', {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify(payload),
+    })).json();
+    toast(data.ok ? `${data.queued.length} eğitim işi kuyruğa alındı` : (data.error || 'Eğitim kuyruğa alınamadı'), data.ok);
+    await loadSync();
+  } catch {
+    toast('Eğitim kuyruğu bağlantı hatası', false);
+  }
+}
+
+async function queueSync() {
+  try {
+    const data = await (await apiFetch('/api/sync/patch', {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({ node_ids:[...state.selected] }),
+    })).json();
+    toast(data.ok ? `${data.queued.length} cihaz için senkron kuyruğa alındı` : (data.error || 'Senkron başlatılamadı'), data.ok);
+    await loadSync();
+  } catch {
+    toast('Senkron bağlantı hatası', false);
+  }
+}
+
+async function loadSync() {
+  try {
+    const data = await (await apiFetch('/api/sync/status')).json();
+    state.syncSummary = data.summary || null;
+    state.commands = data.commands || [];
+    renderSync(data);
+    renderCommandLists();
+  } catch {
+    state.syncSummary = null;
+    document.getElementById('syncCommands').innerHTML = '<div class="empty">Senkron durumu alınamadı.</div>';
+  }
+  renderFlow();
+}
+
+function renderSync(data) {
+  const summary = data.summary || {};
+  document.getElementById('syncRegistered').textContent = summary.registered ?? '-';
+  document.getElementById('syncOnline').textContent = summary.online ?? '-';
+  document.getElementById('syncReady').textContent = summary.sync_ready ?? '-';
+  document.getElementById('syncPending').textContent = summary.pending_commands ?? '-';
+  document.getElementById('syncReadySide').textContent = `${summary.sync_ready ?? 0}/3`;
+  document.getElementById('syncLastSide').textContent = summary.last_sync ? fmtTime(summary.last_sync.finished_at || summary.last_sync.updated_at) : '-';
+  const files = data.files || [];
+  document.getElementById('patchFiles').innerHTML = files.length ? `
+    <table class="table">
+      <thead><tr><th>Dosya</th><th>Boyut</th><th>Hash</th></tr></thead>
+      <tbody>${files.slice(0, 10).map(file => `
+        <tr><td>${escapeHtml(file.path)}</td><td>${humanBytes(file.size)}</td><td>${escapeHtml(file.sha256.slice(0, 10))}</td></tr>
+      `).join('')}</tbody>
+    </table>
+    <p class="hint">${files.length} izinli dosya yayınlanıyor.</p>
+  ` : '<div class="empty">Patch manifesti boş.</div>';
+  renderCommandTable('syncCommands', state.commands);
+}
+
+function renderCommandLists() {
+  renderCommandTable('trainingCommands', state.commands);
+}
+
+function renderCommandTable(targetId, commands) {
+  const target = document.getElementById(targetId);
+  const rows = (commands || []).slice(0, 12);
+  if (!rows.length) {
+    target.innerHTML = '<div class="empty">Henüz komut verisi yok.</div>';
+    return;
+  }
+  target.innerHTML = `
+    <table class="table">
+      <thead><tr><th>İş</th><th>Cihaz</th><th>Durum</th><th>Zaman</th></tr></thead>
+      <tbody>${rows.map(cmd => `
+        <tr>
+          <td><strong>${escapeHtml(cmd.title || cmd.type)}</strong><br><span class="hint">${escapeHtml(cmd.type)}</span></td>
+          <td>${escapeHtml(cmd.node_id || '-').slice(0, 12)}</td>
+          <td>${statusBadge(cmd.status)}</td>
+          <td>${fmtTime(cmd.updated_at || cmd.created_at)}</td>
+        </tr>
+      `).join('')}</tbody>
+    </table>
+  `;
+}
+
+async function loadAll() {
+  await Promise.all([loadHealth(), loadWebStatus(), loadDevices(), loadSync()]);
+  renderFlow();
+}
+
+document.getElementById('registerCmd').textContent =
+  `python scripts/setup_worker.py --server ${location.origin} --name my-node --token ${localStorage.getItem('yerellm_api_token') || '<API_TOKEN>'}`;
+document.getElementById('masterAddr').value = location.hostname;
+
+const initialView = new URL(location.href).searchParams.get('view');
+if (initialView && ['guide','chat','training','devices','sync'].includes(initialView)) setView(initialView);
+loadAll();
+setInterval(loadHealth, 15000);
+setInterval(loadWebStatus, 15000);
+setInterval(loadDevices, 10000);
+setInterval(loadSync, 12000);
 </script>
 </body>
 </html>

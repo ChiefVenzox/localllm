@@ -1,13 +1,57 @@
 # Python
 __pycache__/
 *.pyc
+.python-version
 .venv/
 venv/
+.env/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
 .DS_Store
+*.log
+*.tmp
+
+# Ortam ve yerel sirlar
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.local
+*.secret
+*.key
+*.pem
+
+# Editor/OS
+.idea/
+.vscode/
 
 # egitim ciktilari ve veri (checkpoints ve binary veri buyuk oldugu icin yok)
 checkpoints/
+state/
+.yerellm_node_id
+.yerellm_worker.env
+server-local-worker.log
+chat-server.log
+data/.cache/
 data/bin/
 data/chat_bin/
 data/*_bin/
+data/chat_50k/
+data/chat_100k/
+data/chat_200m/
+data/chat_200m_plus_bin/
+data/chat_remote/
+data/chat_sync/
 *.bin
+*.pt
+*.pth
+*.safetensors
+
+# Frontend/build ciktilari
+node_modules/
+dist/
+build/
+coverage/

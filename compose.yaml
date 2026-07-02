@@ -1,0 +1,99 @@
+x-localllm-env: &localllm-env
+  YERELLM_CKPT: ${YERELLM_CKPT:-/app/checkpoints/ckpt.pt}
+  YERELLM_ADAPTER: ${YERELLM_ADAPTER:-auto}
+  YERELLM_TOKENIZER: ${YERELLM_TOKENIZER:-/app/tokenizer/tokenizer.json}
+  YERELLM_REGISTRY_DB: ${YERELLM_REGISTRY_DB:-/app/state/local_nodes.db}
+  YERELLM_DEFAULT_CITY: ${YERELLM_DEFAULT_CITY:-Istanbul}
+  YERELLM_API_TOKEN: ${YERELLM_API_TOKEN:-}
+
+x-localllm-common: &localllm-common
+  image: localllm:latest
+  build:
+    context: .
+    dockerfile: Dockerfile
+    args:
+      PYTHON_VERSION: ${PYTHON_VERSION:-3.12}
+      TORCH_INDEX_URL: ${TORCH_INDEX_URL:-https://download.pytorch.org/whl/cu126}
+      INSTALL_BITSANDBYTES: ${INSTALL_BITSANDBYTES:-0}
+  volumes:
+    - ./checkpoints:/app/checkpoints
+    - ./data:/app/data
+    - ./state:/app/state
+  environment: *localllm-env
+  restart: unless-stopped
+
+services:
+  api:
+    <<: *localllm-common
+    container_name: localllm-api
+    command: ["api"]
+    ports:
+      - "${YERELLM_PORT:-8000}:8000"
+
+  api-gpu:
+    <<: *localllm-common
+    container_name: localllm-api-gpu
+    profiles: ["gpu"]
+    command: ["api"]
+    ports:
+      - "${YERELLM_PORT:-8000}:8000"
+    environment:
+      <<: *localllm-env
+      YERELLM_DEVICE: cuda
+    gpus: all
+
+  worker:
+    <<: *localllm-common
+    container_name: localllm-worker
+    profiles: ["worker"]
+    command: ["worker"]
+    depends_on:
+      - api
+    environment:
+      <<: *localllm-env
+      YERELLM_SERVER_URL: ${YERELLM_SERVER_URL:-http://api:8000}
+      YERELLM_WORKER_NAME: ${YERELLM_WORKER_NAME:-docker-worker}
+      YERELLM_NODE_ID: ${YERELLM_NODE_ID:-docker-worker}
+      YERELLM_NODE_ROLE: ${YERELLM_NODE_ROLE:-docker}
+      YERELLM_DEVICE: ${YERELLM_WORKER_DEVICE:-auto}
+      YERELLM_ALLOW_TRAINING_JOBS: ${YERELLM_ALLOW_TRAINING_JOBS:-true}
+
+  worker-gpu:
+    <<: *localllm-common
+    container_name: localllm-worker-gpu
+    profiles: ["gpu-worker"]
+    command: ["worker"]
+    depends_on:
+      - api-gpu
+    environment:
+      <<: *localllm-env
+      YERELLM_SERVER_URL: ${YERELLM_SERVER_URL:-http://api-gpu:8000}
+      YERELLM_WORKER_NAME: ${YERELLM_WORKER_NAME:-docker-worker-gpu}
+      YERELLM_NODE_ID: ${YERELLM_NODE_ID:-docker-worker-gpu}
+      YERELLM_NODE_ROLE: ${YERELLM_NODE_ROLE:-docker-gpu}
+      YERELLM_DEVICE: cuda
+      YERELLM_ALLOW_TRAINING_JOBS: ${YERELLM_ALLOW_TRAINING_JOBS:-true}
+    gpus: all
+
+  trainer:
+    <<: *localllm-common
+    container_name: localllm-trainer
+    profiles: ["train"]
+    command: ["train", "--help"]
+    environment:
+      <<: *localllm-env
+      YERELLM_DEVICE: ${YERELLM_TRAIN_DEVICE:-auto}
+
+  doctor:
+    <<: *localllm-common
+    container_name: localllm-doctor
+    profiles: ["doctor"]
+    command: ["doctor", "--mode", "docker"]
+
+  shell:
+    <<: *localllm-common
+    container_name: localllm-shell
+    profiles: ["dev"]
+    command: ["sh"]
+    stdin_open: true
+    tty: true

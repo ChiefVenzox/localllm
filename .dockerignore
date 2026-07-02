@@ -1,0 +1,37 @@
+.git/
+.env
+.env.*
+!.env.example
+!.env.*.example
+.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.log
+*.tmp
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Runtime state lives on host volumes.
+state/**
+checkpoints/**
+*.pt
+*.pth
+*.safetensors
+
+# Keep data package scripts, exclude generated datasets and binary corpora.
+data/**
+!data/
+!data/*.py
+
+# Local machine/service artifacts.
+.yerellm_node_id
+.yerellm_worker.env
+server-local-worker.log
+chat-server.log
+
+# Frontend/tooling noise.
+node_modules/
+dist/
+build/
